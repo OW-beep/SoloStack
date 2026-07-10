@@ -4,6 +4,207 @@
 
 export const articles = [
   {
+    slug: "international-payment-platforms-freelancers",
+    category: "Getting Paid",
+    title: "Wise vs. Payoneer vs. PayPal vs. Stripe: Best Way to Get Paid Internationally",
+    dek: "PayPal is the default for a lot of freelancers, but it's rarely the cheapest. Here's how the real fees compare once a client is paying from another country.",
+    verdict: "Top pick: Wise (lowest fees)",
+    toolsCompared: 5,
+    readTime: "7 min read",
+    date: "2026",
+    body: `
+Almost every freelancer starts with PayPal because a client suggests it, or because it's the payment option they already recognize. The problem is that PayPal is consistently the most expensive way to receive money from abroad — and most freelancers never compare it against anything else. This guide breaks down what each major option actually costs and where each one makes sense.
+
+## What actually drives the cost
+
+Two separate fees stack on top of each other with almost every platform, and it's easy to only notice one of them:
+
+- **A transaction or transfer fee** — a flat amount or percentage charged just to move the money.
+- **A currency conversion markup** — the gap between the real "mid-market" exchange rate and the rate the platform actually gives you. This one is often bigger than the transfer fee and much easier to miss, since it's baked into the exchange rate rather than shown as a line-item charge.
+
+A platform that boasts "no transfer fee" can still be expensive if its exchange rate is 3–4% worse than the mid-market rate on every payment.
+
+## Quick comparison
+
+| Platform | Typical fee on international payments | Exchange rate used | Best for |
+|---|---|---|---|
+| Wise | From ~0.35–1.16% | Real mid-market rate, no markup | Lowest all-in cost |
+| Payoneer | ~1% transfer + up to ~2–3% card/currency fees | Mid-market rate with a markup | Marketplace freelancers (Upwork, Fiverr) |
+| PayPal | Up to ~4.4% combined | Mid-market rate with a markup (often the largest of the group) | Clients who insist on it |
+| Stripe | ~2.9% + $0.30, plus ~1–2% for cross-border/currency | Mid-market rate with a smaller markup than PayPal | Freelancers who invoice through a website or Stripe-based tool |
+
+## Wise — the benchmark for low fees
+
+Wise is built specifically around using the real mid-market exchange rate with a transparent, disclosed fee on top — typically well under 1.5% all-in on most currency corridors. It also offers local account details in a number of major currencies, so a client can pay you like a local recipient rather than sending an expensive international wire. The trade-off is smaller reach in some emerging markets compared to Payoneer, and it isn't tied into freelance marketplaces the way Payoneer is.
+
+**Best for:** freelancers who have a bank account in a supported country and want the lowest realistic cost on regular international payments.
+
+## Payoneer — built around freelance marketplaces
+
+Payoneer's biggest advantage is baked-in integration with Upwork, Fiverr, and similar platforms — payments can land directly in a Payoneer account without an extra transfer step. It supports receiving accounts in a wide range of currencies and is trusted at scale. The cost is a less transparent exchange rate than Wise (Payoneer applies a markup on top of mid-market) and card-based withdrawals that can run up to 2–3%.
+
+**Best for:** freelancers earning primarily through Upwork, Fiverr, or similar marketplaces.
+
+## PayPal — recognizable, but the most expensive of the group
+
+PayPal's main advantage is that almost every client already has an account and trusts sending money through it. That convenience comes at a real cost: combined transaction and currency conversion fees on international payments can run as high as 4%, noticeably more than Wise or Stripe on the same payment. If a client specifically wants to use PayPal, it's rarely worth arguing over for a single invoice — but freelancers billing internationally on a regular basis lose real money defaulting to it every time.
+
+**Best for:** occasional payments from clients who won't use anything else.
+
+## Stripe — best if you already invoice through it
+
+Stripe isn't primarily a freelancer payment app in the way Wise or Payoneer are — it's payment infrastructure that a lot of invoicing tools (covered in our [invoicing software guide](/reviews/invoicing-software-international-freelancers)) build on top of. If you're already using an invoicing tool with Stripe built in, its cross-border fees (roughly 2.9% + $0.30, plus 1–2% for currency conversion) are reasonable and the experience is seamless for the client. It's a less obvious choice if you're looking specifically for the cheapest possible way to move money, rather than a payment method attached to an existing invoicing workflow.
+
+**Best for:** freelancers who want payment collection built into their invoicing tool rather than a separate app.
+
+## A word on newer stablecoin-based options
+
+A handful of newer platforms let freelancers receive payments as USD-pegged stablecoins, settling in seconds rather than days, with flat low fees regardless of amount. This can be genuinely useful for freelancers in countries with unreliable banking access or currency controls. It's a newer, less-tested category than the platforms above, so treat it as a supplement worth researching for your specific country rather than a default recommendation.
+
+## Bottom line
+
+For most freelancers with a bank account in a well-supported country, Wise offers the lowest realistic cost on international payments. If most of your income comes through Upwork or Fiverr, Payoneer's marketplace integration is worth the slightly higher fees. Keep PayPal for clients who won't use anything else, and let Stripe do the work if it's already built into your invoicing tool.
+
+*This article is for general informational purposes and isn't financial advice. Fees, exchange rate markups, and supported countries change frequently — confirm current pricing directly with each provider before choosing.*
+`,
+  },
+  {
+    slug: "best-crm-tools-freelancers",
+    category: "Staying Organized",
+    title: "Best CRM Tools for Freelancers",
+    dek: "Most CRMs are built for sales teams closing fifty deals a quarter. These fit a freelancer's actual pipeline: a handful of live leads at a time.",
+    verdict: "Top pick: HubSpot CRM (free)",
+    toolsCompared: 5,
+    readTime: "7 min read",
+    date: "2026",
+    body: `
+A CRM sounds like overkill for a one-person business until the moment a warm lead from three months ago gets forgotten, or a past client who wanted to rehire you never gets a follow-up. A CRM is different from the project management tools freelancers usually reach for first — it tracks people and relationships *before* a project starts, not tasks after a client says yes. This guide covers the CRMs that actually fit a solo pipeline instead of a sales team's.
+
+## What a freelancer needs from a CRM
+
+- **A simple pipeline view** — which leads are new, which are in conversation, which are close to signing
+- **Enough free contacts** to not hit a wall after a year of freelancing
+- **Low setup time** — a CRM you have to configure for a week before it's useful won't get used
+- **Some connection to email**, since most freelance lead conversations happen there anyway
+
+## Quick comparison
+
+| Tool | Free plan | Contact limit | Standout feature | Best for |
+|---|---|---|---|---|
+| HubSpot CRM | Yes | Unlimited | Full pipeline + email tracking, genuinely free | Most freelancers wanting a real CRM at $0 |
+| Zoho CRM | Yes, up to 3 users | Limited by plan | Connects to Zoho Invoice/Books if already using them | Freelancers in the Zoho ecosystem |
+| Streak | Yes, solo plan | Limited | Lives entirely inside Gmail | Freelancers who manage leads mostly by email |
+| Notion | Yes | Unlimited | Fully customizable, doubles as a client workspace | Freelancers who want one flexible tool, DIY setup |
+| Pipedrive | No (paid only) | — | Purpose-built visual pipeline | Freelancers with a genuinely complex sales process |
+
+## HubSpot CRM — the strongest free option for most freelancers
+
+HubSpot's free tier is unusually complete: unlimited contacts, a visual deal pipeline, email tracking that shows when a client opens your message, and a meeting scheduler, all with no time limit on the free plan. The learning curve is real — HubSpot is built to scale into a full marketing and sales platform, so a lot of what you see in the interface is aimed at teams, not solo freelancers. Most freelancers only need a fraction of what's available, but the core pipeline and contact features are genuinely usable without ever paying.
+
+**Best for:** freelancers who want a proper CRM without paying, and don't mind a slightly bigger interface than they'll actually use.
+
+## Zoho CRM — the natural fit if you're already in the Zoho ecosystem
+
+If you're using Zoho Invoice or Zoho Books (covered in our [invoicing software guide](/reviews/invoicing-software-international-freelancers)), Zoho CRM connects to them directly, so a closed deal can flow into an invoice without re-entering client details. Used on its own, it's a reasonable free CRM, but the interface feels more scattered across modules than HubSpot's more unified pipeline view.
+
+**Best for:** freelancers already using other Zoho products for invoicing or accounting.
+
+## Streak — the CRM that never leaves Gmail
+
+Streak builds pipeline tracking, deal stages, and contact notes directly into the Gmail interface, so there's no separate app to check. For freelancers whose entire lead process already happens over email, that's a meaningful reduction in friction compared to switching between an inbox and a separate CRM tab. The trade-off: it's Gmail-only, and the free plan is solo-use only, so it stops working the moment you want to loop in an assistant or collaborator.
+
+**Best for:** freelancers who live in Gmail and want pipeline tracking without leaving it.
+
+## Notion — the flexible, DIY option
+
+Notion isn't a CRM out of the box, but its free plan's unlimited pages and database views make it easy to build one — a client database with status, deal value, and next-follow-up-date columns takes under an hour to set up using a free template. Because it's fully custom, it can also double as the project workspace covered in our [project management guide](/reviews/free-project-management-tools-solo-freelancers), keeping leads and active projects in one tool. The cost is that nothing is automated: no email tracking, no reminders unless you build them yourself.
+
+**Best for:** freelancers who already use Notion for other things and don't mind assembling their own system.
+
+## Pipedrive — worth mentioning, but not free
+
+Pipedrive is a purpose-built sales pipeline tool with a genuinely clean, visual interface, and it's frequently recommended for solo users specifically because of how little setup it needs. It doesn't have a usable free tier, though, so it's only worth the cost if your pipeline is complex enough — multiple deal stages, several active proposals at once — that a free option starts to feel limiting.
+
+**Best for:** freelancers with a high enough lead volume that a free CRM's limits become a real bottleneck.
+
+## Do you actually need one?
+
+If you're juggling more than four or five live leads at once, or you've ever forgotten to follow up with someone who said "maybe next quarter," a CRM pays for itself quickly even at zero leads lost. Below that volume, a simple spreadsheet is a completely reasonable substitute — the goal is not letting a warm lead go cold, and a CRM is just one way to make sure that happens.
+
+## Bottom line
+
+For most freelancers, HubSpot's free plan is the strongest starting point — a real pipeline and email tracking with no cost and no time limit. If you're already inside the Zoho or Notion ecosystem, staying there avoids adding a new tool. Streak is worth a look specifically if your lead process never leaves your inbox.
+
+*Pricing, contact limits, and free-tier features change frequently across CRM tools. Confirm current details on each provider's site before committing to one.*
+`,
+  },
+  {
+    slug: "free-esignature-tools-freelance-contracts",
+    category: "Getting Paid",
+    title: "Best Free E-Signature Tools for Freelance Contracts",
+    dek: "DocuSign is built for sales teams closing enterprise deals, and priced like it. Here's what to use instead for a two-page freelance agreement.",
+    verdict: "Top pick: SignWell (free tier)",
+    toolsCompared: 5,
+    readTime: "6 min read",
+    date: "2026",
+    body: `
+Getting a contract signed before starting work is one of the simplest ways a freelancer protects themselves, but DocuSign's pricing — built around sales teams processing hundreds of contracts a month — makes it feel like overkill for a two-page freelance agreement. The good news: electronic signatures are legally binding under the same laws (the US ESIGN Act, the EU's eIDAS regulation, and equivalent rules elsewhere) no matter which tool produces them, so a free tool holds up exactly as well as an expensive one for a standard freelance contract.
+
+## What actually matters for a freelance contract
+
+- **A real audit trail** — timestamp, signer email, and IP address recorded automatically, which is what makes a signature defensible if a dispute ever comes up
+- **Enough free documents per month** for your actual volume — most freelancers send far fewer than they think
+- **Reusable templates**, so you're not rebuilding the same contract from scratch every time
+- **No account required for the client** — friction at the signing step is the easiest way to delay getting started on a project
+
+## Quick comparison
+
+| Tool | Free plan | Templates on free plan | Best for |
+|---|---|---|---|
+| SignWell | 3 documents/month, 1 sender | 1 template | Simple, fastest signing experience |
+| Dropbox Sign | 3 documents/month | Limited | Freelancers already using Dropbox |
+| Signaturely | 3 signature requests/month | Limited | Clean interface, easy for clients to sign |
+| OpenSign | Unlimited (cloud, basic features) | Yes | Highest free-tier document volume |
+| DocuSign | 5 envelopes (Personal plan, paid only) | Limited | Clients in regulated or enterprise industries |
+
+## SignWell — the simplest signing experience
+
+SignWell (formerly Docsketch) is built specifically to be fast to set up and easy for a client to sign — no account required on their end, and a document can go from upload to sent in a few minutes. The free plan caps out at 3 documents a month with one sender, which is enough for most solo freelancers sending occasional contracts, but tight if you're signing a new client every week.
+
+**Best for:** freelancers who want the fastest, least confusing signing experience for a client who's never used an e-signature tool before.
+
+## Dropbox Sign — a solid pick if you're already in Dropbox
+
+Dropbox Sign (formerly HelloSign) offers a comparable free tier — 3 documents a month — with the advantage of tying directly into Dropbox if that's already where your contracts and client files live. Outside of that integration, it's functionally similar to SignWell, so the choice mostly comes down to which ecosystem you're already using.
+
+**Best for:** freelancers who already store client files in Dropbox.
+
+## Signaturely — clean and straightforward
+
+Signaturely covers the same core ground as SignWell and Dropbox Sign — a free plan with a small number of monthly signature requests, reusable templates, and a signing flow that doesn't require the client to create an account. It doesn't have the compliance depth of DocuSign, but for a standard freelance service agreement or NDA, that depth isn't something you need.
+
+**Best for:** freelancers who want a clean, no-frills tool and don't need enterprise-grade compliance features.
+
+## OpenSign — the highest free-tier volume, with a self-hosting option
+
+OpenSign is an open-source e-signature tool with a genuinely generous free cloud plan — unlimited signatures with basic features, rather than a 3-document cap. Freelancers with more technical comfort can also self-host it entirely for free, which appeals specifically to anyone who wants signed contracts staying on infrastructure they control rather than a third party's servers. The interface is less polished than the paid-first tools above, which is the trade-off for the higher free volume.
+
+**Best for:** freelancers who send more than 3 contracts a month and want to stay on a free plan.
+
+## DocuSign — still worth it in specific cases
+
+DocuSign's name recognition and compliance depth matter most when you're working with larger companies or regulated industries (finance, healthcare, legal) where a vendor's compliance checklist may specifically ask which e-signature platform you use. For a typical freelance service agreement, this level of documentation is unnecessary — but if a client's procurement process specifically expects it, DocuSign remains the safest choice precisely because of how widely recognized it is.
+
+**Best for:** freelancers whose clients are large enterprises or in regulated industries with specific vendor compliance requirements.
+
+## Bottom line
+
+For most freelancers sending a handful of contracts a month, SignWell or Signaturely's free tiers cover the need with no cost and minimal setup. If you regularly exceed 3 documents a month, OpenSign's free cloud plan or self-hosted option removes that ceiling entirely. Reach for DocuSign specifically when a client's own compliance requirements call for it — not by default.
+
+*This article is for general informational purposes and isn't legal advice. Requirements for what makes a contract enforceable vary by jurisdiction — confirm what applies to your situation with a qualified professional if you're unsure.*
+`,
+  },
+  {
     slug: "invoicing-software-international-freelancers",
     category: "Getting Paid",
     title: "Best Invoicing Software for Freelancers With International Clients",

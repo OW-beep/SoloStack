@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { articles } from "../data/articles";
 
 export default function Footer() {
   return (
@@ -18,21 +19,11 @@ export default function Footer() {
           <div className="footer-nav">
             <div className="footer-col">
               <h4>Reviews</h4>
-              <Link href="/reviews/invoicing-software-international-freelancers">
-                Invoicing
-              </Link>
-              <Link href="/reviews/free-project-management-tools-solo-freelancers">
-                Project management
-              </Link>
-              <Link href="/reviews/ai-writing-tools-freelance-writers">
-                AI writing tools
-              </Link>
-              <Link href="/reviews/free-vs-paid-time-tracking-apps">
-                Time tracking
-              </Link>
-              <Link href="/reviews/multi-currency-accounting-software-freelancers">
-                Accounting
-              </Link>
+              {articles.map((a) => (
+                <Link href={`/reviews/${a.slug}`} key={a.slug}>
+                  {a.title.length > 42 ? a.category : a.title}
+                </Link>
+              ))}
             </div>
             <div className="footer-col">
               <h4>Site</h4>
