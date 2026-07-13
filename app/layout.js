@@ -1,8 +1,9 @@
 import { Space_Grotesk, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { SITE_URL } from "../lib/site-config";
+import { SITE_URL, ADSENSE_CLIENT_ID } from "../lib/site-config";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -65,6 +66,12 @@ export default function RootLayout({ children }) {
       className={`${spaceGrotesk.variable} ${plexSans.variable} ${plexMono.variable}`}
     >
       <body>
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
