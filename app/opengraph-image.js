@@ -63,9 +63,7 @@ export default async function Image() {
             display: "flex",
             height: 14,
             width: "100%",
-            backgroundImage:
-              "repeating-linear-gradient(-45deg, #e8a33d 0px, #e8a33d 20px, #17191c 20px, #17191c 40px)",
-            border: "1px solid #e8a33d",
+            background: "#e8a33d",
           }}
         />
       </div>

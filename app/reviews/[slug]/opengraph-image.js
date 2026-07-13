@@ -3,19 +3,7 @@ import { getArticle } from "../../../data/articles";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-
-export async function generateImageMetadata({ params }) {
-  const article = getArticle(params.slug);
-  if (!article) return [];
-  return [
-    {
-      id: "og",
-      alt: article.title,
-      size,
-      contentType,
-    },
-  ];
-}
+export const alt = "SoloStack review";
 
 export default async function Image({ params }) {
   const article = getArticle(params.slug);
@@ -57,13 +45,12 @@ export default async function Image({ params }) {
             style={{
               display: "flex",
               fontSize: 22,
-              textTransform: "uppercase",
               letterSpacing: 2,
               color: "#3e7c8a",
               fontWeight: 700,
             }}
           >
-            {category}
+            {category.toUpperCase()}
           </div>
         </div>
 
@@ -107,9 +94,7 @@ export default async function Image({ params }) {
             display: "flex",
             height: 14,
             width: "100%",
-            backgroundImage:
-              "repeating-linear-gradient(-45deg, #e8a33d 0px, #e8a33d 20px, #17191c 20px, #17191c 40px)",
-            border: "1px solid #e8a33d",
+            background: "#e8a33d",
           }}
         />
       </div>
