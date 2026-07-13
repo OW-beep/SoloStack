@@ -1,7 +1,10 @@
+import { SITE_URL } from "../../lib/site-config";
+
 export const metadata = {
   title: "About SoloStack",
   description:
     "Why SoloStack exists, how we review software, and how the site makes money.",
+  alternates: { canonical: `${SITE_URL}/about` },
 };
 
 export default function AboutPage() {

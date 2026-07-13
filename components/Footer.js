@@ -1,6 +1,15 @@
 import Link from "next/link";
 import { articles } from "../data/articles";
 
+// Truncates a title for the footer's compact link list without losing
+// the actual article topic (the old version swapped in the category
+// name for anything over 42 chars, which hid most titles — this keeps
+// a real, readable fragment of the title instead).
+function shortTitle(title, max = 36) {
+  if (title.length <= max) return title;
+  return title.slice(0, max).replace(/\s+\S*$/, "") + "…";
+}
+
 export default function Footer() {
   return (
     <footer className="site-footer">
@@ -19,15 +28,19 @@ export default function Footer() {
           <div className="footer-nav">
             <div className="footer-col">
               <h4>Reviews</h4>
-              {articles.map((a) => (
-                <Link href={`/reviews/${a.slug}`} key={a.slug}>
-                  {a.title.length > 42 ? a.category : a.title}
+              {articles.slice(0, 6).map((a) => (
+                <Link href={`/reviews/${a.slug}`} key={a.slug} title={a.title}>
+                  {shortTitle(a.title)}
                 </Link>
               ))}
+              <Link href="/#reviews">
+                View all {articles.length} reviews →
+              </Link>
             </div>
             <div className="footer-col">
               <h4>Site</h4>
               <Link href="/about">About SoloStack</Link>
+              <Link href="/contact">Contact</Link>
               <Link href="/privacy">Privacy policy</Link>
             </div>
           </div>

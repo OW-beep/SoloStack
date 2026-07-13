@@ -2,6 +2,7 @@ import { Space_Grotesk, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { SITE_URL } from "../lib/site-config";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -28,7 +29,9 @@ export const metadata = {
   title: "SoloStack — Software reviews for people who work alone",
   description:
     "SoloStack tests invoicing, project management, AI, and accounting tools for freelancers — with honest comparisons, real pricing, and no fluff.",
-  metadataBase: new URL("https://example-solostack.vercel.app"),
+  // Update the SITE_URL constant in lib/site-config.js if/when you
+  // attach a custom domain (Project > Settings > Domains in Vercel).
+  metadataBase: new URL(SITE_URL),
   openGraph: {
     title: "SoloStack — Software reviews for people who work alone",
     description:
@@ -38,12 +41,25 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "SoloStack",
+    description:
+      "Software reviews for freelancers and independent workers — invoicing, project management, AI tools, and more.",
+    url: SITE_URL,
+  };
+
   return (
     <html
       lang="en"
       className={`${spaceGrotesk.variable} ${plexSans.variable} ${plexMono.variable}`}
     >
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <Header />
         {children}
         <Footer />

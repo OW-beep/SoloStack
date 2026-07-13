@@ -508,6 +508,18 @@ button:focus-visible {
   background: var(--teal);
 }
 
+.article-body a {
+  color: var(--teal);
+  text-decoration: underline;
+  text-decoration-color: rgba(62, 124, 138, 0.4);
+  text-underline-offset: 2px;
+}
+
+.article-body a:hover {
+  color: var(--amber-deep);
+  text-decoration-color: currentColor;
+}
+
 .article-body em {
   display: block;
   margin-top: 36px;
@@ -681,8 +693,21 @@ button:focus-visible {
    ========================================================= */
 
 @media (max-width: 720px) {
+  .site-header .wrap {
+    height: auto;
+    min-height: 60px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 8px;
+  }
+  .logo {
+    font-size: 19px;
+  }
   .nav {
-    display: none;
+    gap: 14px;
+    font-size: 11px;
+    flex-wrap: wrap;
   }
   .hero {
     padding: 52px 0 40px;
