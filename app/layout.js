@@ -38,6 +38,9 @@ export const metadata = {
       "Honest comparisons of the tools freelancers actually pay for.",
     type: "website",
   },
+  verification: {
+    google: "KYZp6leIoJkmXQipodIUtUhXTopgEfgqFiQ7eJZuRZA",
+  },
 };
 
 export default function RootLayout({ children }) {
