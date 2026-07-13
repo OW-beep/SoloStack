@@ -24,6 +24,11 @@ export function generateMetadata({ params }) {
       publishedTime: article.date,
       url: `${SITE_URL}/reviews/${article.slug}`,
     },
+    twitter: {
+      card: "summary_large_image",
+      title: article.title,
+      description: article.dek,
+    },
   };
 }
 

@@ -38,6 +38,12 @@ export const metadata = {
       "Honest comparisons of the tools freelancers actually pay for.",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "SoloStack — Software reviews for people who work alone",
+    description:
+      "Honest comparisons of the tools freelancers actually pay for.",
+  },
   verification: {
     google: "KYZp6leIoJkmXQipodIUtUhXTopgEfgqFiQ7eJZuRZA",
   },
