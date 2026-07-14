@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { marked } from "marked";
 import { articles, getArticle, countLabel, countLabelShort } from "../../../data/articles";
 import { SITE_URL } from "../../../lib/site-config";
+import { getCategorySlug } from "../../../lib/categories";
 
 export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
@@ -111,12 +112,18 @@ export default function ReviewPage({ params }) {
           <Link href="/#reviews" className="breadcrumb">
             ← All reviews
           </Link>
-          <span className="tag-category">{article.category}</span>
+          <Link
+            href={`/category/${getCategorySlug(article.category)}`}
+            className="tag-category"
+            style={{ textDecoration: "underline" }}
+          >
+            {article.category}
+          </Link>
           <h1>{article.title}</h1>
           <p className="dek">{article.dek}</p>
           <div className="article-meta">
             <span>
-              <Link href="/about" style={{ textDecoration: "underline" }}>
+              <Link href="/methodology" style={{ textDecoration: "underline" }}>
                 Reviewed by the SoloStack team
               </Link>
             </span>

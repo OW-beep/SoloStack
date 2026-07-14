@@ -1,9 +1,22 @@
 import { articles } from "../data/articles";
+import { categories } from "../lib/categories";
 import { SITE_URL } from "../lib/site-config";
 
 export default function sitemap() {
-  const staticPages = ["", "/about", "/contact", "/privacy", "/terms"].map((path) => ({
+  const staticPages = [
+    "",
+    "/about",
+    "/methodology",
+    "/contact",
+    "/privacy",
+    "/terms",
+  ].map((path) => ({
     url: `${SITE_URL}${path}`,
+    lastModified: new Date(),
+  }));
+
+  const categoryPages = categories.map((c) => ({
+    url: `${SITE_URL}/category/${c.slug}`,
     lastModified: new Date(),
   }));
 
@@ -15,5 +28,5 @@ export default function sitemap() {
     lastModified: new Date(a.date + "T00:00:00"),
   }));
 
-  return [...staticPages, ...reviewPages];
+  return [...staticPages, ...categoryPages, ...reviewPages];
 }

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { articles, countLabelShort } from "../data/articles";
 import { SITE_URL } from "../lib/site-config";
+import { getCategorySlug } from "../lib/categories";
 
 export const metadata = {
   alternates: { canonical: SITE_URL },
@@ -75,11 +76,19 @@ export default function HomePage() {
                   </p>
                   <h2>{i === 0 ? "Latest reviews" : `More on ${category.toLowerCase()}`}</h2>
                 </div>
-                {i === 0 && (
+                {i === 0 ? (
                   <p className="section-note">
                     Every guide is re-checked against current pricing before
                     publishing.
                   </p>
+                ) : (
+                  <Link
+                    href={`/category/${getCategorySlug(category)}`}
+                    className="section-note"
+                    style={{ textDecoration: "underline" }}
+                  >
+                    About this category →
+                  </Link>
                 )}
               </div>
 

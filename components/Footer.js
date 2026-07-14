@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { articles } from "../data/articles";
+import { categories } from "../lib/categories";
 
 // Truncates a title for the footer's compact link list without losing
 // the actual article topic (the old version swapped in the category
@@ -27,8 +28,16 @@ export default function Footer() {
           </div>
           <div className="footer-nav">
             <div className="footer-col">
-              <h4>Reviews</h4>
-              {articles.slice(0, 6).map((a) => (
+              <h4>Categories</h4>
+              {categories.map((c) => (
+                <Link href={`/category/${c.slug}`} key={c.slug}>
+                  {c.name}
+                </Link>
+              ))}
+            </div>
+            <div className="footer-col">
+              <h4>Popular reviews</h4>
+              {articles.slice(0, 5).map((a) => (
                 <Link href={`/reviews/${a.slug}`} key={a.slug} title={a.title}>
                   {shortTitle(a.title)}
                 </Link>
@@ -40,6 +49,7 @@ export default function Footer() {
             <div className="footer-col">
               <h4>Site</h4>
               <Link href="/about">About SoloStack</Link>
+              <Link href="/methodology">Methodology</Link>
               <Link href="/contact">Contact</Link>
               <Link href="/privacy">Privacy policy</Link>
               <Link href="/terms">Terms of Service</Link>
@@ -56,8 +66,8 @@ export default function Footer() {
           doesn't affect our comparisons — pricing and feature claims are
           verified independently and we call out trade-offs even for tools
           we link to. See our{" "}
-          <Link href="/about" style={{ textDecoration: "underline" }}>
-            About page
+          <Link href="/methodology" style={{ textDecoration: "underline" }}>
+            Methodology page
           </Link>{" "}
           for details on how we review products.
         </p>
