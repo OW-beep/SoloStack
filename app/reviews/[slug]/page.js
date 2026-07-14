@@ -115,7 +115,11 @@ export default function ReviewPage({ params }) {
           <h1>{article.title}</h1>
           <p className="dek">{article.dek}</p>
           <div className="article-meta">
-            <span>Reviewed by the SoloStack team</span>
+            <span>
+              <Link href="/about" style={{ textDecoration: "underline" }}>
+                Reviewed by the SoloStack team
+              </Link>
+            </span>
             <span>·</span>
             <span>Last checked {formatDate(article.date)}</span>
             <span>·</span>

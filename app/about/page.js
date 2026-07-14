@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SITE_URL } from "../../lib/site-config";
 
 export const metadata = {
@@ -32,9 +33,41 @@ export default function AboutPage() {
           because it removes a task you'd otherwise do by hand.
         </p>
         <p>
-          Pricing and features change often in software. We date our guides
-          and revisit them, but you should always confirm current pricing
-          directly on a provider's site before subscribing.
+          To be specific about our process: our comparisons are built from
+          each provider's own pricing pages, product documentation, and
+          publicly available information, cross-checked across multiple
+          sources rather than taken from a single page. We're upfront that
+          this is research-based reporting, not first-hand, long-term
+          hands-on testing of every tool listed — we don't claim to have
+          personally run every plan on this site for months at a time, and
+          we won't pretend otherwise with staged screenshots or invented
+          "we tested this" claims. Where we do have direct, sustained
+          experience with a specific tool, we'll say so explicitly in that
+          article rather than implying it everywhere by default.
+        </p>
+        <p>
+          Every article lists a "last checked" date. Pricing, free-tier
+          limits, and features in this industry change often — sometimes
+          within weeks of us publishing — so treat that date as exactly
+          what it says: the last time we verified the details, not a
+          guarantee they haven't changed since. Always confirm current
+          pricing directly on a provider's site before subscribing.
+        </p>
+        <p>
+          If you spot something outdated or think we got a comparison
+          wrong, we'd genuinely like to know — see our{" "}
+          <Link href="/contact">Contact page</Link>. We correct verified
+          errors as soon as we can, not just on a scheduled review cycle.
+        </p>
+
+        <h2>What we don't do</h2>
+        <p>
+          We don't accept payment to include a tool, rank it higher, or
+          soften a criticism. We don't publish sponsored "reviews" written
+          by a vendor. When a tool has a real limitation, we say so even in
+          the article where it's the top pick — see the "best for" framing
+          throughout our guides, which is deliberately about fit, not a
+          single universal winner.
         </p>
 
         <h2>How this site makes money</h2>
