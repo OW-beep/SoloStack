@@ -4,6 +4,55 @@
 
 export const articles = [
   {
+    slug: "freelance-software-buying-checklist",
+    category: "Guides",
+    title: "A Freelancer's Software Buying Checklist",
+    dek: "Before you add another monthly subscription, run it through these seven questions. Most software regret comes from skipping one of them.",
+    verdict: "Run through this before every new subscription",
+    toolsCompared: 7,
+    readTime: "6 min read",
+    date: "2026-07-11",
+    body: `
+Every guide on this site compares specific tools in a specific category. This one is different — it's the checklist worth running through *before* you start comparing anything, because most freelance software regret doesn't come from picking the wrong tool in a category. It comes from skipping a question that would have made the category itself unnecessary, or picking a plan that made sense at three clients and stopped making sense at ten.
+
+## 1. Do I need this today, or am I solving a problem I don't have yet?
+
+The easiest subscription to regret is the one bought for a version of your business that doesn't exist yet — a full CRM at zero leads, a team project management tool when you're the only person on the project, multi-currency accounting before you've ever billed a client abroad. A free or manual solution is usually the right call until the problem is actually costing you time or money, not just theoretically possible. Our guides on [free project management tools](/reviews/free-project-management-tools-solo-freelancers) and [CRM tools](/reviews/best-crm-tools-freelancers) both cover genuinely capable free tiers specifically for this reason — you can have the real thing without paying before you need to.
+
+## 2. What does the free tier actually exclude?
+
+"Free" rarely means feature-complete — it means a specific set of features are gated behind a paid tier, and the gate is different for every tool. The [time tracking category](/reviews/free-vs-paid-time-tracking-apps) is the clearest example: several tools offer unlimited free tracking but gate invoicing, export, and reporting — the exact features that turn tracked hours into money. Before assuming "free" covers your need, check specifically which features sit behind the paywall, not just whether a free plan exists.
+
+## 3. Is the pricing per-seat, and do I actually have seats?
+
+A lot of software is priced "per user" by default because it was built for teams, and that pricing model quietly punishes solo freelancers who only ever need one seat but still pay a price calculated for team deployments. [Scheduling tools](/reviews/best-scheduling-apps-freelancers) are a good example — some options price per user even when you're the only person on the calendar, while others (like a one-time-payment tool) sidestep the model entirely. Check whether a "per user" price is really relevant to your one-person business, or whether a flat-rate alternative exists.
+
+## 4. What happens to my data if I cancel?
+
+Before subscribing, check what export options exist and in what format — a tool that locks your client list, your invoice history, or your contract templates into a proprietary format you can't easily extract is a much bigger commitment than the monthly price suggests. This matters most for anything holding financial records ([accounting](/reviews/multi-currency-accounting-software-freelancers), [invoicing](/reviews/invoicing-software-international-freelancers)) or client relationships ([CRM](/reviews/best-crm-tools-freelancers)), where switching costs are real, not just an inconvenience.
+
+## 5. Does this replace a tool I already pay for, or add to the pile?
+
+All-in-one platforms and single-purpose tools solve the same problems differently, and the math only works out if you're honest about what you'd otherwise be paying for separately. Our [proposal software](/reviews/best-proposal-software-freelancers) and [client portal](/reviews/best-client-portal-software-freelancers) guides both cover this trade-off directly — an all-in-one platform is a good deal specifically when it replaces two or three separate subscriptions, and a worse deal when you'd have kept most of those subscriptions anyway for features the bundle doesn't match.
+
+## 6. Who else needs access, and what does that cost?
+
+A tool that's free or cheap solo can get expensive fast the moment you bring on a subcontractor, a virtual assistant, or a bookkeeper who needs their own login. Check the pricing at 2-3 seats, not just 1, before assuming a tool will scale with you — this is exactly the gap our [password manager guide](/reviews/best-password-managers-freelancers-client-logins) covers, where free plans are strong for solo use but the real cost shows up the moment you need to share access cleanly.
+
+## 7. Am I about to pay for a feature I could get free elsewhere?
+
+Some categories have a genuinely strong free option that most people skip past because they assume "free" means "limited." Zoho's invoicing and email products, [Bitwarden](/reviews/best-password-managers-freelancers-client-logins) for passwords, and [Fathom](/reviews/best-ai-meeting-notetakers-freelancers) for meeting notes are all examples where the free tier is a genuinely complete product, not a crippled trial. Before defaulting to a paid tool because it's the one you've heard of, it's worth checking whether the specific feature you need is already covered by something free.
+
+## A five-minute version of this checklist
+
+If you don't have time for all seven questions before a purchase decision, the two that catch the most actual regret are #1 (do you need it today) and #2 (what does the free tier really exclude). Between them, they cover both directions of the most common mistake — paying for something too early, and assuming a free plan covers more than it does.
+
+## Bottom line
+
+None of this replaces actually comparing tools in a category — that's what the rest of this site is for. But running a prospective subscription through these seven questions first tends to save more money than any individual tool comparison does, because it catches the subscriptions that shouldn't have been added at all, not just the wrong pick within a category you already needed.
+`,
+  },
+  {
     slug: "best-ai-meeting-notetakers-freelancers",
     category: "AI Stack",
     title: "Best AI Meeting Notetakers for Client Calls",
@@ -1469,4 +1518,23 @@ Freelancers just starting to bill internationally can reasonably start with Wave
 
 export function getArticle(slug) {
   return articles.find((a) => a.slug === slug);
+}
+
+// "7 tools compared" reads fine for a comparison guide, but oddly for
+// the checklist-style "Guides" pieces — this returns the full phrase
+// so call sites don't need their own suffix text.
+export function countLabel(article) {
+  if (article.category === "Guides") {
+    return `${article.toolsCompared}-question checklist`;
+  }
+  return `${article.toolsCompared} tools compared`;
+}
+
+// Shorter version for the compact card badge, where "18 tools compared"
+// runs long next to the read-time chip.
+export function countLabelShort(article) {
+  if (article.category === "Guides") {
+    return `${article.toolsCompared} questions`;
+  }
+  return `${article.toolsCompared} tools`;
 }

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { marked } from "marked";
-import { articles, getArticle } from "../../../data/articles";
+import { articles, getArticle, countLabel, countLabelShort } from "../../../data/articles";
 import { SITE_URL } from "../../../lib/site-config";
 
 export function generateStaticParams() {
@@ -121,7 +121,7 @@ export default function ReviewPage({ params }) {
             <span>·</span>
             <span>{article.readTime}</span>
             <span>·</span>
-            <span>{article.toolsCompared} tools compared</span>
+            <span>{countLabel(article)}</span>
             <span>·</span>
             <span className="verdict-chip">{article.verdict}</span>
           </div>
@@ -171,7 +171,7 @@ export default function ReviewPage({ params }) {
               <Link href={`/reviews/${a.slug}`} className="tag-card" key={a.slug}>
                 <div className="tag-card-top">
                   <span className="tag-category">{a.category}</span>
-                  <span className="tag-count">{a.toolsCompared} tools</span>
+                  <span className="tag-count">{countLabelShort(a)}</span>
                 </div>
                 <h3>{a.title}</h3>
                 <p>{a.dek}</p>

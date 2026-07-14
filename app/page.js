@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { articles } from "../data/articles";
+import { articles, countLabelShort } from "../data/articles";
 import { SITE_URL } from "../lib/site-config";
 
 export const metadata = {
@@ -93,7 +93,7 @@ export default function HomePage() {
                     <div className="tag-card-top">
                       <span className="tag-category">{article.category}</span>
                       <span className="tag-count">
-                        {article.toolsCompared} tools
+                        {countLabelShort(article)}
                       </span>
                     </div>
                     <h3>{article.title}</h3>

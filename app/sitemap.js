@@ -2,7 +2,7 @@ import { articles } from "../data/articles";
 import { SITE_URL } from "../lib/site-config";
 
 export default function sitemap() {
-  const staticPages = ["", "/about", "/contact", "/privacy"].map((path) => ({
+  const staticPages = ["", "/about", "/contact", "/privacy", "/terms"].map((path) => ({
     url: `${SITE_URL}${path}`,
     lastModified: new Date(),
   }));

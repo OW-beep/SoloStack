@@ -42,6 +42,7 @@ export default function Footer() {
               <Link href="/about">About SoloStack</Link>
               <Link href="/contact">Contact</Link>
               <Link href="/privacy">Privacy policy</Link>
+              <Link href="/terms">Terms of Service</Link>
             </div>
           </div>
         </div>
