@@ -4,6 +4,385 @@
 
 export const articles = [
   {
+    slug: "wave-vs-freshbooks-freelancers",
+    category: "Getting Paid",
+    title: "Wave vs FreshBooks for Freelancers: Is Free Actually Worth It",
+    dek: "Wave's free plan is genuinely generous — but it's only available to freelancers based in the US or Canada, which settles the decision for a lot of readers before pricing even comes up.",
+    verdict: "FreshBooks if you're outside North America or bill by the hour; Wave if you're US/Canada-based and want $0",
+    toolsCompared: 2,
+    readTime: "6 min read",
+    date: "2026-07-19",
+    body: `
+Before comparing features or pricing, there's a filter question that settles this comparison for a lot of freelancers immediately: Wave has only accepted new account signups from the US and Canada since November 2020. If you're freelancing from anywhere else, Wave's own signup flow now redirects you to Zoho Books instead, and this comparison is moot — go read our [FreshBooks vs QuickBooks](/reviews/freshbooks-vs-quickbooks-freelancers) or [full invoicing guide](/reviews/invoicing-software-international-freelancers) instead. For US- and Canada-based freelancers who can actually choose between the two, here's how they compare.
+
+## The core trade-off
+
+Wave's core invoicing and accounting features are free, monetized instead through payment processing fees. FreshBooks charges a subscription starting around $19-23/month but includes time tracking, proposals (on higher tiers), and a more polished day-to-day experience. The decision mostly comes down to whether you bill by the hour and want that workflow built in, or whether simple invoicing and bookkeeping at zero cost matters more.
+
+## Quick comparison
+
+| | Wave | FreshBooks |
+|---|---|---|
+| Availability | US and Canada only (new signups) | Works globally |
+| Starting price | Free (Starter plan) | ~$19-23/month (Lite) |
+| Time tracking | Not included | Included on every plan |
+| Payment processing | 2.9% + $0.60 per transaction | Similar processing rates, bundled differently by plan |
+| Proposals | Not available on any plan | Available from the Plus plan up |
+| User reviews (TrustRadius) | Notably lower — recent reports cite payment-holding complaints | Consistently higher, particularly for interface and mobile app quality |
+
+## Where Wave wins
+
+Zero subscription cost is real and meaningful for a freelancer just starting out — Wave's Starter plan includes unlimited invoicing and double-entry bookkeeping without a monthly fee, which is hard to beat on pure price. If your bookkeeping needs are simple (no hourly billing, no proposals, straightforward invoicing) and you're comfortable with Wave's revenue model of charging for payment processing instead, it's a genuinely capable free tool, not a crippled trial.
+
+## Where FreshBooks wins
+
+Time tracking is built into every FreshBooks plan and flows directly into invoices — a workflow Wave doesn't offer at all, which matters if any of your work is billed hourly. FreshBooks also works for freelancers anywhere in the world, not just North America, and multiple 2026 reviews specifically flag concerns with Wave's payment processing reliability — user review scores on independent platforms like TrustRadius consistently favor FreshBooks, with some 2026 reports citing Wave complaints about payment funds being held without clear explanation. For a freelancer whose cash flow timing actually matters, that's a real risk worth weighing against the subscription savings.
+
+## A detail worth knowing about Wave's free plan
+
+Wave's free tier doesn't include proposals on any plan, and its mobile app is more limited than FreshBooks' for complex transactions or detailed reporting. If your workflow needs a client to approve a quote before work starts, you'd need a separate tool regardless of which platform you choose for invoicing itself — see our [proposal software guide](/reviews/best-proposal-software-freelancers).
+
+## Bottom line
+
+If you're US- or Canada-based with simple invoicing needs and no hourly billing, Wave's free plan is hard to argue against on cost alone — just go in aware of the payment-processing reliability concerns raised in recent reviews. If you bill by the hour, want proposals in the same tool, or you're anywhere outside North America (where Wave isn't an option at all), FreshBooks is the more complete and more broadly available choice. For the wider field of invoicing tools, see our [full invoicing software comparison](/reviews/invoicing-software-international-freelancers).
+
+*This article is for general informational purposes and isn't financial advice. Pricing, availability, and features for both platforms change frequently — confirm current details directly on each provider's site before choosing.*
+`,
+  },
+  {
+    slug: "toggl-vs-clockify-freelancers",
+    category: "Staying Organized",
+    title: "Toggl vs Clockify for Freelancers: Which Free Time Tracker Wins",
+    dek: "Clockify's free plan has no user limit at all. Toggl's free plan caps at 5 users but is consistently rated the more polished tool to actually use every day.",
+    verdict: "Clockify for the most generous free plan, Toggl for the best day-to-day experience",
+    toolsCompared: 2,
+    readTime: "6 min read",
+    date: "2026-07-19",
+    body: `
+Toggl Track and Clockify are the two names that come up first in almost every "free time tracker" search, and for good reason — both offer genuinely usable free plans, just built around different trade-offs. For a solo freelancer specifically, the choice mostly comes down to whether you'd rather have the more polished tool or the more generous free tier, since a 5-user cap (Toggl's limit) is irrelevant when you're the only user anyway.
+
+## The core difference
+
+Clockify's entire pitch is an unusually generous free plan — unlimited users, projects, and time entries, with every feature available regardless of team size. Toggl Track's free plan caps at 5 users but is consistently rated the more refined, faster tool to use day to day: a one-click timer, drag-to-create calendar entries, and a browser extension that embeds timers directly inside tools like Notion and GitHub.
+
+## Quick comparison
+
+| | Toggl Track | Clockify |
+|---|---|---|
+| Free plan limit | Up to 5 users | Unlimited users |
+| Interface | Widely rated the more polished of the two | Functional, less refined |
+| Integrations | 100+ | 80+ |
+| Paid starting price | ~$9/user/month | Lower, with a full-featured free tier covering most solo needs |
+| Distinctive feature | Pomodoro timer, idle detection, no employee-monitoring features | Built-in invoicing and GPS/monitoring features on paid tiers |
+
+## Where Toggl wins
+
+For a solo freelancer, Toggl's interface is repeatedly singled out as the best in the category — a big, obvious start button, a visual project board, and integrations that embed directly into tools you're already using rather than requiring a separate tab. Toggl also deliberately avoids employee-monitoring features (screenshots, activity tracking) that some competitors include, which several reviews frame specifically as a better fit for independent professionals who value a frictionless, non-surveillance tracking experience.
+
+## Where Clockify wins
+
+Clockify's free plan has no user cap at all — every feature, unlimited users, at zero cost. For a solo freelancer this specific advantage matters less (you're one user regardless), but it becomes relevant the moment you bring on a subcontractor or virtual assistant and want them tracking time too, without hitting a wall that forces an upgrade. Clockify also includes built-in invoicing and labor cost analysis on its free and lower tiers, which Toggl reserves for paid plans.
+
+## The honest answer for most solo freelancers
+
+Since Toggl's 5-user free cap doesn't bind a one-person operation, the real question is simply which interface you'd rather use daily — and on that specific point, Toggl is the more consistently praised tool across independent reviews. The moment you're bringing on help and want them tracking time on the same free plan, Clockify's uncapped user count becomes the more relevant advantage.
+
+## Bottom line
+
+For a solo freelancer who just wants the most pleasant tool to open dozens of times a day, Toggl Track's free tier is worth trying first. For a freelancer who expects to add a subcontractor or assistant soon and wants to avoid hitting a user cap, Clockify's genuinely unlimited free plan is the safer long-term choice. For the wider field, including paid-tier options like Harvest, see our [full time tracking comparison](/reviews/free-vs-paid-time-tracking-apps).
+
+*Pricing and free-tier limits in this category change frequently. Confirm current details directly on each provider's site before choosing.*
+`,
+  },
+  {
+    slug: "zapier-vs-make-freelancers",
+    category: "Staying Organized",
+    title: "Zapier vs Make for Freelance Automation: Which One Should You Learn",
+    dek: "Zapier is the faster on-ramp with the biggest app library. Make is more powerful once your workflow needs branching logic — and often cheaper once you're past the basics.",
+    verdict: "Zapier for simple two-step automations, Make once workflows get complex",
+    toolsCompared: 2,
+    readTime: "7 min read",
+    date: "2026-07-19",
+    body: `
+Automating the repetitive parts of freelance admin — a new lead landing in a spreadsheet, a signed contract triggering a welcome email, an invoice payment updating a project board — is one of the highest-leverage things a solo freelancer can set up once and stop thinking about. Zapier and Make are the two platforms that dominate this space, and they solve the same basic problem through genuinely different interfaces and pricing models.
+
+## The core difference
+
+Zapier connects apps through simple, mostly linear "Zaps" — trigger, then action, sometimes with a filter or two — across the largest app library in the category (8,000-9,000+ integrations). It's built to be the easiest possible on-ramp into automation, with no coding and minimal setup time. Make uses a visual, node-based canvas that handles branching logic, loops, and multi-path workflows far more naturally than Zapier's linear model, at the cost of a real learning curve to get there.
+
+## Quick comparison
+
+| | Zapier | Make |
+|---|---|---|
+| App integrations | 8,000-9,000+, the largest library in the category | Fewer, but covers most common freelance tools |
+| Workflow model | Linear (trigger → action), simple to start | Visual canvas, handles branching and loops natively |
+| Pricing model | Task-based — every action counts against your plan | Operation-based credits — can be more efficient for complex workflows, or add up fast with polling |
+| Learning curve | Minimal | Real, but manageable with a few hours' investment |
+| Best fit | Quick, simple, two-step automations | Multi-step workflows with conditional logic |
+
+## Where Zapier wins
+
+Zapier's integration library is unmatched — if you're using a niche or newer tool, it's more likely to have native Zapier support than Make's. Its setup is also genuinely faster: connect two apps, define a trigger and action, and you're automating within minutes with no visual workflow to design. For a freelancer whose automation needs are simple — a new form submission creates a task, a calendar booking sends a Slack message — Zapier remains the easiest starting point in the category.
+
+## Where Make wins
+
+The moment a workflow needs more than a straight line — route different lead types to different follow-ups, retry a failed step, transform data between formats, combine three triggers into one action — Make's visual canvas handles that complexity far more cleanly than stacking multiple Zaps together. Make's operation-based pricing can also be meaningfully cheaper than Zapier's task-based model for complex workflows, though the reverse is true for simple, frequently-polling automations, where Make's credits can burn faster than expected. The honest answer on pricing is that neither is a straightforward "cheaper" claim — it depends entirely on how your specific workflows are built.
+
+## A pattern worth knowing: many freelancers end up using both
+
+A common setup among freelancers and small agencies: Zapier for quick two-step automations connecting niche apps outside Make's library, Make for the heavier, multi-step operational workflows where branching logic actually matters. It's not the cleanest solution on paper, but it avoids paying for Make's learning curve on tasks Zapier already handles in five minutes, while still getting Make's power where it's genuinely needed.
+
+## Where to actually start
+
+Before building anything, it's worth identifying the two or three most repetitive, time-costing manual tasks in your current workflow — the answer is often something like copying new client details from an inquiry form into a CRM, or manually creating a project the moment a proposal is signed. Automating those first, rather than trying to automate your entire business at once, is where most of the realistic time savings actually come from.
+
+## Bottom line
+
+If you're automating your first workflow and want the fastest possible setup with the broadest app support, start with Zapier. If your workflow already involves conditional logic, multiple steps, or you're comfortable investing a few hours learning a new interface in exchange for more power and often lower cost, Make is the stronger platform once you're past the basics.
+
+*Pricing models and integration counts for both platforms change frequently. Confirm current plan details directly on each provider's site before committing to a workflow.*
+`,
+  },
+  {
+    slug: "squarespace-vs-wix-freelancer-portfolio",
+    category: "Winning Clients",
+    title: "Squarespace vs Wix for a Freelancer Portfolio: Which Actually Looks Better",
+    dek: "Wix has more templates and a genuine free plan. Independent testing keeps landing on Squarespace for one specific thing: portfolios that actually look considered.",
+    verdict: "Squarespace for portfolio polish, Wix for flexibility and a free-forever option",
+    toolsCompared: 2,
+    readTime: "6 min read",
+    date: "2026-07-19",
+    body: `
+Squarespace and Wix together power more than half of all websites built on a website builder, and they're the two options freelancers researching a portfolio site compare most often. Both are genuinely capable — the real difference for a portfolio specifically comes down to a trade-off between Squarespace's curated design polish and Wix's much larger template library and flexibility.
+
+## The core difference
+
+Squarespace ships a smaller number of templates (roughly 190-199) that are consistently rated as more professionally designed out of the box — less decision fatigue, and a portfolio that looks considered with comparatively little customization effort. Wix offers a dramatically larger library (2,000-2,700+ templates) with deeper customization and a genuine free-forever plan, at the cost of more decisions to make and, according to some reviewers, an editor that can feel more overwhelming to a first-time user.
+
+## Quick comparison
+
+| | Squarespace | Wix |
+|---|---|---|
+| Templates | ~190-199, curated and design-forward | 2,000-2,700+, broader range |
+| Free plan | No — 14-day trial only | Yes, free-forever (with ads and a Wix subdomain) |
+| Starting paid price | ~$16-17/month | ~$17/month |
+| Portfolio-specific verdict (independent testing) | Frequently rated the stronger choice specifically for design-led portfolios | Rated more flexible and feature-rich overall, less consistently "portfolio-first" |
+| Customization depth | More limited, template-constrained | Deeper — closer to full design control |
+| E-commerce and marketing tools | Solid, tightly integrated | Generally rated stronger, especially for e-commerce |
+
+## Where Squarespace wins
+
+Independent testing that specifically evaluates portfolio use cases keeps landing in the same place: Squarespace's design-focused templates produce more visually striking portfolios with less effort, particularly for photography and other image-heavy work — the platform's gallery layouts, image handling, and typography are tailored toward creative professionals rather than general-purpose business sites. For a freelancer whose main goal is a portfolio that looks professionally designed without spending days on customization, that curated starting point is worth the trade-off in template variety.
+
+## Where Wix wins
+
+Wix's free-forever plan (with ads and a Wix-branded subdomain) is a real, no-cost way to get a portfolio live and test the idea before paying anything — Squarespace requires upgrading after a 14-day trial with no free tier at all. Wix also offers meaningfully deeper customization for freelancers who want more control than a template constrains them to, plus a larger app marketplace and generally stronger e-commerce tools if selling templates, presets, or products alongside your portfolio is part of the plan.
+
+## A detail worth checking before you commit
+
+Templates on both platforms are difficult or impossible to fully swap once your site is live without significant rebuilding — pick based on the design direction you actually want long-term, not just what looks good in a quick browse, since switching later means largely starting over rather than a simple settings change.
+
+## Bottom line
+
+If the portfolio's visual polish is the main point — photography, design, or other heavily visual creative work — Squarespace's curated templates are the more consistent choice across independent testing. If you want more customization control, a genuine free option to start with no cost, or you'll eventually sell products alongside your portfolio, Wix's flexibility and larger free tier are worth the slightly steeper learning curve. For other portfolio-building approaches, including the fastest and cheapest options, see our [full website builder comparison](/reviews/best-website-builders-freelancer-portfolio).
+
+*Pricing, templates, and features for both platforms change frequently. Confirm current details directly on each provider's site before choosing.*
+`,
+  },
+  {
+    slug: "xero-vs-quickbooks-freelancers",
+    category: "Getting Paid",
+    title: "Xero vs QuickBooks for Freelancers: Which One Should You Actually Pick",
+    dek: "Multiple independent comparisons land on the same honest answer: neither is really built for a solo freelancer in the first place. Here's what to do with that.",
+    verdict: "Neither, if you're a simple solo freelancer — but Xero if you must choose",
+    toolsCompared: 2,
+    readTime: "7 min read",
+    date: "2026-07-18",
+    body: `
+Xero and QuickBooks are the two accounting platforms that dominate this comparison once a business outgrows simple invoicing, and freelancers researching either one keep running into the same conclusion from independent reviewers: both are genuinely strong products, and neither is really built with a solo freelancer's simpler needs in mind. That's worth taking seriously before comparing features line by line.
+
+## The honest starting point
+
+Full double-entry accounting — the core of what both platforms do — is built for businesses with real bookkeeping complexity: multiple revenue streams, inventory, employees, or investors who need standardized financial statements. A solo freelancer invoicing a handful of clients a month, with no inventory and no payroll, is paying for and navigating a lot of structure they may not need. Several independent comparisons published in 2026 make this point directly, typically pointing solo freelancers toward a lighter tool like FreshBooks or Wave instead (see our [FreshBooks vs QuickBooks comparison](/reviews/freshbooks-vs-quickbooks-freelancers) and [full invoicing guide](/reviews/invoicing-software-international-freelancers)).
+
+That said, if you specifically need proper double-entry books — because you're scaling past simple freelancing, working with an accountant who requires it, or operating in multiple currencies — here's how the two actually compare.
+
+## Quick comparison
+
+| | Xero | QuickBooks Online |
+|---|---|---|
+| Entry price | Early plan, ~$25/month | Simple Start, ~$35/month |
+| Multi-currency | Strong, widely considered the stronger of the two | Available, generally considered less robust |
+| Accountant/bookkeeper familiarity | Lower in the US specifically | Highest — the US accounting ecosystem is built around it |
+| User interface | Frequently rated cleaner and easier to learn from scratch | More feature-dense, steeper initial learning curve |
+| Payroll | Available, less deeply integrated in the US | Deeply integrated, especially for US-based W-2 employees |
+| Best documented fit | International freelancers, agencies under 10 people, anyone prioritizing UX | US-based businesses running payroll, or already working with a QuickBooks-trained accountant |
+
+## Where Xero tends to win
+
+Independent comparisons consistently rate Xero's multi-currency handling and general user experience above QuickBooks — a genuine advantage for freelancers billing clients in more than one currency (see our [multi-currency accounting guide](/reviews/multi-currency-accounting-software-freelancers) for the specifics). Xero's Early plan also starts cheaper than QuickBooks' equivalent tier, and reviewers describe it as the easier platform to pick up with no prior accounting software experience.
+
+## Where QuickBooks tends to win
+
+QuickBooks' single biggest advantage isn't a feature — it's ecosystem depth. The vast majority of US accountants, bookkeepers, and third-party integrations are built around QuickBooks first, which matters enormously the moment you hand books to a professional or need a specialized app to connect. For US-based freelancers who plan to hire W-2 employees eventually, QuickBooks' payroll integration is also considerably more mature than Xero's.
+
+Worth noting separately: QuickBooks Self-Employed is a distinct, cheaper product from QuickBooks Online, purpose-built for US sole proprietors — automatic Schedule C categorization and quarterly tax estimates — and shouldn't be confused with the full QuickBooks Online accounting suite discussed above.
+
+## A pricing trend worth knowing
+
+Multiple 2026 comparisons flag that both platforms have raised prices meaningfully in recent years — QuickBooks by roughly 10-15% annually since 2023 with a further increase in 2026, and Xero's entry plan nearly doubling since 2021. Whichever you choose, expect the renewal price a year or two out to be higher than the promotional rate you sign up at.
+
+## Bottom line
+
+If you're a solo freelancer with simple invoicing needs, both of these are likely more than you need — start with FreshBooks, or Wave if you're US/Canada-based (it hasn't accepted signups from elsewhere since 2020), instead. If you've genuinely outgrown that and need real double-entry accounting, choose Xero if you bill internationally, value a cleaner interface, or don't already have an accountant with a strong QuickBooks preference. Choose QuickBooks if you're US-based, plan to run payroll, or your accountant already works in it — that ecosystem advantage tends to compound over time in a way a feature checklist won't fully capture.
+
+*This article is for general informational purposes and isn't financial or accounting advice. Pricing and features for both platforms change frequently — confirm current details directly with each provider, and consult a qualified accountant for guidance specific to your situation.*
+`,
+  },
+  {
+    slug: "trello-vs-asana-freelancers",
+    category: "Staying Organized",
+    title: "Trello vs Asana for Freelancers: Which One Should You Actually Use",
+    dek: "Trello's free plan alone handles most solo freelance workflows. The real question is whether you'll actually need what Asana adds before you pay for it.",
+    verdict: "Trello for most solo freelancers, Asana once you're coordinating real complexity",
+    toolsCompared: 2,
+    readTime: "6 min read",
+    date: "2026-07-18",
+    body: `
+Trello and Asana get compared constantly because they solve overlapping problems from very different starting philosophies — Trello as a visual board that stays simple by design, Asana as a fuller project-management platform that adds structure as you need it. For a solo freelancer specifically, the honest answer skews toward Trello more often than general "which is better" comparisons suggest, because a lot of what Asana adds is aimed at team coordination a solo freelancer doesn't have.
+
+## The core difference
+
+Trello's board-list-card model has essentially no learning curve — new users are creating boards and cards within minutes, with no onboarding required. Asana adds real structure on top of that same basic idea: task dependencies, timeline (Gantt-style) views, workload management across people, and increasingly, built-in AI features for generating task descriptions and summarizing project status. That structure is genuinely valuable for coordinating a team — and mostly unused if you're the only person on every project.
+
+## Quick comparison
+
+| | Trello | Asana |
+|---|---|---|
+| Free plan | 10 boards, unlimited cards, generous for solo use | Unlimited projects, best suited to 1-2 people on the free tier |
+| Learning curve | Minimal — usable in minutes | Low for basic use, steeper for the full feature set |
+| Task dependencies | No (available via paid Power-Ups) | Yes, native |
+| Timeline/Gantt views | Paid tiers only | Included from the Starter paid tier |
+| AI features | Limited, mostly third-party Power-Ups | Native — task generation, status summaries, and expanding agentic features |
+| Starting paid price | ~$5/user/month | ~$11/user/month |
+
+## Where Trello wins for solo freelancers
+
+Trello's free plan — 10 boards and unlimited cards — comfortably covers a solo freelancer running one board per active client, which is a common and genuinely effective pattern: lists for project stages (say, Briefed → In Progress → Client Review → Delivered), cards for individual tasks or deliverables. It's also simply faster to actually use day to day; the visual kanban format is widely rated as the more intuitive interface of the two, with less time spent managing the tool itself rather than the work in it.
+
+## Where Asana wins
+
+Asana's task dependencies and timeline views solve a real problem the moment a project has multiple interconnected steps with deadlines that shift each other — something that's genuinely harder to track cleanly on a Trello board without add-ons. Its AI features are also more mature and more deeply integrated than anything available in Trello natively. For a freelancer who occasionally brings on a subcontractor or virtual assistant and needs to coordinate who's doing what by when, Asana's structure reduces the coordination overhead that a simple board can start to strain under.
+
+## What this actually looks like at freelance scale
+
+A useful way to think about it: Trello handles "what needs to happen and roughly when" extremely well. Asana adds "who depends on what, and how does a delay here affect something else" — a genuinely more complex question that most single-person freelance work doesn't actually have, since there's no one else's timeline to coordinate against. The moment that changes — a subcontractor, a multi-person deliverable, a project with real interdependent milestones — is roughly the moment Asana's extra structure starts paying for itself.
+
+## Bottom line
+
+For most solo freelancers managing their own client work, Trello's free plan does the job without asking you to pay for or learn features built for team coordination you don't need. Asana becomes the better choice specifically once dependencies, multi-person coordination, or timeline complexity become a real part of how you work — not just because it's the more "complete" platform on a feature list. For the wider field of options in this category, including Notion and ClickUp, see our [full project management tools comparison](/reviews/free-project-management-tools-solo-freelancers) and our dedicated [Notion vs ClickUp comparison](/reviews/notion-vs-clickup-freelancers).
+
+*Pricing and features for both platforms change frequently. Confirm current plan details directly on each provider's site before committing to a workflow.*
+`,
+  },
+  {
+    slug: "upwork-vs-fiverr-freelancers",
+    category: "Winning Clients",
+    title: "Upwork vs Fiverr: Which Platform Actually Pays Freelancers More",
+    dek: "Fiverr's flat 20% commission and Upwork's lower effective fees on larger projects lead to genuinely different take-home pay — the gap is bigger than either platform's marketing implies.",
+    verdict: "Upwork for larger, ongoing projects; Fiverr for quick, packaged services",
+    toolsCompared: 2,
+    readTime: "7 min read",
+    date: "2026-07-18",
+    body: `
+Upwork and Fiverr solve the same basic problem — finding clients without your own marketing — through genuinely different models, and the fee structures behind them produce meaningfully different take-home pay depending on how you work. This is one of the most consistently searched freelance platform comparisons for a reason: the difference in what you actually keep is larger than a quick glance at "10% vs 20%" suggests.
+
+## The fee structures, plainly
+
+Fiverr charges freelancers a flat 20% commission on every order, with no volume discount regardless of how much you earn through the platform over time. Upwork has moved toward a lower, and in various 2026 reports simplified, service fee — commonly cited around a flat 10% on current earnings, a meaningful change from its older tiered system that charged 20% on a client's first $500, 10% up to $10,000, then 5% beyond that. (Reported figures vary somewhat by source and update date, so treat any specific percentage as approximate and confirm current terms directly on each platform before relying on it for pricing decisions.)
+
+## Quick comparison
+
+| | Upwork | Fiverr |
+|---|---|---|
+| Freelancer fee | Roughly 10% in current reporting (previously tiered 20/10/5%) | Flat 20% on every order, including tips |
+| Work format | Proposal-based, custom contracts, hourly or fixed-price | Pre-packaged "gigs" with set pricing tiers |
+| Typical project size | Larger — 2026 reporting cites an average project around $800 | Smaller — typically $50-500 per order |
+| Client base size | Fewer, higher-spending active clients | Much larger buyer base, lower average spend per buyer |
+| Best fit | Custom, ongoing, or higher-value project work | Quick, clearly-scoped, productized services |
+
+## Where the fee gap actually shows up
+
+On a $500 project, a 10% Upwork fee leaves you with $450; Fiverr's flat 20% leaves $400 — a $50 gap on a single project that compounds significantly at volume. Scaled to $5,000 in monthly earnings, that's roughly a $500/month, $6,000/year difference in fees alone between the two platforms, before accounting for any other differences in pricing power between the two client bases.
+
+That said, the fee isn't the whole picture. Upwork's proposal-based system requires "Connects" (a limited credit system) to bid on jobs, with no guarantee of a response — real time and sometimes real money spent with no return. Fiverr's gig model requires no bidding at all; clients come to you and purchase directly, which can mean less wasted effort even at a higher commission rate.
+
+## Where Fiverr wins despite the higher fee
+
+Fiverr's buyer base is dramatically larger — reporting from 2026 cites millions of active annual buyers on Fiverr against a much smaller, higher-spending client base on Upwork. For clearly-scoped, repeatable services (a logo design package, a set number of blog posts, a defined video edit), Fiverr's productized gig format removes the proposal-writing overhead entirely and can produce more total volume even at the lower per-project take-home.
+
+## Where Upwork wins despite requiring proposals
+
+Upwork's client base skews toward larger, more established companies willing to pay for custom, ongoing work rather than a fixed-price package — 2026 figures cite a substantial share of high-revenue-growth US companies working with freelancers through the platform. For consulting, development, or any service that's genuinely bespoke rather than packageable, Upwork's proposal-and-contract model fits the actual shape of the work better, and the lower effective fee compounds favorably on larger or longer-term engagements.
+
+## A realistic approach
+
+A pattern that shows up repeatedly in freelancer advice on this topic: pick one platform as a primary focus rather than splitting effort evenly across both, and treat a second platform as overflow or a different service niche rather than duplicating the same offering in two places. Trying to maintain a strong presence on both simultaneously tends to produce mediocre results on each rather than strong results on one.
+
+## Bottom line
+
+For custom, higher-value, or ongoing project work, Upwork's lower effective fees and higher-spending client base generally produce better take-home pay once you're past the platform's initial bidding friction. For quick, clearly-scoped services you can package and sell repeatedly without custom proposals, Fiverr's larger buyer volume can offset its higher commission. For platforms beyond just these two, see our [guide to freelance marketplaces beyond Upwork and Fiverr](/reviews/freelance-marketplaces-beyond-upwork-fiverr).
+
+*Fee structures and platform terms for both services change frequently and reported figures vary by source. Confirm current rates directly on each platform before making decisions based on specific percentages.*
+`,
+  },
+  {
+    slug: "1password-vs-bitwarden-freelancers",
+    category: "Staying Organized",
+    title: "1Password vs Bitwarden for Freelancers: Is the Price Gap Worth It",
+    dek: "1Password raised prices roughly 33% in March 2026, widening an already large gap with Bitwarden's free and low-cost plans. Here's whether the polish is worth paying for.",
+    verdict: "Bitwarden for most solo freelancers, 1Password if UX and Travel Mode matter to you",
+    toolsCompared: 2,
+    readTime: "6 min read",
+    date: "2026-07-18",
+    body: `
+1Password and Bitwarden are the two password managers freelancers compare most often, and a March 2026 price increase — roughly 33%, bringing 1Password to around $36/year against Bitwarden's roughly $10/year premium plan — has made the gap between them harder to ignore. Both are excellent, independently audited, zero-knowledge tools with clean security records; the real question is what that price difference actually buys.
+
+## What they share
+
+Both use AES-256 encryption with a zero-knowledge architecture, meaning neither company can see your master password or decrypt your vault even if compelled to. Both have passed independent third-party security audits (Cure53 has audited both), both support passkeys, and — notably — neither has ever suffered a vault breach, a genuinely clean track record in a category where competitors like LastPass have had serious incidents. On the fundamentals that matter most, they're closely matched.
+
+## Quick comparison
+
+| | 1Password | Bitwarden |
+|---|---|---|
+| Free plan | No — 14-day trial only | Yes, genuinely usable, unlimited passwords and devices |
+| Individual paid price | ~$36/year (after March 2026 increase) | ~$10/year for Premium |
+| Open source | No | Yes, fully open-source and independently verifiable |
+| Self-hosting option | No | Yes, via Vaultwarden |
+| Distinctive security feature | Secret Key — an extra, locally-stored encryption layer on top of your master password | Argon2id key derivation, considered a strong, modern standard |
+| Notable extras | Travel Mode (temporarily hides vaults when crossing borders) | Command-line interface for scripting/automation |
+
+## Where 1Password wins
+
+1Password is consistently rated the more polished, easier day-to-day experience — cleaner interface, smoother autofill, and its Secret Key architecture adds a genuinely distinct extra layer of protection beyond just a strong master password. Its Travel Mode feature — temporarily removing sensitive vaults from your devices before crossing a border — is a specific, real feature some freelancers with sensitive client data or frequent travel find worth paying for on its own.
+
+## Where Bitwarden wins
+
+Bitwarden's free tier is not a crippled trial — unlimited passwords and unlimited devices, genuinely usable indefinitely without paying anything. Its open-source codebase means the encryption implementation is independently verifiable rather than something you're asked to trust on reputation alone, and the option to self-host via Vaultwarden can bring the effective cost to zero for freelancers comfortable running their own server. For a freelance developer or technically comfortable user, Bitwarden's command-line interface also enables scripting credential retrieval into build pipelines — something 1Password doesn't offer in the same way.
+
+## The honest calculation
+
+At roughly $36/year versus $10/year, 1Password costs about 3.6 times more for what independent security testing describes as a comparable underlying security architecture — the difference is real, but it's in polish and specific extra features (Travel Mode, interface refinement), not in the fundamental safety of your vault. For a security-conscious freelancer on a budget, that's a hard premium to justify from security alone. For a freelancer who values interface polish and doesn't want to think about the tool at all, or specifically travels internationally with sensitive client data, the extra cost buys something real.
+
+## Bottom line
+
+For most solo freelancers, Bitwarden's free tier — or its $10/year Premium plan for extra storage and reporting — delivers essentially the same core security as 1Password at a fraction of the cost. Choose 1Password specifically if the more polished interface and Travel Mode are worth paying a real premium for, not because it's meaningfully more secure. For the wider category, including how to handle sharing credentials with a subcontractor, see our [full password manager comparison](/reviews/best-password-managers-freelancers-client-logins).
+
+*Pricing changes frequently in this category — 1Password's March 2026 increase is one recent example. Confirm current plan pricing directly on each provider's site before subscribing.*
+`,
+  },
+  {
     slug: "freshbooks-vs-quickbooks-freelancers",
     category: "Getting Paid",
     title: "FreshBooks vs QuickBooks for Freelancers: Which One Actually Makes Sense",
@@ -699,7 +1078,7 @@ Some categories have a genuinely strong free option that most people skip past b
 ## A five-minute version of this checklist
 
 If you don't have time for all seven questions before a purchase decision, the two that catch the most actual regret are #1 (do you need it today) and #2 (what does the free tier really exclude). Between them, they cover both directions of the most common mistake — paying for something too early, and assuming a free plan covers more than it does.
- One example worth naming directly: turning existing freelance expertise into a course is a real way to add income that doesn't scale purely with hours — see our [online course platforms guide](/reviews/best-online-course-platforms-freelancers) if that's on your radar, keeping question #1 above in mind before committing to a paid platform. And if the resistance you're feeling isn't really about the tool at all, but a quieter voice asking whether you're even qualified to be making these decisions — that's common enough to have its own body of research behind it. See [why freelancers feel like frauds](/reviews/why-freelancers-feel-like-frauds-imposter-syndrome) for what psychology actually says about it.
+ One example worth naming directly: turning existing freelance expertise into a course is a real way to add income that doesn't scale purely with hours — see our [online course platforms guide](/reviews/best-online-course-platforms-freelancers) if that's on your radar, keeping question #1 above in mind before committing to a paid platform. And if the resistance you're feeling isn't really about the tool at all, but a quieter voice asking whether you're even qualified to be making these decisions — that's common enough to have its own body of research behind it. See [why freelancers feel like frauds](/reviews/why-freelancers-feel-like-frauds-imposter-syndrome) for what psychology actually says about it. Automation is worth a specific mention here: our [Zapier vs Make comparison](/reviews/zapier-vs-make-freelancers) covers two of the most common tools freelancers reach for once they're ready to stop doing repetitive admin by hand.
 ## Bottom line
 
 None of this replaces actually comparing tools in a category — that's what the rest of this site is for. But running a prospective subscription through these seven questions first tends to save more money than any individual tool comparison does, because it catches the subscriptions that shouldn't have been added at all, not just the wrong pick within a category you already needed.
@@ -1047,7 +1426,7 @@ Framer targets similar ground to Webflow — visual, near-code-level design cont
 ## The real trade-off
 
 The pattern across every option here is the same: speed and simplicity on one end (Carrd), full control and polish on the other (Webflow, Framer), with Squarespace sitting in the middle as the "full site, still no code" option. The right call depends less on budget and more on how much of your actual selling point is the site itself — a developer's site is part of the pitch; a consultant's site mostly just needs to exist and look credible.
-
+ If you've narrowed things down specifically to Squarespace or Wix, our dedicated [Squarespace vs Wix comparison](/reviews/squarespace-vs-wix-freelancer-portfolio) goes deeper on that decision.
 ## Bottom line
 
 If you want a portfolio live this weekend for the lowest possible cost, Carrd is hard to beat. If you want a full site with a blog and booking built in and don't mind spending a day on it, Squarespace remains the safe default. Reach for Webflow or Framer specifically when your own site needs to double as proof of your design or development skill, not just a place to list it. Once your site is live on a real domain, use that same domain for your [business email address](/reviews/best-professional-email-domain-freelancers) too — it reinforces the same professional identity in both places.
@@ -1110,7 +1489,7 @@ PeoplePerHour skews toward UK and European clients specifically, with a tiered f
 ## The realistic strategy
 
 Freelancers who've diversified successfully tend to run two to three platforms at once rather than trying to fully replace Upwork or Fiverr overnight — using a zero-commission platform like Contra for direct outreach, keeping a LinkedIn presence warm for inbound leads, and maintaining an existing marketplace profile for the volume and payment protection it still offers. Spreading across more than three tends to dilute effort rather than genuinely reduce risk.
-
+ If you haven't settled the more basic question yet, our dedicated [Upwork vs Fiverr comparison](/reviews/upwork-vs-fiverr-freelancers) breaks down the fee structures and take-home pay differences between the two platforms most freelancers start with.
 ## Bottom line
 
 If keeping your full rate matters most and you're comfortable doing some of your own lead generation, Contra is the strongest zero-commission option available. If you have the seniority and patience for a multi-week vetting process, Toptal's rates are hard to match elsewhere. And if you already have a real professional network, don't overlook LinkedIn as a genuinely free channel sitting right where you already are.
@@ -1186,7 +1565,7 @@ For most freelancers, ScreenPal is the most direct, lowest-cost replacement for 
     category: "Getting Paid",
     title: "Best Receipt Scanning Apps for Freelancers",
     dek: "A shoebox of faded receipts at tax time is the most avoidable freelance mistake there is. Here's what to use to capture them the moment they happen instead.",
-    verdict: "Top pick: Wave (free, unlimited)",
+    verdict: "Top pick: Zoho Expense (works everywhere)",
     toolsCompared: 4,
     readTime: "6 min read",
     date: "2026-06-29",
@@ -1204,16 +1583,16 @@ Every unrecorded business expense is a tax deduction quietly lost — a rough ru
 
 | Tool | Free tier | Scan limit | Paid starting price | Best for |
 |---|---|---|---|---|
-| Wave | Yes, unlimited | No cap | Free (fees on payments only) | Freelancers who want zero cost, already using Wave for invoicing |
+| Wave | Yes, unlimited | No cap | Free (US/Canada signups only — see note below) | US/Canada freelancers who want zero cost and already use Wave for invoicing |
 | Zoho Expense | Yes, up to 3 users | 20 scans/month | ~$4/user/month | Freelancers already in the Zoho ecosystem |
 | Expensify | Yes, individual tier | 25 SmartScans/month | ~$5/month | Strongest OCR, email-forwarding receipts |
 | Shoeboxed | No real free tier | N/A | From published pricing | Freelancers with a backlog of paper receipts to digitize |
 
-## Wave — free and unlimited, if you're already using it for invoicing
+## Wave — free and unlimited, if you're in the US or Canada
 
-Wave's receipt capture has no scan cap and no subscription fee, consistent with the rest of its free accounting suite covered in our [invoicing](/reviews/invoicing-software-international-freelancers) guide. Photos get attached directly to transactions in your Wave account, keeping everything in one place rather than a separate archive to reconcile later. It's a lighter tool than Expensify specifically for OCR accuracy — fine for straightforward receipts, less impressive on faded or unusual ones.
+Wave's receipt capture has no scan cap and no subscription fee, consistent with the rest of its free accounting suite covered in our [invoicing](/reviews/invoicing-software-international-freelancers) guide. Photos get attached directly to transactions in your Wave account, keeping everything in one place rather than a separate archive to reconcile later. The catch worth flagging clearly: Wave has only accepted new signups from the US and Canada since 2020, so this option isn't actually available to freelancers signing up from elsewhere — Zoho Expense below is the closer equivalent for everyone else.
 
-**Best for:** freelancers already using Wave for invoicing or bookkeeping who want receipt capture folded into the same free tool.
+**Best for:** US- or Canada-based freelancers already using Wave for invoicing or bookkeeping who want receipt capture folded into the same free tool.
 
 ## Zoho Expense — solid if you're in the Zoho ecosystem
 
@@ -1239,7 +1618,7 @@ Every option here works better with one simple practice: capture the receipt wit
 
 ## Bottom line
 
-For most freelancers, Wave's free, uncapped receipt capture is the easiest starting point, especially if you're already using it for invoicing. If you receive a lot of digital receipts by email and want the most accurate OCR, Expensify's forwarding feature is worth the eventual $5/month. And if you're catching up on months of paper receipts rather than starting a new habit, Shoeboxed's mail-in service solves a problem none of the scanning apps are built for.
+For most freelancers, Zoho Expense's free tier is the most broadly applicable starting point, with no geographic restriction on signing up. If you're specifically based in the US or Canada, Wave's free, uncapped receipt capture is worth a look too, especially if you're already using it for invoicing. If you receive a lot of digital receipts by email and want the most accurate OCR, Expensify's forwarding feature is worth the eventual $5/month. And if you're catching up on months of paper receipts rather than starting a new habit, Shoeboxed's mail-in service solves a problem none of the scanning apps are built for.
 
 *This article is for general informational purposes and isn't tax advice. Pricing, scan limits, and OCR accuracy claims change frequently — confirm current details on each provider's site, and consult a tax professional for guidance specific to your situation.*
 `,
@@ -1649,7 +2028,7 @@ Freelancers end up holding an unusual number of other people's credentials — a
 | Tool | Free plan | Sharing with non-users (guests) | Paid team plan | Best for |
 |---|---|---|---|---|
 | Bitwarden | Yes — unlimited passwords, unlimited devices | Limited (no dedicated guest accounts) | ~$4/user/mo | Solo freelancers, budget-conscious |
-| 1Password | No free tier | Yes — guest accounts on Business plans | ~$7.99/user/mo | Freelancers sharing logins with subcontractors regularly |
+| 1Password | No free tier | Yes — guest accounts on Business plans | Individual ~$36/year after a ~33% March 2026 increase; Business tiers cost more per seat | Freelancers sharing logins with subcontractors regularly |
 | Dashlane | Limited free tier | Via Business plan | ~$8/user/mo | Freelancers who also want a bundled VPN |
 
 ## [Bitwarden](https://bitwarden.com) — the strongest free option
@@ -1660,7 +2039,7 @@ Bitwarden's free plan is genuinely complete for solo use: unlimited passwords, u
 
 ## 1Password — best for sharing access with subcontractors
 
-1Password's business plans include guest accounts specifically designed for contractors and external collaborators — someone can be given access to exactly the credentials relevant to a project, without ever seeing the raw password, and that access can be revoked cleanly when the project ends. Its Watchtower feature also flags reused or breached passwords across every vault, which matters more the more client accounts you're holding. This comes at a real cost premium over Bitwarden, with no free tier at all.
+1Password's business plans include guest accounts specifically designed for contractors and external collaborators — someone can be given access to exactly the credentials relevant to a project, without ever seeing the raw password, and that access can be revoked cleanly when the project ends. Its Watchtower feature also flags reused or breached passwords across every vault, which matters more the more client accounts you're holding. This comes at a real cost premium over Bitwarden, with no free tier at all — a gap that widened further after 1Password raised individual pricing roughly 33% in March 2026. See our dedicated [1Password vs Bitwarden comparison](/reviews/1password-vs-bitwarden-freelancers) for whether that premium is worth it.
 
 **Best for:** freelancers who regularly bring on subcontractors and need clean, revocable access to specific client credentials.
 
@@ -1688,7 +2067,7 @@ Imagine a subcontractor needs access to a client's CMS for two weeks to finish a
 
 The habit that matters more than which tool you pick: when a project ends, actually rotate any credential a subcontractor had access to, rather than assuming access was "temporary" just because the working relationship ended. A password manager's audit log makes this easy to check — a shared document with a password pasted in it doesn't.
 
- Managing client logins securely is one part of a broader inbox-and-account setup — if the email side of that juggling act (multiple client threads, a personal and business address) is its own source of chaos, see our [email management tools guide](/reviews/best-email-management-tools-freelancers).
+ Managing client logins securely is one part of a broader inbox-and-account setup — if the email side of that juggling act (multiple client threads, a personal and business address) is its own source of chaos, see our [email management tools guide](/reviews/best-email-management-tools-freelancers). If you've narrowed things down specifically to 1Password or Bitwarden, our dedicated [1Password vs Bitwarden comparison](/reviews/1password-vs-bitwarden-freelancers) covers the March 2026 price change and whether the gap between them is worth paying for.
 ## Bottom line
 
 For most solo freelancers, Bitwarden's free plan is a genuinely strong starting point with no real gap for basic use. The moment you're regularly handing client credentials to a subcontractor or a small team, 1Password's guest-account model is worth paying for — it's the difference between "here's the password" over email and access you can grant and revoke cleanly.
@@ -1946,7 +2325,7 @@ Before comparing tools, it helps to know which features actually move the needle
 
 | Tool | Free plan | Multi-currency | Starting paid price | Best for |
 |---|---|---|---|---|
-| Wave | Yes, unlimited invoices | Basic | Free (fees on payments) | Zero subscription cost |
+| Wave | Yes, unlimited invoices | Basic | Free (fees on payments) | US/Canada-based freelancers only — see note below |
 | Zoho Invoice | Yes, up to 5 clients | Strong, tax config included free | Free | Billing multiple countries |
 | FreshBooks | No | Yes (Plus plan and above) | ~$23–30/month | Invoicing + light accounting |
 | Xero | No | Yes, 160+ currencies, hourly FX updates | ~$29+/month | Scaling into a small business |
@@ -1958,11 +2337,11 @@ Zoho made its invoicing product permanently free, and it's one of the more compl
 
 **Best for:** solo freelancers who bill clients in several currencies and don't want a monthly subscription.
 
-## Wave — best truly free option, with a catch
+## Wave — free, but not actually an option for most international freelancers
 
-Wave's core invoicing and bookkeeping features are genuinely free, and it supports multi-currency invoicing. The company makes money through payment processing, which starts around 1% per transaction — competitive with many third-party processors. The catch for international freelancers: Wave's per-transaction fees can be higher than dedicated payment platforms, and its multi-currency handling is more basic than Xero's.
+Wave's core invoicing and bookkeeping features are genuinely free, and it's a strong product on paper. The important caveat for this specific article: since November 2020, Wave has restricted new signups to businesses based in the US or Canada — if you're freelancing from outside those two countries, you can't create a new Wave account at all, and Wave's own signup flow redirects you to Zoho Books instead. Existing Wave accounts opened before the change can generally keep running, but new international freelancers reading this guide won't be able to use it, which is worth knowing before spending time evaluating it further.
 
-**Best for:** freelancers with low invoice volume who want no monthly cost.
+**Best for:** US- or Canada-based freelancers with low invoice volume who want no monthly cost. If you're outside North America, Zoho Invoice above is the closer free equivalent.
 
 ## Xero — strongest multi-currency handling, at a price
 
@@ -1985,10 +2364,10 @@ If you already process payments through Stripe, its built-in invoicing tool adds
 ## The cost freelancers often miss
 
 Subscription price is only part of the real cost. Payment processing fees compound quickly: a difference of even 1–2 percentage points on a $5,000 monthly invoice adds up to hundreds of dollars a year. For invoices over roughly $150–200, bank transfer or ACH options — where available — are usually far cheaper than card payments, even if cards are more convenient for the client. If you bill EU, UK, Australian, or Canadian clients regularly, check that your chosen tool supports local payment rails (SEPA, BACS) rather than routing everything through a card network.
- If you've narrowed things down specifically to FreshBooks or QuickBooks, our dedicated [FreshBooks vs QuickBooks comparison](/reviews/freshbooks-vs-quickbooks-freelancers) goes deeper on that specific decision.
+ If you've narrowed things down specifically to FreshBooks or QuickBooks, our dedicated [FreshBooks vs QuickBooks comparison](/reviews/freshbooks-vs-quickbooks-freelancers) goes deeper on that specific decision. US- and Canada-based freelancers specifically weighing Wave against FreshBooks should see our dedicated [Wave vs FreshBooks comparison](/reviews/wave-vs-freshbooks-freelancers) for the details.
 ## Bottom line
 
-For most freelancers billing internationally on a budget, Zoho Invoice offers the most complete free feature set. If you want the most accurate currency handling and don't mind paying for it, Xero is the strongest option. And if you're just starting out and want to test the waters with zero commitment, Wave remains a solid entry point. If PayPal or a marketplace's built-in payout is currently your default for cross-border clients, it's worth comparing against the dedicated options in our [international payment platforms guide](/reviews/international-payment-platforms-freelancers) — the fee difference is usually larger than it looks.
+For most freelancers billing internationally on a budget, Zoho Invoice offers the most complete free feature set. If you want the most accurate currency handling and don't mind paying for it, Xero is the strongest option. Wave is worth a look only if you're based in the US or Canada yourself — it stopped accepting new signups from anywhere else in 2020, which makes Zoho Invoice the more broadly applicable free option for this specific article's audience. If PayPal or a marketplace's built-in payout is currently your default for cross-border clients, it's worth comparing against the dedicated options in our [international payment platforms guide](/reviews/international-payment-platforms-freelancers) — the fee difference is usually larger than it looks.
 
 *This article is for general informational purposes and isn't tax, legal, or financial advice. Pricing and features change frequently — always confirm current details on the provider's website before subscribing.*
 `,
@@ -2137,7 +2516,7 @@ Rytr won't out-write Claude or ChatGPT on quality, but it has one of the only ge
 ## A note on using AI in client work
 
 AI-assisted content that's well-edited, fact-checked, and genuinely useful can perform just as well as fully human-written content — search engines have been explicit that they evaluate the end result, not how it was produced. The reverse is also true: thin, inaccurate, AI-generated content performs poorly regardless of which tool produced it. Two practical habits matter regardless of which tool you use: always fact-check AI output before it reaches a client, since even strong models can generate incorrect statistics or citations, and check your specific client contracts, since some industries (journalism, academic writing) explicitly restrict AI-generated content.
- If your freelance work leans visual rather than text-based, the same build-faster-with-AI logic applies to images — see our [AI image generation guide](/reviews/best-ai-image-generation-tools-freelance-designers) for the commercial-licensing considerations that matter most for paid client work. If you've narrowed things down specifically to Notion or ClickUp, our dedicated [Notion vs ClickUp comparison](/reviews/notion-vs-clickup-freelancers) goes deeper on that specific decision. If you've narrowed things down specifically to Claude or ChatGPT, our dedicated [Claude vs ChatGPT comparison](/reviews/claude-vs-chatgpt-freelance-writers) goes deeper on that specific decision.
+ If your freelance work leans visual rather than text-based, the same build-faster-with-AI logic applies to images — see our [AI image generation guide](/reviews/best-ai-image-generation-tools-freelance-designers) for the commercial-licensing considerations that matter most for paid client work. If you've narrowed things down specifically to Notion or ClickUp, our dedicated [Notion vs ClickUp comparison](/reviews/notion-vs-clickup-freelancers) goes deeper on that specific decision. If you've narrowed things down specifically to Claude or ChatGPT, our dedicated [Claude vs ChatGPT comparison](/reviews/claude-vs-chatgpt-freelance-writers) goes deeper on that specific decision. If you've narrowed things down specifically to Trello or Asana, our dedicated [Trello vs Asana comparison](/reviews/trello-vs-asana-freelancers) goes deeper on that decision.
 ## Bottom line
 
 For most freelance writers, the practical starting stack is one general-purpose drafting tool (Claude or ChatGPT) plus Grammarly for a final pass. Add Jasper if you serve brand clients who need consistent voice, or Frase if your work is SEO-heavy. Layering in a fourth or fifth tool rarely adds proportional value — the time saved from juggling more subscriptions than that tends to disappear into managing the tools themselves. If part of your writing practice is building an audience rather than just serving clients, our [newsletter tools guide](/reviews/best-newsletter-tools-freelancers) covers where to actually publish that writing.
@@ -2204,7 +2583,7 @@ Timely takes a different approach: instead of manual timers, it runs a backgroun
 ## The hidden cost of "free"
 
 The most common mistake is picking a free time tracker and then adding a separate paid invoicing tool on top — Clockify or Toggl's free tier plus a $17–30/month invoicing app frequently ends up costing more per month than a single connected paid platform that includes both. Before choosing based on the "free" label, add up what you'd actually need to pay once you include invoicing, export, or reporting features that sit behind a paywall.
-
+ If you've narrowed things down specifically to Toggl or Clockify, our dedicated [Toggl vs Clockify comparison](/reviews/toggl-vs-clockify-freelancers) goes deeper on that decision.
 ## Bottom line
 
 If you don't bill hourly and just want personal time awareness, Clockify's free plan remains one of the best available. If billing is the whole point, it's usually cheaper in total to pick one paid, connected tool — Harvest for straightforward time-to-invoice, or Toggl Track paired with separate invoicing if you value its reporting more.
@@ -2235,17 +2614,17 @@ Billing a client in euros while your expenses are in your home currency creates 
 
 | Tool | Multi-currency plan required | Currencies supported | Starting price for multi-currency |
 |---|---|---|---|
-| Wave | Included free | Basic support | Free |
+| Wave | Included free | Basic support | Free (US/Canada signups only — see note below) |
 | Zoho Books | Standard plan | 25+ | ~$20/mo |
 | FreshBooks | Plus plan | 150+ | ~$30/mo |
 | QuickBooks Online | Essentials plan or higher | 145+ | Varies by region |
 | Xero | Higher tiers | 160+, hourly FX updates | ~$29+/mo |
 
-## Wave — free, with basic multi-currency support
+## Wave — free, but only if you're based in the US or Canada yourself
 
-Wave's free double-entry bookkeeping includes multi-currency invoicing, converting amounts back to your base currency for reporting. It's a genuine no-cost option, but its multi-currency handling is more basic than dedicated platforms like Xero — fine for freelancers with a handful of international clients, less suited to anyone billing regularly across many currencies with complex reporting needs.
+Wave's free double-entry bookkeeping includes multi-currency invoicing, converting amounts back to your base currency for reporting — a genuine no-cost option for the freelancers who can actually sign up for it. That's the catch worth flagging clearly: Wave has restricted new account signups to businesses based in the US or Canada since November 2020. If you're freelancing from outside North America, Wave's own signup process now redirects you to Zoho Books instead, which makes Zoho Books (below) the more broadly relevant free-adjacent option for an article specifically about cross-border billing.
 
-**Best for:** freelancers just starting to take on international clients who don't yet need advanced FX reporting.
+**Best for:** US- or Canada-based freelancers just starting to take on international clients who don't yet need advanced FX reporting.
 
 ## Zoho Books — solid mid-tier option
 
@@ -2274,10 +2653,10 @@ For freelancers who invoice heavily across borders, Xero is consistently the top
 ## A word on VAT and cross-border tax rules
 
 Multi-currency accounting software handles the math, but not the compliance questions — VAT obligations for EU clients, withholding requirements, and tax residency questions vary by country and aren't something any of these tools resolve on their own. If a meaningful share of your income comes from international clients, it's worth a one-time consultation with an accountant familiar with cross-border freelance income, even if you handle day-to-day bookkeeping yourself.
-
+ If you've specifically narrowed things down to Xero or QuickBooks, our dedicated [Xero vs QuickBooks comparison](/reviews/xero-vs-quickbooks-freelancers) covers that decision in more depth.
 ## Bottom line
 
-Freelancers just starting to bill internationally can reasonably start with Wave's free plan or Zoho Books' mid-tier pricing. Once you're invoicing regularly across several currencies and want accurate FX gain/loss tracking without manual math, Xero is the strongest option available, even though it costs more than the alternatives. Getting the accounting right only matters if the rate behind those numbers is right in the first place — see our [guide to pricing freelance work](/reviews/how-to-price-freelance-work-rate-calculators) if you're not confident your rate covers what it should.
+Freelancers just starting to bill internationally can reasonably start with Zoho Books' mid-tier pricing, or Wave's free plan specifically if they're based in the US or Canada themselves (Wave hasn't accepted signups from anywhere else since 2020). Once you're invoicing regularly across several currencies and want accurate FX gain/loss tracking without manual math, Xero is the strongest option available, even though it costs more than the alternatives. Getting the accounting right only matters if the rate behind those numbers is right in the first place — see our [guide to pricing freelance work](/reviews/how-to-price-freelance-work-rate-calculators) if you're not confident your rate covers what it should.
 
 *This article is for general informational purposes and isn't tax or legal advice. Multi-currency rules, supported currencies, and pricing tiers change frequently — confirm current details with each provider and consult a qualified accountant for your specific situation.*
 `,
