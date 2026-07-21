@@ -4,6 +4,7 @@ import { marked } from "marked";
 import { articles, getArticle, countLabel, countLabelShort } from "../../../data/articles";
 import { SITE_URL } from "../../../lib/site-config";
 import { getCategorySlug } from "../../../lib/categories";
+import RateCalculator from "../../../components/RateCalculator";
 
 export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
@@ -68,6 +69,22 @@ export default function ReviewPage({ params }) {
 
   const introHtml = marked.parse(introMd);
   const restHtml = hasSplit ? marked.parse(restMd) : "";
+
+  // Special case: the pricing guide gets a live calculator embedded
+  // right where it discusses doing this math yourself.
+  const showCalculator = article.slug === "how-to-price-freelance-work-rate-calculators";
+  const calcMarker = "\n## Tools worth using for the math";
+  let calcIntroHtml = null;
+  let calcRestHtml = null;
+  if (showCalculator) {
+    const calcSplitIndex = introMd.indexOf(calcMarker);
+    if (calcSplitIndex !== -1) {
+      calcIntroHtml = marked.parse(introMd.slice(0, calcSplitIndex));
+      calcRestHtml = marked.parse(
+        calcMarker.replace(/^\n/, "") + introMd.slice(calcSplitIndex + calcMarker.length)
+      );
+    }
+  }
 
   // Wrap any <table> the parser produced so it can scroll on mobile,
   // and make external links (real citations to the tools we discuss)
@@ -142,10 +159,24 @@ export default function ReviewPage({ params }) {
       <section className="article-body-wrap">
         <div className="wrap">
           <div className="article-layout">
-            <article
-              className="article-body"
-              dangerouslySetInnerHTML={{ __html: wrapTables(introHtml) }}
-            />
+            {showCalculator && calcIntroHtml !== null ? (
+              <>
+                <article
+                  className="article-body"
+                  dangerouslySetInnerHTML={{ __html: wrapTables(calcIntroHtml) }}
+                />
+                <RateCalculator />
+                <article
+                  className="article-body"
+                  dangerouslySetInnerHTML={{ __html: wrapTables(calcRestHtml) }}
+                />
+              </>
+            ) : (
+              <article
+                className="article-body"
+                dangerouslySetInnerHTML={{ __html: wrapTables(introHtml) }}
+              />
+            )}
 
             {SHOW_AD_SLOTS && (
               <div className="ad-slot" data-ad-slot="in-article-top">
