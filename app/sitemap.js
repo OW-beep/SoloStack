@@ -6,6 +6,7 @@ export default function sitemap() {
   const staticPages = [
     "",
     "/about",
+    "/author",
     "/methodology",
     "/contact",
     "/privacy",

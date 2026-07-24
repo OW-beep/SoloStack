@@ -11,11 +11,18 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const category = getCategory(params.slug);
   if (!category) return {};
+  const seoTitle = category.seoTitle || category.name;
   return {
-    title: `${category.name} | SoloStack`,
+    title: `${seoTitle} | SoloStack`,
     description: category.tagline,
     alternates: {
       canonical: `${SITE_URL}/category/${category.slug}`,
+    },
+    openGraph: {
+      title: seoTitle,
+      description: category.tagline,
+      type: "website",
+      url: `${SITE_URL}/category/${category.slug}`,
     },
   };
 }

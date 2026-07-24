@@ -2,9 +2,9 @@ import Link from "next/link";
 import { SITE_URL } from "../../lib/site-config";
 
 export const metadata = {
-  title: "Methodology | SoloStack",
+  title: "Methodology | How SoloStack Reviews Freelancer Software",
   description:
-    "How SoloStack researches and compares software: sources, criteria, update policy, and corrections.",
+    "How SoloStack researches and compares software for freelancers: sources, criteria, update policy, and corrections.",
   alternates: { canonical: `${SITE_URL}/methodology` },
 };
 

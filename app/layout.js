@@ -27,23 +27,23 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata = {
-  title: "SoloStack — Software reviews for people who work alone",
+  title: "SoloStack — Best Software & Tools for Freelancers, Reviewed (2026)",
   description:
-    "SoloStack tests invoicing, project management, AI, and accounting tools for freelancers — with honest comparisons, real pricing, and no fluff.",
+    "Honest 2026 reviews of invoicing, project management, AI, and accounting tools for freelancers — real pricing, free-tier limits, and no sponsored rankings.",
   // Update the SITE_URL constant in lib/site-config.js if/when you
   // attach a custom domain (Project > Settings > Domains in Vercel).
   metadataBase: new URL(SITE_URL),
   openGraph: {
-    title: "SoloStack — Software reviews for people who work alone",
+    title: "SoloStack — Best Software & Tools for Freelancers, Reviewed (2026)",
     description:
-      "Honest comparisons of the tools freelancers actually pay for.",
+      "Honest comparisons of the tools freelancers actually pay for — real pricing, no sponsored rankings.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "SoloStack — Software reviews for people who work alone",
+    title: "SoloStack — Best Software & Tools for Freelancers, Reviewed (2026)",
     description:
-      "Honest comparisons of the tools freelancers actually pay for.",
+      "Honest comparisons of the tools freelancers actually pay for — real pricing, no sponsored rankings.",
   },
   verification: {
     google: "KYZp6leIoJkmXQipodIUtUhXTopgEfgqFiQ7eJZuRZA",

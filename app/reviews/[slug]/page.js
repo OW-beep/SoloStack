@@ -13,19 +13,21 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const article = getArticle(params.slug);
   if (!article) return {};
-  // SEO-optimized <title>/OG/Twitter title, kept separate from the on-page
-  // H1 (article.title). Falls back to article.title for articles that
-  // don't define one.
+  // SEO-optimized <title>/OG/Twitter title and meta description, kept
+  // separate from the on-page H1 and dek. seoDescription exists mainly for
+  // articles whose dek runs long enough that Google would truncate it in
+  // search results; both fall back to the on-page copy when not set.
   const seoTitle = article.seoTitle || article.title;
+  const seoDescription = article.seoDescription || article.dek;
   return {
     title: `${seoTitle} | SoloStack`,
-    description: article.dek,
+    description: seoDescription,
     alternates: {
       canonical: `${SITE_URL}/reviews/${article.slug}`,
     },
     openGraph: {
       title: seoTitle,
-      description: article.dek,
+      description: seoDescription,
       type: "article",
       publishedTime: article.date,
       url: `${SITE_URL}/reviews/${article.slug}`,
@@ -33,7 +35,7 @@ export function generateMetadata({ params }) {
     twitter: {
       card: "summary_large_image",
       title: seoTitle,
-      description: article.dek,
+      description: seoDescription,
     },
   };
 }
@@ -123,11 +125,41 @@ export default function ReviewPage({ params }) {
     mainEntityOfPage: `${SITE_URL}/reviews/${article.slug}`,
   };
 
+  // Breadcrumb rich-result eligibility: Home > Category > Article.
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: article.category,
+        item: `${SITE_URL}/category/${getCategorySlug(article.category)}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: article.title,
+        item: `${SITE_URL}/reviews/${article.slug}`,
+      },
+    ],
+  };
+
   return (
     <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <section className="article-hero">
         <div className="wrap">
