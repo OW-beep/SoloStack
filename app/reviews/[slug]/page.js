@@ -13,14 +13,18 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const article = getArticle(params.slug);
   if (!article) return {};
+  // SEO-optimized <title>/OG/Twitter title, kept separate from the on-page
+  // H1 (article.title). Falls back to article.title for articles that
+  // don't define one.
+  const seoTitle = article.seoTitle || article.title;
   return {
-    title: `${article.title} | SoloStack`,
+    title: `${seoTitle} | SoloStack`,
     description: article.dek,
     alternates: {
       canonical: `${SITE_URL}/reviews/${article.slug}`,
     },
     openGraph: {
-      title: article.title,
+      title: seoTitle,
       description: article.dek,
       type: "article",
       publishedTime: article.date,
@@ -28,7 +32,7 @@ export function generateMetadata({ params }) {
     },
     twitter: {
       card: "summary_large_image",
-      title: article.title,
+      title: seoTitle,
       description: article.dek,
     },
   };
@@ -144,12 +148,6 @@ export default function ReviewPage({ params }) {
               Written by{" "}
               <Link href="/author" style={{ textDecoration: "underline" }}>
                 Kosei Taki
-              </Link>
-            </span>
-            <span>·</span>
-            <span>
-              <Link href="/methodology" style={{ textDecoration: "underline" }}>
-                Reviewed by the SoloStack team
               </Link>
             </span>
             <span>·</span>

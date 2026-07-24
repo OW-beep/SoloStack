@@ -25,6 +25,10 @@ export default function Footer() {
               test the tools you'd otherwise burn three free trials finding
               out about yourself.
             </p>
+            <p style={{ marginTop: 10 }}>
+              Run by <Link href="/author">Kosei Taki</Link>, former IT
+              consultant turned solo freelancer.
+            </p>
           </div>
           <div className="footer-nav">
             <div className="footer-col">

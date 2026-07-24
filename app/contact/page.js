@@ -2,7 +2,7 @@ import { SITE_URL } from "../../lib/site-config";
 
 export const metadata = {
   title: "Contact | SoloStack",
-  description: "Get in touch with the SoloStack team.",
+  description: "Get in touch about SoloStack.",
   alternates: { canonical: `${SITE_URL}/contact` },
 };
 
