@@ -108,8 +108,9 @@ export default function ReviewPage({ params }) {
     datePublished: article.date,
     dateModified: article.date,
     author: {
-      "@type": "Organization",
-      name: "SoloStack",
+      "@type": "Person",
+      name: "Kosei Taki",
+      url: `${SITE_URL}/author`,
     },
     publisher: {
       "@type": "Organization",
@@ -139,6 +140,13 @@ export default function ReviewPage({ params }) {
           <h1>{article.title}</h1>
           <p className="dek">{article.dek}</p>
           <div className="article-meta">
+            <span>
+              Written by{" "}
+              <Link href="/author" style={{ textDecoration: "underline" }}>
+                Kosei Taki
+              </Link>
+            </span>
+            <span>·</span>
             <span>
               <Link href="/methodology" style={{ textDecoration: "underline" }}>
                 Reviewed by the SoloStack team
@@ -196,6 +204,14 @@ export default function ReviewPage({ params }) {
                 Ad space — insert your AdSense unit here
               </div>
             )}
+
+            <div className="author-box">
+              <p>
+                <Link href="/author">Kosei Taki</Link> is a former IT
+                consultant turned independent developer, focusing on
+                practical software choices for freelancers.
+              </p>
+            </div>
           </div>
         </div>
       </section>

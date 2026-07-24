@@ -49,6 +49,7 @@ export default function Footer() {
             <div className="footer-col">
               <h4>Site</h4>
               <Link href="/about">About SoloStack</Link>
+              <Link href="/author">About the Author</Link>
               <Link href="/methodology">Methodology</Link>
               <Link href="/contact">Contact</Link>
               <Link href="/privacy">Privacy policy</Link>

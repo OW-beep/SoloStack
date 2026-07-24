@@ -209,6 +209,8 @@ Before comparing features or pricing, there's a filter question that settles thi
 
 Wave's core invoicing and accounting features are free, monetized instead through payment processing fees. FreshBooks charges a subscription starting around $19-23/month but includes time tracking, proposals (on higher tiers), and a more polished day-to-day experience. The decision mostly comes down to whether you bill by the hour and want that workflow built in, or whether simple invoicing and bookkeeping at zero cost matters more.
 
+*Coming from a consulting background, I tend to look at pricing structures first rather than features — and the North America restriction on Wave's free plan is the kind of detail that would have been buried in a features comparison but actually decides this one for most readers.*
+
 ## Quick comparison
 
 | | Wave | FreshBooks |
@@ -396,6 +398,8 @@ Xero and QuickBooks are the two accounting platforms that dominate this comparis
 Full double-entry accounting — the core of what both platforms do — is built for businesses with real bookkeeping complexity: multiple revenue streams, inventory, employees, or investors who need standardized financial statements. A solo freelancer invoicing a handful of clients a month, with no inventory and no payroll, is paying for and navigating a lot of structure they may not need. Several independent comparisons published in 2026 make this point directly, typically pointing solo freelancers toward a lighter tool like FreshBooks or Wave instead (see our [FreshBooks vs QuickBooks comparison](/reviews/freshbooks-vs-quickbooks-freelancers) and [full invoicing guide](/reviews/invoicing-software-international-freelancers)).
 
 That said, if you specifically need proper double-entry books — because you're scaling past simple freelancing, working with an accountant who requires it, or operating in multiple currencies — here's how the two actually compare.
+
+*Coming from a consulting background, I tend to look at pricing structures first rather than features, and the renewal-price creep on both of these is the detail worth flagging before you sign up at the promotional rate.*
 
 ## Quick comparison
 
@@ -738,6 +742,8 @@ This comparison comes up constantly for a simple reason: PayPal is what most cli
 
 - **A transaction or transfer fee** — a flat or percentage charge just to move the money
 - **A currency conversion markup** — the difference between the real mid-market exchange rate and the rate you're actually given, which is often the bigger cost and the easier one to miss since it's baked into the exchange rate rather than itemized
+
+*Coming from a consulting background, I tend to look at pricing structures first rather than features, and a hidden exchange-rate markup is exactly the kind of line item that gets missed when a comparison stays at the feature-checklist level.*
 
 ## Quick comparison
 
@@ -1962,6 +1968,8 @@ Filing as a freelancer means Schedule C for business income and expenses, Schedu
 - **Deduction discovery**, especially for expenses freelancers commonly miss (home office, a portion of internet/phone bills, software subscriptions, mileage)
 - **Whether it's a year-round tracker or just a once-a-year filing tool** — these solve different problems and many freelancers end up needing both
 
+*Experience includes enterprise consulting as well as independent project work, and if there's one habit that carried over it's checking what a "free" tier actually excludes before comparing anything else — tax software is one of the categories where that gap shows up fastest.*
+
 ## Quick comparison
 
 | Tool | Type | Federal filing cost | Standout feature | Best for |
@@ -2373,6 +2381,8 @@ A CRM sounds like overkill for a one-person business until the moment a warm lea
 - **Low setup time** — a CRM you have to configure for a week before it's useful won't get used
 - **Some connection to email**, since most freelance lead conversations happen there anyway
 
+*Coming from a consulting background, I tend to look at pricing structures first rather than features — and "free" only counts if the contact limit doesn't quietly force an upgrade a year in, which is where a few of these tools differ more than the feature lists suggest.*
+
 ## Quick comparison
 
 | Tool | Free plan | Contact limit | Standout feature | Best for |
@@ -2510,6 +2520,8 @@ Before comparing tools, it helps to know which features actually move the needle
 - **Payment processing fees on foreign transactions** — these often exceed the tool's subscription price over a year, so they deserve more attention than the sticker price.
 - **Local payment methods** — ACH, SEPA, and bank transfer options frequently beat card payments on both speed and cost for larger invoices.
 - **Tax and VAT handling** — especially relevant if you bill EU clients.
+
+*Coming from a consulting background, I tend to look at pricing structures first rather than features, and payment processing fees are the clearest example here — they're easy to skip past on a pricing page but tend to outweigh the subscription cost within a year of cross-border billing.*
 
 ## Quick comparison
 
@@ -2799,6 +2811,8 @@ Billing a client in euros while your expenses are in your home currency creates 
 - **Automatic foreign exchange gain/loss tracking** — without this, you're doing the math by hand at tax time
 - **Which plan tier multi-currency sits behind** — several tools bury it in their most expensive plan
 - **VAT and cross-border tax handling**, especially relevant for EU clients
+
+*Coming from a consulting background, I tend to look at pricing structures first rather than features, and "which plan tier multi-currency sits behind" is exactly the kind of detail that decides the real cost here more than the headline price does.*
 
 ## Quick comparison
 
