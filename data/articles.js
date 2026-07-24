@@ -377,7 +377,7 @@ If you're automating your first workflow and want the fastest possible setup wit
     readTime: "6 min read",
     date: "2026-07-19",
     body: `
-Squarespace and Wix together power more than half of all websites built on a website builder, and they're the two options freelancers researching a portfolio site compare most often. Both are genuinely capable — the real difference for a portfolio specifically comes down to a trade-off between Squarespace's curated design polish and Wix's much larger template library and flexibility.
+Squarespace and Wix together power more than half of all websites built on a website builder, and they're the two options freelancers, artists, and other independent creatives researching a portfolio site compare most often. Both are genuinely capable — the real difference for a portfolio specifically comes down to a trade-off between Squarespace's curated design polish and Wix's much larger template library and flexibility.
 
 *Coming from a consulting background, I default to evaluating pricing structure and long-term cost before comparing features line by line.*
 
@@ -1670,15 +1670,15 @@ A rate calculator is worth five minutes to establish a floor, not a final number
     slug: "best-website-builders-freelancer-portfolio",
     category: "Winning Clients",
     title: "Best Website Builders for a Freelance Portfolio",
-    seoTitle: "Best Website Builders for a Freelance Portfolio (2026): Pricing Compared",
+    seoTitle: "Best Website Builder for Freelancers (2026): Portfolio Sites Compared",
     dek: "Most clients check your portfolio before they check your Upwork profile. Here's which builder actually fits a portfolio site, not a full business website you'll never finish.",
-    seoDescription: "Most clients check your portfolio before your Upwork profile. Here's which builder actually fits a freelance portfolio site.",
+    seoDescription: "Comparing the best website builder for freelancers building a portfolio site — pricing, templates, and how fast each one gets you live.",
     verdict: "Top pick: Carrd (cheapest, fastest)",
     toolsCompared: 4,
     readTime: "6 min read",
     date: "2026-07-06",
     body: `
-A freelance portfolio has one job: convince someone to reach out. That's a narrower problem than "build a website," which is exactly why the general-purpose advice to "just use Squarespace" or "just use WordPress" leads a lot of freelancers to spend a weekend on a site they never finish. This guide compares builders specifically on how well they fit a portfolio's actual job — showing proof of work and making it easy to get in touch — not on how many features they have.
+A freelance portfolio has one job: convince someone to reach out. That's a narrower problem than "build a website," which is exactly why the general-purpose advice to "just use Squarespace" or "just use WordPress" leads a lot of freelancers to spend a weekend on a site they never finish. If you're looking for the best website builder for freelancers specifically — not a full business site — this guide compares builders on how well they fit a portfolio's actual job: showing proof of work and making it easy to get in touch, not how many features they have.
 
 *Coming from a consulting background, I default to evaluating pricing structure and long-term cost before comparing features line by line.*
 
@@ -2207,15 +2207,15 @@ For freelancers who want to test the idea at zero cost, Notion's DIY approach or
     slug: "best-proposal-software-freelancers",
     category: "Winning Clients",
     title: "Best Proposal Software for Freelancers",
-    seoTitle: "Best Proposal Software for Freelancers (2026): Pricing & Features Compared",
+    seoTitle: "Best Affordable Proposal Software for Freelancers (2026): Pricing Compared",
     dek: "Most proposal tools are built for sales teams handing off to a CRM. Freelancers need the opposite: a proposal that turns straight into a contract and an invoice.",
-    seoDescription: "Most proposal tools are built for sales teams. Freelancers need the opposite: a proposal that becomes a contract and invoice.",
+    seoDescription: "Affordable proposal software for freelancers, compared on real pricing — not sales-team tools that hand off to a CRM you don't have.",
     verdict: "Top pick: Better Proposals (best value)",
     toolsCompared: 5,
     readTime: "7 min read",
     date: "2026-06-05",
     body: `
-A proposal sitting unopened in a client's inbox is one of the most common ways freelance income quietly leaks away. Sales-focused tools like PandaDoc and Proposify are built around a team handing a signed deal off to a CRM. A freelancer needs something narrower: a proposal that looks professional, gets signed quickly, and ideally turns into a contract and invoice without re-typing the same scope and pricing three times.
+A proposal sitting unopened in a client's inbox is one of the most common ways freelance income quietly leaks away. Sales-focused tools like PandaDoc and Proposify are built around a team handing a signed deal off to a CRM — and priced for that team, not a solo budget. A freelancer needs something narrower and more affordable: a proposal that looks professional, gets signed quickly, and ideally turns into a contract and invoice without re-typing the same scope and pricing three times.
 
 *Coming from a consulting background, I default to evaluating pricing structure and long-term cost before comparing features line by line.*
 
