@@ -584,6 +584,40 @@ button:focus-visible {
 }
 
 /* =========================================================
+   FAQ block (below article body, before author box)
+   ========================================================= */
+
+.faq-block {
+  margin-top: 36px;
+  padding-top: 8px;
+}
+
+.faq-block h2 {
+  margin-bottom: 16px;
+}
+
+.faq-item {
+  padding: 16px 0;
+  border-top: 1px solid var(--line);
+}
+
+.faq-item:last-child {
+  padding-bottom: 0;
+}
+
+.faq-item h3 {
+  font-size: 16px;
+  margin: 0 0 6px;
+}
+
+.faq-item p {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: rgba(27, 31, 35, 0.8);
+}
+
+/* =========================================================
    Author box (below article body)
    ========================================================= */
 

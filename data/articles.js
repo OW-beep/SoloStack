@@ -426,6 +426,12 @@ If the portfolio's visual polish is the main point — photography, design, or o
     toolsCompared: 2,
     readTime: "7 min read",
     date: "2026-07-18",
+    faq: [
+      { q: "Is Xero or QuickBooks cheaper for a freelancer?", a: "Entry-level pricing is similar between the two, but neither is priced with a solo freelancer's simpler needs specifically in mind \u2014 both are built around small-business bookkeeping with more depth, and cost, than most freelancers actually use." },
+      { q: "Can I switch from QuickBooks to Xero later without losing my data?", a: "Both platforms support exporting financial data, but a full migration, especially historical transaction categorization, is rarely seamless. It's generally easier to pick carefully up front than to migrate later." },
+      { q: "Do I need Xero or QuickBooks if I only use tax filing software?", a: "If your bookkeeping needs are simple, a lighter year-round tracker paired with dedicated filing software (see our tax software guide) can cover the same ground for less than a full Xero or QuickBooks subscription." },
+      { q: "Which is better for multi-currency freelance invoicing, Xero or QuickBooks?", a: "Xero's multi-currency handling is generally considered stronger and more automatic than QuickBooks' \u2014 see our dedicated guide to accounting software for freelancers with international clients for the full comparison." },
+    ],
     body: `
 Xero and QuickBooks are the two accounting platforms that dominate this comparison once a business outgrows simple invoicing, and freelancers researching either one keep running into the same conclusion from independent reviewers: both are genuinely strong products, and neither is really built with a solo freelancer's simpler needs in mind. That's worth taking seriously before comparing features line by line.
 
@@ -633,6 +639,12 @@ For most solo freelancers, Bitwarden's free tier — or its $10/year Premium pla
     toolsCompared: 2,
     readTime: "7 min read",
     date: "2026-07-17",
+    faq: [
+      { q: "Is FreshBooks or QuickBooks better for a solo freelancer?", a: "FreshBooks is generally the better fit for straightforward freelance invoicing and time tracking. QuickBooks becomes the stronger choice once you need real double-entry bookkeeping or plan to hand books off to an accountant who specifically wants QuickBooks-format data." },
+      { q: "Does FreshBooks have a client cap on its cheapest plan?", a: "Yes \u2014 FreshBooks' entry-level Lite plan caps the number of billable clients, historically around five, which is worth checking against your current and expected client count before committing to the cheapest tier." },
+      { q: "Can I import my data from FreshBooks into QuickBooks later?", a: "Both platforms support data export and import, but a full switch rarely transfers every category and historical detail cleanly. Most freelancers find it easier to choose carefully upfront than to migrate later." },
+      { q: "Do I need QuickBooks specifically if my accountant asks for it?", a: "Not always \u2014 many accountants can work from FreshBooks exports or a simple CSV, but if your accountant specifically requires native QuickBooks file access, that's a legitimate reason to pick it over FreshBooks regardless of your own preference." },
+    ],
     body: `
 This is one of the most-searched software comparisons among freelancers for a reason: both platforms are genuinely good, both are aimed partly at the same solo-service-provider audience, and the right answer actually depends on something most quick comparisons skip — whether you need invoicing or real accounting.
 
@@ -1375,6 +1387,12 @@ None of this replaces actually comparing tools in a category — that's what the
     toolsCompared: 4,
     readTime: "6 min read",
     date: "2026-07-08",
+    faq: [
+      { q: "Is it legal to record a client call with an AI notetaker without asking?", a: "This depends heavily on where you and the client are located \u2014 many US states and most other countries require at least one-party, and sometimes all-party, consent to record a call. Disclosing the bot and getting a clear yes is the safer default regardless of jurisdiction." },
+      { q: "Do AI meeting notetakers work on phone calls, or only video calls?", a: "Most are built primarily around joining video calls as a visible bot participant. Phone-call transcription is a separate, less common feature that only some tools support." },
+      { q: "Which AI notetaker has the best free plan for freelancers?", a: "Fathom's free plan is generally considered the most generous of the widely used options, with unlimited recordings and summaries at no cost, though export and integration features are more limited than on paid tiers." },
+      { q: "Can clients tell if an AI notetaker is silently analyzing sentiment or scoring the call?", a: "Some notetakers include sentiment analysis or talk-time scoring as a feature, and this typically isn't disclosed to the other participant by the bot itself \u2014 worth being transparent about proactively if it's part of why you're using the tool." },
+    ],
     body: `
 Taking notes while actually listening to a client is a real cost every freelancer pays on every call — split attention means either a missed detail now or a forgotten one later. AI notetakers solve this, but the category has split into two genuinely different approaches, and for freelancer client calls specifically, the choice between them matters more than which tool has marginally better transcription accuracy.
 
@@ -1677,6 +1695,12 @@ A rate calculator is worth five minutes to establish a floor, not a final number
     toolsCompared: 4,
     readTime: "6 min read",
     date: "2026-07-06",
+    faq: [
+      { q: "What's the cheapest way to build a freelance portfolio website?", a: "Carrd is the cheapest genuinely usable option \u2014 free for a single-page site, with a custom domain and forms available for around $19/year. It's built specifically for simple one-page sites like a portfolio, not a full multi-page business site." },
+      { q: "Do I need a custom domain for a freelance portfolio?", a: "It's not required, but a free-tier subdomain (like yourname.carrd.co) reads as noticeably less established than a real domain. Most builders let you connect one for roughly $12-15/year through the platform or a separate registrar." },
+      { q: "Is Squarespace or Wix better for a freelance portfolio specifically?", a: "Independent testing consistently favors Squarespace for portfolio-specific visual polish, while Wix offers a larger free tier and more template flexibility \u2014 see our dedicated Squarespace vs Wix comparison for the full breakdown." },
+      { q: "How long does it actually take to build a freelance portfolio site?", a: "With a purpose-built portfolio tool like Carrd, a working single-page site can go live in an afternoon. General-purpose builders like Squarespace or Wix typically take a full weekend given their broader page-building options." },
+    ],
     body: `
 A freelance portfolio has one job: convince someone to reach out. That's a narrower problem than "build a website," which is exactly why the general-purpose advice to "just use Squarespace" or "just use WordPress" leads a lot of freelancers to spend a weekend on a site they never finish. If you're looking for the best website builder for freelancers specifically — not a full business site — this guide compares builders on how well they fit a portfolio's actual job: showing proof of work and making it easy to get in touch, not how many features they have.
 
@@ -2214,6 +2238,12 @@ For freelancers who want to test the idea at zero cost, Notion's DIY approach or
     toolsCompared: 5,
     readTime: "7 min read",
     date: "2026-06-05",
+    faq: [
+      { q: "Is there a truly free proposal software for freelancers?", a: "Most dedicated proposal tools require a paid plan once you need e-signatures and payment collection built in, but a well-formatted document or template remains a genuinely free, if more manual, starting point." },
+      { q: "What's the difference between proposal software and e-signature tools?", a: "Proposal software is built around presenting scope, pricing, and terms persuasively before a client signs. E-signature tools (covered in our free e-signature guide) are narrower \u2014 they just handle the legally binding signature step on a document you've already written." },
+      { q: "Can proposal software replace a separate contract?", a: "Several tools let an accepted proposal convert directly into a binding e-signed agreement, which can replace a separate contract step for straightforward freelance work \u2014 though complex engagements often still warrant a dedicated contract reviewed by an attorney." },
+      { q: "Do clients actually expect a formal proposal from a freelancer?", a: "It depends on client type and project size. Smaller or repeat clients are often fine with an emailed scope and price, while larger clients and bigger-budget projects increasingly expect a formal, professional-looking proposal as a baseline." },
+    ],
     body: `
 A proposal sitting unopened in a client's inbox is one of the most common ways freelance income quietly leaks away. Sales-focused tools like PandaDoc and Proposify are built around a team handing a signed deal off to a CRM — and priced for that team, not a solo budget. A freelancer needs something narrower and more affordable: a proposal that looks professional, gets signed quickly, and ideally turns into a contract and invoice without re-typing the same scope and pricing three times.
 
@@ -2421,6 +2451,12 @@ For most solo freelancers, Bitwarden's free plan is a genuinely strong starting 
     toolsCompared: 5,
     readTime: "7 min read",
     date: "2026-05-27",
+    faq: [
+      { q: "What's the cheapest way for a freelancer to get paid internationally?", a: "Wise generally has the lowest fees for receiving international payments since it uses the real mid-market exchange rate rather than adding a markup. The main trade-off is that fewer clients are already set up to pay through it, compared to PayPal." },
+      { q: "Why do clients keep asking to pay through PayPal instead of Wise?", a: "Familiarity and trust \u2014 PayPal is the platform most clients already have an account with and have used before, so it wins on convenience even though its fees and exchange-rate markup are usually higher than Wise's." },
+      { q: "Is Payoneer better than Wise for freelance marketplace payments?", a: "Payoneer has deeper direct integration with platforms like Upwork and Fiverr for withdrawing marketplace earnings, which can make it the more practical choice specifically for marketplace income, even where Wise might be cheaper for direct-client invoicing." },
+      { q: "Do I need a US bank account to use Stripe as a freelancer?", a: "Not necessarily \u2014 Stripe supports many countries directly, but account setup, supported currencies, and payout speed vary significantly by country. Worth confirming current support for your specific country before relying on it." },
+    ],
     body: `
 Almost every freelancer starts with PayPal because a client suggests it, or because it's the payment option they already recognize. The problem is that PayPal is consistently the most expensive way to receive money from abroad — and most freelancers never compare it against anything else. This guide breaks down what each major option actually costs and where each one makes sense.
 
@@ -2586,6 +2622,12 @@ For most freelancers, HubSpot's free plan is the strongest starting point — a 
     toolsCompared: 5,
     readTime: "6 min read",
     date: "2026-05-27",
+    faq: [
+      { q: "Are free e-signature tools legally binding?", a: "Yes \u2014 in the US, the ESIGN Act and UETA give electronic signatures the same legal standing as ink signatures for most contracts, including freelance agreements, regardless of whether the tool used is free or paid." },
+      { q: "What's the catch with free e-signature plans?", a: "Free tiers almost always cap the number of documents you can send per month, often to three to five \u2014 fine for occasional freelance contracts, restrictive if you're sending several a week." },
+      { q: "Do I need a lawyer to draft a freelance contract before e-signing it?", a: "Not necessarily for straightforward, lower-stakes engagements \u2014 many freelancers use a solid template covering scope, payment terms, and IP ownership. A one-time attorney review is worth it for larger contracts or unusual terms." },
+      { q: "Can I use a free e-signature tool for international clients?", a: "Most major tools are recognized as legally valid across most countries with electronic-signature laws, but rules vary by jurisdiction \u2014 worth a quick check if a specific client's country has unusual requirements." },
+    ],
     body: `
 Getting a contract signed before starting work is one of the simplest ways a freelancer protects themselves, but DocuSign's pricing — built around sales teams processing hundreds of contracts a month — makes it feel like overkill for a two-page freelance agreement. The good news: electronic signatures are legally binding under the same laws (the US ESIGN Act, the EU's eIDAS regulation, and equivalent rules elsewhere) no matter which tool produces them, so a free tool holds up exactly as well as an expensive one for a standard freelance contract.
 
@@ -2958,6 +3000,12 @@ If you don't bill hourly and just want personal time awareness, Clockify's free 
     toolsCompared: 5,
     readTime: "8 min read",
     date: "2026-05-20",
+    faq: [
+      { q: "Do I need dedicated multi-currency accounting software, or can I just convert manually?", a: "Manual conversion works for the occasional international invoice, but once you're billing regularly in multiple currencies, manual tracking makes it very hard to see accurate profit and loss. Dedicated multi-currency support automates the FX gain/loss calculation that's easy to get wrong by hand." },
+      { q: "Is Wave usable for a freelancer with international clients?", a: "Only partially \u2014 Wave's free plan doesn't support full multi-currency accounting and, more importantly, has been restricted to US and Canada-based freelancers since 2020, so it's not an option at all for freelancers based elsewhere." },
+      { q: "Which accounting software handles multi-currency best for freelancers?", a: "Xero is generally considered the strongest option for accurate, largely automatic multi-currency handling among tools built with smaller businesses in mind, though it costs more than single-currency alternatives." },
+      { q: "Does multi-currency accounting software handle VAT for EU clients automatically?", a: "Not fully \u2014 most tools handle the currency conversion math but leave VAT registration thresholds, rates, and compliance rules to you or an accountant, since those vary by country and change independently of the accounting software itself." },
+    ],
     body: `
 Billing a client in euros while your expenses are in your home currency creates problems that domestic-only accounting software simply isn't built to handle — exchange rate tracking, foreign currency reporting, and gain/loss calculations when a client pays weeks after you invoice. This guide compares accounting platforms specifically on how well they handle multi-currency freelance work, not just general bookkeeping.
 

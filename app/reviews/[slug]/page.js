@@ -151,6 +151,25 @@ export default function ReviewPage({ params }) {
     ],
   };
 
+  // FAQPage rich-result eligibility. Only emitted when the article defines
+  // faq entries, and only ever describing the visible FAQ section rendered
+  // below — never schema without matching on-page content.
+  const faqJsonLd =
+    article.faq && article.faq.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: article.faq.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.a,
+            },
+          })),
+        }
+      : null;
+
   return (
     <main>
       <script
@@ -161,6 +180,12 @@ export default function ReviewPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       <section className="article-hero">
         <div className="wrap">
           <Link href="/#reviews" className="breadcrumb">
@@ -227,6 +252,18 @@ export default function ReviewPage({ params }) {
                 className="article-body"
                 dangerouslySetInnerHTML={{ __html: wrapTables(restHtml) }}
               />
+            )}
+
+            {article.faq && article.faq.length > 0 && (
+              <div className="faq-block">
+                <h2>Frequently asked questions</h2>
+                {article.faq.map((f, i) => (
+                  <div className="faq-item" key={i}>
+                    <h3>{f.q}</h3>
+                    <p>{f.a}</p>
+                  </div>
+                ))}
+              </div>
             )}
 
             {SHOW_AD_SLOTS && (
