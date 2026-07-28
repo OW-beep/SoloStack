@@ -29,6 +29,20 @@ export default function Footer() {
               Run by <Link href="/author">Kosei Taki</Link>, former IT
               consultant turned solo freelancer.
             </p>
+            <a
+              href="https://www.producthunt.com/products/solostack-3?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-solostack-3"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: "inline-block", marginTop: 14 }}
+            >
+              <img
+                alt="SoloStack - Honest software reviews for freelancers who work alone | Product Hunt"
+                width="250"
+                height="54"
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1208896&theme=light"
+                style={{ display: "block" }}
+              />
+            </a>
           </div>
           <div className="footer-nav">
             <div className="footer-col">
