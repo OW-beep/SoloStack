@@ -69,6 +69,19 @@ export default function AuthorPage() {
           the points that matter most when choosing software
           independently.
         </p>
+        <p>
+          Day to day, SoloStack is written around client work rather than
+          instead of it — most weeks it's client projects first and
+          writing in whatever's left over, which is also exactly the
+          kind of scheduling tension the site's own reviews are written
+          for. Before going independent, Kosei's consulting work centered
+          on project management for large-scale enterprise system
+          rollouts, which is part of where the pricing-structure-first
+          habit in these reviews comes from: a rollout budget punishes
+          the same kind of hidden per-seat and renewal-tier surprises
+          that trip up a solo freelancer's software stack, just at a
+          different scale.
+        </p>
 
         <h2>More on how the site works</h2>
         <p>

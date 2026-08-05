@@ -32,6 +32,11 @@ export default function MethodologyPage() {
           screenshots to imply otherwise. Where we do have direct,
           sustained experience with a specific tool, the article says so
           explicitly rather than implying it by default across the site.
+          In practice, that's most consistently true for the tools that
+          overlap with running SoloStack itself day to day — Notion,
+          Slack, and Discord among them — where the write-up reflects
+          actual, ongoing use rather than a read-through of the pricing
+          page alone.
         </p>
 
         <h2>What we compare on</h2>
