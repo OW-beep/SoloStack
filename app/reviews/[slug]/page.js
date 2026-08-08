@@ -5,6 +5,7 @@ import { articles, getArticle, countLabel, countLabelShort } from "../../../data
 import { SITE_URL } from "../../../lib/site-config";
 import { getCategorySlug } from "../../../lib/categories";
 import RateCalculator from "../../../components/RateCalculator";
+import AICodingCostCalculator from "../../../components/AICodingCostCalculator";
 
 export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
@@ -88,6 +89,23 @@ export default function ReviewPage({ params }) {
       calcIntroHtml = marked.parse(introMd.slice(0, calcSplitIndex));
       calcRestHtml = marked.parse(
         calcMarker.replace(/^\n/, "") + introMd.slice(calcSplitIndex + calcMarker.length)
+      );
+    }
+  }
+
+  // Special case: the AI coding tools comparison gets a live cost
+  // calculator embedded right before it walks through the billing math.
+  const showCostCalc =
+    article.slug === "claude-code-vs-cursor-vs-github-copilot-freelance-developers";
+  const costCalcMarker = "\n## The billing math worth doing before you subscribe to anything";
+  let costCalcIntroHtml = null;
+  let costCalcRestHtml = null;
+  if (showCostCalc) {
+    const costSplitIndex = restMd.indexOf(costCalcMarker);
+    if (costSplitIndex !== -1) {
+      costCalcIntroHtml = marked.parse(restMd.slice(0, costSplitIndex));
+      costCalcRestHtml = marked.parse(
+        costCalcMarker.replace(/^\n/, "") + restMd.slice(costSplitIndex + costCalcMarker.length)
       );
     }
   }
@@ -247,11 +265,25 @@ export default function ReviewPage({ params }) {
               </div>
             )}
 
-            {hasSplit && (
-              <article
-                className="article-body"
-                dangerouslySetInnerHTML={{ __html: wrapTables(restHtml) }}
-              />
+            {hasSplit && showCostCalc && costCalcIntroHtml !== null ? (
+              <>
+                <article
+                  className="article-body"
+                  dangerouslySetInnerHTML={{ __html: wrapTables(costCalcIntroHtml) }}
+                />
+                <AICodingCostCalculator />
+                <article
+                  className="article-body"
+                  dangerouslySetInnerHTML={{ __html: wrapTables(costCalcRestHtml) }}
+                />
+              </>
+            ) : (
+              hasSplit && (
+                <article
+                  className="article-body"
+                  dangerouslySetInnerHTML={{ __html: wrapTables(restHtml) }}
+                />
+              )
             )}
 
             {article.faq && article.faq.length > 0 && (
