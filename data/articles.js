@@ -2256,7 +2256,7 @@ Both Bonsai and HoneyBook take a different approach: instead of a dedicated prop
 
 Across the research on this category, one pattern shows up repeatedly: proposals followed up on within about an hour of being opened close at meaningfully higher rates than next-day follow-ups. Whichever tool you pick, turning on open notifications and actually acting on them is worth more than any template library.
 
-A well-built proposal also does something less obvious than winning the job: it sets the tone for how ambiguous the working relationship is going to be afterward. The best client relationship I've had came out of an unusually specific proposal-and-scope exchange upfront — every deliverable, revision round, and "what happens if this changes" scenario spelled out before either side signed anything. The payoff wasn't just a smoother sales process; every request that came in afterward stayed specific too, because the standard for clarity had already been set on day one. It's a much smaller lift than fixing vague scope after a project's already underway, which is usually where a client relationship starts costing more time than it's worth.
+A well-built proposal also does something less obvious than winning the job: it forces you to write from the client's problem instead of your own resume. The clearest version of that lesson came from two proposals sent the same week that landed completely differently. The first led with a list of past work and available skills — thorough, but entirely self-focused, and it went nowhere. The second opened by naming the client's actual problem before proposing anything: something close to "the current content has enough depth, but it's likely losing traffic to a mismatch with search intent — restructuring around intent first is what would recover that." That one line, placed before any mention of experience, was the only real difference between the two documents, and it's the one that got signed. The takeaway that stuck: a proposal isn't proof of capability, it's proof that you understood the problem — and once that's clear, thinner credentials underneath it still land, while a longer resume without it usually doesn't.
 
 ## Bottom line
 
@@ -2377,6 +2377,8 @@ Dashlane covers the same core ground as 1Password and Bitwarden, with the additi
 ## The setup that actually matters more than the tool choice
 
 Whichever tool you pick, the security gain comes almost entirely from three habits: turning on two-factor authentication for your business email, bank, and any client platforms; never sharing a client credential over text, email, or Slack instead of the password manager's built-in sharing feature; and running the vault health check monthly rather than once at setup. A $3/month tool used consistently protects client accounts better than a $8/month tool that only gets opened when you forget a password.
+
+*I learned this the slow way. For a stretch of juggling several projects at once, every client login I had — hosting, WordPress admin, staging servers — sat in a plain notes file, with no backup anywhere. The moment that turned into a real scare wasn't a hack; it was a laptop that started crashing on boot and wouldn't reliably restart. It took that specific moment of "if this drive is gone, I can't log into a single client site" to actually move everything into a password manager, turn on two-factor where I could, and set up automatic cloud backups for anything that mattered. Nothing was actually lost in the end, but the fact that it could have been — over something as ordinary as a flaky laptop, not an attack — is what made the habit stick afterward.*
 
 ## The scenario most freelancers don't plan for
 
@@ -2665,7 +2667,7 @@ Before comparing tools, it helps to know which features actually move the needle
 - **Local payment methods** — ACH, SEPA, and bank transfer options frequently beat card payments on both speed and cost for larger invoices.
 - **Tax and VAT handling** — especially relevant if you bill EU clients.
 
-*Coming from a consulting background, I tend to look at pricing structures first rather than features, and payment processing fees are the clearest example here — they're easy to skip past on a pricing page but tend to outweigh the subscription cost within a year of cross-border billing.*
+*A recurring $1,200/month client once went quiet on payment for almost a month before I realized why: the contract specified "payment processed on invoice receipt," but I'd wrapped up that month's deliverables over Slack and never actually sent the invoice. Two weeks of silence felt like normal international payment lag, until a one-line reply — "Invoice not received" — made it obvious the delay was entirely mine. By the time I sent it, got it processed, and waited for the transfer to land, a payment that should have taken about two weeks took closer to six. Now invoice-sending is tied to delivery, not a separate step I trust myself to remember, and I keep a running list of what's been sent versus what's actually been paid.*
 
 ## Quick comparison
 
@@ -3083,6 +3085,8 @@ LegalZoom's core advantage is brand recognition and a longer track record than s
 
 An LLC mainly protects personal assets from business liabilities and, depending on income and state, can open the door to S-corp tax election later — it doesn't reduce self-employment tax by itself, and sole proprietors can operate perfectly legally without one. It tends to make the most sense once you're carrying real liability risk (client work with potential for costly disputes) or your income is high enough that an S-corp election's tax savings would outweigh the extra payroll administration. Below that point, many freelancers reasonably stay a sole proprietor and revisit the decision as income grows — our [business insurance guide](/reviews/best-business-insurance-freelancers) covers professional liability coverage, which solves a similar risk problem without the paperwork of forming an entity.
 
+*I ran this exact calculation for my own business the year income crossed a threshold that made the question feel overdue. On paper, formation plus the ongoing registered-agent and accounting costs looked like they'd roughly cancel out whatever the entity would have saved that specific year, so I stayed a sole proprietor and instead tightened up deductions and put more into retirement contributions — a smaller but immediate win. I revisited the same math the following year once income had grown further, and by then the numbers actually favored forming an entity. Nothing about the decision itself changed; only the year did. The mistake would have been treating either choice as a permanent one instead of a number worth rechecking annually.*
+
 ## Bottom line
 
 For most freelancers, Northwest Registered Agent's flat $125/year renewal and no-upsell checkout make it the safest default once you look past the initial formation price. Bizee is the strongest pick if minimizing first-year, all-in cost is the priority. Reach for ZenBusiness specifically if you'll actually use its compliance-tracking dashboard, and LegalZoom only if its name and add-on legal services matter enough to you to pay the highest renewal fee in this comparison. Once the entity exists, the accounting side changes too — see our [Xero vs QuickBooks comparison](/reviews/xero-vs-quickbooks-freelancers) for what changes once you're invoicing as a registered business rather than a sole proprietor.
@@ -3201,6 +3205,10 @@ Clearscope's reports are widely considered the cleanest and easiest to hand dire
 ## Is a dedicated tool worth it over free research?
 
 Below occasional optimization work, manually checking what's ranking for a keyword and matching the general structure and depth of top results gets a freelancer most of the way there at no cost — these tools mainly save the time that manual research takes, plus catch semantic gaps a quick manual scan would miss. The subscription starts earning its cost once optimized content is a regular, recurring part of client work rather than an occasional ask.
+
+## The cheaper tool isn't automatically the better deal
+
+*I once swapped a $99/month optimization tool for a $15/month alternative purely on price, and for the first week it seemed fine. Once I was actually using it on client work, the gaps showed up: search-volume numbers that didn't match other sources, competitor data that looked stale, keyword suggestions that missed obvious terms. None of that broke anything outright — it just meant every article needed roughly an extra hour of manual research to catch what the tool should have caught. At ten articles a month, that's about ten extra hours, which is real money at any reasonable hourly rate even after the $84/month "savings." I switched back after two months. The number worth checking before picking the cheaper option isn't the subscription price — it's what the tool does to the time each document actually takes.*
 
 ## Bottom line
 
