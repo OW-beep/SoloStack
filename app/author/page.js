@@ -17,6 +17,8 @@ export default function AuthorPage() {
     jobTitle: "Independent Developer",
     description:
       "Independent developer and former IT consultant with over 10 years of experience in enterprise systems and digital strategy.",
+    // TODO: replace with the real LinkedIn profile URL.
+    sameAs: ["https://www.linkedin.com/in/kosei-taki-3a1994428"],
     worksFor: {
       "@type": "Organization",
       name: "SoloStack",
@@ -31,7 +33,32 @@ export default function AuthorPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="wrap">
-        <h1>About the Author</h1>
+        <div className="author-hero">
+          {/*
+            Drop the real headshot at /public/author-photo.jpg (same
+            photo used on the LinkedIn profile keeps the two consistent).
+            This <img> just points at that path — no code change needed
+            once the file exists.
+          */}
+          <img
+            src="/author-photo.jpg"
+            alt="Kosei Taki"
+            className="author-photo"
+            width={120}
+            height={120}
+          />
+          <div>
+            <h1>About the Author</h1>
+            <a
+              href="https://www.linkedin.com/in/kosei-taki-3a1994428"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="author-linkedin"
+            >
+              View LinkedIn profile →
+            </a>
+          </div>
+        </div>
 
         <p>
           Kosei Taki is an independent developer and former IT consultant

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SiteSearch from "./SiteSearch";
 
 export default function Header() {
   return (
@@ -7,6 +8,7 @@ export default function Header() {
         <Link href="/" className="logo">
           Solo<span className="dot">Stack</span>
         </Link>
+        <SiteSearch />
         <nav className="nav">
           <Link href="/#reviews">Reviews</Link>
           <Link href="/about">About</Link>

@@ -3,6 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import CookieConsent from "../components/CookieConsent";
 import { SITE_URL, ADSENSE_CLIENT_ID } from "../lib/site-config";
 
 const spaceGrotesk = Space_Grotesk({
@@ -65,6 +66,32 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${spaceGrotesk.variable} ${plexSans.variable} ${plexMono.variable}`}
     >
+      <head>
+        {/*
+          Google Consent Mode v2 — must run before the AdSense script
+          below. Defaults everything to "denied" so no ad/analytics
+          cookies are set until a visitor actively accepts via the
+          CookieConsent banner. Required for serving ads to EEA/UK/CH
+          traffic under Google's EU User Consent Policy; harmless
+          everywhere else.
+        */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('consent', 'default', {
+                ad_storage: 'denied',
+                ad_user_data: 'denied',
+                ad_personalization: 'denied',
+                analytics_storage: 'denied',
+                wait_for_update: 500
+              });
+              window.gtag = gtag;
+            `,
+          }}
+        />
+      </head>
       <body>
         <Script
           async
@@ -79,6 +106,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <CookieConsent />
       </body>
     </html>
   );

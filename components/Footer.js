@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { articles } from "../data/articles";
 import { categories } from "../lib/categories";
+import NewsletterSignup from "./NewsletterSignup";
 
 // Truncates a title for the footer's compact link list without losing
 // the actual article topic (the old version swapped in the category
@@ -29,6 +30,7 @@ export default function Footer() {
               Run by <Link href="/author">Kosei Taki</Link>, former IT
               consultant turned solo freelancer.
             </p>
+            <NewsletterSignup variant="footer" />
             <a
               href="https://www.producthunt.com/products/solostack-3?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-solostack-3"
               target="_blank"

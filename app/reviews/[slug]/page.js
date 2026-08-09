@@ -6,6 +6,7 @@ import { SITE_URL } from "../../../lib/site-config";
 import { getCategorySlug } from "../../../lib/categories";
 import RateCalculator from "../../../components/RateCalculator";
 import AICodingCostCalculator from "../../../components/AICodingCostCalculator";
+import NewsletterSignup from "../../../components/NewsletterSignup";
 
 export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
@@ -311,6 +312,8 @@ export default function ReviewPage({ params }) {
                 practical software choices for freelancers.
               </p>
             </div>
+
+            <NewsletterSignup variant="article" />
           </div>
         </div>
       </section>
