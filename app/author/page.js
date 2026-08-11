@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { SITE_URL } from "../../lib/site-config";
 
 export const metadata = {
@@ -17,7 +18,6 @@ export default function AuthorPage() {
     jobTitle: "Independent Developer",
     description:
       "Independent developer and former IT consultant with over 10 years of experience in enterprise systems and digital strategy.",
-    // TODO: replace with the real LinkedIn profile URL.
     sameAs: ["https://www.linkedin.com/in/kosei-taki-3a1994428"],
     worksFor: {
       "@type": "Organization",
@@ -34,13 +34,7 @@ export default function AuthorPage() {
       />
       <div className="wrap">
         <div className="author-hero">
-          {/*
-            Drop the real headshot at /public/author-photo.jpg (same
-            photo used on the LinkedIn profile keeps the two consistent).
-            This <img> just points at that path — no code change needed
-            once the file exists.
-          */}
-          <img
+          <Image
             src="/author-photo.jpg"
             alt="Kosei Taki"
             className="author-photo"

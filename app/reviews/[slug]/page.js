@@ -112,15 +112,19 @@ export default function ReviewPage({ params }) {
   }
 
   // Wrap any <table> the parser produced so it can scroll on mobile,
-  // and make external links (real citations to the tools we discuss)
-  // open safely in a new tab without leaking a referrer/opener handle.
+  // and make external links (some of which are affiliate links, per
+  // our disclosure) open safely in a new tab, without leaking a
+  // referrer/opener handle, and marked "sponsored" per Google's link
+  // guidelines for paid/affiliate links. Internal links (relative
+  // hrefs like /reviews/...) don't match this regex and are left
+  // untouched, since they're neither external nor commercial.
   const wrapTables = (html) =>
     html
       .replace(/<table>/g, '<div class="table-wrap"><table>')
       .replace(/<\/table>/g, "</table></div>")
       .replace(
         /<a href="(https?:\/\/[^"]+)"/g,
-        '<a target="_blank" rel="noopener noreferrer" href="$1"'
+        '<a target="_blank" rel="sponsored noopener noreferrer" href="$1"'
       );
 
   const otherArticles = articles.filter((a) => a.slug !== article.slug).slice(0, 3);

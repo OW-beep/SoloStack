@@ -1034,6 +1034,10 @@ The Hartford brings decades of financial stability (reflected in strong third-pa
 
 Most professional liability policies are "claims-made," meaning the policy must be active both when the work was done and when a claim is later filed — not just when the work happened. If you switch providers or let a policy lapse between projects, work done under the old policy could be left uncovered if a claim comes in after you've moved on. The fix, if you're changing providers, is purchasing "tail coverage" (an extended reporting period) when canceling a claims-made policy, which keeps the window open for claims tied to past work.
 
+## What "proof of coverage" actually means for an international client
+
+*A U.S. client on a $2,000/month contract asked for proof of professional liability insurance right after the contract was signed, just before work was supposed to start — a question I hadn't expected, since insurance had always felt like protection against something going wrong, not a condition of getting to start a project at all. Having a policy already in place meant this was a paperwork problem rather than a scramble to get covered on short notice, but it was still a three-business-day delay: the client didn't just want proof of enrollment, they specifically needed an English-language certificate showing the professional liability coverage type and the policy limit, which took a round-trip with the insurer to issue. Without an existing policy, that gap would have meant either delaying the contract start or starting the work uninsured. Since then, before taking on a client based overseas, confirming that a policy can produce an English-language certificate of insurance on request — not just that coverage exists — is one of the first things I check.*
+
 ## Bottom line
 
 If you mainly need a policy fast to satisfy a client's contractual requirement, NEXT's online-first process is the quickest path to a certificate of insurance. If your work is genuinely irregular, Thimble's by-the-job pricing avoids paying for year-round coverage you don't need. For ongoing professional liability specifically tailored to consulting and creative work, Hiscox has the deepest specialization.
@@ -2079,7 +2083,7 @@ Filing as a freelancer means Schedule C for business income and expenses, Schedu
 - **Deduction discovery**, especially for expenses freelancers commonly miss (home office, a portion of internet/phone bills, software subscriptions, mileage)
 - **Whether it's a year-round tracker or just a once-a-year filing tool** — these solve different problems and many freelancers end up needing both
 
-*Experience includes enterprise consulting as well as independent project work, and if there's one habit that carried over it's checking what a "free" tier actually excludes before comparing anything else — tax software is one of the categories where that gap shows up fastest.*
+*The habit that changed the most after going independent was checking what a "free" tier actually excludes before comparing anything else — tax software is one of the categories where that gap shows up fastest. The bigger lesson came from two separate scares. The first year, filing felt like the finish line — return submitted, done for the year — until a notice a few months later was a reminder that quarterly estimated payments are a separate, ongoing obligation, not something a single annual filing covers. Two payments a year, around $1,000 each, and the actual scare wasn't the amount — revenue easily covered it — it was that none of it had been set aside in a separate account, so the balance sitting in the business account looked more spendable than it actually was. A separate year, going back through expenses at filing time turned up several months of unrecorded software subscriptions — small enough individually to keep deferring, but close to $1,000 for the year once added up. Since then, tax software isn't just a once-a-year filing tool; thirty minutes at the end of every month goes to checking revenue, expenses, profit, what's been set aside for taxes, and any receipts that haven't been logged yet, with a portion of every payment moved into a separate tax account as it arrives. Filing in April got easier as a side effect, but that was never really the point.*
 
 ## Quick comparison
 
@@ -4515,6 +4519,114 @@ If you have existing Sora content or a workflow built around its API, the practi
 For most freelance video work, Kling is the one to try first — the free tier is generous enough to test against a real project, and the price makes it easy to justify even for occasional use. Runway earns its higher price when a client project needs real editing control rather than one-shot generation. Veo is worth reaching for specifically when a clip needs to sound as convincing as it looks. And whichever you pick, don't build a service offering around a single vendor's specific product name — Sora's shutdown is proof that "flagship AI product" and "stable foundation for a freelance workflow" aren't the same thing.
 
 *Pricing, free-tier limits, and commercial usage terms across all four tools have changed multiple times in 2026 and are likely to change again. Confirm current terms directly with each provider, especially commercial rights, before delivering AI-generated video as part of paid client work.*
+`,
+  },
+  {
+    slug: "freelance-client-contract-checklist",
+    category: "Guides",
+    title: "A Freelancer's Client Contract Checklist: What to Put in Writing Before You Start",
+    seoTitle: "Freelance Contract Checklist (2026): 8 Things to Put in Writing First",
+    dek: "A verbal understanding and a Slack thread aren't a contract. Here are the eight things worth pinning down in writing before the first invoice, not after the first disagreement.",
+    seoDescription: "A freelancer's checklist for what to put in a client contract before starting work — payment terms, scope, IP, and the clauses most disputes trace back to.",
+    verdict: "Run through this before any project starts, not after the first disagreement",
+    toolsCompared: 8,
+    readTime: "7 min read",
+    date: "2026-08-22",
+    body: `
+Most freelance contract disputes don't trace back to a bad clause — they trace back to a clause that was never written down in the first place, because the relationship started on a verbal "sounds good" and a Slack thread instead of a document either side could point back to. This checklist isn't legal advice; it's the practical list of what tends to cause actual arguments later, worth deciding on paper before a project starts rather than negotiating mid-dispute when both sides already feel wronged.
+
+The invoicing mistake covered in our [international payment guide](/reviews/invoicing-software-international-freelancers) — a $1,200 payment delayed six weeks because "payment on invoice receipt" was written into the contract but the invoice itself never got sent — is exactly the kind of thing this checklist exists to prevent. The contract term was fine; the process around it wasn't.
+
+## 1. What exactly is being delivered, and what isn't?
+
+"A website" or "a logo" isn't a scope — a specific number of pages, a specific number of concepts, a specific list of what's included and what counts as a separate, billable request is. The single most common source of scope creep is a deliverable description vague enough that both sides can honestly disagree about what was promised. Write down the number, not just the noun.
+
+## 2. How many rounds of revisions are included?
+
+Unlimited revisions sounds generous until a client uses it as an open-ended design-by-committee process. A specific number (two or three is typical) with a clear price for anything beyond that number protects both the timeline and the relationship — it's much easier to say "that's revision round four, here's the rate for it" than to renegotiate scope after the fact.
+
+## 3. When exactly does payment happen, relative to delivery?
+
+"Net 30" and "50% upfront, 50% on delivery" are both fine — what matters is that the trigger is specific and both sides agree on it. Does the clock start on delivery, on approval, or on invoice receipt? Our [pricing guide](/reviews/how-to-price-freelance-work-rate-calculators) covers the rate-setting side of this; the contract's job is just to make the timing unambiguous once a number is agreed on.
+
+## 4. What happens if a payment is late?
+
+A late fee clause (a flat amount or a percentage per week) rarely gets used, but its presence changes behavior before it's ever invoked — clients who might otherwise let an invoice slide tend not to, once there's a specific, written cost attached to doing so. Pair this with actually tracking what's been sent and paid; our [password manager guide](/reviews/best-password-managers-freelancers-client-logins) and [e-signature tools guide](/reviews/free-esignature-tools-freelance-contracts) both cover the lighter infrastructure that makes a contract enforceable rather than aspirational.
+
+## 5. Who owns the work, and when does ownership transfer?
+
+Default copyright law in most places gives the creator ownership until it's explicitly transferred — meaning a client technically doesn't own a deliverable just because they paid for it, unless the contract says so. Specifying that ownership transfers on final payment (not on delivery) is a meaningful piece of leverage: it means unpaid work legally still belongs to the freelancer, not just informally.
+
+## 6. What's the kill fee if the project ends early?
+
+Projects get cancelled — a client's budget gets cut, priorities shift, a company gets acquired. A kill fee clause (a percentage of the total project value, or payment for hours already logged) means an early cancellation is a bad outcome instead of a total loss. Without one, work already completed before a cancellation has no clear payment mechanism at all.
+
+## 7. Is there a confidentiality or non-disclosure clause, and does it run both directions?
+
+Clients often bring their own NDA, which is usually written entirely to protect their side. Worth checking whether it also protects the freelancer's own methods, templates, and non-client-specific business information — a one-directional NDA is common enough that it's worth actually reading rather than signing on the assumption it's standard.
+
+## 8. What jurisdiction and dispute process applies?
+
+For international clients specifically, this matters more than it looks — a contract that's silent on jurisdiction can mean an expensive, unclear path to resolving a real dispute. Naming a specific jurisdiction (usually the freelancer's own) and a lower-cost first step (mediation or arbitration before either side considers court) keeps a worst-case scenario from becoming disproportionately expensive relative to the project itself.
+
+*A wedding photography client once pushed back hard on a kill-fee clause, treating it as adversarial before any conflict had even happened. What actually settled it wasn't a legal argument — it was framing the clause as protection for both sides equally: if the client's circumstances changed, they'd only owe for work completed, not the full project; if mine did, they'd get the same protection in reverse. Once it was framed as mutual rather than one-sided, it stopped being a sticking point. The clause itself never changed — only how it was explained.*
+
+## The two clauses that matter most if you only have time for two
+
+If a full contract review isn't happening before a rushed project start, payment timing (#3) and ownership transfer (#5) are the two clauses that cause the most expensive disputes when left unwritten. Everything else on this list prevents friction; these two prevent situations where real money or real work product is genuinely at stake.
+
+## Bottom line
+
+None of these eight items require a lawyer to write into a standard agreement — most proposal and e-signature tools include templates that already cover the bulk of this. See our [proposal software guide](/reviews/best-proposal-software-freelancers) if a proposal-to-contract workflow isn't already part of how a project gets started. The actual habit that matters is running through this list before a project begins, when both sides are still agreeing on everything, rather than reaching for it for the first time in the middle of a disagreement.
+`,
+  },
+  {
+    slug: "freelance-new-client-vetting-checklist",
+    category: "Guides",
+    title: "A Freelancer's New Client Vetting Checklist: Red Flags to Check Before You Say Yes",
+    seoTitle: "Freelance Client Vetting Checklist (2026): Red Flags Before You Say Yes",
+    dek: "Not every inbound lead is worth taking. Here's what's worth checking before you say yes to a new client, not after the project's already gone sideways.",
+    seoDescription: "A freelancer's checklist for vetting a new client before accepting a project — payment red flags, scope warning signs, and communication patterns worth checking early.",
+    verdict: "Check this before saying yes, especially when income is inconsistent and every lead feels urgent",
+    toolsCompared: 6,
+    readTime: "6 min read",
+    date: "2026-08-24",
+    body: `
+The instinct to say yes to nearly every inbound lead makes sense against the backdrop covered in our [feast-or-famine guide](/reviews/feast-or-famine-irregular-freelance-income) — irregular income makes turning down work feel riskier than it usually actually is. But a bad client relationship costs more than an empty week does: unpaid invoices, scope that never stops expanding, and the time spent on a project that should have been declined are all more expensive than the gap a "no" leaves in a calendar. This is the checklist worth running through before saying yes, not after the first missed payment.
+
+## 1. How specific is their brief?
+
+A client who can describe exactly what they need, by when, and roughly what they're willing to pay is a meaningfully different signal than one whose brief is "whatever you think is best" with no other detail. Vague briefs aren't automatically a red flag — some genuinely don't know yet what they need — but they're worth pricing and scoping more conservatively than a specific one, since the ambiguity itself becomes work.
+
+## 2. Do they push back on a deposit or upfront payment?
+
+A legitimate client generally doesn't object to a reasonable deposit — it's standard practice, and most have paid one before. Strong resistance to any upfront payment, especially paired with pressure to "just start" before paperwork is signed, is one of the more reliable early signals of payment trouble later. See our [proposal software guide](/reviews/best-proposal-software-freelancers) for how a deposit structure typically gets built into a proposal from the start.
+
+## 3. How do they talk about previous freelancers or agencies?
+
+Everyone has had a bad contractor experience at some point, so one negative story isn't disqualifying. A pattern — every previous freelancer described as unreliable, difficult, or the sole cause of a project's problems — is worth noting. It's a reasonable predictor of how the same client might eventually describe this working relationship too.
+
+## 4. Is the timeline realistic for the scope described?
+
+A rushed timeline paired with a large scope is a specific, checkable red flag rather than a vague one: ask what's driving the urgency, and whether the deadline is genuinely fixed (a launch date, a contractual obligation) or just a preference. Clients who can't explain why a timeline is fixed often have more flexibility than the initial pressure suggests — and clients who insist on both an unrealistic timeline and a fixed price are describing a shape that doesn't fit together.
+
+## 5. What does their payment history look like, if you can check it?
+
+On marketplaces like Upwork or Fiverr, payment verification and past-client feedback are visible before accepting a contract — see our [marketplace comparison](/reviews/upwork-vs-fiverr-freelancers) for how the two platforms differ on this specifically. For a direct client with no platform history, a light version of the same check still applies: a company website that's active and current, a real LinkedIn presence, and — for a larger project — asking for a client reference is a normal, not intrusive, request.
+
+## 6. Does "quick call to discuss" turn into unpaid work?
+
+A discovery call is normal. A pattern where every call somehow includes a request for free strategy, a rough mockup, or a sample piece of work "just so we can see your style" is scope creep before a contract has even been signed. One useful test: would this specific request still feel reasonable if the prospect never hired you afterward? If not, it's worth pricing or politely declining before the relationship even formally starts.
+
+*A referral once came in glowing — "they're going to love working with you" — and skipping the usual vetting because of that referral was the actual mistake, not anything about the client themselves. Two rounds of "quick calls" in, there was already a full content calendar and a sample article done, unpaid, before any contract existed. The lesson wasn't to distrust referrals; it was that a warm introduction changes how a client is likely to treat you, not whether the basic checks still apply. Now the same six questions get asked regardless of how a lead arrived.*
+
+## The one question that matters most under time pressure
+
+If there's only time for one check before responding to an inbound lead, it's #2 — how a prospect responds to a normal deposit request. It's fast to test, hard to fake, and correlates with more of the other red flags on this list than any other single signal.
+
+## Bottom line
+
+None of these six checks are about being suspicious of every new client — most leads pass all of them without friction, and being overly guarded costs opportunities the same way saying yes to everything costs time. The point is having a specific, repeatable list to run through in the excitement of a new inquiry, rather than making that judgment call fresh, under time pressure, every single time.
 `,
   },
 ];
