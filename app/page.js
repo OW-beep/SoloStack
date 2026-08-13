@@ -48,6 +48,43 @@ export default function HomePage() {
         </div>
       </div>
 
+      <section className="section research-section">
+        <div className="wrap">
+          <div className="section-head">
+            <div>
+              <p className="section-eyebrow">Original data</p>
+              <h2>Research you won't find anywhere else</h2>
+            </div>
+            <p className="section-note">
+              Built from our own reviews, not outside surveys — and
+              updated as the underlying pricing changes.
+            </p>
+          </div>
+          <div className="research-grid">
+            <Link href="/price-tracker" className="research-card">
+              <span className="research-card-eyebrow">Live tracker</span>
+              <h3>Freelance Software Price Change Tracker</h3>
+              <p>
+                Every documented price increase or dropped free plan
+                we've flagged across our reviews, aggregated in one
+                place and growing over time.
+              </p>
+              <span className="research-card-cta">View the data →</span>
+            </Link>
+            <Link href="/ai-cost-report" className="research-card">
+              <span className="research-card-eyebrow">Cost report</span>
+              <h3>What an AI Freelance Toolkit Actually Costs</h3>
+              <p>
+                A real monthly cost range across coding, presentation,
+                video, and design AI tools — built entirely from
+                entry-tier pricing confirmed in our own reviews.
+              </p>
+              <span className="research-card-cta">View the report →</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {(() => {
         // Group by category, preserving first-seen order so new
         // categories don't jump around as articles get added.

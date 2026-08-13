@@ -112,6 +112,7 @@ For actual client work — searchable history, professional external channels, d
   },
   {
     slug: "calendly-vs-tidycal-freelancers",
+    noindex: true, // thin (654 words) — revisit once expanded
     category: "Staying Organized",
     title: "Calendly vs TidyCal for Freelancers: Is the One-Time Price Worth It",
     seoTitle: "Calendly vs TidyCal for Freelancers (2026): Pricing, Automation & Value Compared",
@@ -261,6 +262,7 @@ If you're US- or Canada-based with simple invoicing needs and no hourly billing,
   },
   {
     slug: "toggl-vs-clockify-freelancers",
+    noindex: true, // thin (556 words) — revisit once expanded
     category: "Staying Organized",
     title: "Toggl vs Clockify for Freelancers: Which Free Time Tracker Wins",
     seoTitle: "Toggl vs Clockify for Freelancers (2026): Best Free Time Tracking Tool",
@@ -308,6 +310,7 @@ For a solo freelancer who just wants the most pleasant tool to open dozens of ti
   },
   {
     slug: "zapier-vs-make-freelancers",
+    noindex: true, // thin (696 words) — revisit once expanded
     category: "Staying Organized",
     title: "Zapier vs Make for Freelance Automation: Which One Should You Learn",
     seoTitle: "Zapier vs Make for Freelancers (2026): Automation Power, Pricing & Ease of Use",
@@ -469,6 +472,7 @@ If you're a solo freelancer with simple invoicing needs, both of these are likel
   },
   {
     slug: "trello-vs-asana-freelancers",
+    noindex: true, // thin (672 words) — revisit once expanded
     category: "Staying Organized",
     title: "Trello vs Asana for Freelancers: Which One Should You Actually Use",
     seoTitle: "Trello vs Asana for Freelancers (2026): Project Management Compared",
@@ -3723,6 +3727,7 @@ For most true solo bookkeepers and virtual assistants, Financial Cents' combinat
   },
   {
     slug: "voices-com-vs-voice123-freelance-voice-actors",
+    noindex: true, // thin (764 words) — revisit once expanded
     category: "Winning Clients",
     title: "Voices.com vs Voice123 for Freelance Voice Actors",
     seoTitle: "Voices.com vs Voice123 for Freelancers (2026): Membership Cost & Client Quality",
@@ -3907,6 +3912,7 @@ For most freelancers who need to generate a new voice for client-facing work, El
   },
   {
     slug: "best-timezone-scheduling-tools-freelancers-international-clients",
+    noindex: true, // thin (695 words) — revisit once expanded
     category: "Staying Organized",
     title: "Best Time Zone Scheduling Tools for Freelancers with International Clients",
     seoTitle: "Best Time Zone Scheduling Tools for Freelancers (2026): World Time Buddy vs Clockwise",
@@ -3966,6 +3972,7 @@ For most freelancers, World Time Buddy's free, no-signup visual grid covers the 
   },
   {
     slug: "best-podcast-hosting-platforms-freelance-consultants",
+    noindex: true, // thin (714 words) — revisit once expanded
     category: "Winning Clients",
     title: "Best Podcast Hosting Platforms for Freelance Consultants and Coaches",
     seoTitle: "Best Podcast Hosting for Freelancers (2026): Buzzsprout vs Podbean vs Transistor",
@@ -4088,6 +4095,7 @@ For most solo online trainers, TrueCoach's combination of a clean client experie
   },
   {
     slug: "airgigs-vs-soundbetter-freelance-session-musicians",
+    noindex: true, // thin (592 words) — revisit once expanded
     category: "Winning Clients",
     title: "AirGigs vs SoundBetter for Freelance Session Musicians",
     seoTitle: "AirGigs vs SoundBetter for Freelancers (2026): Fees & Client Budgets Compared",

@@ -27,6 +27,15 @@ export function generateMetadata({ params }) {
     alternates: {
       canonical: `${SITE_URL}/reviews/${article.slug}`,
     },
+    // Thin/low-differentiation reviews get noindex,follow rather than
+    // deletion — the page still works for anyone who lands on it (and
+    // still passes link equity via internal links), it just isn't
+    // offered to Google as a search result until it's been built out
+    // further. Toggle article.noindex to bring one back into the index
+    // once it's been expanded with real depth.
+    robots: article.noindex
+      ? { index: false, follow: true }
+      : { index: true, follow: true },
     openGraph: {
       title: seoTitle,
       description: seoDescription,

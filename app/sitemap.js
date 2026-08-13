@@ -11,6 +11,8 @@ export default function sitemap() {
     "/contact",
     "/privacy",
     "/terms",
+    "/price-tracker",
+    "/ai-cost-report",
   ].map((path) => ({
     url: `${SITE_URL}${path}`,
     lastModified: new Date(),
@@ -21,13 +23,15 @@ export default function sitemap() {
     lastModified: new Date(),
   }));
 
-  const reviewPages = articles.map((a) => ({
-    url: `${SITE_URL}/reviews/${a.slug}`,
-    // Use each article's real "last checked" date instead of "now" for
-    // every entry — more accurate, and avoids every URL in the sitemap
-    // showing an identical timestamp (a pattern that can look automated).
-    lastModified: new Date(a.date + "T00:00:00"),
-  }));
+  const reviewPages = articles
+    .filter((a) => !a.noindex)
+    .map((a) => ({
+      url: `${SITE_URL}/reviews/${a.slug}`,
+      // Use each article's real "last checked" date instead of "now" for
+      // every entry — more accurate, and avoids every URL in the sitemap
+      // showing an identical timestamp (a pattern that can look automated).
+      lastModified: new Date(a.date + "T00:00:00"),
+    }));
 
   return [...staticPages, ...categoryPages, ...reviewPages];
 }

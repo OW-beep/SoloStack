@@ -71,6 +71,8 @@ export default function Footer() {
               <Link href="/about">About SoloStack</Link>
               <Link href="/author">About the Author</Link>
               <Link href="/methodology">Methodology</Link>
+              <Link href="/price-tracker">Price Change Tracker</Link>
+              <Link href="/ai-cost-report">AI Toolkit Cost Report</Link>
               <Link href="/contact">Contact</Link>
               <Link href="/privacy">Privacy policy</Link>
               <Link href="/terms">Terms of Service</Link>
