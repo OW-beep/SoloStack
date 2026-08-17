@@ -104,6 +104,21 @@ export default function AuthorPage() {
           different scale.
         </p>
 
+        <h2>Featured in</h2>
+        <ul>
+          <li>
+            <a
+              href="https://blog.connectively.us/25-legal-challenges-faced-during-business-formation-and-how-to-overcome-them/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              25 Legal Challenges Faced During Business Formation and How to
+              Overcome Them
+            </a>{" "}
+            — Connectively (Aug 2026)
+          </li>
+        </ul>
+
         <h2>More on how the site works</h2>
         <p>
           For the specific criteria used in each comparison and where

@@ -40,9 +40,16 @@ export default function HomePage() {
 
       <div className="tape" aria-hidden="true">
         <div className="tape-marquee">
-          {Array.from({ length: 6 }).map((_, i) => (
+          {[
+            "Real pricing",
+            "No sponsored rankings",
+            "Updated for 2026",
+            "0 sponsored placements",
+            "247+ tools compared",
+            "Re-checked before publishing",
+          ].map((phrase, i) => (
             <span className="tape-inner" key={i}>
-              Real pricing · No sponsored rankings · Updated for 2026
+              {phrase}
             </span>
           ))}
         </div>

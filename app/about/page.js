@@ -47,7 +47,15 @@ export default function AboutPage() {
           includes enterprise consulting as well as independent project
           work, and that background shapes how each comparison gets
           built — see the <Link href="/author">full author page</Link>{" "}
-          for more on his approach.
+          for more on his approach, including{" "}
+          <a
+            href="https://blog.connectively.us/25-legal-challenges-faced-during-business-formation-and-how-to-overcome-them/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            outside coverage he's contributed to
+          </a>
+          .
         </p>
 
         <h2>How this site makes money</h2>
