@@ -1,5 +1,7 @@
 import { Space_Grotesk, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -107,6 +109,8 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
         <CookieConsent />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
