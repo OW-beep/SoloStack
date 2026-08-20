@@ -6,6 +6,7 @@ import { SITE_URL } from "../../../lib/site-config";
 import { getCategorySlug } from "../../../lib/categories";
 import RateCalculator from "../../../components/RateCalculator";
 import AICodingCostCalculator from "../../../components/AICodingCostCalculator";
+import InternationalPaymentCalculator from "../../../components/InternationalPaymentCalculator";
 import NewsletterSignup from "../../../components/NewsletterSignup";
 
 export function generateStaticParams() {
@@ -116,6 +117,24 @@ export default function ReviewPage({ params }) {
       costCalcIntroHtml = marked.parse(restMd.slice(0, costSplitIndex));
       costCalcRestHtml = marked.parse(
         costCalcMarker.replace(/^\n/, "") + restMd.slice(costSplitIndex + costCalcMarker.length)
+      );
+    }
+  }
+
+  // Special case: the international payments comparison gets a live
+  // calculator in place of the old static SVG chart, right after the
+  // Quick Comparison table and before the platform-by-platform sections.
+  const showPaymentCalc =
+    article.slug === "international-payment-platforms-freelancers";
+  const paymentCalcMarker = "\n## [Wise](https://wise.com) — the benchmark for low fees";
+  let paymentCalcIntroHtml = null;
+  let paymentCalcRestHtml = null;
+  if (showPaymentCalc) {
+    const paymentSplitIndex = restMd.indexOf(paymentCalcMarker);
+    if (paymentSplitIndex !== -1) {
+      paymentCalcIntroHtml = marked.parse(restMd.slice(0, paymentSplitIndex));
+      paymentCalcRestHtml = marked.parse(
+        paymentCalcMarker.replace(/^\n/, "") + restMd.slice(paymentSplitIndex + paymentCalcMarker.length)
       );
     }
   }
@@ -289,6 +308,18 @@ export default function ReviewPage({ params }) {
                 <article
                   className="article-body"
                   dangerouslySetInnerHTML={{ __html: wrapTables(costCalcRestHtml) }}
+                />
+              </>
+            ) : hasSplit && showPaymentCalc && paymentCalcIntroHtml !== null ? (
+              <>
+                <article
+                  className="article-body"
+                  dangerouslySetInnerHTML={{ __html: wrapTables(paymentCalcIntroHtml) }}
+                />
+                <InternationalPaymentCalculator />
+                <article
+                  className="article-body"
+                  dangerouslySetInnerHTML={{ __html: wrapTables(paymentCalcRestHtml) }}
                 />
               </>
             ) : (

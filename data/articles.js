@@ -1366,6 +1366,8 @@ If you don't have time for all seven questions before a purchase decision, the t
 ## Bottom line
 
 None of this replaces actually comparing tools in a category — that's what the rest of this site is for. But running a prospective subscription through these seven questions first tends to save more money than any individual tool comparison does, because it catches the subscriptions that shouldn't have been added at all, not just the wrong pick within a category you already needed.
+
+*Want this checklist (plus two more — a client contract checklist and a new-client vetting checklist) as a printable PDF you can check off instead of just read? [Get the bundle for $3](https://solostack7.gumroad.com/l/qaxpmo).*
 `,
   },
   {
@@ -2468,30 +2470,6 @@ A platform that boasts "no transfer fee" can still be expensive if its exchange 
 | Payoneer | ~1% transfer + up to ~2–3% card/currency fees | Mid-market rate with a markup | Marketplace freelancers (Upwork, Fiverr) |
 | PayPal | Up to ~4.4% combined | Mid-market rate with a markup (often the largest of the group) | Clients who insist on it |
 | Stripe | ~2.9% + $0.30, plus ~1–2% for cross-border/currency | Mid-market rate with a smaller markup than PayPal | Freelancers who invoice through a website or Stripe-based tool |
-
-
-<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing approximate all-in fees for Wise, Payoneer, Stripe, and PayPal on a typical international freelance payment" style="width:100%;height:auto;font-family:sans-serif;">
-  <text x="0" y="20" font-size="13" font-weight="700" fill="#1b1f23">Approximate all-in cost on a $1,000 international payment</text>
-  <text x="0" y="38" font-size="11" fill="#1b1f23" opacity="0.6">Combined transfer fee + typical currency conversion markup, rounded</text>
-
-  <text x="0" y="80" font-size="13" fill="#1b1f23">Wise</text>
-  <rect x="90" y="64" width="35" height="22" fill="#3e7c8a"></rect>
-  <text x="135" y="80" font-size="13" fill="#1b1f23" font-weight="700">~$7 (0.7%)</text>
-
-  <text x="0" y="120" font-size="13" fill="#1b1f23">Stripe</text>
-  <rect x="90" y="104" width="175" height="22" fill="#e8a33d"></rect>
-  <text x="275" y="120" font-size="13" fill="#1b1f23" font-weight="700">~$35 (3.5%)</text>
-
-  <text x="0" y="160" font-size="13" fill="#1b1f23">Payoneer</text>
-  <rect x="90" y="144" width="125" height="22" fill="#e8a33d"></rect>
-  <text x="225" y="160" font-size="13" fill="#1b1f23" font-weight="700">~$25 (2.5%)</text>
-
-  <text x="0" y="200" font-size="13" fill="#1b1f23">PayPal</text>
-  <rect x="90" y="184" width="220" height="22" fill="#c94a3f"></rect>
-  <text x="320" y="200" font-size="13" fill="#1b1f23" font-weight="700">~$44 (4.4%)</text>
-
-  <text x="0" y="240" font-size="10.5" fill="#1b1f23" opacity="0.55">Figures are illustrative midpoints of the ranges discussed above, not live rates — always check current fees before sending a payment.</text>
-</svg>
 
 ## [Wise](https://wise.com) — the benchmark for low fees
 
@@ -4613,6 +4591,8 @@ If a full contract review isn't happening before a rushed project start, payment
 ## Bottom line
 
 None of these eight items require a lawyer to write into a standard agreement — most proposal and e-signature tools include templates that already cover the bulk of this. See our [proposal software guide](/reviews/best-proposal-software-freelancers) if a proposal-to-contract workflow isn't already part of how a project gets started. The actual habit that matters is running through this list before a project begins, when both sides are still agreeing on everything, rather than reaching for it for the first time in the middle of a disagreement.
+
+*Want this checklist (plus two more — a software buying checklist and a new-client vetting checklist) as a printable PDF you can check off instead of just read? [Get the bundle for $3](https://solostack7.gumroad.com/l/qaxpmo).*
 `,
   },
   {
@@ -4662,6 +4642,8 @@ If there's only time for one check before responding to an inbound lead, it's #2
 ## Bottom line
 
 None of these six checks are about being suspicious of every new client — most leads pass all of them without friction, and being overly guarded costs opportunities the same way saying yes to everything costs time. The point is having a specific, repeatable list to run through in the excitement of a new inquiry, rather than making that judgment call fresh, under time pressure, every single time.
+
+*Want this checklist (plus two more — a software buying checklist and a client contract checklist) as a printable PDF you can check off instead of just read? [Get the bundle for $3](https://solostack7.gumroad.com/l/qaxpmo).*
 `,
   },
   {
