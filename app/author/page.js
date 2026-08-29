@@ -18,7 +18,10 @@ export default function AuthorPage() {
     jobTitle: "Independent Developer",
     description:
       "Independent developer and former IT consultant with over 10 years of experience in enterprise systems and digital strategy.",
-    sameAs: ["https://www.linkedin.com/in/kosei-taki-3a1994428"],
+    sameAs: [
+      "https://www.linkedin.com/in/kosei-taki-3a1994428",
+      "https://youtube.com/@solostack-k",
+    ],
     worksFor: {
       "@type": "Organization",
       name: "SoloStack",
@@ -50,6 +53,15 @@ export default function AuthorPage() {
               className="author-linkedin"
             >
               View LinkedIn profile →
+            </a>
+            <a
+              href="https://youtube.com/@solostack-k"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="author-linkedin"
+              style={{ marginLeft: 16 }}
+            >
+              Watch on YouTube →
             </a>
           </div>
         </div>

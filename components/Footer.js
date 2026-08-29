@@ -45,6 +45,14 @@ export default function Footer() {
                 style={{ display: "block" }}
               />
             </a>
+            <a
+              href="https://youtube.com/@solostack-k"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-youtube-link"
+            >
+              ▶ Watch on YouTube
+            </a>
           </div>
           <div className="footer-nav">
             <div className="footer-col">

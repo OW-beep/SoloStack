@@ -2228,7 +2228,7 @@ For freelancers who want to test the idea at zero cost, Notion's DIY approach or
     dek: "Most proposal tools are built for sales teams handing off to a CRM. Freelancers need the opposite: a proposal that turns straight into a contract and an invoice.",
     seoDescription: "Affordable proposal software for freelancers, compared on real pricing — not sales-team tools that hand off to a CRM you don't have.",
     verdict: "Top pick: Better Proposals (best value)",
-    toolsCompared: 5,
+    toolsCompared: 6,
     readTime: "7 min read",
     date: "2026-06-05",
     faq: [
@@ -2238,7 +2238,7 @@ For freelancers who want to test the idea at zero cost, Notion's DIY approach or
       { q: "Do clients actually expect a formal proposal from a freelancer?", a: "It depends on client type and project size. Smaller or repeat clients are often fine with an emailed scope and price, while larger clients and bigger-budget projects increasingly expect a formal, professional-looking proposal as a baseline." },
     ],
     body: `
-A proposal sitting unopened in a client's inbox is one of the most common ways freelance income quietly leaks away. Sales-focused tools like PandaDoc and Proposify are built around a team handing a signed deal off to a CRM — and priced for that team, not a solo budget. A freelancer needs something narrower and more affordable: a proposal that looks professional, gets signed quickly, and ideally turns into a contract and invoice without re-typing the same scope and pricing three times.
+A proposal sitting unopened in a client's inbox is one of the most common ways freelance income quietly leaks away — and the numbers back that up: industry tracking from 2026 puts unopened email-attached PDF proposals at roughly 45%, while freelancers using dedicated proposal software (with tracking and e-signatures) report close rates around 36%, against a rough 20% industry average for proposals sent as plain email or PDF. Sales-focused tools like PandaDoc and Proposify are built around a team handing a signed deal off to a CRM — and priced for that team, not a solo budget. A freelancer needs something narrower and more affordable: a proposal that looks professional, gets signed quickly, and ideally turns into a contract and invoice without re-typing the same scope and pricing three times.
 
 ## What actually matters for a freelance proposal
 
@@ -2256,6 +2256,7 @@ A proposal sitting unopened in a client's inbox is one of the most common ways f
 | Proposify | ~$25–49/user/mo | Yes | No | Deepest analytics on client engagement |
 | Bonsai | ~$25/mo | Yes | Yes (proposals + contracts + invoicing) | All-in-one, fewer tools to juggle |
 | HoneyBook | ~$19+/mo | Yes | Yes (CRM + invoicing, creative-industry focus) | Photographers, designers, other creatives |
+| Agiled | Free plan available | Yes | Yes (proposals + e-signatures + invoicing + contracts) | Lowest-cost all-in-one starting point |
 
 ## [Better Proposals](https://betterproposals.io) — the best value for most freelancers
 
@@ -2280,6 +2281,12 @@ Proposify's template system and page-by-page engagement tracking are the most de
 Both Bonsai and HoneyBook take a different approach: instead of a dedicated proposal tool you pair with separate invoicing and contract software, they bundle proposals, contracts, invoicing, and light CRM into a single flat-rate subscription. The trade-off for that convenience is generally less proposal-specific polish than Better Proposals or Proposify offer — fewer templates, simpler tracking — but for a freelancer who'd otherwise be paying for three separate tools, the combined cost frequently comes out lower. HoneyBook in particular is built with creative freelancers (photographers, designers, event professionals) in mind, with workflow templates for that kind of client process.
 
 **Best for:** freelancers who'd rather pay one flat subscription than stitch together a proposal tool, a contract tool, and invoicing software separately.
+
+## Agiled — the lowest-cost way to try the all-in-one approach
+
+Agiled takes the same all-in-one bet as Bonsai and HoneyBook — proposals, e-signatures, invoicing, and contracts in one place — but starts with a genuinely usable free plan rather than a paid tier from day one, which makes it the lowest-risk way to test whether the connected-workflow approach fits before committing to a paid subscription anywhere else in this category.
+
+**Best for:** freelancers who want to try an all-in-one proposal-to-invoice workflow at zero upfront cost before deciding whether to pay for a more polished dedicated tool.
 
 ## The follow-up matters as much as the tool
 
@@ -2596,7 +2603,7 @@ For most freelancers, HubSpot's free plan is the strongest starting point — a 
       { q: "Can I use a free e-signature tool for international clients?", a: "Most major tools are recognized as legally valid across most countries with electronic-signature laws, but rules vary by jurisdiction \u2014 worth a quick check if a specific client's country has unusual requirements." },
     ],
     body: `
-Getting a contract signed before starting work is one of the simplest ways a freelancer protects themselves, but DocuSign's pricing — built around sales teams processing hundreds of contracts a month — makes it feel like overkill for a two-page freelance agreement. The good news: electronic signatures are legally binding under the same laws (the US ESIGN Act, the EU's eIDAS regulation, and equivalent rules elsewhere) no matter which tool produces them, so a free tool holds up exactly as well as an expensive one for a standard freelance contract.
+Getting a contract signed before starting work is one of the simplest ways a freelancer protects themselves, but DocuSign's pricing — built around sales teams processing hundreds of contracts a month — makes it feel like overkill for a two-page freelance agreement. The good news: electronic signatures are legally binding under the same laws (the US ESIGN Act, the EU's eIDAS regulation, and equivalent rules elsewhere) no matter which tool produces them, so a free tool holds up exactly as well as an expensive one for a standard freelance contract. If you just need the exact steps for signing a single document right now, see our [step-by-step guide to signing a contract online for free](/reviews/how-to-sign-a-contract-online-for-free) — this article is more about picking a tool for ongoing use.
 
 *The cost of skipping e-signature entirely showed up on a contract handled the old way: print, sign, scan, email, only for the client to come back twice — a signature in the wrong field, a missing initial on one page — before a key contact went on leave for three business days waiting on a reply. Total time to a signed contract: about eight days, on a $2,000/month engagement where a week of delay was a real, calculable cost to cash flow. The next contract went through an e-signature tool instead — fields set up once, a link sent, both sides notified automatically the moment it was signed — and closed within 24 hours. The lesson wasn't about the document at all; a contract stopped being "something to write" and became "a workflow to remove friction from," and print-scan-mail is exactly the kind of friction that turns a signature into a bottleneck, especially across time zones.*
 
@@ -3571,6 +3578,10 @@ Smartcat's pitch is straightforward: full CAT tool functionality free for freela
 
 **Best for:** translators just starting out, working primarily through Smartcat's marketplace, or wanting a genuinely free tool to learn CAT workflows before committing to a paid license.
 
+## Winning direct clients, not just agency work
+
+Agency work through Trados or memoQ isn't the only path — a growing share of translators build a direct-client pipeline instead, which sidesteps agency CAT tool requirements entirely but adds a different set of tools to the stack. A quote for a direct client is effectively a small proposal, and our [proposal software guide](/reviews/best-proposal-software-freelancers) covers what turns a quote into something that actually gets signed rather than left unanswered. A simple portfolio site listing language pairs, specialties, and sample work also does real work here — see our [website builder guide](/reviews/squarespace-vs-wix-freelancer-portfolio) if that's not already part of how direct clients find you.
+
 ## Bottom line
 
 For most freelance translators with an established agency pipeline, Trados remains the pragmatic default despite the ongoing subscription cost, simply because so much agency work assumes it. memoQ is the strongest alternative — genuinely well-regarded, with a perpetual license that pays for itself within two years for anyone planning a long career in translation. Smartcat is worth starting with at zero cost, particularly if the marketplace itself is part of your income strategy, but its agency acceptance and marketplace price pressure are real trade-offs to go in aware of. Whichever CAT tool you settle on, invoicing across currencies for international agency clients is a separate problem — see our [international payment platforms guide](/reviews/international-payment-platforms-freelancers) for that part of the business.
@@ -3705,7 +3716,6 @@ For most true solo bookkeepers and virtual assistants, Financial Cents' combinat
   },
   {
     slug: "voices-com-vs-voice123-freelance-voice-actors",
-    noindex: true, // thin (764 words) — revisit once expanded
     category: "Winning Clients",
     title: "Voices.com vs Voice123 for Freelance Voice Actors",
     seoTitle: "Voices.com vs Voice123 for Freelancers (2026): Membership Cost & Client Quality",
@@ -3756,6 +3766,18 @@ Voice123 works differently: voice actors pay an annual membership fee, ranging f
 ## Do you need to pick just one?
 
 Many working voice actors maintain active profiles on both platforms simultaneously — the membership costs are separate line items, not an either-or choice, and running both maximizes the range of client budgets and audition types you're exposed to. The real budgeting question is whether the combined membership cost is justified by your current booking rate, which is worth tracking for a few months on one platform before adding the second.
+
+## What Voices.com's tiers actually include
+
+Voices.com doesn't publish a single flat membership price — tiers scale with the level of visibility and audition access, and the exact figure shifts with promotions and region, so treat any specific number as a starting point to confirm rather than a fixed rate. What stays consistent across tiers is the commission on top: Voices.com earns from both sides of a booking (a service fee from the client, a commission from the talent), which is the structural trade-off for its larger audition volume and corporate client base.
+
+## Getting paid once you're booked
+
+Neither platform handles client invoicing directly — once a booking closes, getting paid (especially from a corporate client based in another country) becomes a separate, ordinary freelance-payments problem. See our [international payment platforms guide](/reviews/international-payment-platforms-freelancers) for how the fees on a cross-border payment actually compare, and our [invoicing software guide](/reviews/invoicing-software-international-freelancers) if a formal invoice needs to go out before a corporate client's accounts-payable department will release payment at all — that requirement shows up more often with the larger clients Voices.com tends to attract.
+
+## If a client asks for proof you're insured or under contract
+
+A membership fee gets you into the audition pool — it doesn't answer the questions a larger corporate client's legal or procurement team may ask before signing off on a booking. Two that come up periodically in voice work: proof of professional liability coverage (see our [business insurance guide](/reviews/best-business-insurance-freelancers)) and a written agreement covering usage rights and payment terms before recording starts (our [client contract checklist](/reviews/freelance-client-contract-checklist) covers what's worth pinning down in writing regardless of platform).
 
 ## Bottom line
 
@@ -4703,6 +4725,124 @@ Plus AI skips the "new platform" problem entirely by generating slides directly 
 For a freelance consultant, the honest starting point is Gamma — it gets a rough pitch structure onto the screen faster than anything else here, which matters most in the earliest, most blank-page part of building a deck. If slides are one of several client deliverables already running through Canva, its AI generation is good enough to skip a separate subscription. And once client-facing decks are frequent enough that visual consistency itself becomes worth paying for, Beautiful.ai's enforced design rules solve a problem none of the prompt-to-deck tools are built to solve on their own. Whichever tool drafts it, treat the output as a strong starting point to edit hard, not a finished pitch to send as-is — see our [proposal software guide](/reviews/best-proposal-software-freelancers) for the document that usually needs to agree with whatever the deck claims.
 
 *Pricing, free-tier credit limits, and export quality across all four tools have changed multiple times in 2026 and are likely to change again. Confirm current plans directly with each provider before building a client deliverable around one.*
+`,
+  },
+  {
+    slug: "best-ai-chatbot-tools-freelance-consultants",
+    category: "AI Stack",
+    title: "Best AI Chatbot Tools for Freelance Consultants and Small Service Businesses",
+    seoTitle: "Best AI Chatbot Tools for Freelancers (2026): Crisp vs Tidio vs Chatbase vs Intercom",
+    dek: "A chatbot conversation costs roughly $0.50-0.70 to handle versus $6-15 for you answering it yourself between client calls. The tools aren't interchangeable, though — free-tier generosity, setup time, and pricing model vary more here than in most software categories.",
+    seoDescription: "Crisp, Tidio, Chatbase, and Intercom Fin compared for freelance consultants and small service businesses — free tiers, setup time, and real 2026 pricing.",
+    verdict: "Crisp for a genuinely usable free tier, Tidio for the best value once you need real AI resolution, Chatbase for the fastest docs-trained bot, Intercom Fin if volume justifies per-resolution pricing",
+    toolsCompared: 4,
+    readTime: "8 min read",
+    date: "2026-08-28",
+    body: `
+Answering the same three questions from prospective clients — pricing, availability, what's included — eats into the hours that are actually billable. A chatbot trained on your own site and FAQ content handles that first pass automatically, at a fraction of the cost of doing it yourself between calls: industry data from 2026 puts a typical AI-handled conversation at $0.50-0.70, against $6-15 for a human handling the same question. For a solo consultant, the math works even at low volume — the question is which tool actually fits a one-person operation instead of a support team's ticket queue.
+
+## Quick comparison
+
+| | Crisp | Tidio | Chatbase | Intercom Fin |
+|---|---|---|---|---|
+| Best for | Genuinely usable free tier | Best value once you need real AI resolution | Fastest bot trained on your own docs | Highest-capability AI, if volume justifies the cost |
+| Starting paid price | Free (2 seats); Pro ~$95/month for deeper AI | $29/month + Lyro AI add-on (~$68/month realistic total) | Free (50 credits); Hobby ~$40/month | $29/seat + $0.99 per resolved conversation |
+| Free tier | Yes — unlimited conversations, 2 agent seats | Yes — 50 one-time Lyro conversations | Yes — 50 message credits/month | Trial only |
+| Setup time | Minutes | Under an hour | Minutes (point it at your site/docs) | Longer — most capable but most configuration |
+| Pricing model | Flat/seat-based | Base plan + separate AI usage add-on | Credit-based | Per-resolution (usage-based) |
+
+## Crisp — the free tier that's actually usable
+
+Most "free" chatbot tools cap conversations low enough that they function as a trial rather than a real plan. Crisp's free tier is the exception: unlimited conversations, two agent seats, and a shared inbox that merges site chat with email — genuinely enough for a solo consultant with low-to-moderate inbound volume to run indefinitely without paying anything. The trade-off is that the free tier's chatbot is closer to rule-based live chat than an AI agent; real AI-powered resolution (knowledge-base search, suggested replies) sits behind the ~$95/month Essentials plan, which is a steep jump from free.
+
+**Best for:** consultants with low support volume who want live chat covered at zero cost, and are fine keeping a human in the loop for most conversations.
+
+## Tidio — the clearest value once you actually need AI resolution
+
+Tidio splits pricing into a base platform fee (from $29/month) plus its Lyro AI engine as a separate add-on (roughly $39/month for a starter conversation volume) — meaning the realistic cost of "Tidio with real AI" is closer to $68/month than the $29 headline price suggests. What that buys: independent 2026 testing puts Tidio's automated resolution rate at 55-65% for common questions, live within roughly half an hour of setup, with native coverage across web chat, email, Messenger, Instagram, and WhatsApp. The one real gotcha worth knowing before committing: Tidio's plan tiers jump from around $59/month straight to $749/month with nothing in between, so it's worth modeling expected conversation volume against that ceiling before assuming it scales smoothly.
+
+**Best for:** consultants who've outgrown live-chat-only tools and want a proven, mid-priced AI resolution rate without an enterprise contract.
+
+## Chatbase — the fastest path to a docs-trained bot
+
+Chatbase's whole pitch is speed: point it at a website or a set of documents, and a working chatbot trained on that content is live in minutes, no flow-building required. For a consultant whose FAQ content already exists (a services page, a pricing page, a past-projects page) that's a genuinely fast way to get a first version live and see whether a chatbot is worth the ongoing cost at all. The trade-offs are real, though: it's thin once questions go beyond what's literally in the training content, and credit-based pricing means costs can climb faster than expected once real traffic arrives — model expected volume against the credit cost before assuming $40/month covers it.
+
+**Best for:** consultants who want to test whether a chatbot is worth it at all, using content that already exists, before committing to a pricier tool.
+
+## Intercom Fin — the most capable, if the math works at your volume
+
+Fin is the AI agent independent 2026 testing rates highest for actually resolving questions rather than just answering them — reported resolution rates above 50% against a solid knowledge base, with a human handoff that preserves full conversation context instead of making a client repeat themselves. The catch is the pricing model: a $29/seat base plus $0.99 per resolved conversation, which is the cheapest model on paper if the bot resolves most of what it's asked, and the most expensive if it doesn't. For a solo consultant with genuinely low volume, that per-resolution fee rarely adds up to much — the risk is underestimating volume once a chatbot starts working well enough that more prospects use it.
+
+**Best for:** consultants with enough inbound volume to justify per-resolution pricing, who want the highest-rated resolution quality available without a full enterprise contract.
+
+## The question that actually decides this
+
+*The instinct is to shop by sticker price first, but the number that actually matters is closer to: how many of the same three questions am I answering by hand every week, and what's an hour of that time actually worth? Below roughly 20 conversations a week, independent 2026 analysis suggests the savings rarely justify even a $29/month tool — a well-written FAQ page covers the same ground for free. Past that point, the free-tier-to-paid jump on most of these platforms is steep enough that it's worth deciding upfront whether the goal is "cover live chat cheaply" (Crisp) or "actually resolve questions without me" (Tidio or Fin), rather than discovering the difference after a month of confused chatbot answers, which was expensive in a different way — client questions still ended up in my inbox anyway, just after a chatbot had already answered wrong.*
+
+## Bottom line
+
+For a freelance consultant just testing whether this category is worth it, Crisp's free tier costs nothing to try and covers real ground for low support volume. Once genuine AI resolution matters and volume is past the free-tier ceiling, Tidio's ~$68/month realistic cost is the clearest value in the category. Chatbase is worth a look specifically when existing site content is strong enough to train a bot on quickly. And Intercom Fin only earns its per-resolution pricing once volume is high enough that the math clearly favors paying per outcome over a flat monthly fee.
+
+*Pricing, free-tier limits, and AI resolution rates across all four tools have changed multiple times in 2026 and are likely to change again — several sources cited here verified pricing as recently as July 2026. Confirm current terms directly with each provider before committing a client-facing tool to one.*
+`,
+  },
+  {
+    slug: "how-to-sign-a-contract-online-for-free",
+    category: "Guides",
+    title: "How to Sign a Contract Online for Free: A Step-by-Step Guide",
+    seoTitle: "How to Sign a Contract Online for Free (2026): Step-by-Step",
+    dek: "No printer, no scanner, no mailing anything. Here's exactly how to get a freelance contract signed online without paying for e-signature software you don't need yet.",
+    seoDescription: "How to sign a contract online for free — a step-by-step guide to legally binding e-signatures for freelancers, no paid software required.",
+    verdict: "Use a free e-signature tool's web app directly — no account needed for most one-off signatures",
+    toolsCompared: 5,
+    readTime: "6 min read",
+    date: "2026-08-30",
+    body: `
+Signing a contract online doesn't require buying software, and it doesn't require the print-sign-scan-email routine either. Electronic signatures are legally binding under the same laws — the US ESIGN Act, the EU's eIDAS regulation, and equivalent rules elsewhere — regardless of which free tool produces them. Here's the actual step-by-step process, plus what changes once you're signing contracts regularly instead of once.
+
+## Step 1: Get the contract into a signable format
+
+Most contracts arrive as a PDF or a Word document. If it's a Word file, save or export it as a PDF first — every free e-signature tool below works from PDF, and PDF preserves formatting in a way Word documents crossing between different software often don't. If the contract only exists as a scanned image or a photo, most of these tools can still place a signature on top of it; just confirm the text is legible before sending.
+
+## Step 2: Pick a free tool based on how often you'll do this
+
+For a single, one-off contract, you don't need to create an account anywhere. Several tools let you upload a document, add a signature field, sign it, and download the result without signing up:
+
+- **Adobe Acrobat's free online e-sign tool** — upload a PDF, click to place your signature (type it, draw it, or upload an image of it), download the signed file. No account required for basic self-signing.
+- **DocuSign's free plan** — requires a free account but includes a genuinely usable tier for occasional signing, with the added benefit of a verifiable audit trail if a client ever questions whether a document was actually signed.
+- **SignWell's free tier** — built with freelancers specifically in mind, three documents a month at no cost, a cleaner interface than most "enterprise tool with a free tier bolted on" options.
+
+If you're the one sending the contract (not just signing one someone sent you), the process is nearly identical: upload the document, place a signature field where you need the other party to sign, and send them a link — no software installation on their end either.
+
+## Step 3: Place the signature correctly
+
+Most disputes about an online-signed contract don't come from the signature method — they come from a signature or initials missing on a page that required one. Before sending or finishing:
+
+- Check every page for a required initial, not just the final signature line
+- Confirm the date field is either filled automatically or filled correctly — an undated signature is a common, avoidable point of confusion later
+- If the other party needs to sign too, make sure their signature field is clearly marked, not just yours
+
+## Step 4: Save the signed copy somewhere you'll actually find it later
+
+The signed PDF that gets emailed back is easy to lose in an inbox six months later, right when you need to reference a specific clause. A simple habit that avoids this: save every signed contract into one dedicated folder (cloud storage, not just downloads) the same day it's signed, named with the client and date. Our [cloud storage guide](/reviews/best-cloud-storage-sharing-files-clients) covers where to keep it if you don't already have a system.
+
+## When free stops being enough
+
+*The free tier of nearly every e-signature tool covers occasional use well — the limit usually shows up as a monthly document cap (SignWell's three, for instance) once contracts become a regular part of onboarding new clients rather than an occasional task. That's a reasonable signal to move to a paid plan, not a reason to have avoided the free option earlier. The mistake worth avoiding is the reverse: paying for e-signature software before volume actually justifies it, when the free tier of most of these tools handles the first several months of a freelance business without friction.*
+
+## Is an online signature actually legally binding?
+
+Yes, in the US, EU, UK, Canada, and most other jurisdictions with commercial law — an electronic signature carries the same legal weight as a handwritten one for the vast majority of contract types. The US ESIGN Act (2000) and UETA, the EU's eIDAS regulation, and equivalent legislation elsewhere all establish this explicitly, not as a workaround or a gray area. The exceptions are narrow and mostly don't apply to freelance work: wills, certain real estate transfers, and a handful of other document types in specific jurisdictions still require a wet-ink signature. A standard freelance services agreement, NDA, or contract addendum isn't among them.
+
+What actually matters for enforceability isn't the signature method — it's whether the tool used can demonstrate who signed, when, and that the document wasn't altered afterward. That's the real reason a dedicated e-signature tool is worth using over, say, a signature pasted into a Word document: the audit trail, not the signature image itself, is what would hold up if a contract were ever disputed.
+
+## What to do if a client insists on printing and mailing it
+
+This still happens, particularly with larger or more traditional companies. If it's a genuine requirement rather than just habit, there's no way around it — but it's worth asking directly whether an electronically signed version would be accepted, since many companies default to "print and mail" out of process inertia rather than an actual legal requirement. Citing the ESIGN Act by name in that ask (electronic signatures have been legally valid for US contracts since 2000) sometimes moves the conversation along faster than a general request.
+
+## Bottom line
+
+For a single contract, Adobe's free online tool or SignWell's free tier covers it without creating unnecessary accounts or paying for anything. Once contract signing becomes routine — several new clients a month — see our [full e-signature tools comparison](/reviews/free-esignature-tools-freelance-contracts) for how the free and paid tiers stack up against each other at that volume, and our [client contract checklist](/reviews/freelance-client-contract-checklist) for what should actually be in the document before it gets to the signing stage at all.
 `,
   },
 ];

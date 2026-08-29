@@ -7,6 +7,7 @@ import { getCategorySlug } from "../../../lib/categories";
 import RateCalculator from "../../../components/RateCalculator";
 import AICodingCostCalculator from "../../../components/AICodingCostCalculator";
 import InternationalPaymentCalculator from "../../../components/InternationalPaymentCalculator";
+import RetirementContributionCalculator from "../../../components/RetirementContributionCalculator";
 import NewsletterSignup from "../../../components/NewsletterSignup";
 
 export function generateStaticParams() {
@@ -135,6 +136,24 @@ export default function ReviewPage({ params }) {
       paymentCalcIntroHtml = marked.parse(restMd.slice(0, paymentSplitIndex));
       paymentCalcRestHtml = marked.parse(
         paymentCalcMarker.replace(/^\n/, "") + restMd.slice(paymentSplitIndex + paymentCalcMarker.length)
+      );
+    }
+  }
+
+  // Special case: the retirement account comparison gets a live
+  // calculator right after the worked $150k example, so readers can
+  // plug in their own income instead of just reading the illustration.
+  const showRetirementCalc =
+    article.slug === "sep-ira-vs-solo-401k-freelancers";
+  const retirementCalcMarker = "\n## Where to actually open one";
+  let retirementCalcIntroHtml = null;
+  let retirementCalcRestHtml = null;
+  if (showRetirementCalc) {
+    const retirementSplitIndex = restMd.indexOf(retirementCalcMarker);
+    if (retirementSplitIndex !== -1) {
+      retirementCalcIntroHtml = marked.parse(restMd.slice(0, retirementSplitIndex));
+      retirementCalcRestHtml = marked.parse(
+        retirementCalcMarker.replace(/^\n/, "") + restMd.slice(retirementSplitIndex + retirementCalcMarker.length)
       );
     }
   }
@@ -320,6 +339,18 @@ export default function ReviewPage({ params }) {
                 <article
                   className="article-body"
                   dangerouslySetInnerHTML={{ __html: wrapTables(paymentCalcRestHtml) }}
+                />
+              </>
+            ) : hasSplit && showRetirementCalc && retirementCalcIntroHtml !== null ? (
+              <>
+                <article
+                  className="article-body"
+                  dangerouslySetInnerHTML={{ __html: wrapTables(retirementCalcIntroHtml) }}
+                />
+                <RetirementContributionCalculator />
+                <article
+                  className="article-body"
+                  dangerouslySetInnerHTML={{ __html: wrapTables(retirementCalcRestHtml) }}
                 />
               </>
             ) : (
