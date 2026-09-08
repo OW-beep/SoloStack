@@ -2983,7 +2983,7 @@ If you don't bill hourly and just want personal time awareness, Clockify's free 
       { q: "Does multi-currency accounting software handle VAT for EU clients automatically?", a: "Not fully \u2014 most tools handle the currency conversion math but leave VAT registration thresholds, rates, and compliance rules to you or an accountant, since those vary by country and change independently of the accounting software itself." },
     ],
     body: `
-Billing a client in euros while your expenses are in your home currency creates problems that domestic-only accounting software simply isn't built to handle — exchange rate tracking, foreign currency reporting, and gain/loss calculations when a client pays weeks after you invoice. This guide compares accounting platforms specifically on how well they handle multi-currency freelance work, not just general bookkeeping.
+Billing a client in euros while your expenses are in your home currency creates problems that domestic-only accounting software simply isn't built to handle — exchange rate tracking, foreign currency reporting, and gain/loss calculations when a client pays weeks after you invoice. This guide compares accounting platforms specifically on how well they handle multi-currency freelance work, not just general bookkeeping. If you want the actual mechanics of getting the exchange-rate math right — which rate to use, and at what date — before picking a tool, see our [guide to tracking profit and loss in foreign currency](/reviews/how-to-track-profit-loss-foreign-currency-freelancer).
 
 ## What actually matters for cross-border freelancers
 
@@ -4902,6 +4902,61 @@ If the actual reason you're on accounting software at all is "my accountant need
 For most freelancers switching off Xero, the decision comes down to region and workflow more than price alone: Wave if you're US/Canada-based and want the accounting bill to disappear entirely, Zoho Books if you're elsewhere and want the closest thing to Wave's value, FreshBooks if hourly billing is the actual core of how you invoice, and QuickBooks only if accountant compatibility matters more than the switch saving you money. See our [Xero vs QuickBooks comparison](/reviews/xero-vs-quickbooks-freelancers) if QuickBooks is the direction you're actually leaning, for a closer look at how the two compare feature-by-feature.
 
 *Pricing across all four tools changes periodically — confirm current plans directly with each provider before migrating your books over.*
+`,
+  },
+  {
+    slug: "how-to-track-profit-loss-foreign-currency-freelancer",
+    category: "Getting Paid",
+    title: "How to Track Profit and Loss in Foreign Currency as a Freelancer",
+    seoTitle: "Tracking P&L in Foreign Currency (2026): A Freelancer's Guide",
+    dek: "\"How much did I actually make this quarter\" gets a lot harder to answer once payments arrive in three different currencies. Here's how to track it properly.",
+    seoDescription: "How to track profit and loss in foreign currency as a freelancer — exchange rate methods, what to record at invoice time vs payment time, and how to avoid a P&L that's technically wrong.",
+    verdict: "Record the exchange rate at the moment money actually lands, not at invoice time — and pick one method for the whole year",
+    toolsCompared: 3,
+    readTime: "7 min read",
+    date: "2026-09-05",
+    body: `
+A freelancer with clients paying in two or three different currencies can do everything else right — track every invoice, log every expense — and still end up with a profit and loss statement that's quietly wrong, because of a single detail: which exchange rate got used, and when. This is the actual mechanics of getting it right, not just which software to buy.
+
+## The core problem: which exchange rate, at which moment
+
+A $1,000 invoice sent in January and paid in March isn't the same $1,000 in your home currency on both dates — the exchange rate moved in between. Three different rates are potentially in play for a single invoice: the rate on the day you sent it, the rate on the day payment actually landed, and the rate on the day you converted it to your home currency (if you didn't convert immediately). Using the wrong one consistently doesn't just introduce small rounding errors — over a year of international invoices, it can shift your reported profit by a meaningful percentage in either direction.
+
+## Pick one method and use it all year
+
+**Cash-basis, payment-date method** (the one most solo freelancers should use): record revenue at the exchange rate on the date payment actually lands in your account, not the date you sent the invoice. This matches how most tax authorities expect cash-basis freelancers to report foreign income, and it's the simplest to keep consistent — one rate, one date, no reconciling entries later.
+
+**Accrual-basis, invoice-date method**: record revenue at the rate on the invoice date, then record a separate gain or loss entry when payment actually arrives at a different rate. More accurate for matching revenue to when work was actually done, but meaningfully more bookkeeping — most solo freelancers without a bookkeeper find this more complexity than it's worth.
+
+Whichever you choose, the point is consistency — switching methods partway through a year is where P&L statements actually become unreliable, not the choice of method itself.
+
+## A worked example
+
+Say a $2,000 invoice is sent on January 15, and payment lands on February 20, by which point the exchange rate to your home currency has shifted from 1.00 to 1.03 (a 3% move — not unusual over five weeks). Using the payment-date method, you record $2,000 converted at the February 20 rate — that's your revenue figure, full stop. You don't separately record a "gain" from the rate moving in your favor, because payment-date recording only ever looks at the one date. That simplicity is exactly why it's the right default for most solo freelancers: there's one number, one date, and nothing to reconcile later. The accrual method would have recorded $2,000 at the January rate, then a small separate FX gain entry for the difference — technically more precise about when the value was earned, but two entries instead of one, for every single invoice, all year.
+
+## Where to actually get the exchange rate
+
+Don't use whatever rate your bank or payment processor displays at checkout — that rate typically includes a markup, and using it for accounting purposes muddles "what I earned" with "what the payment processor charged me to convert it," which are two different numbers you actually want to track separately. Use a neutral source for the accounting entry itself:
+
+- The European Central Bank's daily reference rates (free, widely accepted as a neutral source)
+- [xe.com](https://www.xe.com)'s historical rate lookup for a specific past date
+- Your accounting software's built-in rate feed, if it pulls from a neutral source rather than a payment processor's rate
+
+Then separately, track what your payment platform actually charged you to convert — that's a real cost, but it's a fee, not part of your revenue calculation. Our [international payment platforms guide](/reviews/wise-vs-paypal-freelancers-international-payments) covers how those markups compare across providers, since they vary more than people expect.
+
+## What this looks like in practice
+
+*A quarter with invoices in USD, EUR, and GBP used to mean three separate mental exchange-rate conversions before knowing an actual number for "what did I make this quarter" — done inconsistently enough that the number changed depending on when you asked. Settling on payment-date rates from a neutral source, logged the same day money landed, turned that into a five-minute lookup instead of a quarterly guessing exercise. The specific method mattered less than finally having just one.*
+
+## Software that handles this automatically
+
+Manually looking up historical exchange rates for every invoice is exactly the kind of task worth automating once volume justifies it. See our [multi-currency accounting software guide](/reviews/multi-currency-accounting-software-freelancers) for which tools pull rates automatically and apply them consistently — the right tool removes this entire process, but it's worth understanding the mechanics above even so, since every tool still asks you to choose cash-basis or accrual-basis at setup.
+
+## Bottom line
+
+The specific exchange rate source and accounting method matter less than picking one of each and using it consistently for the full year — a P&L that's built on a single, defensible method is more useful than one that's technically more "accurate" in theory but was calculated three different ways depending on the invoice. Once foreign-currency invoices are a regular part of the business rather than an occasional one, that's the point to move this from a manual lookup into accounting software that automates it.
+
+*This is general guidance on the mechanics of currency conversion for bookkeeping, not tax advice — confirm which method your specific tax jurisdiction expects for cash-basis vs accrual-basis foreign income before filing.*
 `,
   },
 ];
