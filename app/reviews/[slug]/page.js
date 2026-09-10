@@ -10,6 +10,7 @@ import AICodingCostCalculator from "../../../components/AICodingCostCalculator";
 import InternationalPaymentCalculator from "../../../components/InternationalPaymentCalculator";
 import RetirementContributionCalculator from "../../../components/RetirementContributionCalculator";
 import HistoricalFXLookup from "../../../components/HistoricalFXLookup";
+import CurrencyVolatilitySnapshot from "../../../components/CurrencyVolatilitySnapshot";
 import NewsletterSignup from "../../../components/NewsletterSignup";
 
 export function generateStaticParams() {
@@ -349,6 +350,14 @@ export default function ReviewPage({ params }) {
                 className="article-body"
                 dangerouslySetInnerHTML={{ __html: wrapTables(introHtml) }}
               />
+            )}
+
+            {/* This article's natural intro/rest split (on "## Quick
+                comparison") already lands right after the anecdote about
+                exchange-rate drift — no separate marker needed, unlike the
+                other special cases above. */}
+            {article.slug === "multi-currency-accounting-software-freelancers" && (
+              <CurrencyVolatilitySnapshot />
             )}
 
             {SHOW_AD_SLOTS && (

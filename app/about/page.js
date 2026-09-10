@@ -39,6 +39,14 @@ export default function AboutPage() {
           where our information comes from, what we don't claim, and how
           to report something that's outdated or wrong.
         </p>
+        <p>
+          Some of what's here isn't a head-to-head comparison at all —
+          the <Link href="/price-tracker">Price Change Tracker</Link>,{" "}
+          <Link href="/ai-cost-report">AI Toolkit Cost Report</Link>, and
+          the live exchange-rate tools embedded in a few guides pull from
+          real, sourced data instead. Same standard applies: no guessing,
+          and a cited source for anything that isn't ours firsthand.
+        </p>
 
         <h2>Who writes this</h2>
         <p>
