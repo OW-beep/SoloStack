@@ -4,10 +4,12 @@ import { marked } from "marked";
 import { articles, getArticle, countLabel, countLabelShort } from "../../../data/articles";
 import { SITE_URL } from "../../../lib/site-config";
 import { getCategorySlug } from "../../../lib/categories";
+import { toAffiliateUrl } from "../../../lib/affiliate-links";
 import RateCalculator from "../../../components/RateCalculator";
 import AICodingCostCalculator from "../../../components/AICodingCostCalculator";
 import InternationalPaymentCalculator from "../../../components/InternationalPaymentCalculator";
 import RetirementContributionCalculator from "../../../components/RetirementContributionCalculator";
+import HistoricalFXLookup from "../../../components/HistoricalFXLookup";
 import NewsletterSignup from "../../../components/NewsletterSignup";
 
 export function generateStaticParams() {
@@ -158,6 +160,26 @@ export default function ReviewPage({ params }) {
     }
   }
 
+  // Special case: the foreign-currency P&L article gets a live rate
+  // lookup right where it explains where to get a neutral exchange
+  // rate — this article has no "## Quick comparison" heading (it's a
+  // walkthrough, not a tool comparison), so hasSplit is false and the
+  // whole body lives in introMd, same as the rate-calculators case.
+  const showFxLookup =
+    article.slug === "how-to-track-profit-loss-foreign-currency-freelancer";
+  const fxLookupMarker = "\n## What this looks like in practice";
+  let fxLookupIntroHtml = null;
+  let fxLookupRestHtml = null;
+  if (showFxLookup) {
+    const fxSplitIndex = introMd.indexOf(fxLookupMarker);
+    if (fxSplitIndex !== -1) {
+      fxLookupIntroHtml = marked.parse(introMd.slice(0, fxSplitIndex));
+      fxLookupRestHtml = marked.parse(
+        fxLookupMarker.replace(/^\n/, "") + introMd.slice(fxSplitIndex + fxLookupMarker.length)
+      );
+    }
+  }
+
   // Wrap any <table> the parser produced so it can scroll on mobile,
   // and make external links (some of which are affiliate links, per
   // our disclosure) open safely in a new tab, without leaking a
@@ -165,13 +187,19 @@ export default function ReviewPage({ params }) {
   // guidelines for paid/affiliate links. Internal links (relative
   // hrefs like /reviews/...) don't match this regex and are left
   // untouched, since they're neither external nor commercial.
+  // Before adding the sponsored/target attributes, each href is also
+  // run through toAffiliateUrl() — vendors configured in
+  // lib/affiliate-links.js get swapped to their tracked affiliate URL
+  // here, at render time, so the plain vendor URLs written in
+  // data/articles.js never need to change once a program is approved.
   const wrapTables = (html) =>
     html
       .replace(/<table>/g, '<div class="table-wrap"><table>')
       .replace(/<\/table>/g, "</table></div>")
       .replace(
         /<a href="(https?:\/\/[^"]+)"/g,
-        '<a target="_blank" rel="sponsored noopener noreferrer" href="$1"'
+        (match, url) =>
+          `<a target="_blank" rel="sponsored noopener noreferrer" href="${toAffiliateUrl(url)}"`
       );
 
   const otherArticles = articles.filter((a) => a.slug !== article.slug).slice(0, 3);
@@ -302,6 +330,18 @@ export default function ReviewPage({ params }) {
                 <article
                   className="article-body"
                   dangerouslySetInnerHTML={{ __html: wrapTables(calcRestHtml) }}
+                />
+              </>
+            ) : showFxLookup && fxLookupIntroHtml !== null ? (
+              <>
+                <article
+                  className="article-body"
+                  dangerouslySetInnerHTML={{ __html: wrapTables(fxLookupIntroHtml) }}
+                />
+                <HistoricalFXLookup />
+                <article
+                  className="article-body"
+                  dangerouslySetInnerHTML={{ __html: wrapTables(fxLookupRestHtml) }}
                 />
               </>
             ) : (
