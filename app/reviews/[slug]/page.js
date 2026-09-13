@@ -11,6 +11,7 @@ import InternationalPaymentCalculator from "../../../components/InternationalPay
 import RetirementContributionCalculator from "../../../components/RetirementContributionCalculator";
 import HistoricalFXLookup from "../../../components/HistoricalFXLookup";
 import CurrencyVolatilitySnapshot from "../../../components/CurrencyVolatilitySnapshot";
+import RateInflationCalculator from "../../../components/RateInflationCalculator";
 import NewsletterSignup from "../../../components/NewsletterSignup";
 
 export function generateStaticParams() {
@@ -96,15 +97,30 @@ export default function ReviewPage({ params }) {
   // right where it discusses doing this math yourself.
   const showCalculator = article.slug === "how-to-price-freelance-work-rate-calculators";
   const calcMarker = "\n## Tools worth using for the math";
+  // Second insertion point, further down the same article: the
+  // inflation-vs-rate checker goes right where the piece pivots from
+  // "is this competitive" to "has this quietly lost value over time."
+  const inflationMarker = "\n## Is your rate still worth what it used to be";
   let calcIntroHtml = null;
   let calcRestHtml = null;
+  let calcMidHtml = null;
+  let calcEndHtml = null;
   if (showCalculator) {
     const calcSplitIndex = introMd.indexOf(calcMarker);
     if (calcSplitIndex !== -1) {
       calcIntroHtml = marked.parse(introMd.slice(0, calcSplitIndex));
-      calcRestHtml = marked.parse(
-        calcMarker.replace(/^\n/, "") + introMd.slice(calcSplitIndex + calcMarker.length)
-      );
+      const restMdForCalc =
+        calcMarker.replace(/^\n/, "") + introMd.slice(calcSplitIndex + calcMarker.length);
+      const inflationSplitIndex = restMdForCalc.indexOf(inflationMarker);
+      if (inflationSplitIndex !== -1) {
+        calcMidHtml = marked.parse(restMdForCalc.slice(0, inflationSplitIndex));
+        calcEndHtml = marked.parse(
+          inflationMarker.replace(/^\n/, "") +
+            restMdForCalc.slice(inflationSplitIndex + inflationMarker.length)
+        );
+      } else {
+        calcRestHtml = marked.parse(restMdForCalc);
+      }
     }
   }
 
@@ -328,10 +344,24 @@ export default function ReviewPage({ params }) {
                   dangerouslySetInnerHTML={{ __html: wrapTables(calcIntroHtml) }}
                 />
                 <RateCalculator />
-                <article
-                  className="article-body"
-                  dangerouslySetInnerHTML={{ __html: wrapTables(calcRestHtml) }}
-                />
+                {calcMidHtml !== null && calcEndHtml !== null ? (
+                  <>
+                    <article
+                      className="article-body"
+                      dangerouslySetInnerHTML={{ __html: wrapTables(calcMidHtml) }}
+                    />
+                    <RateInflationCalculator />
+                    <article
+                      className="article-body"
+                      dangerouslySetInnerHTML={{ __html: wrapTables(calcEndHtml) }}
+                    />
+                  </>
+                ) : (
+                  <article
+                    className="article-body"
+                    dangerouslySetInnerHTML={{ __html: wrapTables(calcRestHtml) }}
+                  />
+                )}
               </>
             ) : showFxLookup && fxLookupIntroHtml !== null ? (
               <>

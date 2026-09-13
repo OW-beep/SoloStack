@@ -1656,7 +1656,11 @@ At the time I was also paying for three tools: an AI writing assistant ($20/mont
 
 The lesson wasn't "don't buy tools." It was that an unused subscription doesn't sit quietly in a general expenses category — it attaches itself to whatever project happens to be running that month and lowers that project's real rate, even though the number on the invoice never changes. See our [software buying checklist](/reviews/freelance-software-buying-checklist) if a similar review of what's still actually earning its keep is overdue.
 
-Worth admitting honestly: knowing this doesn't automatically make it a habit. I'm fully aware my own rate is overdue for a proper review right now, months later, and haven't sat down and actually done it — which is a genuinely common gap between knowing a check is worth running and actually scheduling the time to run it. If this sounds familiar, you're not alone in it; the calculator above at least removes the excuse of not having the number in the first place.
+Worth admitting honestly: knowing a rate is overdue for review doesn't automatically make it happen. I went over three years without raising mine at all — not a deliberate decision, just the kind of thing that's easy to keep not getting around to when nothing is visibly broken. What actually snapped it into focus wasn't my own math; it was hearing what a couple of other freelancers doing comparable work were actually charging, which was well above what I'd been quoting. I didn't touch the rate on existing clients — that felt like a harder conversation to have retroactively — but every new project from that point on went out at the higher number.
+
+## Is your rate still worth what it used to be
+
+The gap I found wasn't really about being underpriced relative to the market — it was simpler than that. Three years of inflation alone means a rate that felt right back then is quietly worth less today, even before asking whether it was competitive to begin with. That's a different question than the market-rate check above, and one a calculator can actually answer with real data instead of a guess.
 
 Note what this number does and doesn't tell you. It's the rate below which this freelancer is earning less than their stated target — a genuinely useful floor. It says nothing about whether $69/hour is competitive for their specific skill and market, which is exactly why step 2 (checking against real market-rate data) matters as much as the calculation itself.
 
