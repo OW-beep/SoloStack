@@ -12,6 +12,7 @@ import RetirementContributionCalculator from "../../../components/RetirementCont
 import HistoricalFXLookup from "../../../components/HistoricalFXLookup";
 import CurrencyVolatilitySnapshot from "../../../components/CurrencyVolatilitySnapshot";
 import RateInflationCalculator from "../../../components/RateInflationCalculator";
+import VatRateLookup from "../../../components/VatRateLookup";
 import NewsletterSignup from "../../../components/NewsletterSignup";
 
 export function generateStaticParams() {
@@ -173,6 +174,25 @@ export default function ReviewPage({ params }) {
       retirementCalcIntroHtml = marked.parse(restMd.slice(0, retirementSplitIndex));
       retirementCalcRestHtml = marked.parse(
         retirementCalcMarker.replace(/^\n/, "") + restMd.slice(retirementSplitIndex + retirementCalcMarker.length)
+      );
+    }
+  }
+
+  // Special case: the multi-currency accounting guide gets a live EU
+  // VAT rate lookup right where it pivots from "the math" to "the
+  // compliance questions" — this is a second tool on the same article
+  // as CurrencyVolatilitySnapshot above (which sits at the intro/rest
+  // boundary), so this one operates on restMd instead of introMd.
+  const showVatLookup = article.slug === "multi-currency-accounting-software-freelancers";
+  const vatLookupMarker = "\n## Checking the rate itself";
+  let vatLookupIntroHtml = null;
+  let vatLookupRestHtml = null;
+  if (showVatLookup) {
+    const vatSplitIndex = restMd.indexOf(vatLookupMarker);
+    if (vatSplitIndex !== -1) {
+      vatLookupIntroHtml = marked.parse(restMd.slice(0, vatSplitIndex));
+      vatLookupRestHtml = marked.parse(
+        vatLookupMarker.replace(/^\n/, "") + restMd.slice(vatSplitIndex + vatLookupMarker.length)
       );
     }
   }
@@ -430,6 +450,18 @@ export default function ReviewPage({ params }) {
                 <article
                   className="article-body"
                   dangerouslySetInnerHTML={{ __html: wrapTables(retirementCalcRestHtml) }}
+                />
+              </>
+            ) : hasSplit && showVatLookup && vatLookupIntroHtml !== null ? (
+              <>
+                <article
+                  className="article-body"
+                  dangerouslySetInnerHTML={{ __html: wrapTables(vatLookupIntroHtml) }}
+                />
+                <VatRateLookup />
+                <article
+                  className="article-body"
+                  dangerouslySetInnerHTML={{ __html: wrapTables(vatLookupRestHtml) }}
                 />
               </>
             ) : (

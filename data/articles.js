@@ -3044,6 +3044,10 @@ For freelancers who invoice heavily across borders, Xero is consistently the top
 ## A word on VAT and cross-border tax rules
 
 Multi-currency accounting software handles the math, but not the compliance questions — VAT obligations for EU clients, withholding requirements, and tax residency questions vary by country and aren't something any of these tools resolve on their own. If a meaningful share of your income comes from international clients, it's worth a one-time consultation with an accountant familiar with cross-border freelance income, even if you handle day-to-day bookkeeping yourself.
+
+## Checking the rate itself
+
+The accountant conversation above is about whether and how VAT applies to your situation. The rate itself, at least, is a fact rather than a judgment call — and one that's easy to look up wrong from a stale blog post, since EU member states do revise rates.
  If you've specifically narrowed things down to Xero or QuickBooks, our dedicated [Xero vs QuickBooks comparison](/reviews/xero-vs-quickbooks-freelancers) covers that decision in more depth.
 ## Bottom line
 
