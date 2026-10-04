@@ -1452,6 +1452,11 @@ For most freelancers, Fathom's free tier is the strongest all-around starting po
     toolsCompared: 4,
     readTime: "6 min read",
     date: "2026-07-08",
+    faq: [
+      { q: "Is a custom domain email worth it for freelancers?", a: "Yes for most freelancers who already have paying clients or expect to within a few months \u2014 the cost is roughly $65-70/year all in, and the main realistic downside is a short deliverability dip while the new domain builds sending reputation. It matters least for someone with zero clients yet and no pitches in flight, where there's no existing reputation to protect either way." },
+      { q: "What's the best affordable email for freelancers?", a: "Zoho Mail's free tier \u2014 it supports a custom domain, up to 5 users, and 5GB of storage each at no ongoing cost beyond the ~$10-15/year domain itself, which is as close to a complete professional setup as exists without a subscription." },
+      { q: "What are the most reliable professional email services for freelancers?", a: "Zoho Mail, Google Workspace, Microsoft 365, and Proton Mail all meet a professional reliability bar \u2014 the real differentiator between them is ecosystem fit (Google or Microsoft tools you already use) and budget, not uptime or deliverability, which are comparable across all four." },
+    ],
     body: `
 A free Gmail or Outlook address works fine technically, but a growing body of freelancer and small-business advice keeps landing on the same observation: a custom-domain email address reads as more established to a client comparing multiple freelancers, even when the actual work is identical. The good news is this is one of the cheapest professional upgrades available — a domain costs roughly $10-15 a year, and several providers offer genuinely usable email hosting for free or close to it.
 
