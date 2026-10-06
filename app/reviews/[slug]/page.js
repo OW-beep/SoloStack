@@ -13,6 +13,7 @@ import HistoricalFXLookup from "../../../components/HistoricalFXLookup";
 import CurrencyVolatilitySnapshot from "../../../components/CurrencyVolatilitySnapshot";
 import RateInflationCalculator from "../../../components/RateInflationCalculator";
 import VatRateLookup from "../../../components/VatRateLookup";
+import RateContextByCountry from "../../../components/RateContextByCountry";
 import NewsletterSignup from "../../../components/NewsletterSignup";
 
 export function generateStaticParams() {
@@ -102,10 +103,16 @@ export default function ReviewPage({ params }) {
   // inflation-vs-rate checker goes right where the piece pivots from
   // "is this competitive" to "has this quietly lost value over time."
   const inflationMarker = "\n## Is your rate still worth what it used to be";
+  // Third insertion point, further still: the GDP-per-capita context
+  // tool goes where the piece turns to international-client rate
+  // expectations, right before the closing Bottom line section.
+  const countryContextMarker = "\n## What a client's country tells you about rate expectations";
   let calcIntroHtml = null;
   let calcRestHtml = null;
   let calcMidHtml = null;
   let calcEndHtml = null;
+  let calcCountryIntroHtml = null;
+  let calcCountryEndHtml = null;
   if (showCalculator) {
     const calcSplitIndex = introMd.indexOf(calcMarker);
     if (calcSplitIndex !== -1) {
@@ -115,10 +122,19 @@ export default function ReviewPage({ params }) {
       const inflationSplitIndex = restMdForCalc.indexOf(inflationMarker);
       if (inflationSplitIndex !== -1) {
         calcMidHtml = marked.parse(restMdForCalc.slice(0, inflationSplitIndex));
-        calcEndHtml = marked.parse(
+        const tailMdForCalc =
           inflationMarker.replace(/^\n/, "") +
-            restMdForCalc.slice(inflationSplitIndex + inflationMarker.length)
-        );
+          restMdForCalc.slice(inflationSplitIndex + inflationMarker.length);
+        const countrySplitIndex = tailMdForCalc.indexOf(countryContextMarker);
+        if (countrySplitIndex !== -1) {
+          calcCountryIntroHtml = marked.parse(tailMdForCalc.slice(0, countrySplitIndex));
+          calcCountryEndHtml = marked.parse(
+            countryContextMarker.replace(/^\n/, "") +
+              tailMdForCalc.slice(countrySplitIndex + countryContextMarker.length)
+          );
+        } else {
+          calcEndHtml = marked.parse(tailMdForCalc);
+        }
       } else {
         calcRestHtml = marked.parse(restMdForCalc);
       }
@@ -364,17 +380,31 @@ export default function ReviewPage({ params }) {
                   dangerouslySetInnerHTML={{ __html: wrapTables(calcIntroHtml) }}
                 />
                 <RateCalculator />
-                {calcMidHtml !== null && calcEndHtml !== null ? (
+                {calcMidHtml !== null && (calcEndHtml !== null || calcCountryIntroHtml !== null) ? (
                   <>
                     <article
                       className="article-body"
                       dangerouslySetInnerHTML={{ __html: wrapTables(calcMidHtml) }}
                     />
                     <RateInflationCalculator />
-                    <article
-                      className="article-body"
-                      dangerouslySetInnerHTML={{ __html: wrapTables(calcEndHtml) }}
-                    />
+                    {calcCountryIntroHtml !== null && calcCountryEndHtml !== null ? (
+                      <>
+                        <article
+                          className="article-body"
+                          dangerouslySetInnerHTML={{ __html: wrapTables(calcCountryIntroHtml) }}
+                        />
+                        <RateContextByCountry />
+                        <article
+                          className="article-body"
+                          dangerouslySetInnerHTML={{ __html: wrapTables(calcCountryEndHtml) }}
+                        />
+                      </>
+                    ) : (
+                      <article
+                        className="article-body"
+                        dangerouslySetInnerHTML={{ __html: wrapTables(calcEndHtml) }}
+                      />
+                    )}
                   </>
                 ) : (
                   <article

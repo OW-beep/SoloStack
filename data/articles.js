@@ -1683,6 +1683,9 @@ Now check that against a market-rate survey for your specific skill and region. 
 
 The most common mistake isn't picking a bad number — it's re-running the same calculator every year without updating the billable-hours assumption. A freelancer's realistic billable percentage tends to change a lot in year one versus year three: less time spent on proposals and pricing uncertainty, more time booked solid, sometimes turning away work. A rate calculated against a first-year 45% billable estimate should look different by year three, and a lot of freelancers just never revisit the math once they've settled on a number that feels normal.
 
+## What a client's country tells you about rate expectations
+
+Everything above assumes a single market. International clients complicate that — not because a client's country should dictate your rate, but because an unspoken assumption about what's "reasonable" can creep in on both sides of the conversation without either party stating it outright.
 
 ## Bottom line
 
