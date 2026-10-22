@@ -129,6 +129,17 @@ export default function AuthorPage() {
             </a>{" "}
             — Connectively (Aug 2026)
           </li>
+          <li>
+            <a
+              href="https://gritdaily.com/crucial-lessons-learned-in-year-one-advice-from-entrepreneurs/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Crucial Lessons Learned in Year One: Advice from
+              Entrepreneurs
+            </a>{" "}
+            — Grit Daily (Oct 2026)
+          </li>
         </ul>
 
         <h2>More on how the site works</h2>

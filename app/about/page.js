@@ -63,7 +63,16 @@ export default function AboutPage() {
           >
             outside coverage he's contributed to
           </a>
-          .
+          . Most recently, his advice on reviewing freelance rates on a
+          schedule was included in{" "}
+          <a
+            href="https://gritdaily.com/crucial-lessons-learned-in-year-one-advice-from-entrepreneurs/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Grit Daily's roundup of first-year entrepreneur lessons
+          </a>{" "}
+          (October 2026).
         </p>
 
         <h2>How this site makes money</h2>

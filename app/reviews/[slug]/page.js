@@ -16,6 +16,9 @@ import VatRateLookup from "../../../components/VatRateLookup";
 import RateContextByCountry from "../../../components/RateContextByCountry";
 import NewsletterSignup from "../../../components/NewsletterSignup";
 
+// Hosts linked as editorial references rather than as paid/affiliate links.
+const EDITORIAL_HOSTS = ["gritdaily.com"];
+
 export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
 }
@@ -251,8 +254,18 @@ export default function ReviewPage({ params }) {
       .replace(/<\/table>/g, "</table></div>")
       .replace(
         /<a href="(https?:\/\/[^"]+)"/g,
-        (match, url) =>
-          `<a target="_blank" rel="sponsored noopener noreferrer" href="${toAffiliateUrl(url)}"`
+        (match, url) => {
+          // Editorial citations (press coverage of the author) are not
+          // paid or affiliate links, so they should not be marked
+          // "sponsored".
+          const isEditorial = EDITORIAL_HOSTS.some((h) =>
+            url.startsWith(`https://${h}/`)
+          );
+          const rel = isEditorial
+            ? "noopener noreferrer"
+            : "sponsored noopener noreferrer";
+          return `<a target="_blank" rel="${rel}" href="${toAffiliateUrl(url)}"`;
+        }
       );
 
   const otherArticles = articles.filter((a) => a.slug !== article.slug).slice(0, 3);
