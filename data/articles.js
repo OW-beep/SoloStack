@@ -566,6 +566,12 @@ A pattern that shows up repeatedly in freelancer advice on this topic: pick one 
 
 *Upwork was the entry point into international client work early on — the first project, a $500 writing job, took about two weeks from applying to being hired, which felt faster than building a client base from scratch through outreach. What didn't show up until actually doing the math: the platform fee wasn't the only cost. Writing a proposal for each job took 20-30 minutes, so ten applications meant four to five hours of unpaid work before any project was even won, and factoring that into the effective hourly rate on that first $500 project made it look considerably less attractive than the sticker number suggested. What made it worth it anyway, especially in the first few months, was everything the platform handled by default — contracts, delivery, ratings, invoicing — that would otherwise have to be built from nothing. Once a repeat client offered to move to a direct contract, setting up payment and invoicing independently made sense, and per-project take-home went up along with no longer needing to manage a platform rating. The way this settled: a marketplace isn't a permanent home, it's the fastest on-ramp to international client work when you have zero track record yet.*
 
+## How I use Upwork
+
+I use Upwork to find overseas client projects. Before applying I read the posting and check whether my experience matches what it asks for. In the proposal I try to describe what I can offer for the client's problem, not just list my background, because a list of past work does not show why hiring me is worth it.
+
+When I compare projects I look beyond the pay: the platform fee, time in meetings, rounds of revisions, and the delivery date. Fee rates depend on contract terms, so I check the conditions shown when I apply and when I sign. This section covers Upwork only.
+
 ## Bottom line
 
 For custom, higher-value, or ongoing project work, Upwork's lower effective fees and higher-spending client base generally produce better take-home pay once you're past the platform's initial bidding friction. For quick, clearly-scoped services you can package and sell repeatedly without custom proposals, Fiverr's larger buyer volume can offset its higher commission. For platforms beyond just these two, see our [guide to freelance marketplaces beyond Upwork and Fiverr](/reviews/freelance-marketplaces-beyond-upwork-fiverr).
@@ -702,7 +708,7 @@ Notion's strength is flexible, connected documents and databases — a freelance
 
 ClickUp's strength is the opposite trade-off: a project-management structure — list, board, calendar, and Gantt views, native time tracking, task dependencies — that works close to out of the box, at the cost of a denser interface with more of a learning curve upfront.
 
-Notion was also the very first piece of software I set up when I went independent, before an invoicing tool, before anything else — mostly because a blank page felt like less of a commitment than picking a "proper" project management system on day one. That's a reasonable way to start, but it's worth naming honestly: the flexibility that makes Notion appealing on day one is the same flexibility that lets a system slowly stop matching how you actually work, months later, without an obvious moment where you'd notice.
+Notion was also the very first piece of software I set up when I went independent, before an invoicing tool, before anything else — mostly because a blank page felt like less of a commitment than picking a "proper" project management system on day one. That's a reasonable way to start, but it's worth naming honestly: the flexibility that makes Notion appealing on day one is the same flexibility that lets a system slowly stop matching how you actually work, months later, without an obvious moment where you'd notice. I still use it to manage projects and to structure article drafts: deadlines, progress, and the next action for each piece of work.
 
 ## Quick comparison
 
@@ -1051,6 +1057,10 @@ Most professional liability policies are "claims-made," meaning the policy must 
 ## What "proof of coverage" actually means for an international client
 
 *A U.S. client on a $2,000/month contract asked for proof of professional liability insurance right after the contract was signed, just before work was supposed to start — a question I hadn't expected, since insurance had always felt like protection against something going wrong, not a condition of getting to start a project at all. Having a policy already in place meant this was a paperwork problem rather than a scramble to get covered on short notice, but it was still a three-business-day delay: the client didn't just want proof of enrollment, they specifically needed an English-language certificate showing the professional liability coverage type and the policy limit, which took a round-trip with the insurer to issue. Without an existing policy, that gap would have meant either delaying the contract start or starting the work uninsured. Since then, before taking on a client based overseas, confirming that a policy can produce an English-language certificate of insurance on request — not just that coverage exists — is one of the first things I check.*
+
+## What I carry and what I keep re-checking
+
+I carry liability insurance for my IT-related work, at about ¥15,000 a year. I chose it mainly on whether it covers losses from data leaks and mistakes in my work. Since taking it out I keep re-checking more than the premium: the coverage limit, whether it applies to overseas projects, the deductible, and how certificates of insurance are issued.
 
 ## Bottom line
 
@@ -1455,7 +1465,7 @@ For most freelancers, Fathom's free tier is the strongest all-around starting po
     readTime: "6 min read",
     date: "2026-07-08",
     faq: [
-      { q: "Is a custom domain email worth it for freelancers?", a: "Yes for most freelancers who already have paying clients or expect to within a few months \u2014 the cost is roughly $65-70/year all in, and the main realistic downside is a short deliverability dip while the new domain builds sending reputation. It matters least for someone with zero clients yet and no pitches in flight, where there's no existing reputation to protect either way." },
+      { q: "Is a custom domain email worth it for freelancers?", a: "Yes for most freelancers who already have paying clients or expect to within a few months \u2014 the cost is roughly $65-70/year all in, and the main realistic downside is a short deliverability dip while the new domain builds sending reputation. It matters least for someone with zero clients yet and no pitches in flight, where there's no existing reputation to protect either way. In my own case it did not bring a visible jump in inquiries; the benefit was a clearer business contact point, at about ¥900 per user per month for Google Workspace." },
       { q: "What's the best affordable email for freelancers?", a: "Zoho Mail's free tier \u2014 it supports a custom domain, up to 5 users, and 5GB of storage each at no ongoing cost beyond the ~$10-15/year domain itself, which is as close to a complete professional setup as exists without a subscription." },
       { q: "What are the most reliable professional email services for freelancers?", a: "Zoho Mail, Google Workspace, Microsoft 365, and Proton Mail all meet a professional reliability bar \u2014 the real differentiator between them is ecosystem fit (Google or Microsoft tools you already use) and budget, not uptime or deliverability, which are comparable across all four." },
     ],
@@ -1489,6 +1499,14 @@ Zoho Mail's free tier supports up to 5 users on one custom domain with 5GB of st
 Google Workspace is essentially Gmail's interface and reliability with your own domain attached, plus real Docs, Sheets, Drive, and Meet integration rather than the free consumer versions. For a freelancer who already lives inside Google's ecosystem for documents and file sharing (see our [cloud storage guide](/reviews/best-cloud-storage-freelancers-client-files)), that continuity is worth the monthly cost. There's no free tier — the lowest Starter plan runs roughly $7/user/month, and a domain still needs to be purchased separately.
 
 **Best for:** freelancers who want the exact Gmail experience they already know, with a custom domain and the full Google productivity suite attached.
+
+## What setting up Google Workspace actually took
+
+I use Google Workspace for my own business address, at about ¥900 per user per month. I set it up when I wanted a proper work contact, separate from my personal Gmail, so that client messages and invoice-related email would be easier to keep track of.
+
+The part that slowed me down was DNS. I had assumed that once the domain was bought, the address would just work. In practice the domain needed MX records pointed at Google, and I had to understand SPF and DKIM, the email authentication records, before I trusted it. Reading up on the settings and sending test messages took about two hours in total.
+
+It did not make inquiries jump. I did not see more people getting in touch after the switch. What changed was smaller: it became easier to present a business contact to someone I was writing to for the first time than a free personal address. At roughly ¥900 a month, that is a cost I find reasonable for keeping work contact in one place, but it is a tidy-up, not a growth lever.
 
 ## Microsoft 365 — best if clients are Microsoft-based
 
@@ -1755,6 +1773,10 @@ Webflow occupies an unusual spot: a visual, no-code editor that outputs clean, g
 Framer targets similar ground to Webflow — visual, near-code-level design control — with an interface that's noticeably easier to pick up, especially for anyone already comfortable in Figma. For design freelancers, a well-built Framer site is a legitimate portfolio piece in its own right, since Framer sites tend to read as more current and polished than Squarespace templates. It has fewer advanced features than Webflow once you're past the basics, which is a fair trade for most portfolio use cases.
 
 **Best for:** design freelancers who want Webflow-level polish with a shorter path to a finished site.
+
+## A transparency note
+
+SoloStack itself runs on Next.js and Vercel rather than on a site builder. The comparison on this page is based on each provider's pricing and documentation, as described on our [methodology page](/methodology), not on long-term use of each builder.
 
 ## The real trade-off
 
@@ -2163,6 +2185,12 @@ FlyFin scans connected bank and card transactions to flag potential deductions a
 
 Regardless of which software you use, set aside 25–30% of every payment for taxes in a separate account the moment it arrives. This single habit prevents the most common freelance tax problem — a large, unexpected bill in April — far more reliably than any software feature.
  Tax software handles what you owe on income already earned; it's worth also thinking about what protects you if a client disputes that work in the first place — see our [business insurance guide](/reviews/best-business-insurance-freelancers) for what a professional liability policy actually covers.
+## What I use for my own books
+
+I keep my own books in Money Forward Cloud, a Japanese service, with my bank and card statements imported to cut down on missed entries. I used to gather receipts in batches and reconcile statements against the books just before filing, which was a burden. Now I record transactions when they happen and review at month-end.
+
+The tools compared on this page are US-focused and are researched from each provider's own pages, not tools I use myself. What I carry over from my own setup is what I weighed when choosing: bank and card sync, automatic journal entries, receipt storage, and filing support. For me the value of accounting software is less the filing itself than seeing my revenue and expenses clearly week to week.
+
 ## Bottom line
 
 For most freelancers with reasonably simple 1099 income, FreeTaxUSA delivers the same accuracy as premium filing software for a fraction of the cost. If you specifically want your tax liability tracked continuously rather than estimated once a year, pair a filing tool with Hurdlr or QuickBooks Solopreneur. Reach for TurboTax or FlyFin specifically when the extra guidance or CPA access is worth paying for — a genuinely complex year, a first year self-employed, or simply wanting the peace of mind. None of this works without clean records feeding into it — see our [receipt scanning apps guide](/reviews/best-receipt-scanning-apps-freelancers) if capturing expenses as they happen, rather than at tax time, is the part you're still doing manually.
@@ -2528,6 +2556,12 @@ Stripe isn't primarily a freelancer payment app in the way Wise or Payoneer are 
 
 A handful of newer platforms let freelancers receive payments as USD-pegged stablecoins, settling in seconds rather than days, with flat low fees regardless of amount. This can be genuinely useful for freelancers in countries with unreliable banking access or currency controls. It's a newer, less-tested category than the platforms above, so treat it as a supplement worth researching for your specific country rather than a default recommendation.
  If you've narrowed things down specifically to Wise or PayPal, our dedicated [Wise vs PayPal comparison](/reviews/wise-vs-paypal-freelancers-international-payments) goes deeper on that specific decision.
+## How I compare before I send an invoice
+
+When an international client is going to pay me, I look at the fee and the exchange rate together, and I compare options by the amount that actually lands in my bank account rather than by the fee a platform displays. A low-looking fee can be offset by a currency conversion cost, which is common with PayPal, so the displayed number alone does not tell me which route is better.
+
+Before invoicing I also confirm three things: the currency the client will pay in, who bears the transfer fee, and the payment due date. Settlement time depends on the route and can range from the same day to several business days, so I factor it into the due date I quote.
+
 ## Bottom line
 
 For most freelancers with a bank account in a well-supported country, Wise offers the lowest realistic cost on international payments. If most of your income comes through Upwork or Fiverr, Payoneer's marketplace integration is worth the slightly higher fees. Keep PayPal for clients who won't use anything else, and let Stripe do the work if it's already built into your invoicing tool. If part of what you're getting paid for is a booked consultation or discovery call, our [scheduling app guide](/reviews/best-scheduling-apps-freelancers) covers collecting a deposit at the point of booking, before the payment question above even comes up.
@@ -2675,6 +2709,12 @@ OpenSign is an open-source e-signature tool with a genuinely generous free cloud
 DocuSign's name recognition and compliance depth matter most when you're working with larger companies or regulated industries (finance, healthcare, legal) where a vendor's compliance checklist may specifically ask which e-signature platform you use. For a typical freelance service agreement, this level of documentation is unnecessary — but if a client's procurement process specifically expects it, DocuSign remains the safest choice precisely because of how widely recognized it is.
 
 **Best for:** freelancers whose clients are large enterprises or in regulated industries with specific vendor compliance requirements.
+
+## What I use for overseas contracts
+
+I use Dropbox Sign for service agreements with overseas clients. Before that I sent contracts as PDFs by email, and getting one signed and returned could take three to four business days. Since switching, projects where the client replied promptly have been signed the same day I sent the contract, and I could start work once it was signed instead of waiting on documents going back and forth.
+
+Two things I paid attention to while using it: how many contracts the free plan lets you send, and how signed documents are stored and managed. With only one or two contracts a month a low-priced plan may be enough, but if you handle contracts continuously, check the send limits and audit-trail features before you commit.
 
 ## Bottom line
 

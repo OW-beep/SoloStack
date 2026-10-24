@@ -276,7 +276,7 @@ export default function ReviewPage({ params }) {
     headline: article.title,
     description: article.dek,
     datePublished: article.date,
-    dateModified: article.date,
+    dateModified: article.checked || article.date,
     author: {
       "@type": "Person",
       name: "Kosei Taki",
@@ -372,7 +372,11 @@ export default function ReviewPage({ params }) {
               </Link>
             </span>
             <span>·</span>
-            <span>Last checked {formatDate(article.date)}</span>
+            <span>
+              {article.checked
+                ? `Last checked ${formatDate(article.checked)}`
+                : `Published ${formatDate(article.date)}`}
+            </span>
             <span>·</span>
             <span>{article.readTime}</span>
             <span>·</span>

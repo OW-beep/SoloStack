@@ -8,6 +8,14 @@ export const metadata = {
   alternates: { canonical: SITE_URL },
 };
 
+// Only guides that actually compare software count toward "tools
+// compared" (checklists count questions and Freelance Life pieces
+// count sources, which are not tools).
+const NON_TOOL_CATEGORIES = ["Guides", "Freelance Life"];
+const toolsComparedTotal = articles
+  .filter((a) => !NON_TOOL_CATEGORIES.includes(a.category))
+  .reduce((sum, a) => sum + a.toolsCompared, 0);
+
 export default function HomePage() {
   return (
     <main>
@@ -29,7 +37,7 @@ export default function HomePage() {
             </div>
             <div className="hero-stat">
               <span className="num">
-                {articles.reduce((sum, a) => sum + a.toolsCompared, 0)}+
+                {toolsComparedTotal}
               </span>
               <span className="label">Tools compared</span>
             </div>
@@ -48,7 +56,7 @@ export default function HomePage() {
             "No sponsored rankings",
             "Updated for 2026",
             "0 sponsored placements",
-            "247+ tools compared",
+            `${toolsComparedTotal} tools compared`,
             "Re-checked before publishing",
           ].map((phrase, i) => (
             <span className="tape-inner" key={i}>

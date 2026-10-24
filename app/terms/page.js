@@ -35,7 +35,7 @@ export default function TermsPage() {
         <p>
           Software pricing, features, and free-tier limits change
           frequently. We do our best to keep guides current and note a
-          "last checked" date on every article, but you should always
+          publish or "last checked" date on every article, but you should always
           confirm details directly with a provider before making a
           purchasing decision based on something you read here.
         </p>

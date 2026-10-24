@@ -39,6 +39,25 @@ export default function MethodologyPage() {
           page alone.
         </p>
 
+        <h2>How we write</h2>
+        <p>
+          We start from what the reader needs to decide, then open the
+          provider's own site and pricing page for each tool. We note the
+          pricing, free-plan limits, main features, and who each tool is
+          for, and only then build the structure of the article.
+        </p>
+        <p>
+          AI helps with outlines, organizing information, and polishing
+          prose. It is not the basis for any price or feature: those come
+          from the provider's pages, and anything we can't confirm there is
+          not stated as fact. Before publishing we check that the
+          comparison table and the body agree, that downsides are covered
+          as well as strengths, and that a reader can tell which option
+          fits them. Last, we re-check the prices in the article and update
+          its date if needed. AI is an aid to writing faster; responsibility
+          for checking what affects a reader's decision rests with the
+          person who publishes the article.
+        </p>
         <h2>What we compare on</h2>
         <p>
           The specific criteria shift slightly by category (an invoicing
@@ -72,11 +91,13 @@ export default function MethodologyPage() {
 
         <h2>How current the information is</h2>
         <p>
-          Every article displays a "last checked" date. Software pricing
-          and free-tier limits in this industry change often, sometimes
-          within weeks of us publishing. That date reflects exactly what
-          it says — the last time we verified the details in that article
-          — not a guarantee that nothing has changed since. Always confirm
+          Every article shows a date. A "Last checked" date appears only
+          when the pricing and free-tier details in that article were
+          actually re-verified against the provider's own pages on that
+          day; otherwise the article shows its publish date instead.
+          Software pricing and free-tier limits in this industry change
+          often, sometimes within weeks of us publishing, so a date is
+          never a guarantee that nothing has changed since. Always confirm
           current pricing directly on a provider's site before making a
           decision based on something you read here.
         </p>

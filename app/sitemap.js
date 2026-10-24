@@ -30,7 +30,7 @@ export default function sitemap() {
       // Use each article's real "last checked" date instead of "now" for
       // every entry — more accurate, and avoids every URL in the sitemap
       // showing an identical timestamp (a pattern that can look automated).
-      lastModified: new Date(a.date + "T00:00:00"),
+      lastModified: new Date((a.checked || a.date) + "T00:00:00"),
     }));
 
   return [...staticPages, ...categoryPages, ...reviewPages];
