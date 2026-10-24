@@ -14,12 +14,13 @@ export default function HomePage() {
       <AuthorStrip />
       <section className="hero">
         <div className="wrap">
-          <p className="hero-eyebrow">Freelance software, tested solo</p>
+          <p className="hero-eyebrow">Freelance software, compared solo</p>
           <h1>Software reviews for freelancers who work alone.</h1>
           <p>
-            SoloStack tests the invoicing, project management, and AI tools
-            freelancers actually pay for — so you don't have to install six
-            trials to find one that's worth keeping.
+            SoloStack compares the invoicing, project management, and AI
+            tools freelancers actually pay for, using real pricing and
+            documentation — and says plainly when a write-up comes from my
+            own use of a tool.
           </p>
           <div className="hero-stats">
             <div className="hero-stat">

@@ -93,7 +93,10 @@ export default function AuthorPage() {
           usability. His approach combines:
         </p>
         <ul>
-          <li>hands-on testing</li>
+          <li>
+            hands-on use of some tools, stated explicitly in the article
+            where it applies
+          </li>
           <li>analysis of pricing structures and limitations</li>
           <li>practical decision-making from a freelancer's perspective</li>
         </ul>
