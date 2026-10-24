@@ -1663,7 +1663,7 @@ At the time I was also paying for three tools: an AI writing assistant ($20/mont
 
 The lesson wasn't "don't buy tools." It was that an unused subscription doesn't sit quietly in a general expenses category — it attaches itself to whatever project happens to be running that month and lowers that project's real rate, even though the number on the invoice never changes. See our [software buying checklist](/reviews/freelance-software-buying-checklist) if a similar review of what's still actually earning its keep is overdue.
 
-Worth admitting honestly: knowing a rate is overdue for review doesn't automatically make it happen. I went over three years without raising mine at all — not a deliberate decision, just the kind of thing that's easy to keep not getting around to when nothing is visibly broken. What actually snapped it into focus wasn't my own math; it was hearing what a couple of other freelancers doing comparable work were actually charging, which was well above what I'd been quoting. I didn't touch the rate on existing clients — that felt like a harder conversation to have retroactively — but every new project from that point on went out at the higher number. I later shared this lesson in [Grit Daily's roundup of first-year entrepreneur lessons](https://gritdaily.com/crucial-lessons-learned-in-year-one-advice-from-entrepreneurs/), where the advice came down to one habit: a recurring reminder to review your rate every six months, whether or not anything prompts it.
+Worth admitting honestly: knowing a rate is overdue for review doesn't automatically make it happen. I went over three years without raising mine at all — not a deliberate decision, just the kind of thing that's easy to keep not getting around to when nothing is visibly broken. What actually snapped it into focus wasn't my own math; it was hearing what a couple of other freelancers doing comparable work were actually charging, which was well above what I'd been quoting. I didn't touch the rate on existing clients — that felt like a harder conversation to have retroactively — but every new project from that point on went out at the higher number. I later shared this lesson in [Grit Daily's roundup of first-year entrepreneur lessons](https://gritdaily.com/crucial-lessons-learned-in-year-one-advice-from-entrepreneurs/), where the advice came down to one habit: a recurring reminder to review your rate every six months, whether or not anything prompts it. If an existing client says the budget can't stretch, the [scope and rate-increase conversations piece](/reviews/scope-creep-and-rate-increases-client-conversations) covers what to do when the answer is "not this year."
 
 ## Is your rate still worth what it used to be
 
@@ -2310,6 +2310,8 @@ Agiled takes the same all-in-one bet as Bonsai and HoneyBook — proposals, e-si
 Across the research on this category, one pattern shows up repeatedly: proposals followed up on within about an hour of being opened close at meaningfully higher rates than next-day follow-ups. Whichever tool you pick, turning on open notifications and actually acting on them is worth more than any template library.
 
 A well-built proposal also does something less obvious than winning the job: it forces you to write from the client's problem instead of your own resume. The clearest version of that lesson came from two proposals sent the same week that landed completely differently. The first led with a list of past work and available skills — thorough, but entirely self-focused, and it went nowhere. The second opened by naming the client's actual problem before proposing anything: something close to "the current content has enough depth, but it's likely losing traffic to a mismatch with search intent — restructuring around intent first is what would recover that." That one line, placed before any mention of experience, was the only real difference between the two documents, and it's the one that got signed. The takeaway that stuck: a proposal isn't proof of capability, it's proof that you understood the problem — and once that's clear, thinner credentials underneath it still land, while a longer resume without it usually doesn't.
+
+A related experience came with a first proposal to a new client. I described my track record and the services I offered in detail, and the response was thin. I sent it again as a single page covering the client's problem, the proposed solution, the timeline and the price, and the reply said it was now easy to see what they could ask me for. That led to an actual negotiation. The format is written up in [the one-page freelance proposal](/reviews/one-page-freelance-proposal-template).
 
 ## Bottom line
 
@@ -4438,6 +4440,7 @@ For most solo wedding planners, HoneyBook's combination of accessible entry pric
       { q: "How do you know when a rate increase request will actually land?", a: "Having specific evidence of increased value — results, efficiency, reduced revision cycles — makes the difference between a request that sounds like a favor and one that sounds like a reasonable adjustment to a relationship that's already changed. A number-backed ask is easier for a client to approve than a felt sense that it's probably time." },
       { q: "What if the client says no to either of these?", a: "That's useful information either way — a client unwilling to adjust scope or rate once given clear, reasonable options is telling you something about how that relationship will go long-term, and it's better to learn that from a calm conversation than from months of quietly absorbing the cost." },
       { q: "Do these conversations need to happen in writing?", a: "Written framing (email or a written message) tends to work well for both situations, since it gives the client time to consider specifics rather than react in the moment, and it creates a clear record of what was agreed if the arrangement needs to be referenced later." },
+      { q: "What do I do if a client says there's no budget for a rate increase?", a: "Ask what would change the answer, but also consider changing the ask. If the rate can't move this year, a workable alternative is to keep the current rate, fix the scope to what that rate covers, and bill additional work separately. That keeps the relationship intact, makes the boundaries explicit, and reduces the unpaid extra work that tends to build up when scope is vague. It is one freelancer's approach on one engagement, not a guaranteed outcome." },
     ],
     body: `
 Two of the more uncomfortable conversations in freelancing are asking a client to pay more, and asking a client to stop asking for more without paying more. Both feel like they risk the relationship. In practice, both went better than expected once they were framed the same way: not as a complaint or a request for a favor, but as a plain statement of what had changed, with specific options attached.
@@ -4469,6 +4472,14 @@ It was approved without negotiation. The client's own reasoning, shared afterwar
 Neither started from an apologetic position, and neither over-explained. Both stated a plain fact (the scope has expanded / the value delivered has increased) and offered concrete, limited options rather than an open-ended ask. Both were also low-stakes to have: worst case in either conversation was a client saying no, which is itself useful information about how sustainable that relationship actually is going forward, learned in one conversation rather than in months of quiet cost.
 
 If a rate increase is on the table, it's worth sanity-checking the resulting number against your actual costs first — see our [guide to pricing freelance work](/reviews/how-to-price-freelance-work-rate-calculators) for the floor-rate math behind that.
+
+## A third conversation: when the answer to a raise was "not this year"
+
+Not every ask ends like the second one. On a separate ongoing engagement, I raised the idea of a higher rate and was told it would be difficult within that year's budget. Instead of pressing on the number, I changed what I was asking for: keep the current rate, keep the work to what that rate already covered, and bill anything beyond it separately.
+
+The effect was less about money than about definition. Once the boundary was written down, the extra work that had been drifting in unpaid had somewhere to go, which was its own line. The amount of free work I was absorbing went down, and the scope of the engagement became something both sides could point to.
+
+**The lesson:** a "not this year" on the rate is not necessarily an answer to the underlying problem, which is usually that effort and pay have drifted apart. If the price can't move yet, the scope can. Be specific about what the current price buys, and treat everything outside it as a separate conversation.
 
 *These accounts reflect one freelancer's experience on specific projects. Client relationships, industries, and what a given client will accept vary — treat this as two data points and a framing worth trying, not a guaranteed script.*
 `,
@@ -5141,6 +5152,70 @@ Both are ways to move money, not ways to get paid on time or keep your books str
 Choose Wise when clients pay you directly and you want the lowest realistic cost, and choose Payoneer when marketplaces are your main source of income and you can withdraw without converting. If you earn both ways, using both is normal. Whichever you pick, check the exact fee for your own country and currency on the provider's site before relying on any figure above, since both companies change their pricing and it varies by route.
 
 *Fee ranges here come from the providers' published schedules and recent third-party roundups, which do not always agree, so they are a starting point rather than a quote. This is general information, not financial advice.*
+`,
+  },
+  {
+    slug: "one-page-freelance-proposal-template",
+    category: "Guides",
+    title: "The One-Page Freelance Proposal: Four Questions It Has to Answer",
+    seoTitle: "One-Page Freelance Proposal: A Simple Template (2026)",
+    dek: "A detailed list of past work got a thin response. The same proposal rewritten as one page turned into a real negotiation. Here is the four-part format, with a template.",
+    seoDescription: "A one-page freelance proposal built on four questions: the client's problem, your solution, the timeline and the price, with a fill-in template.",
+    verdict: "Four questions a one-page proposal has to answer",
+    toolsCompared: 4,
+    readTime: "5 min read",
+    date: "2026-10-24",
+    faq: [
+      { q: "How long should a freelance proposal be?", a: "There is no fixed length. For a small or well-defined project, one page that answers four questions (the problem, what you will do, by when, and for how much) is often enough. Larger or multi-phase work needs more, but each added page should answer something the client actually wants to know." },
+      { q: "What should a freelance proposal include?", a: "At minimum: the client's problem in their own terms, the specific deliverables, a timeline, a price with what it does and does not include, and one clear next step. For larger projects, add an explicit list of what is out of scope." },
+      { q: "Should I include my portfolio and past work in a proposal?", a: "Keep it brief: one line about relevant experience and a link to a relevant sample is usually enough. A detailed list of past work and services tends to make a proposal about you rather than about the client's problem, which is what they are reading for." },
+      { q: "Do I need proposal software to send a one-page proposal?", a: "No. A clean PDF or document works, and a free e-signature tool can make it binding. Proposal software becomes worthwhile if you send them regularly and want open tracking or deposit collection at signing." },
+    ],
+    body: `
+A freelance proposal has one job: make the next step obvious. A long list of past work and services does the opposite. It makes the client do the work of figuring out what they should ask you for.
+
+I learned this on a first proposal to a new client. I described my track record and the services I offered in detail, and the response was thin. I sent it again as a single page covering the client's problem, the proposed solution, the timeline and the price. The reply said it was now easy to see what they could ask me for, and that turned into an actual negotiation about the job. Nothing about my experience had changed between the two versions. Only what the page answered had changed.
+
+## The four questions the page has to answer
+
+1. **What is the problem?** Write this first, before any mention of yourself, and in the client's terms rather than yours. In an earlier proposal, the line that mattered read something like: the current content has enough depth, but it is likely losing traffic to a mismatch with search intent, and restructuring around intent first is what would recover it. One sentence like that shows you understood the situation before proposing anything.
+2. **What will you do about it?** Three or four concrete deliverables, in plain words. Say what the client will have at the end, not how many hours or which tools you will use.
+3. **By when?** A start date, the points where the client will see progress, and a delivery date. Vague timelines read as vague commitment.
+4. **For how much?** One number, or a clear range, and what it includes. This is also the place to say what it does not include, which is the cheapest protection against the scope drift described in our piece on [scope creep and rate increases](/reviews/scope-creep-and-rate-increases-client-conversations).
+
+If the page answers those four and ends with a single next step, it is complete.
+
+## A fill-in skeleton
+
+> **Proposal for [project name]**
+>
+> **The problem.** Two or three sentences describing what is not working for the client, in their words.
+>
+> **What I'll do.** Three or four deliverables, each one sentence.
+>
+> **Timeline.** Start date, check-in points, delivery date.
+>
+> **Price.** [One number or range]. Includes: [what the price covers]. Billed separately: [anything outside it].
+>
+> **Next step.** One sentence, for example: reply to confirm and I'll send the contract.
+
+## What I'd leave off the page
+
+The detailed track record is the part to cut. A single line about relevant experience and one link to your portfolio or a relevant sample is usually enough, because on a short page every sentence about you is a sentence not about their problem. Credentials still matter, but they work best underneath a clear understanding of the job, not instead of it.
+
+## When one page is not enough
+
+A larger or multi-phase project needs more than a page, but the same order still helps: problem first, price last, and a clear statement of what is out of scope. At that point the proposal also starts to overlap with the contract, so it is worth running through our [client contract checklist](/reviews/freelance-client-contract-checklist) before the work begins, and our [new-client vetting checklist](/reviews/freelance-new-client-vetting-checklist) before you spend time on a proposal at all.
+
+## Do you need proposal software?
+
+Not for a single page. A clean PDF or document works, and a free e-signature tool is enough to make it binding (see our [guide to free e-signature tools](/reviews/free-esignature-tools-freelance-contracts)). Dedicated proposal software earns its cost when you send proposals regularly and want to know when a client opens one, or collect a deposit at signing. Our [proposal software comparison](/reviews/best-proposal-software-freelancers) covers those options and what they cost.
+
+## Bottom line
+
+Write the page for the client's problem, not for your own résumé: problem, plan, timeline, price, next step. If a longer version is not getting replies, try cutting it down to those four answers before changing anything else.
+
+*This reflects one freelancer's experience with specific proposals. What a given client responds to varies, so treat the format as something to test, not a guaranteed result.*
 `,
   },
 ];

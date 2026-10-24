@@ -2,6 +2,7 @@ import Link from "next/link";
 import { articles, countLabelShort } from "../data/articles";
 import { SITE_URL } from "../lib/site-config";
 import { getCategorySlug } from "../lib/categories";
+import AuthorStrip from "../components/AuthorStrip";
 
 export const metadata = {
   alternates: { canonical: SITE_URL },
@@ -10,6 +11,7 @@ export const metadata = {
 export default function HomePage() {
   return (
     <main>
+      <AuthorStrip />
       <section className="hero">
         <div className="wrap">
           <p className="hero-eyebrow">Freelance software, tested solo</p>

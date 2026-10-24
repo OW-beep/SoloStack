@@ -1497,3 +1497,38 @@ button:focus-visible {
   border-color: var(--amber);
   color: var(--amber);
 }
+
+/* "From the author" strip at the top of the homepage */
+.author-strip {
+  background: var(--charcoal-soft);
+  color: rgba(242, 238, 221, 0.72);
+  border-bottom: 1px solid var(--line-on-dark);
+  padding: 16px 0;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.author-strip-label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-right: 4px;
+}
+
+.author-strip a {
+  color: var(--paper);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(242, 238, 221, 0.45);
+}
+
+.author-strip a:hover {
+  color: var(--amber);
+  text-decoration-color: var(--amber);
+}
+
+.author-strip-sep {
+  color: rgba(242, 238, 221, 0.4);
+}
