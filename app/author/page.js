@@ -17,10 +17,24 @@ export default function AuthorPage() {
     url: `${SITE_URL}/author`,
     jobTitle: "Independent Developer",
     description:
-      "Independent developer and former IT consultant with over 10 years of experience in enterprise systems and digital strategy.",
+      "Independent developer and former IT consultant (2012–2023) with experience in enterprise system projects and digital strategy.",
     sameAs: [
       "https://www.linkedin.com/in/kosei-taki-3a1994428",
       "https://youtube.com/@solostack-k",
+    ],
+    hasCredential: [
+      {
+        "@type": "EducationalOccupationalCredential",
+        credentialCategory: "certification",
+        name: "Information Security Management Examination (IPA, Japan)",
+        dateCreated: "2018",
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        credentialCategory: "certification",
+        name: "IT Strategist Examination (IPA, Japan)",
+        dateCreated: "2022",
+      },
     ],
     worksFor: {
       "@type": "Organization",
@@ -67,9 +81,10 @@ export default function AuthorPage() {
         </div>
 
         <p>
-          Kosei Taki is an independent developer and former IT consultant
-          with over 10 years of experience in enterprise systems and
-          digital strategy.
+          Kosei Taki is an independent developer and former IT consultant.
+          From 2012 to 2023 he worked at an enterprise IT consulting firm
+          on core-system and digital-strategy projects, and he has worked
+          independently since 2023.
         </p>
         <p>
           After working in consulting, he transitioned into freelance
@@ -88,8 +103,8 @@ export default function AuthorPage() {
         <p>SoloStack was created to bridge that gap.</p>
         <p>
           Instead of reviewing tools from a corporate or team
-          perspective, Kosei evaluates them based on how they perform in
-          real solo use — balancing cost, flexibility, and long-term
+          perspective, Kosei looks at them from a solo freelancer's point
+          of view — balancing cost, flexibility, and long-term
           usability. His approach combines:
         </p>
         <ul>
@@ -110,13 +125,50 @@ export default function AuthorPage() {
           instead of it — most weeks it's client projects first and
           writing in whatever's left over, which is also exactly the
           kind of scheduling tension the site's own reviews are written
-          for. Before going independent, Kosei's consulting work centered
-          on project management for large-scale enterprise system
-          rollouts, which is part of where the pricing-structure-first
-          habit in these reviews comes from: a rollout budget punishes
-          the same kind of hidden per-seat and renewal-tier surprises
-          that trip up a solo freelancer's software stack, just at a
-          different scale.
+          for. In consulting, the work was less about comparing features
+          than about whether a system would actually be usable by the
+          people running it, what it would cost to operate after
+          rollout, and whether the cost was justified. That way of
+          weighing a tool carries over to how SoloStack compares
+          software.
+        </p>
+
+        <h2>Background</h2>
+        <p>
+          2012–2023: IT consultant at an enterprise IT consulting firm.
+          Representative work is described by scale and duration only,
+          because client details are confidential.
+        </p>
+        <ul>
+          <li>
+            Core-system renewal support — a system used by several hundred
+            people, over a year or more. Current-process analysis,
+            requirements definition support, vendor coordination, and test
+            and migration planning.
+          </li>
+          <li>
+            Retail and distribution system rollout support — dozens to
+            hundreds of sites, roughly six months to a year. Stakeholder
+            interviews, business-flow mapping, requirement prioritization,
+            and operations design support.
+          </li>
+          <li>
+            Digital strategy and data utilization support — an initiative
+            spanning several departments, roughly six months to a year or
+            more. Issue framing, KPI design, data analysis, and support for
+            measuring the effect of measures.
+          </li>
+        </ul>
+        <p>
+          Credentials (IPA, Japan): Information Security Management
+          Examination, passed 2018; IT Strategist Examination, passed 2022.
+        </p>
+        <p>
+          Tools Kosei uses himself: Google Workspace, Money Forward Cloud,
+          Dropbox Sign, Upwork, Notion, Slack, and Discord. Not every tool
+          reviewed on SoloStack was used in client work, so first-hand use
+          is stated in the articles where it applies and is kept separate
+          from pricing and feature research.
         </p>
 
         <h2>Featured in</h2>
