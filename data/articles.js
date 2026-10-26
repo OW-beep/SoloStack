@@ -122,6 +122,7 @@ For actual client work — searchable history, professional external channels, d
     toolsCompared: 2,
     readTime: "6 min read",
     date: "2026-07-20",
+    checked: "2026-10-26",
     body: `
 This comparison keeps coming up for a specific reason: TidyCal's one-time pricing model is a genuinely unusual value proposition in a category almost entirely dominated by monthly subscriptions, and freelancers researching Calendly alternatives consistently land on TidyCal as the most direct comparison. The real question isn't which tool is "better" in the abstract — it's whether Calendly's extra depth is worth paying for every month indefinitely.
 
@@ -182,12 +183,12 @@ Mailchimp counts every contact in your audience against your plan limit — incl
 
 | | Kit (ConvertKit) | Mailchimp |
 |---|---|---|
-| Free plan limit | Up to 10,000 subscribers | 250 contacts |
+| Free plan limit | Up to 10,000 subscribers | 250 contacts and 500 sends per month |
 | Billing basis | Active subscribers only | All contacts, including unsubscribed |
 | Built-in commerce | Yes — sell digital products directly, 3.5% + $0.30 per sale on paid plans | Via integrations, less native |
 | Design flexibility | More opinionated, simpler | Hundreds of templates, mature drag-and-drop editor |
 | Integrations | Fewer, creator-focused | 300+ |
-| Starting paid price | Creator plan ~$39/month (at 1,000 subscribers) | Essentials ~$26.50/month (at 1,000 subscribers) |
+| Starting paid price | Creator plan ~$39/month billed monthly, ~$33/month billed annually (at 1,000 subscribers) | Essentials ~$26.50/month (at 1,000 subscribers) |
 
 ## Where Kit wins
 
@@ -226,7 +227,7 @@ Before comparing features or pricing, there's a filter question that settles thi
 
 ## The core trade-off
 
-Wave's core invoicing and accounting features are free, monetized instead through payment processing fees. FreshBooks charges a subscription starting around $19-23/month but includes time tracking, proposals (on higher tiers), and a more polished day-to-day experience. The decision mostly comes down to whether you bill by the hour and want that workflow built in, or whether simple invoicing and bookkeeping at zero cost matters more.
+Wave's core invoicing and accounting features are free, monetized instead through payment processing fees. FreshBooks charges a subscription starting around $23/month (Lite, five billable clients) but includes time tracking, proposals (on higher tiers), and a more polished day-to-day experience. The decision mostly comes down to whether you bill by the hour and want that workflow built in, or whether simple invoicing and bookkeeping at zero cost matters more.
 
 *The instinct to just pick the cheapest option is a natural one early on — a couple of international clients, three or four invoices a month, and a free plan covers it completely. The gap shows up once volume grows: once monthly invoicing crossed roughly ten, mostly in different currencies, tracking exchange rates in a spreadsheet stopped being reliable. The same $1,000 invoice would show a different number depending on whether you checked the rate at invoice time, the rate on the day payment actually landed, or the rate after conversion fees — a spread of several percent each time, and revenue became genuinely hard to pin down. Switching to a tool built around multi-currency tracking meant paying more monthly, but cut two to three hours a month off reconciling invoices and payments. A freelancer's accounting software is worth choosing by how complex the money flow actually is — not by sticker price.*
 
@@ -235,7 +236,7 @@ Wave's core invoicing and accounting features are free, monetized instead throug
 | | Wave | FreshBooks |
 |---|---|---|
 | Availability | US and Canada only (new signups) | Works globally |
-| Starting price | Free (Starter plan) | ~$19-23/month (Lite) |
+| Starting price | Free (Starter plan) | ~$23/month (Lite) |
 | Time tracking | Not included | Included on every plan |
 | Payment processing | 2.9% + $0.60 per transaction | Similar processing rates, bundled differently by plan |
 | Proposals | Not available on any plan | Available from the Plus plan up |
@@ -656,9 +657,9 @@ If your business is "track time, invoice a client, get paid," FreshBooks was bui
 
 | | FreshBooks | QuickBooks Online |
 |---|---|---|
-| Entry price | Lite: ~$21/mo (5 clients) | Simple Start: ~$30-38/mo |
+| Entry price | Lite: ~$23/mo (5 clients) | Simple Start: ~$30-38/mo |
 | Time tracking | Included on every plan | Add-on (~$20/mo extra via QuickBooks Time) |
-| Double-entry bookkeeping | Only on Plus plan and above (~$33/mo+) | Included on every plan |
+| Double-entry bookkeeping | Only on Plus plan and above (~$43/mo+) | Included on every plan |
 | Client cap | Yes, by plan (5 on Lite, 50 on Plus) | No client cap |
 | Inventory tracking | No | Yes (Plus plan and above) |
 | Learning curve | Gentle, freelancer-oriented | Steeper, built for full accounting |
@@ -677,7 +678,7 @@ For US-based freelancers filing taxes as a sole proprietor specifically, QuickBo
 
 ## The price gap is smaller than it looks
 
-Once you compare the plans that actually match — FreshBooks Plus (~$33/month) against QuickBooks Simple Start (~$35/month) — the price difference is close to irrelevant. At that point the decision is genuinely about workflow, not cost: FreshBooks for a service-based freelancer who bills by the hour or project, QuickBooks Online for anyone who needs real accounting depth or sells physical products alongside services.
+Once you compare the plans that actually match — FreshBooks Plus (~$43/month, regular price as shown on its pricing page on October 26, 2026; FreshBooks also advertised an introductory discount of 80% for the first four months, which is worth separating from the price you will pay afterwards) against QuickBooks Simple Start (~$35/month) — the price difference is close to irrelevant. At that point the decision is genuinely about workflow, not cost: FreshBooks for a service-based freelancer who bills by the hour or project, QuickBooks Online for anyone who needs real accounting depth or sells physical products alongside services.
 
 ## Bottom line
 
@@ -750,6 +751,7 @@ There's no universal winner here — it genuinely depends on whether your work i
     toolsCompared: 2,
     readTime: "6 min read",
     date: "2026-07-17",
+    checked: "2026-10-26",
     body: `
 Freelance writers comparing AI tools tend to ask the wrong first question — "which one is smarter" — when the more useful question is which one fits a specific part of the writing workflow better. Claude and ChatGPT are both capable, general-purpose assistants, and the practical differences between them matter more in day-to-day freelance use than any leaderboard ranking.
 
@@ -2072,7 +2074,7 @@ Calendly popularized the "here's my link, pick a time" scheduling model, and it 
 
 | Tool | Free plan | Payments at booking | Pricing model | Best for |
 |---|---|---|---|---|
-| TidyCal | No free tier, but one-time lifetime price | Yes, via Stripe | One-time payment, not a subscription | Freelancers who want to stop paying monthly |
+| TidyCal | Limited free plan, plus a one-time lifetime price | Yes, via Stripe | One-time payment, not a subscription | Freelancers who want to stop paying monthly |
 | Cal.com | Yes, generous free tier | Yes | Free for individuals; paid team tiers | Freelancers who want open-source flexibility, no lock-in |
 | SavvyCal | No free tier | Yes | From ~$12/month | Freelancers who book a lot of high-stakes external meetings |
 | Calendly | Yes, basic | Higher tiers only | Free; paid from ~$10-16/user/month | Freelancers who just need the basics and recognize the brand |
@@ -2753,7 +2755,7 @@ Before comparing tools, it helps to know which features actually move the needle
 |---|---|---|---|---|
 | Wave | Yes, unlimited invoices | Basic | Free (fees on payments) | US/Canada-based freelancers only — see note below |
 | Zoho Invoice | Yes, up to 5 clients | Strong, tax config included free | Free | Billing multiple countries |
-| FreshBooks | No | Yes (Plus plan and above) | ~$23–30/month | Invoicing + light accounting |
+| FreshBooks | No | Yes (Plus plan and above) | ~$23–43/month | Invoicing + light accounting |
 | Xero | No | Yes, 160+ currencies, hourly FX updates | ~$29+/month | Scaling into a small business |
 | Stripe Invoicing | No monthly fee | Yes | ~0.4% per paid invoice | Already using Stripe |
 
