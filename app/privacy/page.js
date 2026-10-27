@@ -88,7 +88,7 @@ export default function PrivacyPage() {
 
         <h2>Affiliate links</h2>
         <p>
-          Some links on this site are affiliate links, meaning SoloStack
+          Some links on this site may be affiliate links, meaning SoloStack
           may earn a commission if you sign up for a product through them,
           at no extra cost to you. Affiliate links may set a tracking
           cookie to record the referral. This doesn't affect our editorial

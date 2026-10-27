@@ -25,7 +25,7 @@ Canva built the larger, more mainstream template platform — faster for non-des
 
 | | Canva | Adobe Express |
 |---|---|---|
-| Starting paid price | ~$12.99/month (Pro) | ~$9.99/month (Premium) |
+| Starting paid price | ~$18/month billed monthly (Pro; lower per month if billed annually) | ~$9.99/month (Premium) |
 | Template library | Much larger, broader range | Smaller, more curated |
 | AI image generation | Magic Studio suite | Firefly, trained on licensed/Adobe Stock data |
 | Commercial AI licensing | Improved, but without the same contractual protection Adobe offers | Contractual indemnification — Adobe defends commercial use of Firefly output |
@@ -47,7 +47,7 @@ Neither tool replaces Photoshop, Illustrator, or InDesign for serious profession
 
 ## The economics, briefly
 
-Both tools are priced similarly (roughly $10-13/month) and both dramatically undercut hiring a freelance designer by the hour for repeatable design tasks — genuinely useful context if a client asks why you're not billing separately for every social graphic. For AI image generation specifically, our [full AI image generation comparison](/reviews/best-ai-image-generation-tools-freelance-designers) covers Firefly, Midjourney, Ideogram, and Recraft in more depth if commercial licensing is the deciding factor for your work.
+Canva Pro costs about $18/month on monthly billing (less per month if you pay annually) and Adobe Express Premium about $10/month, so Canva is the pricier of the two month to month, but both dramatically undercut hiring a freelance designer by the hour for repeatable design tasks — genuinely useful context if a client asks why you're not billing separately for every social graphic. For AI image generation specifically, our [full AI image generation comparison](/reviews/best-ai-image-generation-tools-freelance-designers) covers Firefly, Midjourney, Ideogram, and Recraft in more depth if commercial licensing is the deciding factor for your work.
 
 *If you do a mix of quick social content and paid client deliverables, keeping both tools around and switching based on the job is often more practical than picking just one.*
 
@@ -122,7 +122,7 @@ For actual client work — searchable history, professional external channels, d
     toolsCompared: 2,
     readTime: "6 min read",
     date: "2026-07-20",
-    checked: "2026-10-26",
+    checked: "2026-10-22",
     body: `
 This comparison keeps coming up for a specific reason: TidyCal's one-time pricing model is a genuinely unusual value proposition in a category almost entirely dominated by monthly subscriptions, and freelancers researching Calendly alternatives consistently land on TidyCal as the most direct comparison. The real question isn't which tool is "better" in the abstract — it's whether Calendly's extra depth is worth paying for every month indefinitely.
 
@@ -709,7 +709,7 @@ Notion's strength is flexible, connected documents and databases — a freelance
 
 ClickUp's strength is the opposite trade-off: a project-management structure — list, board, calendar, and Gantt views, native time tracking, task dependencies — that works close to out of the box, at the cost of a denser interface with more of a learning curve upfront.
 
-Notion was also the very first piece of software I set up when I went independent, before an invoicing tool, before anything else — mostly because a blank page felt like less of a commitment than picking a "proper" project management system on day one. That's a reasonable way to start, but it's worth naming honestly: the flexibility that makes Notion appealing on day one is the same flexibility that lets a system slowly stop matching how you actually work, months later, without an obvious moment where you'd notice. I still use it to manage projects and to structure article drafts: deadlines, progress, and the next action for each piece of work.
+Notion was also the very first piece of software I set up when I went independent, before an invoicing tool, before anything else — mostly because a blank page felt like less of a commitment than picking a "proper" project management system on day one. That's a reasonable way to start, but it's worth naming honestly: the flexibility that makes Notion appealing on day one is the same flexibility that lets a system slowly stop matching how you actually work, months later, without an obvious moment where you'd notice. I still use it to manage projects and to structure article drafts: deadlines, progress, and the next action for each piece of work. The structure is written up in [how I organize client work in Notion](/reviews/notion-client-pages-for-freelancers).
 
 ## Quick comparison
 
@@ -751,7 +751,7 @@ There's no universal winner here — it genuinely depends on whether your work i
     toolsCompared: 2,
     readTime: "6 min read",
     date: "2026-07-17",
-    checked: "2026-10-26",
+    checked: "2026-10-22",
     body: `
 Freelance writers comparing AI tools tend to ask the wrong first question — "which one is smarter" — when the more useful question is which one fits a specific part of the writing workflow better. Claude and ChatGPT are both capable, general-purpose assistants, and the practical differences between them matter more in day-to-day freelance use than any leaderboard ranking.
 
@@ -2077,7 +2077,7 @@ Calendly popularized the "here's my link, pick a time" scheduling model, and it 
 | TidyCal | Limited free plan, plus a one-time lifetime price | Yes, via Stripe | One-time payment, not a subscription | Freelancers who want to stop paying monthly |
 | Cal.com | Yes, generous free tier | Yes | Free for individuals; paid team tiers | Freelancers who want open-source flexibility, no lock-in |
 | SavvyCal | No free tier | Yes | From ~$12/month | Freelancers who book a lot of high-stakes external meetings |
-| Calendly | Yes, basic | Higher tiers only | Free; paid from ~$10-16/user/month | Freelancers who just need the basics and recognize the brand |
+| Calendly | Yes, basic | Higher tiers only | Free; paid from ~$10-12/user/month | Freelancers who just need the basics and recognize the brand |
 
 ## [TidyCal](https://tidycal.com) — the best value if you're tired of subscriptions
 
@@ -2236,7 +2236,7 @@ Notion isn't a client portal in the traditional sense — there's no login-prote
 
 **Best for:** freelancers who want a $0 option and are comfortable spending a few hours assembling their own system.
 
-*What actually forced a system like this into existence was losing 20 minutes hunting for a client's latest file across Slack, Google Drive, Docs, and email once three active clients had turned into more than that. Building a simple Notion page per client — current project, deadline, reference material, draft links, past deliverables, invoice status, next steps, nothing more — started as a purely internal tool, then got shared directly with clients once it was clear how much back-and-forth it eliminated. The most common client question ("where's the latest draft," "when's this due") dropped off almost entirely, cutting daily time spent searching and re-explaining from roughly 10-15 minutes down to about 5 — call it three hours a month once multiplied across a full working month, plus a template that just gets duplicated for each new client rather than rebuilt. The mistake worth flagging: the first version had too much in it — dashboards, status tags, comment threads — and a client asked "where am I even supposed to look?" The fix wasn't more features, it was fewer. A portal's job isn't to be impressive, it's to make sure nobody's ever confused about where to look.*
+*What actually forced a system like this into existence was losing 20 minutes hunting for a client's latest file across Slack, Google Drive, Docs, and email once three active clients had turned into more than that. Building a simple Notion page per client — current project, deadline, reference material, draft links, past deliverables, invoice status, next steps, nothing more — started as a purely internal tool, then got shared directly with clients once it was clear how much back-and-forth it eliminated. The most common client question ("where's the latest draft," "when's this due") dropped off almost entirely, cutting daily time spent searching and re-explaining from roughly 10-15 minutes down to about 5 — call it three hours a month once multiplied across a full working month, plus a template that just gets duplicated for each new client rather than rebuilt. The mistake worth flagging: the first version had too much in it — dashboards, status tags, comment threads — and a client asked "where am I even supposed to look?" The fix wasn't more features, it was fewer. A portal's job isn't to be impressive, it's to make sure nobody's ever confused about where to look.* The setup is described in more detail in [how I organize client work in Notion](/reviews/notion-client-pages-for-freelancers).
 
 ## Agiled — the most complete free plan
 
@@ -3064,7 +3064,7 @@ Billing a client in euros while your expenses are in your home currency creates 
 |---|---|---|---|
 | Wave | Included free | Basic support | Free (US/Canada signups only — see note below) |
 | Zoho Books | Standard plan | 25+ | ~$20/mo |
-| FreshBooks | Plus plan | 150+ | ~$30/mo |
+| FreshBooks | Plus plan | 150+ | ~$43/mo |
 | QuickBooks Online | Essentials plan or higher | 145+ | Varies by region |
 | Xero | Higher tiers | 160+, hourly FX updates | ~$29+/mo |
 
@@ -4786,7 +4786,7 @@ A prompt-to-deck AI tool can get a client pitch from blank page to a genuinely p
 | | Gamma | Canva | Beautiful.ai | Plus AI |
 |---|---|---|---|---|
 | Best for | Fastest first draft from a prompt | Slides as one of many design needs | Consistent, on-brand client decks | Staying inside PowerPoint or Google Slides |
-| Starting paid price | $9-10/month (Plus) | ~$13-15/month (Pro) | ~$12/month (Pro) | ~$10-20/month |
+| Starting paid price | $9-10/month (Plus) | ~$18/month (Pro, monthly billing) | ~$12/month (Pro) | ~$10-20/month |
 | Free tier | Yes — 400 one-time credits, not monthly | Yes, genuinely usable and ongoing | No standalone free plan | No — trial only |
 | PowerPoint/Slides native | No — web-based, PPTX export has real fidelity limits | Exports to PPTX, web-first tool | No — web-based | Yes — generates directly inside PowerPoint or Google Slides |
 | Design philosophy | Speed — a complete draft from one prompt | Flexibility — huge template and asset library | Enforced consistency — a rules engine, not a blank canvas | Fits into an existing corporate template |
@@ -4982,7 +4982,7 @@ Zoho Books' free plan (for businesses under $50,000 in annual revenue) is a real
 
 ## FreshBooks — built around hourly billing specifically
 
-FreshBooks' accounting depth is narrower than Xero's, but for a freelancer whose core workflow is tracking hours and turning them into invoices, that narrower focus is the point — time tracking, project-based invoicing, and client communication are built in as core features rather than add-ons. At $19/month it's also meaningfully cheaper than Xero's entry tier. What you lose moving from Xero: more limited multi-currency handling and less depth for anyone managing inventory or more complex bookkeeping.
+FreshBooks' accounting depth is narrower than Xero's, but for a freelancer whose core workflow is tracking hours and turning them into invoices, that narrower focus is the point — time tracking, project-based invoicing, and client communication are built in as core features rather than add-ons. At about $23/month for the Lite plan (five billable clients), the entry price is close enough to Xero's that the decision should rest on workflow rather than price; compare both vendors' current pricing pages before choosing. What you lose moving from Xero: more limited multi-currency handling and less depth for anyone managing inventory or more complex bookkeeping.
 
 **Best for:** freelancers who bill primarily by the hour and want time tracking built into the same tool as invoicing.
 
@@ -5258,6 +5258,67 @@ Not for a single page. A clean PDF or document works, and a free e-signature too
 Write the page for the client's problem, not for your own résumé: problem, plan, timeline, price, next step. If a longer version is not getting replies, try cutting it down to those four answers before changing anything else.
 
 *This reflects one freelancer's experience with specific proposals. What a given client responds to varies, so treat the format as something to test, not a guaranteed result.*
+`,
+  },
+  {
+    slug: "notion-client-pages-for-freelancers",
+    category: "Guides",
+    title: "How I Organize Client Work in Notion: A Master List, One Page per Client, and a Rule About Sharing",
+    seoTitle: "Notion for Freelancers: Client Pages and a Master List",
+    dek: "A simple project table, then one page per client, plus a rule about what gets shared. Here is the structure I use in Notion to keep overlapping client work visible.",
+    seoDescription: "How a freelancer organizes client work in Notion: a master project list, one page per client, and a rule for what is shared, with free-plan limits.",
+    verdict: "Start with one table, then add a page per client",
+    toolsCompared: 3,
+    readTime: "5 min read",
+    date: "2026-10-26",
+    checked: "2026-10-22",
+    faq: [
+      { q: "How do I organize freelance client work in Notion?", a: "Use a master list with one row per project, showing its deadline and progress, and give each client a page with the project name, deadline, deliverables, items waiting on the client's confirmation, and related links. Keep your own notes apart from anything you share with the client." },
+      { q: "Can I manage clients on Notion's free plan?", a: "For solo work the Free plan is usable. The limits to know are a 5 MB cap per uploaded file and 7 days of page history, as checked on October 22, 2026. Confirm current limits on Notion's pricing page." },
+      { q: "How do I stop one client's information from being shared with another?", a: "Keep the page you share with each client separate from your own notes, and do not put information about other clients on any shared page. Decide this when you create the first client page." },
+    ],
+    body: `
+When I went independent in 2023, the first thing I built in Notion was a project tracker. It was a single table: project name, client, deadline, progress, and the next thing I needed to do. The point was to see where every job stood without opening email or chat first.
+
+A simple table was enough for a while. Once projects started to overlap, I noticed I could overlook work that was waiting on a client's confirmation or that was due soon. Sorting the table by status and deadline fixed most of that. Later I used the same workspace to plan articles and to keep track of the tools I was reviewing for SoloStack.
+
+## Where the single table stopped working
+
+In 2025 the information for my client projects had spread across email, chat and documents. Checking the progress of one project meant opening several places, and the work itself sat in different states at once: delivered, waiting for the client's confirmation, and waiting for me to revise. One table could not hold the detail for each client, so I added two things on top of it: a page for each client, and a master list that covers all of them. The structure comes down to three questions.
+
+### What belongs on the master list?
+
+Every project, one row each, with its deadline and its progress, so I can see all deadlines and statuses in one view. The earlier version of this table also carried the client and the next action, and I would keep both. The master list answers "what needs attention today," and nothing else.
+
+### What belongs on a client page?
+
+Only what that project needs: the project name, the deadline, the deliverables, anything waiting on the client's confirmation, and the related links. Having it all on one page removed most of the time I used to spend going back through email and shared materials to find what a project needed.
+
+### What should a client see?
+
+I keep what I share with a client apart from my own notes. The point is simple: nothing about another client should be visible by accident. Decide this when you create the first client page, not after you have a dozen.
+
+## If you want to try this
+
+These are suggestions, not part of my own experience:
+
+- Start with the single table and only the columns you actually check every day. Extra fields make the table tedious to keep up to date.
+- Add a client page once several clients' work overlaps and one table can no longer hold the detail.
+- Make the sharing rule before you share anything.
+
+## What it costs
+
+Notion's Free plan is usable for solo work, which is enough to build everything above. Two limits matter for client pages: file uploads are capped at 5 MB per file, and page history is limited to 7 days. The Plus plan is $10 per seat per month when billed annually, with monthly billing shown at about $12. Prices and limits are as checked against Notion's pricing page on October 22, 2026, and the monthly figure should be reconfirmed at checkout.
+
+## When Notion is not enough
+
+If clients need a login-protected portal, or invoicing and e-signature built in, compare dedicated tools in our [client portal software guide](/reviews/best-client-portal-software-freelancers). For how Notion stacks up against other project tools, see [Notion vs ClickUp](/reviews/notion-vs-clickup-freelancers) and our [free project management tools](/reviews/free-project-management-tools-solo-freelancers).
+
+## Bottom line
+
+Start with one table. Add a page for each client when one table can no longer hold the detail, and decide what a client can see before you share anything. The structure matters more than the tool.
+
+*This is one freelancer's setup and will not fit every kind of work. Notion changes its plans and limits from time to time, so confirm current pricing on its site.*
 `,
   },
 ];

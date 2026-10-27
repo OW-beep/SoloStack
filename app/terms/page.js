@@ -58,7 +58,7 @@ export default function TermsPage() {
 
         <h2>Affiliate relationships and advertising</h2>
         <p>
-          Some links on this site are affiliate links, and some pages may
+          Some links on this site may be affiliate links, and some pages may
           display advertising, as described in more detail on our{" "}
           <Link href="/about">About page</Link>. These relationships don't
           change the substance of our reviews.

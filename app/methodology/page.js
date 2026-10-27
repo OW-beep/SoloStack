@@ -115,7 +115,7 @@ export default function MethodologyPage() {
         <p>
           We don't accept payment to include a tool, rank it higher, or
           soften a criticism, and we don't publish sponsored write-ups
-          authored by a vendor. Some links on this site are affiliate
+          authored by a vendor. Some links on this site may be affiliate
           links — SoloStack may earn a commission if you sign up for a
           product through them, at no extra cost to you — and pages may
           display advertising. Neither changes what we write: when a tool
