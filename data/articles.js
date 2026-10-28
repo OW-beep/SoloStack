@@ -4521,7 +4521,7 @@ Not every ask ends like the second one. On a separate ongoing engagement, I rais
 
 The effect was less about money than about definition. Once the boundary was written down, the extra work that had been drifting in unpaid had somewhere to go, which was its own line. The amount of free work I was absorbing went down, and the scope of the engagement became something both sides could point to.
 
-**The lesson:** a "not this year" on the rate is not necessarily an answer to the underlying problem, which is usually that effort and pay have drifted apart. If the price can't move yet, the scope can. Be specific about what the current price buys, and treat everything outside it as a separate conversation.
+**The lesson:** a "not this year" on the rate is not necessarily an answer to the underlying problem, which is usually that effort and pay have drifted apart. If the price can't move yet, the scope can. Be specific about what the current price buys, and treat everything outside it as a separate conversation. I described this approach in [a GIGS Magazine Q&A on raising rates](https://gigsmagazine.com/qa/how-freelancers-raise-rates-with-confidence/).
 
 *These accounts reflect one freelancer's experience on specific projects. Client relationships, industries, and what a given client will accept vary — treat this as two data points and a framing worth trying, not a guaranteed script.*
 `,
@@ -5216,7 +5216,7 @@ Choose Wise when clients pay you directly and you want the lowest realistic cost
     body: `
 A freelance proposal has one job: make the next step obvious. A long list of past work and services does the opposite. It makes the client do the work of figuring out what they should ask you for.
 
-I learned this on a first proposal to a new client. I described my track record and the services I offered in detail, and the response was thin. I sent it again as a single page covering the client's problem, the proposed solution, the timeline and the price. The reply said it was now easy to see what they could ask me for, and that turned into an actual negotiation about the job. Nothing about my experience had changed between the two versions. Only what the page answered had changed.
+I learned this on a first proposal to a new client. I described my track record and the services I offered in detail, and the response was thin. I sent it again as a single page covering the client's problem, the proposed solution, the timeline and the price. The reply said it was now easy to see what they could ask me for, and that turned into an actual negotiation about the job. Nothing about my experience had changed between the two versions. Only what the page answered had changed. I also describe this experience in [a GIGS Magazine Q&A on raising rates](https://gigsmagazine.com/qa/how-freelancers-raise-rates-with-confidence/).
 
 ## The four questions the page has to answer
 

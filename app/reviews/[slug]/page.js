@@ -17,7 +17,7 @@ import RateContextByCountry from "../../../components/RateContextByCountry";
 import NewsletterSignup from "../../../components/NewsletterSignup";
 
 // Hosts linked as editorial references rather than as paid/affiliate links.
-const EDITORIAL_HOSTS = ["gritdaily.com"];
+const EDITORIAL_HOSTS = ["gritdaily.com", "gigsmagazine.com"];
 
 export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));

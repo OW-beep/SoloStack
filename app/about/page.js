@@ -72,6 +72,15 @@ export default function AboutPage() {
           >
             Grit Daily's roundup of first-year entrepreneur lessons
           </a>{" "}
+          (October 2026), and his experience of tying a rate to a clearly
+          defined scope was published in{" "}
+          <a
+            href="https://gigsmagazine.com/qa/how-freelancers-raise-rates-with-confidence/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GIGS Magazine's Q&amp;A on raising rates
+          </a>{" "}
           (October 2026).
         </p>
 

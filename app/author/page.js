@@ -195,6 +195,16 @@ export default function AuthorPage() {
             </a>{" "}
             — Grit Daily (Oct 2026)
           </li>
+          <li>
+            <a
+              href="https://gigsmagazine.com/qa/how-freelancers-raise-rates-with-confidence/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              How Freelancers Raise Rates With Confidence
+            </a>{" "}
+            — GIGS Magazine (Oct 2026)
+          </li>
         </ul>
 
         <h2>More on how the site works</h2>
