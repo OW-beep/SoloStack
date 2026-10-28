@@ -11,6 +11,7 @@ export default function Header() {
         <SiteSearch />
         <nav className="nav">
           <Link href="/#reviews">Reviews</Link>
+          <Link href="/author">Author</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
         </nav>

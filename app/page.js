@@ -1,8 +1,11 @@
 import Link from "next/link";
-import { articles, countLabelShort } from "../data/articles";
+import { articles } from "../data/articles";
 import { SITE_URL } from "../lib/site-config";
 import { getCategorySlug } from "../lib/categories";
 import AuthorStrip from "../components/AuthorStrip";
+import TrustPanel from "../components/TrustPanel";
+import ArticleCard from "../components/ArticleCard";
+import { START_HERE_SLUGS, FIRST_HAND_SLUGS } from "../lib/featured";
 
 export const metadata = {
   alternates: { canonical: SITE_URL },
@@ -57,7 +60,7 @@ export default function HomePage() {
             "Updated for 2026",
             "0 sponsored placements",
             `${toolsComparedTotal} tools compared`,
-            "Re-checked before publishing",
+            "Pricing checked before publishing",
           ].map((phrase, i) => (
             <span className="tape-inner" key={i}>
               {phrase}
@@ -65,6 +68,29 @@ export default function HomePage() {
           ))}
         </div>
       </div>
+
+      <TrustPanel />
+
+      <section className="section start-section">
+        <div className="wrap">
+          <div className="section-head">
+            <div>
+              <p className="section-eyebrow">Start here</p>
+              <h2>Guides written from my own experience</h2>
+            </div>
+            <p className="section-note">
+              These draw on work I have done myself, and each one says where.
+            </p>
+          </div>
+          <div className="card-grid">
+            {START_HERE_SLUGS.map((slug) => articles.find((a) => a.slug === slug))
+              .filter(Boolean)
+              .map((article) => (
+                <ArticleCard article={article} key={article.slug} />
+              ))}
+          </div>
+        </div>
+      </section>
 
       <section className="section research-section">
         <div className="wrap">
@@ -115,63 +141,89 @@ export default function HomePage() {
           }
           grouped[a.category].push(a);
         }
+        const VISIBLE = 3;
+        const rank = (a) => (FIRST_HAND_SLUGS.has(a.slug) ? 1 : 0);
 
-        return order.map((category, i) => (
-          <section
-            className="section"
-            id={i === 0 ? "reviews" : undefined}
-            key={category}
-            style={i > 0 ? { paddingTop: 0 } : undefined}
-          >
-            <div className="wrap">
-              <div className="section-head">
-                <div>
-                  <p className="section-eyebrow">
-                    {i === 0 ? "The catalog" : category}
-                  </p>
-                  <h2>{i === 0 ? "Latest reviews" : `More on ${category.toLowerCase()}`}</h2>
-                </div>
-                {i === 0 ? (
+        return (
+          <>
+            <section className="section browse-section" id="reviews">
+              <div className="wrap">
+                <div className="section-head">
+                  <div>
+                    <p className="section-eyebrow">The catalog</p>
+                    <h2>Browse {articles.length} guides by topic</h2>
+                  </div>
                   <p className="section-note">
-                    Every guide is re-checked against current pricing before
-                    publishing.
+                    Or use the search at the top of the page.
                   </p>
-                ) : (
-                  <Link
-                    href={`/category/${getCategorySlug(category)}`}
-                    className="section-note"
-                    style={{ textDecoration: "underline" }}
-                  >
-                    About this category →
-                  </Link>
-                )}
-              </div>
-
-              <div className="card-grid">
-                {grouped[category].map((article) => (
-                  <Link
-                    href={`/reviews/${article.slug}`}
-                    className="tag-card"
-                    key={article.slug}
-                  >
-                    <div className="tag-card-top">
-                      <span className="tag-category">{article.category}</span>
-                      <span className="tag-count">
-                        {countLabelShort(article)}
+                </div>
+                <nav className="chip-nav" aria-label="Topics">
+                  {order.map((category) => (
+                    <a
+                      key={category}
+                      href={`#topic-${getCategorySlug(category)}`}
+                      className="chip"
+                    >
+                      {category}
+                      <span className="chip-count">
+                        {grouped[category].length}
                       </span>
-                    </div>
-                    <h3>{article.title}</h3>
-                    <p>{article.dek}</p>
-                    <div className="tag-card-footer">
-                      <span className="verdict-chip">{article.verdict}</span>
-                      <span className="read-time">{article.readTime}</span>
-                    </div>
-                  </Link>
-                ))}
+                    </a>
+                  ))}
+                </nav>
               </div>
-            </div>
-          </section>
-        ));
+            </section>
+
+            {order.map((category) => {
+              const sorted = [...grouped[category]].sort(
+                (a, b) =>
+                  rank(b) - rank(a) || b.date.localeCompare(a.date)
+              );
+              const shown = sorted.slice(0, VISIBLE);
+              const rest = sorted.slice(VISIBLE);
+              return (
+                <section
+                  className="section topic-section"
+                  id={`topic-${getCategorySlug(category)}`}
+                  key={category}
+                >
+                  <div className="wrap">
+                    <div className="section-head">
+                      <div>
+                        <p className="section-eyebrow">Topic</p>
+                        <h2>{category}</h2>
+                      </div>
+                      <Link
+                        href={`/category/${getCategorySlug(category)}`}
+                        className="section-note"
+                        style={{ textDecoration: "underline" }}
+                      >
+                        About this category →
+                      </Link>
+                    </div>
+                    <div className="card-grid">
+                      {shown.map((article) => (
+                        <ArticleCard article={article} key={article.slug} />
+                      ))}
+                    </div>
+                    {rest.length > 0 ? (
+                      <details className="cat-more">
+                        <summary>
+                          Show all {sorted.length} {category} guides
+                        </summary>
+                        <div className="card-grid">
+                          {rest.map((article) => (
+                            <ArticleCard article={article} key={article.slug} />
+                          ))}
+                        </div>
+                      </details>
+                    ) : null}
+                  </div>
+                </section>
+              );
+            })}
+          </>
+        );
       })()}
     </main>
   );
