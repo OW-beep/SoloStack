@@ -1,9 +1,12 @@
 import Link from "next/link";
+import { articles } from "../data/articles";
 import { ALL_PROBLEMS } from "../lib/problems";
 
 // Homepage entry point for visitors who arrive with a problem rather
 // than a tool category in mind.
 export default function ProblemFinder() {
+  const bySlug = Object.fromEntries(articles.map((a) => [a.slug, a]));
+  const featured = ALL_PROBLEMS.filter((p) => p.featured);
   return (
     <section className="section problem-section" aria-label="Fix a problem">
       <div className="wrap">
@@ -17,11 +20,11 @@ export default function ProblemFinder() {
             className="section-note"
             style={{ textDecoration: "underline" }}
           >
-            See every path →
+            See all {ALL_PROBLEMS.length} paths →
           </Link>
         </div>
         <div className="problem-grid">
-          {ALL_PROBLEMS.map((p) => (
+          {featured.map((p) => (
             <Link
               key={p.id}
               href={`/reviews/${p.steps[0]}`}
@@ -30,8 +33,12 @@ export default function ProblemFinder() {
               <span className="problem-group">{p.group}</span>
               <span className="problem-question">{p.question}</span>
               <span className="problem-go">
-                Short answer, then {p.steps.length - 1} longer{" "}
-                {p.steps.length - 1 === 1 ? "guide" : "guides"} →
+                {bySlug[p.steps[0]]?.category === "Fix It"
+                  ? "Short answer first"
+                  : "Start with the guide"}
+                {p.steps.length > 1
+                  ? `, then ${p.steps.length - 1} more →`
+                  : " →"}
               </span>
             </Link>
           ))}

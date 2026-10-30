@@ -1510,7 +1510,7 @@ I use Google Workspace for my own business address, at about ¥900 per user per 
 
 The part that slowed me down was DNS. I had assumed that once the domain was bought, the address would just work. In practice the domain needed MX records pointed at Google, and I had to understand SPF and DKIM, the email authentication records, before I trusted it. Reading up on the settings and sending test messages took about two hours in total.
 
-It did not make inquiries jump. I did not see more people getting in touch after the switch. What changed was smaller: it became easier to present a business contact to someone I was writing to for the first time than a free personal address. At roughly ¥900 a month, that is a cost I find reasonable for keeping work contact in one place, but it is a tidy-up, not a growth lever. If the address isn't working after setup, see [what to check: MX, SPF and DKIM](/reviews/domain-email-not-working-mx-spf-dkim).
+It did not make inquiries jump. I did not see more people getting in touch after the switch. What changed was smaller: it became easier to present a business contact to someone I was writing to for the first time than a free personal address. At roughly ¥900 a month, that is a cost I find reasonable for keeping work contact in one place, but it is a tidy-up, not a growth lever. If the address isn't working after setup, see [what to check: MX, SPF and DKIM](/reviews/domain-email-not-working-mx-spf-dkim). For a short decision guide, see [is a custom domain email worth it?](/reviews/is-a-custom-domain-email-worth-it-for-freelancers).
 
 ## Microsoft 365 — best if clients are Microsoft-based
 
@@ -5619,6 +5619,53 @@ The second was a first proposal to a new client. I described my track record and
 The full format, with a template, is in [the one-page freelance proposal](/reviews/one-page-freelance-proposal-template). If you send proposals often, our [proposal software comparison](/reviews/best-proposal-software-freelancers) covers tools for tracking and signing.
 
 *This is based on two of my own proposals, so treat it as something to test rather than a guaranteed result.*
+`,
+  },
+  {
+    slug: "is-a-custom-domain-email-worth-it-for-freelancers",
+    category: "Guides",
+    title: "Is a Custom Domain Email Worth It for a Freelancer? What It Cost Me and What It Changed",
+    seoTitle: "Is Custom Domain Email Worth It for Freelancers?",
+    dek: "It did not bring me more inquiries. Here is what it cost, what it actually changed, and the three questions I would ask before paying for it.",
+    seoDescription: "Is a custom domain email worth it for a freelancer? What it cost me (about ¥900/month and two hours of setup), what changed, and three questions to decide.",
+    verdict: "Worth it as a tidy-up, not a growth lever",
+    toolsCompared: 3,
+    readTime: "4 min read",
+    date: "2026-10-30",
+    faq: [
+      { q: "Will a custom domain email get me more clients?", a: "In my case it did not bring more inquiries. The benefit was a clearer business contact point and easier management of client and invoice email, not more work." },
+      { q: "Is a custom domain email hard to set up?", a: "The mailbox is quick; the DNS records are the slow part. For me the whole setup, including reading up on MX, SPF and DKIM and sending test emails, took about two hours." },
+      { q: "Do I need a custom domain email from day one?", a: "No. If you have few clients and little mail, waiting costs you little. It starts to matter when client and invoice email pile up in your personal inbox or you want a business address to give new contacts." },
+    ],
+    body: `
+**Short answer:** for me it was worth it, but as a tidy-up rather than a way to win work. I pay about ¥900 per user per month for Google Workspace to keep my business contact separate from my personal Gmail. After switching, my inquiries did not increase. What changed was smaller: client and invoice email became easier to manage, and I had a business address to give someone I was writing to for the first time. If that is what you want, it is worth setting up. If it isn't, it can wait.
+
+## What it cost me
+
+- **Money.** About ¥900 per user per month for Google Workspace, plus the domain registration fee, which varies by registrar.
+- **Time.** About two hours in total, almost all of it DNS. I had assumed that buying the domain was enough, but the address needed MX records, and I had to understand SPF and DKIM before I trusted it. If you hit the same wall, [here is the order I check things in](/reviews/domain-email-not-working-mx-spf-dkim).
+
+## What it changed, and what it didn't
+
+It did not bring more inquiries; I did not notice anyone getting in touch more after the switch. The benefits were practical. Keeping work separate from my personal Gmail made client messages and invoice-related email easier to keep track of. And for a first-time contact, a business address is easier to explain than a free personal one. For roughly ¥900 a month, that is a cost I find reasonable for keeping my work contact in one place.
+
+![Three questions to ask before paying for a custom domain email: does client mail pile up in your personal inbox, would you rather not write to new contacts from a free address, can you spare an hour or two plus a small monthly fee. Two or more yes answers mean it is worth setting up.](/diagrams/email-worth-it-questions.svg)
+
+## Three questions I would ask
+
+These are my own judgement, not a rule:
+
+1. **Does client and invoice mail already pile up in your personal inbox?** If so, separating it is the main benefit.
+2. **Would you rather not write to new contacts from a free address?** If that matters to you, a business address helps.
+3. **Can you spare an hour or two for setup, plus a small monthly fee?** The money is small, but the DNS step is where people get stuck.
+
+If you answer yes to two or more, I would set it up. With fewer, waiting costs you little.
+
+## If you decide yes
+
+Our [guide to professional email for freelancers](/reviews/best-professional-email-domain-freelancers) compares the providers, and the [troubleshooting page](/reviews/domain-email-not-working-mx-spf-dkim) covers what to check if the address doesn't work after setup.
+
+*This is one freelancer's experience with one provider. Prices change and differ by plan and country, so check the current price on the provider's site before deciding.*
 `,
   },
 ];
