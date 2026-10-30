@@ -5,6 +5,7 @@ import { articles, getArticle, countLabel, countLabelShort } from "../../../data
 import { SITE_URL } from "../../../lib/site-config";
 import { getCategorySlug } from "../../../lib/categories";
 import { toAffiliateUrl } from "../../../lib/affiliate-links";
+import ProblemPath from "../../../components/ProblemPath";
 import RateCalculator from "../../../components/RateCalculator";
 import AICodingCostCalculator from "../../../components/AICodingCostCalculator";
 import InternationalPaymentCalculator from "../../../components/InternationalPaymentCalculator";
@@ -64,6 +65,49 @@ export function generateMetadata({ params }) {
 
 marked.setOptions({ gfm: true, breaks: false });
 
+// Give every h2 a stable id so the table of contents can link to it.
+function slugifyHeading(text) {
+  return String(text)
+    .replace(/<[^>]+>/g, "")
+    .replace(/&[a-z#0-9]+;/gi, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-")
+    .slice(0, 70);
+}
+
+marked.use({
+  renderer: {
+    heading(text, level) {
+      if (level === 2) {
+        return `<h2 id="${slugifyHeading(text)}">${text}</h2>\n`;
+      }
+      return `<h${level}>${text}</h${level}>\n`;
+    },
+  },
+});
+
+// Table of contents entries, built from the article's own "##" headings
+// (inline markdown such as links or emphasis is stripped to plain text).
+function getTocItems(markdown) {
+  const items = [];
+  const seen = new Set();
+  for (const line of markdown.split("\n")) {
+    const m = line.match(/^## (.+)$/);
+    if (!m) continue;
+    const plain = m[1]
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+      .replace(/[*_`]/g, "")
+      .trim();
+    const id = slugifyHeading(plain);
+    if (!id || seen.has(id)) continue;
+    seen.add(id);
+    items.push({ id, text: plain });
+  }
+  return items;
+}
+
 // article.date is stored as "YYYY-MM-DD"; format it for display.
 function formatDate(isoDate) {
   const d = new Date(isoDate + "T00:00:00");
@@ -90,6 +134,7 @@ export default function ReviewPage({ params }) {
   const marker = "\n## Quick comparison";
   const splitIndex = article.body.indexOf(marker);
   const hasSplit = splitIndex !== -1;
+  const tocItems = getTocItems(article.body);
   const introMd = hasSplit ? article.body.slice(0, splitIndex) : article.body;
   const restMd = hasSplit
     ? marker.replace(/^\n/, "") + article.body.slice(splitIndex + marker.length)
@@ -369,7 +414,12 @@ export default function ReviewPage({ params }) {
               Written by{" "}
               <Link href="/author" style={{ textDecoration: "underline" }}>
                 Kosei Taki
+              </Link>{" "}
+              (
+              <Link href="/methodology" style={{ textDecoration: "underline" }}>
+                how we write
               </Link>
+              )
             </span>
             <span>·</span>
             <span>
@@ -386,6 +436,21 @@ export default function ReviewPage({ params }) {
           </div>
         </div>
       </section>
+
+      {tocItems.length >= 4 ? (
+        <nav className="toc" aria-label="In this guide">
+          <div className="wrap">
+            <p className="toc-title">In this guide</p>
+            <ol>
+              {tocItems.map((item) => (
+                <li key={item.id}>
+                  <a href={`#${item.id}`}>{item.text}</a>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </nav>
+      ) : null}
 
       <section className="article-body-wrap">
         <div className="wrap">
@@ -550,6 +615,8 @@ export default function ReviewPage({ params }) {
           </div>
         </div>
       </section>
+
+      <ProblemPath slug={article.slug} />
 
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="wrap">

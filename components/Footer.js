@@ -84,6 +84,7 @@ export default function Footer() {
               <Link href="/contact">Contact</Link>
               <Link href="/privacy">Privacy policy</Link>
               <Link href="/terms">Terms of Service</Link>
+              <Link href="/sitemap">Sitemap</Link>
             </div>
           </div>
         </div>

@@ -4,11 +4,15 @@ import { SITE_URL } from "../lib/site-config";
 import { getCategorySlug } from "../lib/categories";
 import AuthorStrip from "../components/AuthorStrip";
 import TrustPanel from "../components/TrustPanel";
+import ProblemFinder from "../components/ProblemFinder";
 import ArticleCard from "../components/ArticleCard";
 import { START_HERE_SLUGS, FIRST_HAND_SLUGS } from "../lib/featured";
 
 export const metadata = {
-  alternates: { canonical: SITE_URL },
+  alternates: {
+    canonical: SITE_URL,
+    types: { "application/rss+xml": `${SITE_URL}/feed.xml` },
+  },
 };
 
 // Only guides that actually compare software count toward "tools
@@ -68,6 +72,8 @@ export default function HomePage() {
           ))}
         </div>
       </div>
+
+      <ProblemFinder />
 
       <TrustPanel />
 

@@ -843,7 +843,7 @@ The bigger change wasn't just switching tools — it was starting to negotiate w
 
 The fee gap matters most for recurring, sizeable international invoices — a monthly retainer, not a single small project. For those relationships, it's a reasonable ask to set up a Wise account and share receiving details the same way you'd share a bank account number; most clients who are paying you regularly are open to whichever method is simplest for both sides once you explain the fee difference plainly.
 
-If the choice you are really weighing is Wise against Payoneer rather than PayPal, our [Wise vs Payoneer comparison](/reviews/wise-vs-payoneer-freelancers) runs the same kind of $1,000 payment through both.
+If the choice you are really weighing is Wise against Payoneer rather than PayPal, our [Wise vs Payoneer comparison](/reviews/wise-vs-payoneer-freelancers) runs the same kind of $1,000 payment through both. To see where the gap between an invoice and the amount received comes from, read [why you received less than you invoiced](/reviews/received-less-than-invoice-foreign-client-payment).
 
 ## Bottom line
 
@@ -1063,6 +1063,8 @@ Most professional liability policies are "claims-made," meaning the policy must 
 ## What I carry and what I keep re-checking
 
 I carry liability insurance for my IT-related work, at about ¥15,000 a year. I chose it mainly on whether it covers losses from data leaks and mistakes in my work. Since taking it out I keep re-checking more than the premium: the coverage limit, whether it applies to overseas projects, the deductible, and how certificates of insurance are issued.
+
+If a client has already asked for proof, see [what to send when a client asks for proof of insurance](/reviews/client-asks-for-proof-of-insurance-certificate).
 
 ## Bottom line
 
@@ -1508,7 +1510,7 @@ I use Google Workspace for my own business address, at about ¥900 per user per 
 
 The part that slowed me down was DNS. I had assumed that once the domain was bought, the address would just work. In practice the domain needed MX records pointed at Google, and I had to understand SPF and DKIM, the email authentication records, before I trusted it. Reading up on the settings and sending test messages took about two hours in total.
 
-It did not make inquiries jump. I did not see more people getting in touch after the switch. What changed was smaller: it became easier to present a business contact to someone I was writing to for the first time than a free personal address. At roughly ¥900 a month, that is a cost I find reasonable for keeping work contact in one place, but it is a tidy-up, not a growth lever.
+It did not make inquiries jump. I did not see more people getting in touch after the switch. What changed was smaller: it became easier to present a business contact to someone I was writing to for the first time than a free personal address. At roughly ¥900 a month, that is a cost I find reasonable for keeping work contact in one place, but it is a tidy-up, not a growth lever. If the address isn't working after setup, see [what to check: MX, SPF and DKIM](/reviews/domain-email-not-working-mx-spf-dkim).
 
 ## Microsoft 365 — best if clients are Microsoft-based
 
@@ -1982,6 +1984,8 @@ Shoeboxed solves a different problem than the apps above: instead of scanning as
 ## The habit matters more than the app
 
 Every option here works better with one simple practice: capture the receipt within a day or two of the expense, not at tax time. A receipt scanned immediately after a purchase is accurate; a stack of receipts photographed in a panic every April is where deductions actually get lost, regardless of which app's OCR is technically the most accurate.
+
+If you are already stuck without a receipt, start with [what to do when you can't find receipts at tax time](/reviews/cant-find-receipts-at-tax-time-what-to-do).
 
 ## Bottom line
 
@@ -2748,6 +2752,8 @@ Before comparing tools, it helps to know which features actually move the needle
 - **Tax and VAT handling** — especially relevant if you bill EU clients.
 
 *A recurring $1,200/month client once went quiet on payment for almost a month before I realized why: the contract specified "payment processed on invoice receipt," but I'd wrapped up that month's deliverables over Slack and never actually sent the invoice. Two weeks of silence felt like normal international payment lag, until a one-line reply — "Invoice not received" — made it obvious the delay was entirely mine. By the time I sent it, got it processed, and waited for the transfer to land, a payment that should have taken about two weeks took closer to six. Now invoice-sending is tied to delivery, not a separate step I trust myself to remember, and I keep a running list of what's been sent versus what's actually been paid.*
+
+If a payment is already late, here is [the order I check things in](/reviews/client-payment-late-check-this-first).
 
 ## Quick comparison
 
@@ -4521,7 +4527,9 @@ Not every ask ends like the second one. On a separate ongoing engagement, I rais
 
 The effect was less about money than about definition. Once the boundary was written down, the extra work that had been drifting in unpaid had somewhere to go, which was its own line. The amount of free work I was absorbing went down, and the scope of the engagement became something both sides could point to.
 
-**The lesson:** a "not this year" on the rate is not necessarily an answer to the underlying problem, which is usually that effort and pay have drifted apart. If the price can't move yet, the scope can. Be specific about what the current price buys, and treat everything outside it as a separate conversation. I described this approach in [a GIGS Magazine Q&A on raising rates](https://gigsmagazine.com/qa/how-freelancers-raise-rates-with-confidence/).
+![A rate conversation ends one of two ways: the new rate applies, or, if the answer is not this year, keep the rate and the scope and bill extra work separately.](/diagrams/rate-conversation-paths.svg)
+
+**The lesson:** a "not this year" on the rate is not necessarily an answer to the underlying problem, which is usually that effort and pay have drifted apart. If the price can't move yet, the scope can. Be specific about what the current price buys, and treat everything outside it as a separate conversation. I described this approach in [a GIGS Magazine Q&A on raising rates](https://gigsmagazine.com/qa/how-freelancers-raise-rates-with-confidence/). For a step-by-step version, see [what to do when a client keeps asking for extra work](/reviews/client-keeps-adding-extra-work-what-to-do).
 
 *These accounts reflect one freelancer's experience on specific projects. Client relationships, industries, and what a given client will accept vary — treat this as two data points and a framing worth trying, not a guaranteed script.*
 `,
@@ -5185,6 +5193,8 @@ The limits are practical ones. Wise is not wired into freelance marketplaces the
 - **A mix of both:** Many freelancers keep both accounts. Some withdraw marketplace earnings from Payoneer into a Wise account in the same currency and convert there, but only worth doing if the withdrawal fee plus Wise's conversion fee comes out below Payoneer's own conversion markup on your route, so run the numbers once for your corridor.
 - **Clients who insist on PayPal:** that is a separate decision, covered in our [Wise vs PayPal comparison](/reviews/wise-vs-paypal-freelancers-international-payments).
 
+![Which fits which situation: marketplaces fit Payoneer, direct clients paying by bank transfer fit Wise, a mix means keeping both, and a client who insists on PayPal means comparing the amount that lands in your bank.](/diagrams/wise-vs-payoneer-decision.svg)
+
 ## What neither one solves
 
 Both are ways to move money, not ways to get paid on time or keep your books straight. If invoices go out late or in the wrong currency, the payment platform will not save you, which is what our [invoicing software guide](/reviews/invoicing-software-international-freelancers) is for. For recording what each conversion actually cost you, see [how to track profit and loss in foreign currency](/reviews/how-to-track-profit-loss-foreign-currency-freelancer), and for accounting tools that handle several currencies, our [multi-currency accounting guide](/reviews/multi-currency-accounting-software-freelancers). If you want all four major options side by side, including Stripe and PayPal, the [full international payments comparison](/reviews/international-payment-platforms-freelancers) covers them. And if marketplace income is your main source, [Upwork vs Fiverr](/reviews/upwork-vs-fiverr-freelancers) covers what those platforms take before the money ever reaches Payoneer.
@@ -5227,6 +5237,8 @@ I learned this on a first proposal to a new client. I described my track record 
 
 If the page answers those four and ends with a single next step, it is complete.
 
+![Layout of a one-page proposal: the problem, what I'll do, the timeline, the price, and one next step, each with a note on what to write.](/diagrams/one-page-proposal-layout.svg)
+
 ## A fill-in skeleton
 
 > **Proposal for [project name]**
@@ -5248,6 +5260,8 @@ The detailed track record is the part to cut. A single line about relevant exper
 ## When one page is not enough
 
 A larger or multi-phase project needs more than a page, but the same order still helps: problem first, price last, and a clear statement of what is out of scope. At that point the proposal also starts to overlap with the contract, so it is worth running through our [client contract checklist](/reviews/freelance-client-contract-checklist) before the work begins, and our [new-client vetting checklist](/reviews/freelance-new-client-vetting-checklist) before you spend time on a proposal at all.
+
+If proposals are going unanswered, see [what I would change first](/reviews/why-clients-dont-reply-to-my-proposals).
 
 ## Do you need proposal software?
 
@@ -5286,6 +5300,8 @@ A simple table was enough for a while. Once projects started to overlap, I notic
 
 In 2025 the information for my client projects had spread across email, chat and documents. Checking the progress of one project meant opening several places, and the work itself sat in different states at once: delivered, waiting for the client's confirmation, and waiting for me to revise. One table could not hold the detail for each client, so I added two things on top of it: a page for each client, and a master list that covers all of them. The structure comes down to three questions.
 
+![The Notion setup: a master list of every project, a page for each client, and a rule that keeps what the client sees apart from my own notes.](/diagrams/notion-client-structure.svg)
+
 ### What belongs on the master list?
 
 Every project, one row each, with its deadline and its progress, so I can see all deadlines and statuses in one view. The earlier version of this table also carried the client and the next action, and I would keep both. The master list answers "what needs attention today," and nothing else.
@@ -5321,6 +5337,290 @@ Start with one table. Add a page for each client when one table can no longer ho
 *This is one freelancer's setup and will not fit every kind of work. Notion changes its plans and limits from time to time, so confirm current pricing on its site.*
 `,
   },
+  {
+    slug: "domain-email-not-working-mx-spf-dkim",
+    category: "Fix It",
+    title: "My Domain Email Isn't Working After Setup: Check MX, SPF and DKIM in This Order",
+    seoTitle: "Domain Email Not Working? Check MX, SPF and DKIM",
+    dek: "Buying a domain doesn't make the address work. Three DNS records decide whether mail arrives and whether it lands in spam. Here is the order to check them in.",
+    seoDescription: "Domain email not arriving, or landing in spam? Check MX, SPF and DKIM in this order, with a test you can run in Gmail and what to do if nothing changes.",
+    verdict: "Check MX first, then SPF, then DKIM",
+    toolsCompared: 3,
+    readTime: "4 min read",
+    date: "2026-10-29",
+    faq: [
+      { q: "Why does my new domain email not receive anything?", a: "Most often the MX records are missing or wrong, or the DNS changes were made somewhere the domain's nameservers don't point to. Copy the MX values from your email provider's admin console, and make the change at whichever service your nameservers actually use." },
+      { q: "Do I need SPF and DKIM for a small freelance business?", a: "Mail can flow without them, but messages without authentication are more likely to be treated as suspicious and sent to spam. Setting up SPF and DKIM is a small amount of work compared with explaining to a client why your email went missing." },
+      { q: "How long do DNS changes take?", a: "From a few minutes to several hours before every receiver sees the change. If a record still looks wrong after that, recheck where the domain's nameservers point." },
+    ],
+    body: `
+**Short answer:** if mail to your new domain address never arrives, or your messages land in spam, one of three DNS records is usually missing or wrong: MX (where incoming mail is delivered), SPF (which servers may send as your domain), or DKIM (a signature that shows the message really came from you). Check them in that order, then send a test email to confirm.
+
+## What I assumed, and what it actually took
+
+When I set up Google Workspace for my own business address, I assumed that once the domain was bought, the address would simply work. It didn't. The domain needed MX records pointing at Google, and I had to understand SPF and DKIM, the email authentication records, before I trusted the setup. Reading up on the settings and sending test messages took about two hours in total.
+
+![Three DNS records, three jobs: MX delivers incoming mail, SPF lists who may send as your domain, DKIM signs your messages. Then test with an outside address.](/diagrams/domain-email-dns-checks.svg)
+
+## Check them in this order
+
+1. **MX records (incoming mail).** They tell the internet which servers receive mail for your domain. If they are missing or wrong, mail sent to your address never arrives. Copy the values from your email provider's admin console rather than from a third-party page, because they differ by provider.
+2. **SPF (who may send).** A TXT record listing the servers allowed to send mail as your domain. A domain should have only one SPF record. If you add a second one instead of editing the first, receivers can treat both as invalid.
+3. **DKIM (proof it is you).** Your provider generates a key, you publish it in DNS, and then you switch signing on in the admin console. Publishing the record without turning signing on is a common half-finished setup.
+
+## Then test it properly
+
+Send a message from your new address to an outside account (a personal Gmail works), and send one back. In Gmail, open the received message, choose "Show original," and look for SPF and DKIM marked as pass. A fail there tells you which record to fix.
+
+## If nothing seems to change
+
+- **Edit DNS where it is actually served.** If your domain's nameservers point to another service, changes made at the registrar are ignored. Make them at whichever service the nameservers point to.
+- **Allow time.** DNS changes can take anywhere from a few minutes to several hours to reach every receiver.
+- **Next step, once these pass:** a DMARC record tells receivers what to do with messages that fail SPF or DKIM. It is optional for a small sender, but worth adding after the first two are working.
+
+For what to choose before this step, see our guide to [professional email for freelancers](/reviews/best-professional-email-domain-freelancers).
+
+*This reflects one setup on one provider. Exact record values and menu names differ by provider and change over time, so follow your provider's current setup instructions.*
+`,
+  },
+  {
+    slug: "received-less-than-invoice-foreign-client-payment",
+    category: "Fix It",
+    title: "Why Did I Receive Less Than I Invoiced? Where the Money Goes on Payments From Overseas Clients",
+    seoTitle: "Received Less Than Invoiced? Overseas Payment Fees",
+    dek: "An invoice for $1,000 doesn't land as $1,000. Here are the places the difference comes from, and the check I run before every overseas invoice.",
+    seoDescription: "Why a client's overseas payment arrives short: platform fees, the currency conversion gap, and bank-side costs, plus four checks to run before you invoice.",
+    verdict: "Compare options by the amount that reaches your bank",
+    toolsCompared: 4,
+    readTime: "4 min read",
+    date: "2026-10-29",
+    faq: [
+      { q: "Is the PayPal fee the only cost on an overseas payment?", a: "No. The currency conversion can cost as much as the visible fee, and the bank side may add its own charge. That is why the useful comparison is the amount that reaches your account, not the fee shown on screen." },
+      { q: "Who should pay the transfer fee on an international invoice?", a: "There is no single rule. Some freelancers add the expected fee to the invoice and others absorb it. What matters is that it is agreed before the invoice goes out." },
+      { q: "Which service is cheapest for overseas payments?", a: "It depends on the route, the currencies and the amount, and fees change over time. Use a current comparison and check the final amount for your own route." },
+    ],
+    body: `
+**Short answer:** the amount you invoice and the amount that reaches your bank account differ because of up to three costs: the platform's fee, the currency conversion (the gap between the rate you are given and the real exchange rate), and any receiving or withdrawal fee on the bank side. The advertised fee is only one of them, so compare options by the final amount in your account.
+
+## What it looked like for me
+
+In November 2023 an overseas client paid me $1,000 through PayPal. At the time I hadn't compared transfer services; I went with whatever was easiest for the client. By my estimate, about $40 went to fees and about $30 was lost to the exchange rate, roughly $70 in total, or around ¥10,500 at ¥150 to the dollar. When I checked what actually arrived, I understood that the amount invoiced and the amount left in my account are not the same thing.
+
+The money showed up quickly, but moving it to my bank account and checking the converted amount took extra effort. After that I stopped relying on PayPal alone, started comparing options such as Wise, and decided by the amount that reaches my bank account instead of the headline fee.
+
+![A $1,000 invoice, my estimate: about $40 in platform fees and about $30 lost to the exchange rate, leaving about $930 in the bank.](/diagrams/payment-shortfall-bar.svg)
+
+## The four checks I run before invoicing
+
+1. **Currency.** Which currency will the client pay in, and will it be converted before it reaches me? Each conversion is a place for a margin to hide.
+2. **Who pays the fee.** Agree whether the client or I cover the transfer fee before the invoice goes out.
+3. **Final amount.** Compare services by what lands in the bank, not by the fee shown on screen.
+4. **Due date.** Settlement can take anywhere from the same day to several business days depending on the route, so build that into the due date.
+
+## Where to go next
+
+Fees and conversion margins change over time, so use [our fee comparison for international payments](/reviews/international-payment-platforms-freelancers) for current ranges, and [Wise vs PayPal](/reviews/wise-vs-paypal-freelancers-international-payments) for a head-to-head.
+
+*The amounts above are my estimate from one payment. Real fees and rates depend on the route, the day, and the provider.*
+`,
+  },
+  {
+    slug: "client-keeps-adding-extra-work-what-to-do",
+    category: "Fix It",
+    title: "A Client Keeps Asking for Extra Work: What to Do Before It Costs You",
+    seoTitle: "Client Keeps Adding Work? How to Handle Extra Requests",
+    dek: "Extra research and one more revision add up without anyone deciding to. Here is how I compare each request with the agreed scope and answer it.",
+    seoDescription: "When a client keeps asking for more, compare each request with the written scope, answer with options, and confirm in writing. Includes sample wording.",
+    verdict: "Check every request against the written scope",
+    toolsCompared: 3,
+    readTime: "4 min read",
+    date: "2026-10-29",
+    faq: [
+      { q: "How do I stop scope creep before it starts?", a: "Write the deliverables, the number of revisions, and what is billed separately into the contract or proposal. A one-page proposal that names these things gives you something concrete to point to later." },
+      { q: "Is it okay to do small extras for free?", a: "It is a judgement call. A small favour can build goodwill, but if extras become routine they change the real price of the project. Naming it, for example saying this one is on you, keeps it a favour instead of the new baseline." },
+      { q: "How many revisions should a project include?", a: "There is no standard number. Agree a figure in advance, for example two rounds, and state the rate for any further rounds so that a further request has a clear answer." },
+    ],
+    body: `
+**Short answer:** compare each new request with what was agreed in writing: the deliverables and the number of revisions. If it fits, do it. If it doesn't, say so politely and offer a choice, either an extra fee or scheduling it as separate work. The point is to make the decision visible instead of absorbing the work silently.
+
+## How it happened to me
+
+On a content project, requests for extra research and further revisions kept piling on top of what we had agreed. I hadn't set an additional fee for anything beyond the original estimate, so my hours rose while my revenue stayed the same, and my effective hourly rate fell. No single request felt big enough to push back on, which is exactly how it adds up.
+
+Since then I write the deliverables and the number of revisions into the contract, and when a request falls outside them I raise an additional fee.
+
+![A decision flow: a new request is compared with the agreed deliverables and revision count. If inside, do it. If outside, offer an extra fee or separate scheduling, then confirm in writing.](/diagrams/extra-work-decision-flow.svg)
+
+## Three steps for each request
+
+1. **Compare.** Does the request fit the agreed deliverables and the revision count? If you never wrote those down, that is the first thing to fix.
+2. **Answer with options.** Something like: "Happy to help with that. It's outside the current scope (X deliverables, Y revisions), so I'd quote it separately. Would you like an estimate, or should we plan it for next month?" It keeps the tone friendly and gives the client a clear way to say yes.
+3. **Confirm in writing.** Whatever is agreed, put it in a message or an updated scope so the next request has something to be compared against.
+
+## When the client says the budget is fixed
+
+That came up for me on a separate engagement: when I asked about a higher rate I was told it would be difficult within that year's budget. Instead of pressing on the number, I proposed keeping the rate, keeping the work to what that rate covers, and billing anything beyond it separately. The longer version is in our piece on [scope creep and rate increases](/reviews/scope-creep-and-rate-increases-client-conversations).
+
+To prevent this at the start, a [one-page proposal](/reviews/one-page-freelance-proposal-template) that names the deliverables and what is billed separately gives you something concrete to point to.
+
+*This is one freelancer's approach, not legal advice. For a contract with significant value, have the terms reviewed by someone qualified.*
+`,
+  },
+  {
+    slug: "client-payment-late-check-this-first",
+    category: "Fix It",
+    title: "A Client's Payment Is Late: What to Check Before You Chase Them",
+    seoTitle: "Client Payment Late? Check This Before You Chase",
+    dek: "Before you send a reminder, make sure the invoice actually went out. In my case, a month-long delay was my own.",
+    seoDescription: "A client payment is late: check whether the invoice was sent, whether it is really overdue, then send a friendly reminder. Includes my own late-payment story.",
+    verdict: "Check your invoice first, then the due date, then remind",
+    toolsCompared: 4,
+    readTime: "4 min read",
+    date: "2026-10-29",
+    faq: [
+      { q: "How long should I wait before sending a payment reminder?", a: "Once the due date has passed, a short reminder the next business day is reasonable. Many late payments are simply missed or misrouted invoices." },
+      { q: "Can I charge a late fee?", a: "Only if your contract provides for it, and rules vary by country and by type of client. This is general information, not legal advice, so check your contract or ask someone qualified." },
+      { q: "What if a client keeps paying late?", a: "Consider shorter payment terms, a deposit, or invoicing on delivery instead of at month end, and whether the client is a good fit. The right choice depends on how much the relationship is worth to you." },
+    ],
+    body: `
+**Short answer:** before you chase the client, check your side first: was the invoice actually sent, and did it arrive? Then check the due date in the contract. Only then send a short, friendly reminder with the invoice attached. A late payment is not always the client's delay.
+
+## When the delay was mine
+
+A recurring $1,200/month client once went quiet on payment for almost a month. The contract said payment would be processed on invoice receipt, but I had wrapped up that month's deliverables over Slack and never sent the invoice. Two weeks of silence felt like normal international payment lag, until a one-line reply ("Invoice not received") made it obvious the delay was entirely mine. By the time I sent it, it was processed, and the transfer landed, a payment that should have taken about two weeks took closer to six.
+
+Now invoice-sending is tied to delivery instead of being a separate step I trust myself to remember, and I keep a running list of what has been sent. The invoicing side of this is covered in our [guide to invoicing software for international freelancers](/reviews/invoicing-software-international-freelancers).
+
+![A four-step check: was the invoice sent, is it really overdue, send a friendly reminder, then follow up once and check the contract terms.](/diagrams/late-payment-check-flow.svg)
+
+## The order I would check things in
+
+1. **Was the invoice sent, and received?** Check the sent date and the address it went to. If it never went out, send it now.
+2. **Is it actually overdue?** Look at the payment terms in the contract. "Net 30" and "on receipt" are very different deadlines, and the clock starts when the client receives the invoice.
+3. **Send a short reminder.** Attach the invoice, state the amount and the due date, and ask whether anything is blocking payment. Assume a mistake before you assume bad faith.
+4. **Follow up once more, then check the contract.** If a second reminder gets no answer, read what the contract says about late payment before you decide what to do next.
+
+*This is general information, not legal advice. Late fees and collection steps depend on your contract and where you and your client are based.*
+`,
+  },
+  {
+    slug: "cant-find-receipts-at-tax-time-what-to-do",
+    category: "Fix It",
+    title: "I Can't Find My Receipts at Tax Time: What to Do Now and How to Stop It Happening Again",
+    seoTitle: "Can't Find Receipts at Tax Time? What to Do Now",
+    dek: "Three missing receipts cost me more time than they were worth. Here is how to rebuild what is missing, and the monthly routine that replaced hunting.",
+    seoDescription: "Missing receipts at tax time: rebuild them from other records, then save at the source and check at month end. Includes a simple monthly routine and diagram.",
+    verdict: "Rebuild from other records, then save at the source",
+    toolsCompared: 3,
+    readTime: "4 min read",
+    date: "2026-10-30",
+    faq: [
+      { q: "What if I can't find a receipt at all?", a: "Look for other records of the same purchase: your bank or card statement, the confirmation email, and the billing history inside the service's own dashboard. Many vendors will also reissue a receipt or invoice on request. Rules about what counts as acceptable evidence differ by country, so check your tax authority's guidance." },
+      { q: "Do I need to keep paper receipts?", a: "That depends on where you file taxes. Some tax authorities accept scanned or photographed copies and others have specific retention periods. Check the requirements that apply to you before throwing paper away." },
+      { q: "Which tool should I use to keep receipts?", a: "Start with a routine that you will actually follow, such as a folder per month, and add a tool only if it removes work. Our guide to receipt scanning apps compares the options." },
+    ],
+    body: `
+**Short answer:** don't panic, and rebuild what is missing from other records before you give up on a receipt: your bank or card statement, the confirmation email, and the billing history in the service's own dashboard. Then fix the cause by saving every receipt at the moment it arrives and checking them once a month. Rules on what counts as evidence differ by country, so check your tax authority's requirements.
+
+## What happened to me
+
+When I prepared my 2024 tax return, three receipts were missing. I had been keeping emailed receipts, paper receipts, and the billing histories inside each service's dashboard in separate places, and I only started looking when I needed them. I couldn't tell where I had saved things, and confirming what I had took far longer than it should have.
+
+## Step 1: rebuild what is missing
+
+For each missing receipt, look for another record of the same purchase: the bank or card line, the confirmation email, or the vendor's billing page. If the vendor offers it, ask for a reissued receipt or invoice. Write down the date, amount and what it was for while you have it in front of you.
+
+![A monthly routine: a receipt arrives, save a PDF or photo in the month's folder, at month end check synced bank and card items in accounting software, and register the rest by hand.](/diagrams/receipts-monthly-routine.svg)
+
+## Step 2: save it at the source
+
+What I do now is save a PDF or an image the moment a receipt arrives, into a folder for that month. It takes seconds at the time and removes the search later.
+
+## Step 3: check once a month
+
+Transactions that sync with my accounting software from my bank or card are checked there. The ones that don't sync get registered by hand at month end. Doing this monthly means a missing receipt is noticed while it can still be replaced, not at filing time.
+
+For a comparison of tools that can automate part of this, see our guide to [receipt scanning apps](/reviews/best-receipt-scanning-apps-freelancers), and for the filing side, [tax software for freelancers](/reviews/best-tax-software-freelancers).
+
+*This describes my own routine, not tax advice. Record-keeping rules depend on your country, so check what your tax authority requires.*
+`,
+  },
+  {
+    slug: "client-asks-for-proof-of-insurance-certificate",
+    category: "Fix It",
+    title: "A Client Asks for Proof of Insurance: What to Send and How to Be Ready",
+    seoTitle: "Client Wants Proof of Insurance? What to Send",
+    dek: "Having a policy isn't the same as being able to prove it on the day a client asks. Here is what they usually want and how to get it.",
+    seoDescription: "When a client asks for proof of insurance, what you usually need is a certificate of insurance from your insurer. Steps, what to check first, and how to be ready.",
+    verdict: "Ask your insurer for a certificate, and learn the process early",
+    toolsCompared: 3,
+    readTime: "4 min read",
+    date: "2026-10-30",
+    faq: [
+      { q: "Can I write the certificate of insurance myself?", a: "No. A certificate of insurance is issued by your insurer or broker, which is why a client's request cannot be answered with a copy of your own notes. Ask your insurer how to request one." },
+      { q: "How long does it take to get a certificate of insurance?", a: "It varies by insurer and by what the client needs. Ask your insurer about its process and timing before a client asks, so you are not discovering it in the middle of onboarding." },
+      { q: "What if the client requires a specific coverage amount?", a: "Compare the requirement with your policy limits before you sign. If your policy falls short, ask your insurer what options exist and decide whether the contract is worth the extra cost." },
+    ],
+    body: `
+**Short answer:** what a client usually wants is a certificate of insurance, a document issued by your insurer that shows what you are covered for. You cannot make it yourself; you request it from the insurer. Read what the client actually requires first, then request the certificate, and send it with the contract documents. The best preparation is to know your insurer's request process before anyone asks.
+
+## What happened to me
+
+In February 2025 an overseas client asked for proof that I carried insurance, as part of its onboarding paperwork. I requested a certificate of insurance from my insurer and submitted it together with the contract documents. What stayed with me was that having a policy is not enough: you have to be able to produce the certificate when you are asked.
+
+![From the request to the certificate: the client asks, read what they need, request a certificate of insurance from your insurer, then send it with the contract documents and keep a copy.](/diagrams/insurance-certificate-flow.svg)
+
+## Three steps
+
+1. **Read what the client needs.** Some clients only want to see that you are insured. Others specify the type of coverage, a minimum limit, or ask to be named on the certificate. Check the request or the contract before you contact the insurer.
+2. **Request the certificate from your insurer.** Ask what details they need from you and how long it takes, and give them the client's exact requirements so the certificate is right the first time.
+3. **Send it with the contract documents, and keep a copy.** Having it ready for the next client turns a stressful request into routine paperwork.
+
+## Be ready before you are asked
+
+Find out now how your insurer issues certificates, whether it is a form, an email or an online account, and who to contact. For how I think about choosing a policy in the first place, see our [guide to business insurance for freelancers](/reviews/best-business-insurance-freelancers), and for what to look for in a contract, our [client contract checklist](/reviews/freelance-client-contract-checklist).
+
+*This is general information about one request in my own experience, not insurance or legal advice. Requirements differ by client, country and policy.*
+`,
+  },
+  {
+    slug: "why-clients-dont-reply-to-my-proposals",
+    category: "Fix It",
+    title: "Clients Don't Reply to My Proposals: What I Would Change First",
+    seoTitle: "Clients Not Replying to Your Proposal? Change This",
+    dek: "The same proposal got a thin response in one form and a negotiation in another. Here is what I changed, in the order I would try it.",
+    seoDescription: "If clients don't reply to your proposals, open with their problem, cut it to one page, and end with one next step. Two real examples from my own proposals.",
+    verdict: "Open with their problem, keep it to one page",
+    toolsCompared: 3,
+    readTime: "4 min read",
+    date: "2026-10-30",
+    faq: [
+      { q: "How long should I wait before following up on a proposal?", a: "A few business days is a common starting point, then one short follow-up. Mention the proposal and ask whether anything is unclear rather than whether they have decided." },
+      { q: "Should I include my portfolio in a proposal?", a: "Keep it to a single line about relevant experience and one link. On a short page, every sentence about you is a sentence not about the client's problem." },
+      { q: "Do I need proposal software?", a: "Not to send a good proposal. A clean PDF or document is enough, and software helps mainly with tracking opens and collecting signatures. Our comparison covers the options." },
+    ],
+    body: `
+**Short answer:** when proposals go unanswered, the usual cause is that they talk about you instead of the client's problem, or that the next step is hard to see. Open with the client's problem, keep it to one page, and end with a single next step. That is what changed the response for me.
+
+## Two things that happened
+
+The first was two proposals sent in the same week that landed completely differently. One opened with a list of my past work and skills. It was thorough, entirely self-focused, and went nowhere. The other opened by naming the client's actual problem before proposing anything, something close to "the current content has enough depth, but it is likely losing traffic to a mismatch with search intent." That one line, placed before any mention of my experience, was the only real difference between the two documents, and it is the one that got signed.
+
+The second was a first proposal to a new client. I described my track record and the services I offered in detail, and the response was thin. I sent it again as a single page covering the client's problem, the proposed solution, the timeline and the price. The reply said it was now easy to see what they could ask me for, and it led to an actual negotiation.
+
+![Two ways to open the same proposal: opening with me led to a weak response, while opening with the client's problem on one page led to a reply and a negotiation.](/diagrams/proposal-two-openings.svg)
+
+## What I would change, in this order
+
+1. **Open with their problem.** Put it in the client's own terms, before any mention of yourself.
+2. **Cut it to one page.** The problem, what you will do, the timeline and the price. Details of your background can be one line and a link.
+3. **End with one next step.** Make replying easy, for example by asking them to confirm so you can send the contract.
+
+The full format, with a template, is in [the one-page freelance proposal](/reviews/one-page-freelance-proposal-template). If you send proposals often, our [proposal software comparison](/reviews/best-proposal-software-freelancers) covers tools for tracking and signing.
+
+*This is based on two of my own proposals, so treat it as something to test rather than a guaranteed result.*
+`,
+  },
 ];
 
 export function getArticle(slug) {
@@ -5338,6 +5638,9 @@ export function countLabel(article) {
   if (article.category === "Freelance Life") {
     return `${article.toolsCompared} sources cited`;
   }
+  if (article.category === "Fix It") {
+    return `${article.toolsCompared}-step fix`;
+  }
   return `${article.toolsCompared} tools compared`;
 }
 
@@ -5349,6 +5652,9 @@ export function countLabelShort(article) {
   }
   if (article.category === "Freelance Life") {
     return `${article.toolsCompared} sources`;
+  }
+  if (article.category === "Fix It") {
+    return `${article.toolsCompared} steps`;
   }
   return `${article.toolsCompared} tools`;
 }

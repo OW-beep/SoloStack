@@ -9,6 +9,7 @@ export default function sitemap() {
     "/author",
     "/methodology",
     "/contact",
+    "/problems",
     "/privacy",
     "/terms",
     "/price-tracker",

@@ -1,4 +1,5 @@
 import { SITE_URL } from "../../lib/site-config";
+import ContactForm from "../../components/ContactForm";
 
 export const metadata = {
   title: "Contact | SoloStack",
@@ -23,6 +24,7 @@ export default function ContactPage() {
           our reviews, include the article title and what changed — we aim
           to correct verified pricing errors within a few days.
         </p>
+        <ContactForm />
       </div>
     </main>
   );
