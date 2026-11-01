@@ -6,6 +6,7 @@ import { SITE_URL } from "../../../lib/site-config";
 import { getCategorySlug } from "../../../lib/categories";
 import { toAffiliateUrl } from "../../../lib/affiliate-links";
 import ProblemPath from "../../../components/ProblemPath";
+import OfficialSources from "../../../components/OfficialSources";
 import RateCalculator from "../../../components/RateCalculator";
 import AICodingCostCalculator from "../../../components/AICodingCostCalculator";
 import InternationalPaymentCalculator from "../../../components/InternationalPaymentCalculator";
@@ -615,6 +616,8 @@ export default function ReviewPage({ params }) {
           </div>
         </div>
       </section>
+
+      <OfficialSources slug={article.slug} />
 
       <ProblemPath slug={article.slug} />
 
