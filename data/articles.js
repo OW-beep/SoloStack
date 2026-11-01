@@ -76,7 +76,7 @@ Slack and Discord get compared constantly, but for freelancers the more useful f
 
 Slack is built around searchable, threaded, asynchronous business communication with centralized workspace administration — designed for getting work done and finding a message from three weeks ago. Discord is built around real-time, voice-first community interaction with independent, self-managed servers — designed for an always-on space people casually drop into, not a searchable business archive.
 
-*In my own case the split is total, not situational: every client thread lives in Slack and nowhere else, and Discord is reserved entirely for communities I'm part of outside of work — I've never once tried to run client communication through Discord or vice versa, and keeping that line firm is most of why neither tool feels cluttered.*
+*In my own case: when I'm on my own I use Slack's free plan, and when a client pays for Slack I join that workspace instead of paying for one of my own. I use Discord for communities of independent developers and AI tool users, mainly to follow releases, bug reports and how other people build things. It is a place for gathering information, not for winning client work.*
 
 ## Quick comparison
 
@@ -102,6 +102,10 @@ Discord's free plan is dramatically more generous — unlimited message history 
 The friction shows up specifically when freelancers use the wrong tool for the job: a Discord server for formal client deliverable tracking feels chaotic and unsearchable in exactly the way clients notice, while a Slack workspace for a casual paid community can feel sterile and kill the informal engagement that makes a community worth joining in the first place. If you're running both a client-facing practice and a community, it's genuinely reasonable to run both tools — Slack for client channels, Discord for the community — rather than forcing one into the other's job.
 
 *If you're doing both client work and community building, using both tools is often the most practical setup.*
+
+## What I ran into with each
+
+On Slack's free plan, what bothered me was message history: when I wanted to look back at an earlier conversation, the free plan's limit meant I couldn't always find it. Discord was useful for gathering information. In communities around particular tools and developer services, I found settings pitfalls and real users' problem reports that the official documentation doesn't cover. For example, in one tool's community I saw a post saying that a wrong environment-variable setting at the start stops it from working, and I checked that before starting work.
 
 ## Bottom line
 
@@ -301,6 +305,10 @@ Clockify's free plan has no user cap at all — every feature, unlimited users, 
 ## The honest answer for most solo freelancers
 
 Since Toggl's 5-user free cap doesn't bind a one-person operation, the real question is simply which interface you'd rather use daily — and on that specific point, Toggl is the more consistently praised tool across independent reviews. The moment you're bringing on help and want them tracking time on the same free plan, Clockify's uncapped user count becomes the more relevant advantage.
+
+## What happened when I tried Toggl Track
+
+I tried Toggl Track. Recording hours per project helped me make better estimates, especially for work like preparing documents or tidying data, where it is hard to predict the time beforehand. At first I forgot to start the timer, or forgot to stop it after an interruption, and the extra steps sometimes felt like a burden. So I stopped recording every task and now track only the projects where better estimates matter. The tool shouldn't become the goal.
 
 ## Bottom line
 
@@ -630,6 +638,12 @@ Bitwarden's free tier is not a crippled trial — unlimited passwords and unlimi
 
 At roughly $36/year versus $10/year, 1Password costs about 3.6 times more for what independent security testing describes as a comparable underlying security architecture — the difference is real, but it's in polish and specific extra features (Travel Mode, interface refinement), not in the fundamental safety of your vault. For a security-conscious freelancer on a budget, that's a hard premium to justify from security alone. For a freelancer who values interface polish and doesn't want to think about the tool at all, or specifically travels internationally with sensitive client data, the extra cost buys something real.
 
+## How I moved off a notepad
+
+I used to keep passwords in my browser and in a notepad. As the number of services grew, I lost track of where things were saved and sometimes couldn't log in. When I began using several services on my own, I moved to a password manager, not all at once but starting with the most important accounts: email, accounting, banking and cloud storage. (This describes my migration, not a verdict on either product.)
+
+The trouble was having more than one account on the same service, with work and personal email addresses mixed up. Now I record the login email as well as the service name, and I turn on two-factor authentication wherever it is offered.
+
 ## Bottom line
 
 For most solo freelancers, Bitwarden's free tier — or its $10/year Premium plan for extra storage and reporting — delivers essentially the same core security as 1Password at a fraction of the cost. Choose 1Password specifically if the more polished interface and Travel Mode are worth paying a real premium for, not because it's meaningfully more secure. For the wider category, including how to handle sharing credentials with a subcontractor, see our [full password manager comparison](/reviews/best-password-managers-freelancers-client-logins).
@@ -794,6 +808,12 @@ In practice, a lot of freelance writers settle on using one tool for long-form d
 ## What matters more than either tool
 
 Regardless of which assistant you use, two habits matter more than the model choice: always fact-check AI-generated claims, statistics, or citations before they reach a client, since even strong models can generate confidently incorrect details; and check your specific client contracts, since some industries (journalism, academic writing, certain corporate clients) explicitly restrict or require disclosure of AI-assisted content. For more on where AI writing fits into a broader freelance toolkit, see our [AI writing tools guide](/reviews/ai-writing-tools-freelance-writers).
+
+## How I split the work
+
+I use ChatGPT for the first pass of research, for thinking through an article's structure, and for asking how to approach analyzing data in a spreadsheet, mostly when there is a lot of material and I need to organize the points or compare several options. I use Claude to read longer texts, to check how a piece flows, and to suggest improvements to an existing draft, especially to see whether the tone and the explanation feel natural.
+
+I don't leave either tool to do the work alone. Prices and rules change, and an AI answer can mix in outdated information, so I don't put anything into an article without checking the provider's official page. I used to pay for several AI services at once, but the division of labor got blurry and only the fixed monthly cost grew. Now I keep the ones I use daily and try another only when I need it.
 
 ## Bottom line
 
@@ -5329,6 +5349,12 @@ If proposals are going unanswered, see [what I would change first](/reviews/why-
 
 Not for a single page. A clean PDF or document works, and a free e-signature tool is enough to make it binding (see our [guide to free e-signature tools](/reviews/free-esignature-tools-freelance-contracts)). Dedicated proposal software earns its cost when you send proposals regularly and want to know when a client opens one, or collect a deposit at signing. Our [proposal software comparison](/reviews/best-proposal-software-freelancers) covers those options and what they cost.
 
+## What I actually put on my one page
+
+I keep my own proposals to a single A4 page so the client can judge it quickly. What I include: my understanding of the request and its background, the problem to solve, what I will do and deliver, how the work will proceed, the schedule, the price, what is in and out of scope, the number of revisions, how long the quote is valid, and the next action I need from the client.
+
+For the price, I give a single amount when the content is reasonably settled. When requirements are still vague I may give a range by scope of work, but a range alone is hard for the client to act on, so I also state the condition: "for this scope, this amount."
+
 ## Bottom line
 
 Write the page for the client's problem, not for your own résumé: problem, plan, timeline, price, next step. If a longer version is not getting replies, try cutting it down to those four answers before changing anything else.
@@ -5392,6 +5418,12 @@ Notion's Free plan is usable for solo work, which is enough to build everything 
 
 If clients need a login-protected portal, or invoicing and e-signature built in, compare dedicated tools in our [client portal software guide](/reviews/best-client-portal-software-freelancers). For how Notion stacks up against other project tools, see [Notion vs ClickUp](/reviews/notion-vs-clickup-freelancers) and our [free project management tools](/reviews/free-project-management-tools-solo-freelancers).
 
+## The statuses and the sharing I use
+
+On the master list my statuses are: under discussion, quote sent, contracted, in progress, waiting for confirmation, revising, delivered, invoiced, paid, and on hold or closed.
+
+I share a client's page with a page-level link, limited so that my project list and other clients' information are not visible. A page link can expose more than you intend if the setting is wrong, so before sharing I open it in another browser, or while logged out, to see what an outsider sees.
+
 ## Bottom line
 
 Start with one table. Add a page for each client when one table can no longer hold the detail, and decide what a client can see before you share anything. The structure matters more than the tool.
@@ -5442,6 +5474,10 @@ Send a message from your new address to an outside account (a personal Gmail wor
 
 For what to choose before this step, see our guide to [professional email for freelancers](/reviews/best-professional-email-domain-freelancers).
 
+## Where my own setup went wrong
+
+I bought the domain from an ordinary registrar and managed DNS on Cloudflare, so at first I wasn't sure where to change what. I entered the MX, SPF and DKIM records my email provider told me to use. My first test failed SPF. The cause was that I had left the existing SPF record in place and added a second one; once I understood that SPF is not something you add more of, I merged them into a single record. DKIM also took a while to take effect after I added it, so I now wait for DNS to update before testing, instead of sending a test right after the change.
+
 *This reflects one setup on one provider. Exact record values and menu names differ by provider and change over time, so follow your provider's current setup instructions.*
 `,
   },
@@ -5468,7 +5504,7 @@ For what to choose before this step, see our guide to [professional email for fr
 
 In November 2023 an overseas client paid me $1,000 through PayPal. At the time I hadn't compared transfer services; I went with whatever was easiest for the client. By my estimate, about $40 went to fees and about $30 was lost to the exchange rate, roughly $70 in total, or around ¥10,500 at ¥150 to the dollar. When I checked what actually arrived, I understood that the amount invoiced and the amount left in my account are not the same thing.
 
-The money showed up quickly, but moving it to my bank account and checking the converted amount took extra effort. After that I stopped relying on PayPal alone, started comparing options such as Wise, and decided by the amount that reaches my bank account instead of the headline fee.
+The money showed up quickly, but moving it to my bank account and checking the converted amount took extra effort. After that I started using Wise as well, and I now check the transfer fee and the exchange rate separately, deciding by the amount that reaches my bank account instead of the headline fee. In my experience Wise made the fee and the converted amount easier to see, while PayPal was convenient when the client was already used to it. Neither is always cheaper: the result depends on the sending country, the currency, and how the money is sent and received, so I confirm what I will actually receive before I invoice.
 
 ![A $1,000 invoice, my estimate: about $40 in platform fees and about $30 lost to the exchange rate, leaving about $930 in the bank.](/diagrams/payment-shortfall-bar.svg)
 
@@ -5525,6 +5561,12 @@ That came up for me on a separate engagement: when I asked about a higher rate I
 
 To prevent this at the start, a [one-page proposal](/reviews/one-page-freelance-proposal-template) that names the deliverables and what is billed separately gives you something concrete to point to.
 
+## How one extra-work conversation went
+
+On one project I was asked, a little at a time, for revisions to materials and extra tabulation that weren't in the original request. Each item was small, so I handled them at first, and then I realized I had spent far more time than planned. I put the extra items and an estimate in order and raised them separately. The result was a partial yes: not everything became paid work, but the higher-priority items were billed and the rest went to the next round.
+
+My contracts now allow two revisions as a rule, and revisions are limited to adjusting what was originally agreed. If the specification itself changes, that counts as extra work and gets a new estimate, even within the revision count.
+
 *This is one freelancer's approach, not legal advice. For a contract with significant value, have the terms reviewed by someone qualified.*
 `,
   },
@@ -5561,6 +5603,12 @@ Now invoice-sending is tied to delivery instead of being a separate step I trust
 2. **Is it actually overdue?** Look at the payment terms in the contract. "Net 30" and "on receipt" are very different deadlines, and the clock starts when the client receives the invoice.
 3. **Send a short reminder.** Attach the invoice, state the amount and the due date, and ask whether anything is blocking payment. Assume a mistake before you assume bad faith.
 4. **Follow up once more, then check the contract.** If a second reminder gets no answer, read what the contract says about late payment before you decide what to do next.
+
+## What I changed afterwards
+
+I used to rely on my memory for when to send an invoice. When work piled up at the end of the month, I sometimes finished a delivery and forgot to send the invoice. Now my project page in Notion has four date fields: delivery date, invoice date, expected payment date, and payment confirmed date. When a delivery is finished I create an invoice task, and I check again around the expected payment date.
+
+Once, when an invoice of mine went out late, I wrote to the client along these lines (a translation of what I wrote): "I'm sorry the invoice for the recent delivery was late. I've attached it, so please have a look. Could you also confirm the payment date?" What I took from it is not to mix up two different problems: the client paying late, and my own invoicing being late.
 
 *This is general information, not legal advice. Late fees and collection steps depend on your contract and where you and your client are based.*
 `,
@@ -5604,6 +5652,12 @@ Transactions that sync with my accounting software from my bank or card are chec
 
 For a comparison of tools that can automate part of this, see our guide to [receipt scanning apps](/reviews/best-receipt-scanning-apps-freelancers), and for the filing side, [tax software for freelancers](/reviews/best-tax-software-freelancers).
 
+## What I do now
+
+I used to leave receipts downloaded from email in my computer's Downloads folder, and when I started on my tax return I couldn't find the ones I needed and lost a lot of time. Now I keep an "Expenses" folder on Google Drive with a subfolder for each month (such as 2026-01), and I name each file date, service and amount, for example 2026-01-15_ServiceName_Amount.
+
+Of the three that were missing, two could be downloaded again from the provider's account page, and for the third I asked the seller to reissue it. Since then I save a receipt the day it arrives. Gathering them all in one batch at the end of the month didn't suit me.
+
 *This describes my own routine, not tax advice. Record-keeping rules depend on your country, so check what your tax authority requires.*
 `,
   },
@@ -5642,6 +5696,10 @@ In February 2025 an overseas client asked for proof that I carried insurance, as
 
 Find out now how your insurer issues certificates, whether it is a form, an email or an online account, and who to contact. For how I think about choosing a policy in the first place, see our [guide to business insurance for freelancers](/reviews/best-business-insurance-freelancers), and for what to look for in a contract, our [client contract checklist](/reviews/freelance-client-contract-checklist).
 
+## How it went
+
+I asked for the certificate through my insurer's online portal, and it reached me about three business days later. In the request I described the type of insurance and the coverage details the client had specified. Since then I save the certificate with the contract documents in cloud storage, and I put the renewal date in my calendar. Holding a policy and being able to prove it when asked are two different things.
+
 *This is general information about one request in my own experience, not insurance or legal advice. Requirements differ by client, country and policy.*
 `,
   },
@@ -5679,6 +5737,10 @@ The second was a first proposal to a new client. I described my track record and
 3. **End with one next step.** Make replying easy, for example by asking them to confirm so you can send the contract.
 
 The full format, with a template, is in [the one-page freelance proposal](/reviews/one-page-freelance-proposal-template). If you send proposals often, our [proposal software comparison](/reviews/best-proposal-software-freelancers) covers tools for tracking and signing.
+
+## How long I wait before following up
+
+How long a reply takes varies a lot: the fastest was the next day and the slowest about a week. I used to check my email over and over. Now I treat about five business days as a guide and follow up once if there has been no reply. The message is along these lines (a translation): "I wanted to check how the proposal I sent is going. If there's anything you'd like to clarify or adjust, please let me know." I try not to sound pushy, and to leave the client room to ask a question or to say no.
 
 *This is based on two of my own proposals, so treat it as something to test rather than a guaranteed result.*
 `,
@@ -5722,6 +5784,10 @@ These are my own judgement, not a rule:
 3. **Can you spare an hour or two for setup, plus a small monthly fee?** The money is small, but the DNS step is where people get stuck.
 
 If you answer yes to two or more, I would set it up. With fewer, waiting costs you little.
+
+## One thing to check after you switch
+
+In the first exchanges after I switched, I confirmed that my messages were actually arriving, because depending on the recipient's mail setup, messages from a new domain can land in the spam folder. A custom domain doesn't make you trustworthy by itself, but separating work from personal contact and signalling that the business is ongoing are real benefits. A common .com domain typically costs a few thousand yen a year, and the email service is billed separately; check your registrar and provider for current prices.
 
 ## If you decide yes
 
