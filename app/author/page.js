@@ -205,6 +205,16 @@ export default function AuthorPage() {
             </a>{" "}
             — GIGS Magazine (Oct 2026)
           </li>
+          <li>
+            <a
+              href="https://consultantmagazine.co/qa/how-consultants-protect-scope-without-losing-client-trust/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              How Consultants Protect Scope Without Losing Client Trust
+            </a>{" "}
+            — Consultant Magazine (Nov 2026)
+          </li>
         </ul>
 
         <h2>More on how the site works</h2>

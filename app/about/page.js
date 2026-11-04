@@ -81,7 +81,15 @@ export default function AboutPage() {
           >
             GIGS Magazine's Q&amp;A on raising rates
           </a>{" "}
-          (October 2026).
+          (October 2026) and in{" "}
+          <a
+            href="https://consultantmagazine.co/qa/how-consultants-protect-scope-without-losing-client-trust/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Consultant Magazine's Q&amp;A on protecting scope
+          </a>{" "}
+          (November 2026).
         </p>
 
         <h2>How this site makes money</h2>

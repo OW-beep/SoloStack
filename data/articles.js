@@ -835,6 +835,9 @@ If you had to pick just one and your work is primarily long-form writing — art
     readTime: "6 min read",
     date: "2026-07-17",
     body: `
+**Short answer:** for recurring international client payments, Wise is the lower-cost option by a meaningful margin, and setting it up takes a few minutes. Keep PayPal for occasional payments from clients who won't use anything else.
+
+![Wise or PayPal: Wise for recurring payments from overseas clients, PayPal for an occasional payment from a client who insists.](/diagrams/decision-wise-paypal.svg)
 This comparison comes up constantly for a simple reason: PayPal is what most clients already have an account with, and Wise is consistently the cheaper way to actually receive the money. Knowing the real gap between them — not just "PayPal has fees" but specifically how much — makes it easier to decide when it's worth asking a client to use something else.
 
 ## The two fees that stack on every international payment
@@ -874,7 +877,7 @@ The fee gap matters most for recurring, sizeable international invoices — a mo
 
 If the choice you are really weighing is Wise against Payoneer rather than PayPal, our [Wise vs Payoneer comparison](/reviews/wise-vs-payoneer-freelancers) runs the same kind of $1,000 payment through both. To see where the gap between an invoice and the amount received comes from, read [why you received less than you invoiced](/reviews/received-less-than-invoice-foreign-client-payment).
 
-## Bottom line
+## The decision in short
 
 For recurring international client payments, Wise is the lower-cost option by a meaningful margin, and setting it up costs nothing but a few minutes. Keep PayPal in your toolkit for occasional payments from clients who won't use anything else — it's rarely worth the friction of insisting otherwise for a single invoice. For the wider field of payment options, including Payoneer and Stripe, see our [full international payment platforms comparison](/reviews/international-payment-platforms-freelancers).
 
@@ -1182,6 +1185,9 @@ For most freelancers juggling multiple client accounts on a budget, Spark's free
     readTime: "6 min read",
     date: "2026-07-13",
     body: `
+**Short answer:** Backblaze's flat-rate, unlimited, install-and-forget model is the easiest way to close the gap that cloud storage alone leaves open. IDrive is worth a look if you cover several devices, and Dropbox's native Backup feature is a reasonable minimum if you already pay for Dropbox.
+
+![Which backup option fits: Backblaze for simple unlimited backup, IDrive for several devices, Dropbox Backup if you already pay for Dropbox.](/diagrams/decision-cloud-backup.svg)
 It's an easy mistake to make: using Dropbox or Google Drive (covered in our [cloud storage guide](/reviews/best-cloud-storage-freelancers-client-files)) as your only backup, and assuming your files are safe because they're "in the cloud." Sync tools protect against your laptop dying, but not against a mistake that syncs itself — delete a file locally, and a sync tool dutifully deletes it in the cloud too, usually within seconds. Dedicated backup software solves a different problem: getting back to a version of your files from before something went wrong, not just wherever they currently stand.
 
 ## What backup software needs to do that sync tools don't
@@ -1228,7 +1234,7 @@ Both are open-source backup tools that connect to your own storage destination (
 
 The standard backup principle worth knowing: keep 3 copies of important data, on 2 different types of media, with 1 copy off-site. In practice for most freelancers, this looks like: your working files (copy 1), a cloud backup like Backblaze (copy 2, automatically off-site), and either a local external drive or your cloud storage/sync tool (copy 3). A single cloud sync tool alone doesn't satisfy this — it's one copy, syncing everywhere, including your own mistakes.
 
-## Bottom line
+## Where to start
 
 For most freelancers, Backblaze's flat-rate, unlimited, install-and-forget model is the easiest way to close the gap that cloud storage alone leaves open. If you're covering multiple devices, IDrive's shared-storage model is worth the look. And if you're already paying for Dropbox and just want basic coverage without a new bill, its native Backup feature is a reasonable minimum.
 
@@ -1247,6 +1253,9 @@ For most freelancers, Backblaze's flat-rate, unlimited, install-and-forget model
     readTime: "7 min read",
     date: "2026-07-16",
     body: `
+**Short answer:** for paid client work, Adobe Firefly is the safest default because its commercial licensing is the clearest. Midjourney is still worth using for aesthetic concept work where licensing risk is lower, Ideogram for text-heavy designs, and Recraft when the deliverable must be an editable vector file.
+
+![Which AI image tool fits: Adobe Firefly for paid client work, Midjourney for concepts, Ideogram for text-heavy designs, Recraft for vector deliverables.](/diagrams/decision-ai-image.svg)
 AI image generation has moved from a novelty to a genuine part of a lot of freelance design workflows — fast concept generation, mood boards, and background elements that would have meant licensing stock photography or scheduling a shoot. For paid client work specifically, the decision isn't just which tool produces the best-looking output. It's also which tool you can defend using if a client, or a client's legal team, asks about the commercial licensing behind an image you delivered.
 
 ## The commercial licensing question comes first
@@ -1290,7 +1299,7 @@ Every tool above outputs raster images (PNG/JPG) that need to be traced or recre
 
 A common pattern among designers using these tools day to day: rapid concept generation with Midjourney or Ideogram to produce a mood board in minutes rather than hours of stock-photo browsing, refinement of the selected concept using Firefly's Generative Fill for background swaps or element removal, and a final licensing check before delivery — confirming the specific images used are covered under the plan's commercial terms, not just generated under a casual free-tier account.
  If your work leans toward everyday design tasks rather than pure AI generation, our dedicated [Canva vs Adobe Express comparison](/reviews/canva-vs-adobe-express-freelance-designers) covers the commercial-licensing angle for that specific decision.
-## Bottom line
+## Which one fits
 
 For freelance designers who need the clearest, most defensible commercial licensing for paid client work, Adobe Firefly is the safest default, especially if Photoshop or Illustrator are already part of the workflow. Midjourney remains worth using for aesthetic concept work where licensing risk is lower (internal exploration, non-client personal projects), Ideogram is worth adding specifically for text-heavy design work, and Recraft is the pick when the deliverable itself needs to be an editable vector file.
 
@@ -2257,6 +2266,9 @@ For most freelancers with reasonably simple 1099 income, FreeTaxUSA delivers the
     readTime: "7 min read",
     date: "2026-06-16",
     body: `
+**Short answer:** to test the idea at zero cost, start with Notion's DIY approach or Agiled's free full-stack plan. SuperOkay is worth the small monthly cost if you like your tools and just want a clean branded layer, and HoneyBook or Bonsai fit if you would rather run proposals, contracts, invoicing and the portal in one subscription.
+
+![Which client portal fits: Notion or Agiled to test at zero cost, SuperOkay for a branded layer, HoneyBook or Bonsai for everything in one subscription.](/diagrams/decision-client-portal.svg)
 Somewhere around the third or fourth active client, most freelancers notice how much time goes into just finding and re-sending things — the contract from two months ago, last week's invoice, the latest file version. A client portal fixes this by giving each client one login where files, project status, invoices, and contracts all live in one place. This guide compares the options that actually fit a solo freelancer's budget and setup time, not an agency's.
 
 ## What matters for a freelancer's client portal specifically
@@ -2305,7 +2317,7 @@ Both platforms aim to run the full client lifecycle — inquiry, proposal, contr
 
 Below three or four active clients, email and a shared Dropbox link are a completely reasonable system — a portal solves a real problem, but it's a problem that mostly shows up at volume. The clearest sign it's time is when you catch yourself re-sending the same file or re-explaining project status more than once a week.
  Whichever portal you choose, it's worth thinking separately about where day-to-day client conversation actually happens — see our [Slack vs Discord comparison](/reviews/slack-vs-discord-freelancers) if that's still an open question.
-## Bottom line
+## Making the call
 
 For freelancers who want to test the idea at zero cost, Notion's DIY approach or Agiled's free full-stack plan are the strongest starting points. If you already like your invoicing and contract tools and just want a clean, branded client-facing layer, SuperOkay is worth the small monthly cost. Reach for HoneyBook or Bonsai specifically if you'd rather consolidate everything — proposals, contracts, invoicing, and the portal — into a single subscription. A portal is also a natural place to embed quick project updates — see our [Loom alternatives guide](/reviews/best-loom-alternatives-async-video-clients) if async video updates are part of how you keep clients in the loop.
 
@@ -2410,6 +2422,9 @@ For most freelancers sending a handful of proposals a month, Better Proposals of
     readTime: "6 min read",
     date: "2026-06-05",
     body: `
+**Short answer:** if client-facing sharing is the main reason you need cloud storage, Dropbox remains the most complete option despite its thin free tier. Google Drive's free storage is hard to beat if you already live in Gmail, and Sync.com or Proton Drive are worth the trade-off in polish when client data must stay private even from the provider.
+
+![Which cloud storage fits: Dropbox for client sharing, Google Drive if you live in Gmail, Sync.com or Proton Drive when data must stay private from the provider.](/diagrams/decision-cloud-storage.svg)
 Most freelancers end up on whatever cloud storage came bundled with their phone or email — Google Drive because of Gmail, iCloud because of an iPhone. That works until a shared link needs a password, a client accidentally edits the wrong version of a file, or a big video export won't fit in what's left of a free plan. This guide looks specifically at the sharing and client-facing features that matter once storage becomes part of how you deliver work, not just where you keep it.
 
 ## What matters for client-facing storage specifically
@@ -2453,7 +2468,7 @@ pCloud is one of the few providers in this category still offering a one-time li
 
 **Best for:** freelancers who want to stop paying a monthly storage bill eventually and are comfortable with a larger upfront cost.
  Remember that cloud storage built for sharing files with clients isn't the same as backup for surviving a dead hard drive — see our [cloud backup guide](/reviews/best-cloud-backup-freelancers-data-recovery) for the difference and what actually closes that gap.
-## Bottom line
+## Which one fits
 
 If client-facing sharing is the main reason you need cloud storage, Dropbox remains the most complete option despite its thin free tier. If you're already living in Gmail and don't need advanced link controls, Google Drive's free storage is hard to beat. And if a client's data genuinely needs to stay private — not just password-protected, but inaccessible to the storage provider itself — Sync.com or Proton Drive are worth the trade-off in interface polish. If you're regularly accessing client files from cafes or coworking spaces, pair whichever storage provider you choose with a [VPN](/reviews/best-vpn-freelancers-remote-work) — encryption on the storage side doesn't help if the network you're uploading from is the weak point.
 
@@ -3038,6 +3053,9 @@ For most freelance writers, the practical starting stack is one general-purpose 
     readTime: "7 min read",
     date: "2026-05-20",
     body: `
+**Short answer:** if you don't bill hourly and just want personal time awareness, Clockify's free plan remains one of the best available. If billing is the whole point, it is usually cheaper in total to pick one paid, connected tool: Harvest for straightforward time-to-invoice, or Toggl Track paired with separate invoicing if you value its reporting more.
+
+![Free or paid time tracking: Clockify's free plan for time awareness, Harvest when billing is the point, Toggl Track with separate invoicing when reporting matters most.](/diagrams/decision-time-tracking.svg)
 Every time tracking app claims to save freelancers time and money, but the free-vs-paid decision usually comes down to one question: does the free plan actually help you get paid, or does it just count hours you still have to copy into an invoice by hand? This guide compares both sides so you can see where free plans genuinely hold up — and where they quietly cost you more than a paid plan would.
 
 *The real value of time tracking turned out to be less about billing and more about a gap between assumption and reality. A week spent tracking every minute of a writing-heavy schedule, expecting something close to six hours of daily deep work, showed actual drafting time at roughly two hours forty minutes a day — the rest went to email (about 55 minutes), Slack (35 minutes), reviewing reference material (45 minutes), revisions (50 minutes), and invoicing or admin (25 minutes). At a modest hourly rate, that added up to hundreds of dollars a month spent on communication alone, not because any single check was long, but because "just a quick look" at Slack or email, repeated five or six times a day, quietly became an hour. Fixing it wasn't complicated — checking email and Slack at two fixed times a day instead of continuously — but it cut roughly 15 hours a month, time that had been invisible until it was actually measured. A tracker isn't really a monitoring tool; it's the only reliable way to see the gap between what you think you're spending time on and what you actually are.*
@@ -3090,7 +3108,7 @@ Timely takes a different approach: instead of manual timers, it runs a backgroun
 
 The most common mistake is picking a free time tracker and then adding a separate paid invoicing tool on top — Clockify or Toggl's free tier plus a $17–30/month invoicing app frequently ends up costing more per month than a single connected paid platform that includes both. Before choosing based on the "free" label, add up what you'd actually need to pay once you include invoicing, export, or reporting features that sit behind a paywall.
  If you've narrowed things down specifically to Toggl or Clockify, our dedicated [Toggl vs Clockify comparison](/reviews/toggl-vs-clockify-freelancers) goes deeper on that decision.
-## Bottom line
+## How to choose
 
 If you don't bill hourly and just want personal time awareness, Clockify's free plan remains one of the best available. If billing is the whole point, it's usually cheaper in total to pick one paid, connected tool — Harvest for straightforward time-to-invoice, or Toggl Track paired with separate invoicing if you value its reporting more.
 
@@ -3565,7 +3583,7 @@ Pixieset remains the safest default for most freelance photographers, particular
     seoTitle: "Best Video Review Tools for Freelance Editors (2026): Frame.io vs Vimeo vs Wipster",
     dek: "Email threads with vague timestamped feedback are where freelance video editing projects quietly stall. A dedicated review tool fixes the specific problem of getting clear, timecoded notes from a client.",
     seoDescription: "Frame.io, Vimeo Review, and Wipster compared on pricing for freelance video editors who need frame-accurate client feedback without agency-scale cost.",
-    verdict: "Top pick: Vimeo Review (best value for solo editors)",
+    verdict: "Top pick: Wipster (best value for solo editors)",
     toolsCompared: 3,
     readTime: "6 min read",
     date: "2026-07-28",
@@ -3576,6 +3594,9 @@ Pixieset remains the safest default for most freelance photographers, particular
       { q: "How is this different from just sharing a Google Drive or Dropbox link?", a: "A dedicated review tool pins comments to an exact timecode and frame directly on the video, rather than a client describing \"around the 30-second mark\" in a separate email or message — it removes an entire category of miscommunication in the revision process." },
     ],
     body: `
+**Short answer:** for most freelance video editors, Wipster's low entry price and unlimited free reviewers make it the strongest value starting point. Choose Frame.io if you are deep in the Adobe ecosystem and want the most polished native review experience, and Vimeo Review if you already pay for Vimeo hosting and want review folded into that cost.
+
+![Which review tool fits: Wipster for the best value, Frame.io if deep in the Adobe ecosystem, Vimeo Review if you already pay for Vimeo hosting.](/diagrams/decision-video-review.svg)
 "Can you make the intro a bit punchier, around the 10-second mark, or maybe more like 12?" — feedback like this in an email or a Slack thread is exactly the problem a dedicated video review tool solves: every comment pinned to an exact timecode and frame, visible directly on the footage instead of described in prose. For a freelance editor, the right tool here is also part of how professional a project feels to a client, not just a personal convenience.
 
 ## What actually matters for a freelance editor specifically
@@ -3611,7 +3632,7 @@ Wipster's clearest advantage is unlimited free reviewers on every plan — clien
 
 **Best for:** freelance editors who want a dedicated, purpose-built review tool at the lowest realistic monthly cost.
 
-## Bottom line
+## How to choose
 
 For most freelance video editors, Wipster's low entry price and unlimited free reviewers make it the strongest value starting point. Choose Frame.io specifically if you're deep in the Adobe ecosystem and want the most polished, native review experience, and Vimeo Review if you're already paying for Vimeo hosting and want review folded into that same cost. Whichever tool handles feedback, getting the final cut approved and paid for is a separate step — see our [invoicing software guide](/reviews/invoicing-software-international-freelancers) for that part of the workflow.
 
@@ -3636,6 +3657,9 @@ For most freelance video editors, Wipster's low entry price and unlimited free r
       { q: "What's the real difference between per-channel and per-user pricing?", a: "Per-channel pricing (Buffer) charges based on how many social accounts are connected, so cost rises directly with client count. Per-user pricing (Hootsuite) charges for you as a single user regardless of how many channels you connect, which can be cheaper at high channel counts but starts at a much higher base price." },
     ],
     body: `
+**Short answer:** Buffer's per-channel pricing and genuine free tier make it the easiest entry point for a solo practice. Choose Later if your clients are Instagram-heavy and visual grid planning is part of your value, and Hootsuite only when the scope per client, such as listening, reporting and team handoff, justifies its higher per-user price.
+
+![Which scheduling tool fits: Buffer for starting out, Later for Instagram-heavy clients, Hootsuite for listening, reporting and team handoff.](/diagrams/decision-social-scheduling.svg)
 Managing social media for even two or three clients from each platform's native app directly stops scaling almost immediately — every post has to be written, timed, and published separately per account, with no shared calendar view across clients. A dedicated scheduling tool centralizes that into one dashboard, and for a freelancer specifically, the pricing model (per channel vs per user vs flat) ends up mattering as much as the feature set.
 
 ## What actually matters for a freelance social media manager
@@ -3671,7 +3695,7 @@ Hootsuite dropped its free plan and now starts at $99 per user per month — a p
 
 **Best for:** freelancers who've scaled into managing comprehensive social strategy — not just scheduling — for several clients at once.
 
-## Bottom line
+## Picking one
 
 For most freelancers starting out or managing a small client roster, Buffer's per-channel pricing and genuine free tier make it the easiest entry point. Choose Later specifically if your clients are Instagram-heavy and visual grid planning is part of the value you provide, and reach for Hootsuite only once you're managing enough scope per client — listening, reporting, team handoff — to justify its considerably higher per-user price. However you schedule the content, invoicing the retainer that pays for it is a separate step — see our [invoicing software guide](/reviews/invoicing-software-international-freelancers) for that part of the business.
 
@@ -3685,7 +3709,7 @@ For most freelancers starting out or managing a small client roster, Buffer's pe
     seoTitle: "Best CAT Tools for Freelance Translators (2026): Trados vs memoQ vs Smartcat",
     dek: "Most agencies quietly require one specific tool before they'll even send you a test file. Here's what that requirement actually costs, and when it's worth working around it.",
     seoDescription: "Trados, memoQ, and Smartcat \u2014 the translation management software (CAT tools) most trusted by freelance translators \u2014 compared on real 2026 pricing and agency compatibility.",
-    verdict: "Top pick: memoQ (best value with a perpetual license)",
+    verdict: "Trados for agency work, memoQ for best value",
     toolsCompared: 3,
     readTime: "7 min read",
     date: "2026-07-30",
@@ -3764,6 +3788,9 @@ For most freelance translators with an established agency pipeline, Trados remai
       { q: "Are Printful and Printify actually the same company now?", a: "The two brands announced plans to merge as equal partners, but as of 2026 they continue operating independently with separate catalogs, pricing, and accounts — existing sellers haven't been forced to change anything yet." },
     ],
     body: `
+**Short answer:** for most freelance illustrators and designers, Printify's lower base cost makes it the stronger default while you test designs. Printful is worth the premium once a design is validated and consistent print quality protects your brand, and many sellers use both on one storefront.
+
+![Printful or Printify: Printify for testing new designs on a budget, Printful once a design is proven, or use both and route by item.](/diagrams/decision-print-on-demand.svg)
 Selling a design as a t-shirt, mug, or print used to mean either a garage full of inventory or a minimum print run you hoped would sell. Print-on-demand removed that risk entirely — a design gets uploaded once, and a fulfillment partner prints and ships each order individually, with no inventory and no upfront cost. For a freelance illustrator or designer, the two platforms that dominate this space, Printful and Printify, differ enough on per-item margin and quality consistency that the choice is worth more than a coin flip.
 
 ## What actually matters for a freelance illustrator or designer
@@ -3800,7 +3827,7 @@ Printify's network model — connecting sellers to print partners around the wor
 
 Neither Printful nor Printify charges a commission on what you sell — you set your own retail price, pay their production and shipping cost per item, and keep the margin. Their own revenue comes from that markup and from optional subscription plans, not from a percentage of your sales, which is a meaningfully different model from marketplace-style platforms that take a cut regardless of your pricing.
 
-## Bottom line
+## The decision in short
 
 For most freelance illustrators and designers, Printify's lower base cost makes it the stronger default, especially while testing new designs across a free-tier five-store limit. Printful is worth the modest premium once a design is validated and consistent print quality becomes part of protecting your brand's reputation — and many sellers reasonably use both, routing premium items through Printful and margin-sensitive listings through Printify on the same storefront. Whichever platform fulfills the orders, getting paid for the design work behind them is a separate question — see our [invoicing software guide](/reviews/invoicing-software-international-freelancers) if licensing or commission work still runs through a manual process.
 
@@ -4506,6 +4533,9 @@ For most independent stylists and beauty professionals with an established clien
       { q: "Can I do corporate events as well as weddings with these tools?", a: "HoneyBook and Dubsado are both general-purpose enough to handle non-wedding client work alongside weddings. Aisle Planner is built specifically for weddings and related wedding-industry vendors, so it's a weaker fit if a meaningful share of your business is corporate or social events outside weddings." },
     ],
     body: `
+**Short answer:** for most solo wedding planners, HoneyBook's accessible entry pricing and polished, ready-to-use client experience make it the strongest default. Choose Dubsado if deeper automation and full white-label control are worth a steeper setup, and add Aisle Planner once wedding-specific tools like seating charts and timelines become a real bottleneck.
+
+![Which wedding planner CRM fits: HoneyBook for most solo planners, Dubsado for deep automation and white-label control, Aisle Planner when seating charts and timelines are the gap.](/diagrams/decision-wedding-crm.svg)
 "Wedding planning software" actually covers two different jobs that don't fully overlap: managing the client relationship (inquiries, proposals, contracts, invoicing) and managing the actual event (seating charts, guest lists, vendor timelines, floor plans). HoneyBook and Dubsado are built primarily around the first job; Aisle Planner is built primarily around the second. A planner who assumes any one of the three covers both ends up either missing a CRM pipeline or missing a seating chart tool, depending on which one they picked.
 
 *The entry-level pricing on tools in this category is easy to compare at face value and easy to miss the catch on — HoneyBook's cheapest plan, for instance, requires upgrading once transaction volume crosses a specific threshold, which changes the real annual cost for a planner who's actually growing.*
@@ -4544,7 +4574,7 @@ Aisle Planner solves a different problem than HoneyBook or Dubsado: seating char
 
 **Best for:** full-service planners who need deep wedding-specific planning tools and are comfortable pairing it with a separate CRM for the client-management side.
 
-## Bottom line
+## Choosing in practice
 
 For most solo wedding planners, HoneyBook's combination of accessible entry pricing and a polished, ready-to-use client experience makes it the strongest default. Choose Dubsado if deeper automation and full white-label control are worth a steeper setup process and you're comfortable with the learning curve. Add Aisle Planner specifically once wedding-specific planning tools — seating charts, guest lists, detailed timelines — become a genuine bottleneck that a CRM alone doesn't solve; many established planners end up running it alongside HoneyBook or Dubsado rather than instead of one. Whichever handles the client relationship, delivering the finished photos afterward is a separate workflow — see our [client gallery software guide](/reviews/best-client-gallery-software-freelance-photographers) if photography delivery is also part of what you coordinate.
 
@@ -4608,7 +4638,7 @@ The effect was less about money than about definition. Once the boundary was wri
 
 ![A rate conversation ends one of two ways: the new rate applies, or, if the answer is not this year, keep the rate and the scope and bill extra work separately.](/diagrams/rate-conversation-paths.svg)
 
-**The lesson:** a "not this year" on the rate is not necessarily an answer to the underlying problem, which is usually that effort and pay have drifted apart. If the price can't move yet, the scope can. Be specific about what the current price buys, and treat everything outside it as a separate conversation. I described this approach in [a GIGS Magazine Q&A on raising rates](https://gigsmagazine.com/qa/how-freelancers-raise-rates-with-confidence/). For a step-by-step version, see [what to do when a client keeps asking for extra work](/reviews/client-keeps-adding-extra-work-what-to-do).
+**The lesson:** a "not this year" on the rate is not necessarily an answer to the underlying problem, which is usually that effort and pay have drifted apart. If the price can't move yet, the scope can. Be specific about what the current price buys, and treat everything outside it as a separate conversation. I described this approach in [a GIGS Magazine Q&A on raising rates](https://gigsmagazine.com/qa/how-freelancers-raise-rates-with-confidence/) and in [a Consultant Magazine Q&A on protecting scope](https://consultantmagazine.co/qa/how-consultants-protect-scope-without-losing-client-trust/). For a step-by-step version, see [what to do when a client keeps asking for extra work](/reviews/client-keeps-adding-extra-work-what-to-do).
 
 *These accounts reflect one freelancer's experience on specific projects. Client relationships, industries, and what a given client will accept vary — treat this as two data points and a framing worth trying, not a guaranteed script.*
 `,
@@ -4625,6 +4655,9 @@ The effect was less about money than about definition. Once the boundary was wri
     readTime: "8 min read",
     date: "2026-08-18",
     body: `
+**Short answer:** GitHub Copilot is the lowest-risk first AI coding tool: cheap, familiar, and unlikely to surprise a client's IT department. Cursor fits work that is mostly feature development inside one editor, and Claude Code is for large, well-scoped tasks such as a refactor, a migration or a test suite rebuild.
+
+![Which AI coding tool fits: GitHub Copilot as a low-risk first tool, Cursor for feature work in one editor, Claude Code for large well-scoped tasks.](/diagrams/decision-ai-coding.svg)
 For a freelance developer, the question isn't really "which AI coding tool is best" — it's which one changes how many billable hours a given project takes, and by how much. Claude Code, Cursor, and GitHub Copilot answer that differently because they're not really the same category of product wearing different branding. Copilot lives inside the editor you already have. Cursor replaces the editor entirely. Claude Code skips the editor and works from the terminal, planning and executing multi-step changes largely on its own. That structural difference matters more to a solo developer's day than any single benchmark score.
 
 ## The core difference
@@ -4667,7 +4700,7 @@ Claude Code is the one built for actually handing off a defined chunk of work an
 
 If a client is paying an hourly or project rate, the honest way to think about any of these subscriptions is against the hours they realistically save on that specific project — not against some abstract sense of "AI tools are good now." A $20 tool that shaves two hours off a five-hour task pays for itself many times over in a single invoice; the same tool sitting mostly unused because the work doesn't suit its strengths is a cost with no offsetting benefit. Claude Code's autonomy is wasted on small, well-understood tasks you could type faster than you could describe; Cursor's woven-in agent is wasted if most of the work is boilerplate Copilot already handles for a third of the price.
 
-## Bottom line
+## Making the call
 
 For a freelancer just adding one AI coding tool, Copilot is the lowest-risk starting point — cheap, familiar, and unlikely to surprise a client's IT department. For work that's mostly feature development inside one editor, Cursor's tighter integration is worth the extra $10 a month. And for the kind of large, well-scoped task that's genuinely tedious to do by hand — a refactor, a migration, a test suite rebuild — Claude Code's ability to work through it with less supervision is the one that changes the actual math on a project's hours, not just the typing speed.
 
@@ -5351,7 +5384,7 @@ Not for a single page. A clean PDF or document works, and a free e-signature too
 
 ## What I actually put on my one page
 
-I keep my own proposals to a single A4 page so the client can judge it quickly. What I include: my understanding of the request and its background, the problem to solve, what I will do and deliver, how the work will proceed, the schedule, the price, what is in and out of scope, the number of revisions, how long the quote is valid, and the next action I need from the client.
+I keep my own proposals to a single A4 page so the client can judge it quickly. What I include: my understanding of the request and its background, the problem to solve, what I will do and deliver, how the work will proceed, the schedule, the price, what is in and out of scope, the number of revisions, how long the quote is valid, and the next action I need from the client. For how I word the revision line, see [how to word a revision limit](/reviews/freelance-contract-revision-limit-wording).
 
 For the price, I give a single amount when the content is reasonably settled. When requirements are still vague I may give a range by scope of work, but a range alone is hard for the client to act on, so I also state the condition: "for this scope, this amount."
 
@@ -5545,7 +5578,7 @@ Fees and conversion margins change over time, so use [our fee comparison for int
 
 On a content project, requests for extra research and further revisions kept piling on top of what we had agreed. I hadn't set an additional fee for anything beyond the original estimate, so my hours rose while my revenue stayed the same, and my effective hourly rate fell. No single request felt big enough to push back on, which is exactly how it adds up.
 
-Since then I write the deliverables and the number of revisions into the contract, and when a request falls outside them I raise an additional fee.
+Since then I write the deliverables and the number of revisions into the contract, and when a request falls outside them I raise an additional fee. The wording is in [how to word a revision limit](/reviews/freelance-contract-revision-limit-wording).
 
 ![A decision flow: a new request is compared with the agreed deliverables and revision count. If inside, do it. If outside, offer an extra fee or separate scheduling, then confirm in writing.](/diagrams/extra-work-decision-flow.svg)
 
@@ -5794,6 +5827,55 @@ In the first exchanges after I switched, I confirmed that my messages were actua
 Our [guide to professional email for freelancers](/reviews/best-professional-email-domain-freelancers) compares the providers, and the [troubleshooting page](/reviews/domain-email-not-working-mx-spf-dkim) covers what to check if the address doesn't work after setup.
 
 *This is one freelancer's experience with one provider. Prices change and differ by plan and country, so check the current price on the provider's site before deciding.*
+`,
+  },
+  {
+    slug: "freelance-contract-revision-limit-wording",
+    category: "Guides",
+    title: "How to Word a Revision Limit in a Freelance Contract (What I Actually Write)",
+    seoTitle: "Freelance Contract Revision Limit: How to Word It",
+    dek: "A revision limit only works if it says what counts as a revision, how many are included, and what happens after. Here are the three answers I write into my contracts.",
+    seoDescription: "How to word a revision limit in a freelance contract: what counts as a revision, how many are included, and what happens beyond that, with example wording.",
+    verdict: "Define what a revision is, how many, and what comes after",
+    toolsCompared: 3,
+    readTime: "5 min read",
+    date: "2026-11-04",
+    faq: [
+      { q: "How many revisions should a freelance contract include?", a: "There is no standard number. Agree a figure in advance. Mine is two as a rule, and what matters is that it is stated before the work begins." },
+      { q: "Should a change to the specification count as a revision?", a: "In my contracts it does not. A revision adjusts what was agreed, while a change to the specification is extra work with its own estimate, even if some revisions remain." },
+      { q: "Do I need a lawyer to write a revision clause?", a: "A short clause like this is something many freelancers write themselves, but for a high-value contract or an unfamiliar legal setting, have the terms reviewed by someone qualified. This is general information, not legal advice." },
+    ],
+    body: `
+**Short answer:** a revision limit has to answer three questions: what counts as a revision, how many are included, and what happens beyond that. In my contracts a revision is an adjustment to what was originally agreed, two revisions are included as a rule, and a change to the specification itself is quoted as extra work even if I haven't used up my two revisions.
+
+## Why I started writing it down
+
+On one project I was asked, a little at a time, for revisions to materials and extra tabulation that weren't in the original request. Each item was small, I handled them at first, and later I realized I had spent far more time than planned. What was missing was a contract that said where a revision ends and new work begins. The full story is in [what to do when a client keeps asking for extra work](/reviews/client-keeps-adding-extra-work-what-to-do).
+
+![Three questions a revision clause answers: what counts as a revision, how many are included, and what happens beyond that. In my contracts a revision is an adjustment to what was agreed, two are included as a rule, and anything beyond that is a new estimate.](/diagrams/revision-clause-questions.svg)
+
+## The three answers I write into a contract
+
+1. **What counts as a revision?** In my contracts it is an adjustment to what was originally agreed. That keeps "revision" from stretching to cover anything the client would like to change.
+2. **How many are included?** Two, as a rule. The exact number matters less than the fact that it is written down before the work starts.
+3. **What happens beyond that?** A new estimate. And if the specification itself changes, that counts as extra work and gets its own estimate, even when some of the included revisions are unused. This is the part that stops "one more revision" from quietly turning into a different project.
+
+## An example of the wording
+
+> **Revisions.** The fee includes up to two rounds of revisions. A revision is an adjustment to the deliverables as originally agreed. A change to the specification or scope, and any additional round of revisions, is quoted separately and begins only after you approve the estimate.
+
+This is the kind of wording I mean, not a template to copy blindly. For a contract of significant value, have the terms reviewed by someone qualified.
+
+## Where to mention it
+
+- **In the proposal.** The one-page version I use has lines for what is in and out of scope and for the number of revisions. See [what I put on my one page](/reviews/one-page-freelance-proposal-template).
+- **When a request arrives.** Decide which bucket it falls in, inside the included revisions or a new estimate, and answer with that, as described in [the extra-work steps](/reviews/client-keeps-adding-extra-work-what-to-do).
+
+## What a clause can't do
+
+A clause doesn't make a client agree to pay more. When a client told me the budget couldn't stretch to a higher rate, what worked was defining what my fee covers. I described that in Q&As for [GIGS Magazine](https://gigsmagazine.com/qa/how-freelancers-raise-rates-with-confidence/) and [Consultant Magazine](https://consultantmagazine.co/qa/how-consultants-protect-scope-without-losing-client-trust/), and the longer version is in our piece on [scope creep and rate increases](/reviews/scope-creep-and-rate-increases-client-conversations).
+
+*This is one freelancer's practice, not legal advice. Contract terms depend on your country and your client.*
 `,
   },
 ];
