@@ -1,4 +1,4 @@
-import { articles } from "../../data/articles";
+import { listedArticles as articles } from "../../data/articles";
 import { SITE_URL } from "../../lib/site-config";
 
 export const dynamic = "force-static";

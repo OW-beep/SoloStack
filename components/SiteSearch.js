@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { articles } from "../data/articles";
+import { listedArticles as articles } from "../data/articles";
 
 const MAX_RESULTS = 7;
 

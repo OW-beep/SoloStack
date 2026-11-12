@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { articles } from "../data/articles";
+import { listedArticles as articles } from "../data/articles";
 import { categories } from "../lib/categories";
 import NewsletterSignup from "./NewsletterSignup";
 

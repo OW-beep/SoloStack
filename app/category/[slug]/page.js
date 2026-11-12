@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categories, getCategory } from "../../../lib/categories";
-import { articles, countLabelShort } from "../../../data/articles";
+import { listedArticles as articles, countLabelShort } from "../../../data/articles";
 import { SITE_URL } from "../../../lib/site-config";
 
 export function generateStaticParams() {

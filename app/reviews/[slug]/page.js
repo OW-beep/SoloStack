@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { marked } from "marked";
-import { articles, getArticle, countLabel, countLabelShort } from "../../../data/articles";
+import { articles, getArticle, countLabel, countLabelShort, listedArticles } from "../../../data/articles";
 import { SITE_URL } from "../../../lib/site-config";
 import { getCategorySlug } from "../../../lib/categories";
 import { toAffiliateUrl } from "../../../lib/affiliate-links";
@@ -314,7 +314,9 @@ export default function ReviewPage({ params }) {
         }
       );
 
-  const otherArticles = articles.filter((a) => a.slug !== article.slug).slice(0, 3);
+  const otherArticles = listedArticles
+    .filter((a) => a.slug !== article.slug)
+    .slice(0, 3);
 
   const jsonLd = {
     "@context": "https://schema.org",

@@ -15,6 +15,9 @@ export const articles = [
     readTime: "7 min read",
     date: "2026-07-20",
     body: `
+**Short answer:** for fast, non-design-critical work and collaboration with non-designers, Canva remains the quicker, broader tool. For paid client deliverables involving AI-generated imagery, Adobe Express's licensing protection and deeper Creative Cloud integration make it the safer default, worth the switch even at a comparable price once commercial risk is part of the calculation.
+
+![Canva or Adobe Express: Canva for fast work with non-designers, Adobe Express for paid client deliverables with AI-generated imagery.](/diagrams/decision-canva-adobe.svg)
 Canva and Adobe Express solve an overlapping problem — fast, template-driven design without needing a full Photoshop or Illustrator skill set — but a specific detail matters more for freelancers than it does for casual users: which platform's AI-generated content carries safer commercial licensing for paid client deliverables. That question, more than template count or price, is where this comparison actually gets decided for professional use.
 
 ## The core difference
@@ -51,7 +54,7 @@ Canva Pro costs about $18/month on monthly billing (less per month if you pay an
 
 *If you do a mix of quick social content and paid client deliverables, keeping both tools around and switching based on the job is often more practical than picking just one.*
 
-## Bottom line
+## Making the call
 
 For fast, non-design-critical work and collaboration with non-designers, Canva remains the quicker, broader tool. For paid client deliverables specifically involving AI-generated imagery, Adobe Express's licensing protection and deeper Creative Cloud integration make it the safer default — worth the switch even at a comparable price point once commercial risk is part of the calculation.
 
@@ -128,6 +131,9 @@ For actual client work — searchable history, professional external channels, d
     date: "2026-07-20",
     checked: "2026-10-22",
     body: `
+**Short answer:** if your scheduling needs are straightforward, such as booking a call, collecting a deposit and syncing one or two calendars, TidyCal's one-time price makes it hard to justify Calendly's subscription. If you need deeper automation, round-robin routing across a team, or regular work with clients in many time zones, Calendly's ongoing cost buys functionality TidyCal lacks.
+
+![Calendly or TidyCal: TidyCal for straightforward solo booking at a one-time price, Calendly for deeper automation, team routing and many time zones.](/diagrams/decision-calendly-tidycal.svg)
 This comparison keeps coming up for a specific reason: TidyCal's one-time pricing model is a genuinely unusual value proposition in a category almost entirely dominated by monthly subscriptions, and freelancers researching Calendly alternatives consistently land on TidyCal as the most direct comparison. The real question isn't which tool is "better" in the abstract — it's whether Calendly's extra depth is worth paying for every month indefinitely.
 
 ## The pricing gap, made concrete
@@ -158,7 +164,7 @@ Calendly's deeper integration ecosystem (50+ native integrations against TidyCal
 
 Because TidyCal's cost is a one-time payment rather than a recurring one, several comparisons frame it less as a full Calendly replacement and more as a "Calendly complement" — worth having even if you keep Calendly for its deeper features, simply because the marginal cost of also owning TidyCal is close to zero after the initial purchase. For freelancers who want to test whether they even need Calendly's advanced features before committing to an ongoing subscription, starting with TidyCal and upgrading only if you hit a real limitation is a low-risk way to find out.
 
-## Bottom line
+## Where to start
 
 If your scheduling needs are straightforward — book a call, collect a deposit, sync one or two calendars — TidyCal's one-time price makes it hard to justify paying Calendly's subscription instead. If you need deeper automation, round-robin routing across a team, or work with clients across many time zones regularly, Calendly's ongoing cost buys real, missing functionality. For the wider field of scheduling tools, see our [full Calendly alternatives comparison](/reviews/best-scheduling-apps-freelancers).
 
@@ -177,6 +183,9 @@ If your scheduling needs are straightforward — book a call, collect a deposit,
     readTime: "6 min read",
     date: "2026-07-20",
     body: `
+**Short answer:** if you are building an audience with the goal of eventually selling something to that list, such as a course, digital products or paid subscriptions, Kit's creator-first design, generous free tier and active-subscriber billing make it the more natural fit. If you want stronger visual design tools, a much larger integration ecosystem, or you already run broader small-business marketing, Mailchimp is the safer, more mainstream choice.
+
+![Mailchimp or Kit: Kit for building an audience to sell to later, Mailchimp for design tools, integrations and broader marketing.](/diagrams/decision-mailchimp-kit.svg)
 Mailchimp and Kit (the platform formerly known as ConvertKit, rebranded in late 2024) are the two email tools freelancers researching newsletter software compare most often, and the honest framing — echoed consistently across independent 2026 comparisons — is that they're built for different jobs: Kit for creators and audience-led businesses, Mailchimp for broader small-business marketing. One specific billing detail matters more than most feature comparisons here.
 
 ## The billing detail that changes the real cost
@@ -208,7 +217,7 @@ Kit's paid tiers increased meaningfully in September 2026, which is worth checki
 
 *The decision to stay on a free plan a little too long is what actually forced this comparison. A list built to roughly 700 subscribers over three months on a free plan, on the assumption that a paid-tier decision could wait until the list was bigger — at which point the free plan's limits and the actual pricing at 1,000+ subscribers both needed checking at once, under more time pressure than necessary. Comparing feature lists first led nowhere useful; what actually mattered was narrower than either platform's marketing suggests — sending emails, a signup form, subscriber management, and basic automated sends, nothing more elaborate. The lesson that stuck: decide what the list needs to do once it's larger before comparing tools, not after. A platform chosen around actual planned use is a much easier decision than one chosen off a feature checklist.*
 
-## Bottom line
+## The decision in short
 
 For freelancers building an audience with the goal of eventually selling something directly to that list — a course, digital products, paid subscriptions — Kit's creator-first design, generous free tier, and active-subscriber billing make it the more natural fit, and it's the platform this site generally points to in our [newsletter tools guide](/reviews/best-newsletter-tools-freelancers). For freelancers who want stronger visual design tools, a much larger integration ecosystem, or are already running broader small-business marketing beyond just a newsletter, Mailchimp remains the safer, more mainstream choice.
 
@@ -227,6 +236,9 @@ For freelancers building an audience with the goal of eventually selling somethi
     readTime: "6 min read",
     date: "2026-07-19",
     body: `
+**Short answer:** if you are based in the US or Canada with simple invoicing needs and no hourly billing, Wave's free plan is hard to argue against on cost alone, though recent reviews raise payment-processing reliability concerns. If you bill by the hour, want proposals in the same tool, or are anywhere outside North America, where Wave isn't an option, FreshBooks is the more complete and more widely available choice.
+
+![Wave or FreshBooks: Wave if US or Canada based with simple invoicing, FreshBooks if you bill by the hour, want proposals, or live elsewhere.](/diagrams/decision-wave-freshbooks.svg)
 Before comparing features or pricing, there's a filter question that settles this comparison for a lot of freelancers immediately: Wave has only accepted new account signups from the US and Canada since November 2020. If you're freelancing from anywhere else, Wave's own signup flow now redirects you to Zoho Books instead, and this comparison is moot — go read our [FreshBooks vs QuickBooks](/reviews/freshbooks-vs-quickbooks-freelancers) or [full invoicing guide](/reviews/invoicing-software-international-freelancers) instead. For US- and Canada-based freelancers who can actually choose between the two, here's how they compare.
 
 ## The core trade-off
@@ -258,7 +270,7 @@ Time tracking is built into every FreshBooks plan and flows directly into invoic
 
 Wave's free tier doesn't include proposals on any plan, and its mobile app is more limited than FreshBooks' for complex transactions or detailed reporting. If your workflow needs a client to approve a quote before work starts, you'd need a separate tool regardless of which platform you choose for invoicing itself — see our [proposal software guide](/reviews/best-proposal-software-freelancers).
 
-## Bottom line
+## Picking one
 
 If you're US- or Canada-based with simple invoicing needs and no hourly billing, Wave's free plan is hard to argue against on cost alone — just go in aware of the payment-processing reliability concerns raised in recent reviews. If you bill by the hour, want proposals in the same tool, or you're anywhere outside North America (where Wave isn't an option at all), FreshBooks is the more complete and more broadly available choice. For the wider field of invoicing tools, see our [full invoicing software comparison](/reviews/invoicing-software-international-freelancers).
 
@@ -330,6 +342,9 @@ For a solo freelancer who just wants the most pleasant tool to open dozens of ti
     readTime: "7 min read",
     date: "2026-07-19",
     body: `
+**Short answer:** if you are automating your first workflow and want the fastest setup with the broadest app support, start with Zapier. If the workflow already involves conditional logic or many steps, and you can spend a few hours learning a new interface in exchange for more power and often lower cost, Make is the stronger platform once you are past the basics.
+
+![Zapier or Make: Zapier for a first workflow with the fastest setup, Make for conditional logic and many steps.](/diagrams/decision-zapier-make.svg)
 Automating the repetitive parts of freelance admin — a new lead landing in a spreadsheet, a signed contract triggering a welcome email, an invoice payment updating a project board — is one of the highest-leverage things a solo freelancer can set up once and stop thinking about. Zapier and Make are the two platforms that dominate this space, and they solve the same basic problem through genuinely different interfaces and pricing models.
 
 ## The core difference
@@ -362,7 +377,7 @@ A common setup among freelancers and small agencies: Zapier for quick two-step a
 
 Before building anything, it's worth identifying the two or three most repetitive, time-costing manual tasks in your current workflow — the answer is often something like copying new client details from an inquiry form into a CRM, or manually creating a project the moment a proposal is signed. Automating those first, rather than trying to automate your entire business at once, is where most of the realistic time savings actually come from.
 
-## Bottom line
+## Which one fits
 
 If you're automating your first workflow and want the fastest possible setup with the broadest app support, start with Zapier. If your workflow already involves conditional logic, multiple steps, or you're comfortable investing a few hours learning a new interface in exchange for more power and often lower cost, Make is the stronger platform once you're past the basics.
 
@@ -497,6 +512,9 @@ If you're a solo freelancer with simple invoicing needs, both of these are likel
     readTime: "6 min read",
     date: "2026-07-18",
     body: `
+**Short answer:** for most solo freelancers managing their own client work, Trello's free plan does the job without asking you to pay for or learn features built for team coordination. Asana becomes the better choice once dependencies, multi-person coordination or timeline complexity are a real part of how you work, not just because it looks more complete on a feature list.
+
+![Trello or Asana: Trello for most solo freelancers, Asana once dependencies, several people or timeline complexity are real.](/diagrams/decision-trello-asana.svg)
 Trello and Asana get compared constantly because they solve overlapping problems from very different starting philosophies — Trello as a visual board that stays simple by design, Asana as a fuller project-management platform that adds structure as you need it. For a solo freelancer specifically, the honest answer skews toward Trello more often than general "which is better" comparisons suggest, because a lot of what Asana adds is aimed at team coordination a solo freelancer doesn't have.
 
 ## The core difference
@@ -526,7 +544,7 @@ Asana's task dependencies and timeline views solve a real problem the moment a p
 
 A useful way to think about it: Trello handles "what needs to happen and roughly when" extremely well. Asana adds "who depends on what, and how does a delay here affect something else" — a genuinely more complex question that most single-person freelance work doesn't actually have, since there's no one else's timeline to coordinate against. The moment that changes — a subcontractor, a multi-person deliverable, a project with real interdependent milestones — is roughly the moment Asana's extra structure starts paying for itself.
 
-## Bottom line
+## How to choose
 
 For most solo freelancers managing their own client work, Trello's free plan does the job without asking you to pay for or learn features built for team coordination you don't need. Asana becomes the better choice specifically once dependencies, multi-person coordination, or timeline complexity become a real part of how you work — not just because it's the more "complete" platform on a feature list. For the wider field of options in this category, including Notion and ClickUp, see our [full project management tools comparison](/reviews/free-project-management-tools-solo-freelancers) and our dedicated [Notion vs ClickUp comparison](/reviews/notion-vs-clickup-freelancers).
 
@@ -668,6 +686,9 @@ For most solo freelancers, Bitwarden's free tier — or its $10/year Premium pla
       { q: "Do I need QuickBooks specifically if my accountant asks for it?", a: "Not always \u2014 many accountants can work from FreshBooks exports or a simple CSV, but if your accountant specifically requires native QuickBooks file access, that's a legitimate reason to pick it over FreshBooks regardless of your own preference." },
     ],
     body: `
+**Short answer:** most solo freelancers who invoice clients and don't carry inventory are better served by FreshBooks, because the time-tracking-to-invoice workflow is more direct and the interface asks less of you upfront. Choose QuickBooks Online if you need standardized double-entry books for an accountant, expect to add payroll or inventory, or are already comfortable with more complex software.
+
+![FreshBooks or QuickBooks: FreshBooks for most solo freelancers who invoice, QuickBooks Online for double-entry books, payroll or inventory.](/diagrams/decision-freshbooks-quickbooks.svg)
 This is one of the most-searched software comparisons among freelancers for a reason: both platforms are genuinely good, both are aimed partly at the same solo-service-provider audience, and the right answer actually depends on something most quick comparisons skip — whether you need invoicing or real accounting.
 
 ## Start with this question
@@ -703,7 +724,7 @@ For US-based freelancers filing taxes as a sole proprietor specifically, QuickBo
 
 Once you compare the plans that actually match — FreshBooks Plus (~$43/month, regular price as shown on its pricing page on October 26, 2026; FreshBooks also advertised an introductory discount of 80% for the first four months, which is worth separating from the price you will pay afterwards) against QuickBooks Simple Start (~$35/month) — the price difference is close to irrelevant. At that point the decision is genuinely about workflow, not cost: FreshBooks for a service-based freelancer who bills by the hour or project, QuickBooks Online for anyone who needs real accounting depth or sells physical products alongside services.
 
-## Bottom line
+## The decision in short
 
 Most solo freelancers who invoice clients and don't carry inventory are better served by FreshBooks — the time-tracking-to-invoice workflow is more direct, and the interface asks less of you upfront. Choose QuickBooks Online instead if you need standardized double-entry books for an accountant, expect to add payroll or inventory, or are already comfortable with more complex software. If you're specifically a US sole proprietor mainly focused on tax prep rather than client invoicing, QuickBooks Self-Employed is worth comparing on its own rather than assuming it's the same product as QuickBooks Online.
 
@@ -1119,6 +1140,7 @@ If you mainly need a policy fast to satisfy a client's contractual requirement, 
     toolsCompared: 4,
     readTime: "6 min read",
     date: "2026-07-13",
+    noindex: true,
     body: `
 Freelancers accumulate email complexity in a specific way teams don't: multiple client threads, a personal and business address, marketplace notifications, and lead inquiries all landing in one inbox with no built-in separation. A dedicated email client won't fix a genuinely overwhelming volume of email on its own, but the right one removes a real amount of friction from checking which client that reply was actually from.
 
@@ -1610,6 +1632,7 @@ For most freelancers, Zoho Mail's free tier is the easiest way to get a real you
     toolsCompared: 3,
     readTime: "6 min read",
     date: "2026-07-08",
+    noindex: true,
     body: `
 Working from a cafe or coworking space means every client login, invoice dashboard, and file upload travels across a network you don't control and can't verify — shared public wifi is a well-known vector for traffic interception, especially on unsecured or poorly configured networks. A VPN encrypts that traffic end to end, which matters more for a freelancer handling client credentials (see our [password manager guide](/reviews/best-password-managers-freelancers-client-logins)) and financial data than it does for casual personal browsing.
 
@@ -1852,6 +1875,9 @@ If you want a portfolio live this weekend for the lowest possible cost, Carrd is
     readTime: "7 min read",
     date: "2026-07-06",
     body: `
+**Short answer:** if keeping your full rate matters most and you are comfortable doing some of your own lead generation, Contra is the strongest zero-commission option. If you have the seniority and patience for a multi-week vetting process, Toptal's rates are hard to match elsewhere, and if you already have a real professional network, don't overlook LinkedIn as a free channel.
+
+![Beyond Upwork and Fiverr: Contra to keep your full rate, Toptal if you have seniority and patience for vetting, LinkedIn if you already have a network.](/diagrams/decision-marketplaces.svg)
 Upwork and Fiverr dominate freelance marketplace conversations for a reason — real volume, real payment protection — but they're not free, and for a lot of freelancers they're not even the best fit. Upwork's commission and "Connects" system (paying to bid on jobs with no guarantee of a response) and Fiverr's flat 20% cut push experienced freelancers to test other channels once they've built an initial portfolio. This guide covers what those alternatives actually trade off, since "zero commission" and "vetted talent" pull in opposite directions.
 
 ## What actually varies between platforms
@@ -1901,7 +1927,7 @@ Freelancers who've diversified successfully tend to run two to three platforms a
 
 *The math on a marketplace only really becomes visible once application time gets counted alongside the commission. On an early $500 Upwork project, the platform fee was the obvious cost — the 20-30 minutes spent writing each proposal, multiplied across roughly ten applications to land that one job, wasn't. Once a client relationship was established enough to move to a direct contract instead, the fee disappeared and so did the need to keep a platform rating in good standing — but getting to that point at all depended on the marketplace's built-in contracts, escrow, and reputation system doing the trust-building work a brand-new freelancer can't do alone yet. The realistic way to think about a marketplace commission: it's not really a tax on the work, it's the price of borrowing a trust system you haven't built yourself yet — worth paying early, worth dropping once a direct relationship exists.*
 
-## Bottom line
+## Which one fits
 
 If keeping your full rate matters most and you're comfortable doing some of your own lead generation, Contra is the strongest zero-commission option available. If you have the seniority and patience for a multi-week vetting process, Toptal's rates are hard to match elsewhere. And if you already have a real professional network, don't overlook LinkedIn as a genuinely free channel sitting right where you already are.
 
@@ -1918,6 +1944,7 @@ If keeping your full rate matters most and you're comfortable doing some of your
     toolsCompared: 4,
     readTime: "6 min read",
     date: "2026-06-29",
+    noindex: true,
     body: `
 A two-minute screen recording explaining a design change or walking through a deliverable often does more for a client relationship than a paragraph of written explanation — it's faster to make, harder to misread, and lets a client see exactly what you mean. Loom popularized this workflow, but changes to its free plan and per-seat pricing after its acquisition by Atlassian have pushed a lot of freelancers to look for alternatives that still nail the core job: record, share a link, done.
 
@@ -1984,6 +2011,9 @@ For most freelancers, ScreenPal is the most direct, lowest-cost replacement for 
     readTime: "6 min read",
     date: "2026-06-29",
     body: `
+**Short answer:** for most freelancers, Zoho Expense's free tier is the most broadly applicable starting point, with no geographic restriction on signing up. If you are in the US or Canada, Wave's free, uncapped receipt capture is worth a look, especially if you already use it for invoicing. Expensify's forwarding suits a lot of digital receipts, and Shoeboxed's mail-in service solves the problem of catching up on months of paper receipts.
+
+![Which receipt app fits: Zoho Expense as a broad start, Wave in the US or Canada, Expensify for many emailed receipts, Shoeboxed for paper catch-up.](/diagrams/decision-receipt-apps.svg)
 Every unrecorded business expense is a tax deduction quietly lost — a rough rule of thumb is that a missed deduction costs a freelancer 25-35% of its value in combined federal, state, and self-employment tax paid unnecessarily. Receipt scanning solves a narrower problem than the full accounting or tax software covered in our [accounting](/reviews/multi-currency-accounting-software-freelancers) and [tax software](/reviews/best-tax-software-freelancers) guides: capturing the expense the moment it happens, before the paper receipt fades or gets lost.
 
 *The cost of "I'll deal with it later" became concrete during one tax season, going through a shoebox of paper receipts and finding three missing — worth maybe $50 total, easy to shrug off. Going back through a full year to check for more turned up close to $1,200 in expenses that had never made it into the books, a handful of dollars at a time across dozens of small, forgotten purchases. Worse than the missed deductions was the time cost: reconstructing what an unlabeled charge on a card statement actually was, months later, ate an entire weekend. Switching to photographing every receipt the moment it arrived, logged immediately rather than saved for later, cut what used to be 10+ hours of pre-filing cleanup down to 15-20 minutes a month of just confirming nothing had slipped through. Expense tracking turned out to be less about doing it accurately and more about not giving yourself the option to defer it.*
@@ -2034,7 +2064,7 @@ Every option here works better with one simple practice: capture the receipt wit
 
 If you are already stuck without a receipt, start with [what to do when you can't find receipts at tax time](/reviews/cant-find-receipts-at-tax-time-what-to-do).
 
-## Bottom line
+## How to choose
 
 For most freelancers, Zoho Expense's free tier is the most broadly applicable starting point, with no geographic restriction on signing up. If you're specifically based in the US or Canada, Wave's free, uncapped receipt capture is worth a look too, especially if you're already using it for invoicing. If you receive a lot of digital receipts by email and want the most accurate OCR, Expensify's forwarding feature is worth the eventual $5/month. And if you're catching up on months of paper receipts rather than starting a new habit, Shoeboxed's mail-in service solves a problem none of the scanning apps are built for.
 
@@ -2052,6 +2082,9 @@ For most freelancers, Zoho Expense's free tier is the most broadly applicable st
     readTime: "6 min read",
     date: "2026-06-29",
     body: `
+**Short answer:** if you haven't started a newsletter yet, Substack is the lowest-friction way to begin, and its discovery features give a useful head start. Once the newsletter has a clear job, selling something specific or attracting sponsors, moving to Kit or Beehiiv respectively is worth the extra setup for the ownership and functionality you gain.
+
+![Which newsletter tool fits: Substack to start, Kit once the newsletter sells something specific, Beehiiv to attract sponsors.](/diagrams/decision-newsletter-tools.svg)
 A client list can go quiet for months between projects; a newsletter is one of the few channels that keeps warming up leads in the background regardless of your current workload, and — unlike a marketplace profile — it's a list you actually own and can take with you. The category has split into two real approaches: platforms built for fast, discoverable publishing (Substack) and platforms built for ownership and monetization (Kit, Beehiiv). Freelancers usually want to know which one to start on, and when it's worth switching.
 
 ## What matters for a freelancer's newsletter specifically
@@ -2094,7 +2127,7 @@ A common pattern among established freelance writers: start on Substack for the 
 
 *Getting to roughly 700 subscribers on a free plan felt like a milestone worth celebrating — right up until it also meant a paid-tier decision had to be made quickly, since the free plan's limits and the paid pricing at that size both needed checking at the same time. Comparing every feature both platforms offered wasn't actually useful; what mattered was much narrower — sending emails reliably, a working signup form, basic subscriber management, and a simple automated welcome sequence, nothing beyond that. The takeaway that changed how tools get picked since then: decide what the list actually needs to do once it's bigger before comparing platforms, not after hitting the wall that forces the decision.*
 
-## Bottom line
+## Picking one
 
 If you haven't started a newsletter yet, Substack remains the lowest-friction way to actually begin, and its discovery features give a genuinely useful head start that a blank Kit or Beehiiv account doesn't. Once the newsletter has a clear job — selling something specific, or attracting sponsors — moving to Kit or Beehiiv respectively is worth the extra setup for the ownership and functionality gained. Whichever platform you pick, the actual writing is where an [AI writing tool](/reviews/ai-writing-tools-freelance-writers) can help most — drafting faster without losing the voice that makes a newsletter worth subscribing to in the first place.
 
@@ -2112,6 +2145,9 @@ If you haven't started a newsletter yet, Substack remains the lowest-friction wa
     readTime: "6 min read",
     date: "2026-06-16",
     body: `
+**Short answer:** if you are trying to escape recurring software costs, TidyCal's one-time pricing is hard to beat for the core feature set. If you want more control and don't mind some setup, Cal.com's free tier and open API are the strongest long-term option. Reach for SavvyCal when the booking experience doubles as a first impression, and stay with Calendly only if brand recognition matters more to you than price or features.
+
+![Which scheduling app fits: TidyCal to avoid monthly costs, Cal.com for control, SavvyCal for a first impression, Calendly if brand recognition matters most.](/diagrams/decision-scheduling-apps.svg)
 Calendly popularized the "here's my link, pick a time" scheduling model, and it still works fine for basic booking. The friction for freelancers shows up at the edges: payment collection, branding, and round-robin routing are frequently locked behind Calendly's higher-priced tiers, and per-user pricing stings when you don't have "users" — you have one calendar and a lot of client consultations to book.
 
 ## What matters for freelance scheduling specifically
@@ -2169,7 +2205,7 @@ A generic 30-minute slot that doesn't ask what the call is about is a common way
 The second common mistake is failing to set a minimum notice period, which leads to same-hour bookings that don't give you time to prepare or context-switch from other work — a 4-8 hour minimum notice window solves this without meaningfully hurting conversion for most freelance discovery calls.
 
  Before adding this (or any) new tool to your stack, it's worth running it through our [software buying checklist](/reviews/freelance-software-buying-checklist) — the two-minute version catches most of the regret before it happens. If you've narrowed things down specifically to Calendly or TidyCal, our dedicated [Calendly vs TidyCal comparison](/reviews/calendly-vs-tidycal-freelancers) breaks down whether the one-time price is worth it.
-## Bottom line
+## The decision in short
 
 If you're specifically trying to escape recurring software costs, TidyCal's one-time pricing is hard to beat for the core feature set. If you want more control and don't mind a bit of setup, Cal.com's free tier and open API are the strongest long-term option. Reach for SavvyCal specifically when the booking experience needs to double as a good first impression, and stick with Calendly only if brand recognition matters more to you than price or features. If bookings regularly turn into ongoing client relationships, a dedicated [client portal](/reviews/best-client-portal-software-freelancers) is worth layering on top once a scheduling link alone stops being enough.
 
@@ -3279,6 +3315,7 @@ For most freelancers, Northwest Registered Agent's flat $125/year renewal and no
     toolsCompared: 2,
     readTime: "8 min read",
     date: "2026-07-24",
+    noindex: true,
     body: `
 A regular IRA caps out at $7,500 a year for 2026 — not much of a tax shelter once freelance income grows past a certain point. Both a SEP IRA and a Solo 401(k) let a self-employed freelancer with no full-time employees contribute far more, up to the same $72,000 overall 2026 limit set by the IRS. Where they differ is how you get there: a SEP IRA only allows one type of contribution, while a Solo 401(k) allows two, and that structural difference means the two accounts favor very different income levels.
 
@@ -3520,6 +3557,7 @@ Feast-or-famine income isn't a sign that something is wrong with how you're free
     toolsCompared: 4,
     readTime: "7 min read",
     date: "2026-07-28",
+    noindex: true,
     faq: [
       { q: "Which client gallery platform has the best free plan?", a: "Pixieset's free plan is the most usable starting point — unlimited galleries with 3GB of storage and a 15% commission on print sales, enough to test the platform before committing to a paid tier. ShootProof and Pic-Time both offer time-limited trials rather than an ongoing free plan." },
       { q: "Do these platforms take a commission on print sales?", a: "On paid plans, Pixieset, ShootProof, Pic-Time, and CloudSpot all offer 0% commission on print and product sales — the free tiers are typically where a commission, often 15%, applies instead." },
@@ -3990,6 +4028,7 @@ For a voice actor just building a track record, Voices.com's higher audition vol
     toolsCompared: 3,
     readTime: "6 min read",
     date: "2026-08-02",
+    noindex: true,
     faq: [
       { q: "Is it cheaper to just get a day pass directly from a coworking space?", a: "Sometimes — a direct walk-in rate at a specific venue can occasionally beat an app's listed price, and it's worth checking if you have one preferred spot you'd use regularly. The apps earn their value from access to many different spaces in one account, not necessarily the lowest possible price at any single one." },
       { q: "Do these apps work if I travel between cities?", a: "Yes, this is one of their main advantages over a single coworking membership — Deskpass covers 290+ cities and LiquidSpace covers around 3,000, making either useful for freelancers who split time between locations rather than working from one fixed spot." },
@@ -4053,6 +4092,7 @@ For most freelancers whose coworking needs are occasional rather than a fixed da
     toolsCompared: 3,
     readTime: "7 min read",
     date: "2026-08-05",
+    noindex: true,
     faq: [
       { q: "Is it legal to clone someone else's voice with these tools?", a: "Cloning your own voice, or a voice you have documented consent to clone, is the standard and legitimate use case these platforms are built for. Cloning someone else's voice without their explicit consent raises real legal and ethical issues regardless of which platform is used, and reputable platforms require consent confirmation before enabling cloning." },
       { q: "Which tool is cheapest for occasional use?", a: "ElevenLabs has the lowest entry price at $5/month with commercial rights included from that Starter tier, making it the most accessible option for occasional or lower-volume use compared to Descript's $24+ plans or Murf's $19-29/month tiers." },
@@ -4122,6 +4162,9 @@ For most freelancers who need to generate a new voice for client-facing work, El
       { q: "Does daylight saving time mess up these tools?", a: "Good time zone tools account for daylight saving time changes automatically, and some (like World Time Buddy) surface a warning in advance of a change — but it's still worth double-checking any confirmed meeting time in the week a DST shift happens in either your time zone or the client's." },
     ],
     body: `
+**Short answer:** for most freelancers, World Time Buddy's free, no-signup visual grid covers the real need, a quick sanity check before proposing a time to an international client. Clockwise is worth its calendar integration only if you coordinate across time zones often enough that automating it saves real time.
+
+![Which time zone tool fits: World Time Buddy for a quick check, Clockwise if you coordinate across zones often enough to automate it.](/diagrams/decision-timezone-tools.svg)
 A booking link tells a client what times are open — it doesn't answer the question that actually causes scheduling friction with international clients: is 9am their time a reasonable hour for you to be awake and functional, or does it mean a 6am call three time zones away. That's a planning problem, not a booking problem, and it's what tools like World Time Buddy and Clockwise are actually built to solve.
 
 ## What actually matters for a freelancer specifically
@@ -4156,7 +4199,7 @@ Clockwise takes a fundamentally different approach: rather than a manual referen
 
 Below two or three regular international time zones, most freelancers just remember the offset and don't need either of these. This category earns its place once the number of time zones in regular rotation grows enough that mental math starts causing actual scheduling mistakes — proposing a call at an hour that turns out to be the middle of the night for a client is the kind of error that's genuinely avoidable with a five-second check.
 
-## Bottom line
+## Which one fits
 
 For most freelancers, World Time Buddy's free, no-signup visual grid covers the actual need — a quick sanity check before proposing a time to an international client. Clockwise is worth the calendar integration specifically if you're coordinating regularly enough across time zones that automating the process, rather than manually checking each time, saves real time. Once the meeting time is actually settled, our [Calendly vs TidyCal guide](/reviews/calendly-vs-tidycal-freelancers) covers the booking-link side of the workflow these tools don't handle.
 
@@ -4236,6 +4279,7 @@ For most freelance consultants and coaches starting a single show, Podbean's unl
     toolsCompared: 3,
     readTime: "7 min read",
     date: "2026-08-08",
+    noindex: true,
     faq: [
       { q: "Which is cheapest for a trainer just starting out with a handful of clients?", a: "At very low client counts, Trainerize's free plan (1 client) or TrueCoach's Starter tier (around $20/month for 5 clients) both work as a genuinely low-cost starting point — cheaper than PTminder's roughly $36/month entry price, which is positioned more around full business operations than pure workout delivery." },
       { q: "Why do these platforms charge a payment processing fee on top of the subscription?", a: "TrueCoach and PTminder both charge a percentage (commonly around 5%) on payments collected through their built-in payment processing, on top of the monthly subscription — a real cost worth factoring in if you're billing clients directly through the platform rather than invoicing separately." },
@@ -5079,6 +5123,9 @@ For a single contract, Adobe's free online tool or SignWell's free tier covers i
     readTime: "7 min read",
     date: "2026-09-01",
     body: `
+**Short answer:** for most freelancers leaving Xero, the choice comes down to region and workflow more than price. Wave if you are based in the US or Canada and want the accounting bill to disappear, Zoho Books if you are elsewhere and want the closest thing to Wave's value, FreshBooks if hourly billing is the core of how you invoice, and QuickBooks only if accountant compatibility matters more than the savings.
+
+![Leaving Xero: Wave in the US or Canada, Zoho Books elsewhere, FreshBooks for hourly billing, QuickBooks if your accountant needs it.](/diagrams/decision-xero-alternatives.svg)
 Xero's real strength is scaling smoothly from a solo operation into a small business with employees and a bookkeeper on the account — which is exactly the capability most freelancers are paying for and never using. If you're on Xero purely for basic invoicing, expense tracking, and a single set of books, there's a real chance you're paying $25-90/month for headroom you don't need. Here's what to switch to instead, and what you'd actually give up.
 
 ## Quick comparison
@@ -5119,7 +5166,7 @@ If the actual reason you're on accounting software at all is "my accountant need
 
 *Migrating off Xero is rarely difficult at the mechanical level — most of these tools accept a CSV export of your chart of accounts, contacts, and historical transactions. What's easy to underestimate is the small stuff: saved report templates, specific automation rules, and integrations with other tools in your stack that were quietly built around Xero's particular way of doing things. Budget an afternoon to rebuild those, not just an hour to import the data.*
 
-## Bottom line
+## How to choose
 
 For most freelancers switching off Xero, the decision comes down to region and workflow more than price alone: Wave if you're US/Canada-based and want the accounting bill to disappear entirely, Zoho Books if you're elsewhere and want the closest thing to Wave's value, FreshBooks if hourly billing is the actual core of how you invoice, and QuickBooks only if accountant compatibility matters more than the switch saving you money. See our [Xero vs QuickBooks comparison](/reviews/xero-vs-quickbooks-freelancers) if QuickBooks is the direction you're actually leaning, for a closer look at how the two compare feature-by-feature.
 
@@ -5199,6 +5246,9 @@ The specific exchange rate source and accounting method matter less than picking
       { q: "How much does Upwork take from freelance translators?", a: "Upwork's freelancer service fee has been variable since 2025, and recent roundups describe it as roughly 5% to 15% depending on the contract, with around 10% a common effective figure. You also pay for Connects to send proposals. Confirm the current fee on Upwork before relying on any figure." },
     ],
     body: `
+**Short answer:** an established translator who wants agency work and a way to vet agencies should look at ProZ first, since its membership model takes no cut of earnings. TranslatorsCafe is a sensible free second channel, and Upwork is the faster route to a first client, at the price of a commission and heavier competition.
+
+![Where a translator might look: ProZ for agency work, Upwork to land a first client quickly, TranslatorsCafe as a free second channel.](/diagrams/decision-translator-channels.svg)
 A freelance translator's biggest early question usually isn't which CAT tool to buy — it's where the first clients come from. The main options sort into two different business models: sites that charge the translator a membership and take no cut of the work, and marketplaces that take a percentage of every payment. Which one costs less depends almost entirely on how much work you actually land through it, which is easy to calculate and rarely done.
 
 ## What actually matters when choosing where to look
@@ -5246,7 +5296,7 @@ Wherever the lead comes from, the same few checks apply. Look up the agency's pa
 
 These aren't mutually exclusive, and the fee models suggest a natural order. Start with the free ProZ profile and a free TranslatorsCafe profile, since they cost nothing but time. Use Upwork only if you need the first few clients quickly and are comfortable with the commission and competition. Pay for a ProZ membership once you can see that you'd be quoting regularly and that the break-even point above is realistic for your volume. Keep Fiverr for packaged, fixed-price offers rather than your main source of clients.
 
-## Bottom line
+## Making the call
 
 For an established translator who wants agency work and a way to vet agencies, ProZ is the specialist option, and its membership model means no cut of your earnings. TranslatorsCafe is a sensible free second channel. Upwork is the faster route to a first client, at the price of a commission and heavier competition, and Fiverr suits small fixed-price gigs. The fee comparison is simpler than it looks: a membership beats a commission once your yearly earnings through that channel pass roughly ten times the membership price at a 10% fee, or five times at 20%. Check current fees and prices directly on each platform before deciding, since all of them change.
 
@@ -5879,6 +5929,11 @@ A clause doesn't make a client agree to pay more. When a client told me the budg
 `,
   },
 ];
+
+// Articles shown in lists (home, topics, search, feed). Pages marked
+// noindex stay reachable by URL but are not offered as search results
+// or listed until they have been built out.
+export const listedArticles = articles.filter((a) => !a.noindex);
 
 export function getArticle(slug) {
   return articles.find((a) => a.slug === slug);
