@@ -56,26 +56,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      <div className="tape" aria-hidden="true">
-        <div className="tape-marquee">
-          {[
-            "Real pricing",
-            "No sponsored rankings",
-            "Updated for 2026",
-            "0 sponsored placements",
-            `${toolsComparedTotal} tools compared`,
-            "Pricing checked before publishing",
-          ].map((phrase, i) => (
-            <span className="tape-inner" key={i}>
-              {phrase}
-            </span>
-          ))}
-        </div>
-      </div>
 
       <ProblemFinder />
 
-      <TrustPanel />
 
       <section className="section start-section">
         <div className="wrap">
@@ -231,6 +214,7 @@ export default function HomePage() {
           </>
         );
       })()}
+      <TrustPanel />
     </main>
   );
 }
