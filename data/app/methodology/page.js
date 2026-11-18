@@ -1,0 +1,131 @@
+import Link from "next/link";
+import { SITE_URL } from "../../lib/site-config";
+
+export const metadata = {
+  title: "Methodology | How SoloStack Reviews Freelancer Software",
+  description:
+    "How SoloStack researches and compares software for freelancers: sources, criteria, update policy, and corrections.",
+  alternates: { canonical: `${SITE_URL}/methodology` },
+};
+
+export default function MethodologyPage() {
+  return (
+    <main className="static-page">
+      <div className="wrap">
+        <h1>Methodology</h1>
+        <p>
+          This page explains, specifically, how we put comparisons
+          together — what we look at, where the information comes from,
+          and what we don't claim.
+        </p>
+
+        <h2>Where our information comes from</h2>
+        <p>
+          Comparisons on this site are built from each provider's own
+          pricing pages, product documentation, help-center articles, and
+          other publicly available information, cross-checked across more
+          than one source rather than taken from a single page. This is
+          research-based reporting. We're upfront that it isn't long-term,
+          first-hand testing of every plan on every tool listed — we don't
+          claim to have personally run every subscription for months at a
+          time, and we won't manufacture "we tested this" claims or staged
+          screenshots to imply otherwise. Where we do have direct,
+          sustained experience with a specific tool, the article says so
+          explicitly rather than implying it by default across the site.
+          In practice, that's most consistently true for the tools that
+          overlap with running SoloStack itself day to day — Notion,
+          Slack, and Discord among them — where the write-up reflects
+          actual, ongoing use rather than a read-through of the pricing
+          page alone.
+        </p>
+
+        <h2>How we write</h2>
+        <p>
+          We start from what the reader needs to decide, then open the
+          provider's own site and pricing page for each tool. We note the
+          pricing, free-plan limits, main features, and who each tool is
+          for, and only then build the structure of the article.
+        </p>
+        <p>
+          AI helps with outlines, organizing information, and polishing
+          prose. It is not the basis for any price or feature: those come
+          from the provider's pages, and anything we can't confirm there is
+          not stated as fact. Before publishing we check that the
+          comparison table and the body agree, that downsides are covered
+          as well as strengths, and that a reader can tell which option
+          fits them. Last, we re-check the prices in the article and update
+          its date if needed. AI is an aid to writing faster; responsibility
+          for checking what affects a reader's decision rests with the
+          person who publishes the article.
+        </p>
+        <h2>What we compare on</h2>
+        <p>
+          The specific criteria shift slightly by category (an invoicing
+          tool and a password manager aren't judged on the same axes), but
+          every guide is built around the same underlying questions:
+        </p>
+        <ul>
+          <li>
+            What does the free tier actually include, and — just as
+            importantly — what does it specifically exclude?
+          </li>
+          <li>
+            Is pricing structured sensibly for one person, or does it
+            assume a team and a per-seat model that doesn't fit solo use?
+          </li>
+          <li>
+            What's the realistic switching cost — can you export your data
+            cleanly if you leave?
+          </li>
+          <li>
+            Where does a tool's marketing claim and its actual behavior
+            diverge, based on documentation, changelogs, and user-reported
+            experience?
+          </li>
+        </ul>
+        <p>
+          Each article's own "What matters" section states the specific
+          criteria used for that comparison, rather than relying on a
+          generic scoring rubric applied identically everywhere.
+        </p>
+
+        <h2>How current the information is</h2>
+        <p>
+          Every article shows a date. A "Last checked" date appears only
+          when the pricing and free-tier details in that article were
+          actually re-verified against the provider's own pages on that
+          day; otherwise the article shows its publish date instead.
+          Software pricing and free-tier limits in this industry change
+          often, sometimes within weeks of us publishing, so a date is
+          never a guarantee that nothing has changed since. Always confirm
+          current pricing directly on a provider's site before making a
+          decision based on something you read here.
+        </p>
+
+        <h2>Corrections</h2>
+        <p>
+          If you spot something outdated, or think we got a comparison
+          wrong, tell us — see our <Link href="/contact">Contact page</Link>.
+          We aim to fix verified errors as soon as we can rather than only
+          on a scheduled review cycle, and we'd rather hear about a mistake
+          than have it sit uncorrected.
+        </p>
+
+        <h2>Editorial independence and affiliate links</h2>
+        <p>
+          We don't accept payment to include a tool, rank it higher, or
+          soften a criticism, and we don't publish sponsored write-ups
+          authored by a vendor. Some links on this site may be affiliate
+          links — SoloStack may earn a commission if you sign up for a
+          product through them, at no extra cost to you — and pages may
+          display advertising. Neither changes what we write: when a tool
+          has a real limitation, we say so even in the article where it's
+          the top pick, which is why our guides are framed around "best
+          for" a specific situation rather than a single universal winner.
+          See our <Link href="/about">About page</Link> for more on why
+          this site exists in the first place.
+        </p>
+      </div>
+    </main>
+  );
+}

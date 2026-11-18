@@ -1,0 +1,109 @@
+import Link from "next/link";
+import { listedArticles as articles } from "../data/articles";
+import { categories } from "../lib/categories";
+import NewsletterSignup from "./NewsletterSignup";
+
+// Truncates a title for the footer's compact link list without losing
+// the actual article topic (the old version swapped in the category
+// name for anything over 42 chars, which hid most titles — this keeps
+// a real, readable fragment of the title instead).
+function shortTitle(title, max = 36) {
+  if (title.length <= max) return title;
+  return title.slice(0, max).replace(/\s+\S*$/, "") + "…";
+}
+
+export default function Footer() {
+  return (
+    <footer className="site-footer">
+      <div className="wrap">
+        <div className="footer-grid">
+          <div className="footer-brand">
+            <div className="logo">
+              Solo<span className="dot">Stack</span>
+            </div>
+            <p>
+              Software reviews for freelancers and independent workers. We
+              test the tools you'd otherwise burn three free trials finding
+              out about yourself.
+            </p>
+            <p style={{ marginTop: 10 }}>
+              Run by <Link href="/author">Kosei Taki</Link>, former IT
+              consultant turned solo freelancer.
+            </p>
+            <NewsletterSignup variant="footer" />
+            <a
+              href="https://www.producthunt.com/products/solostack-3?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-solostack-3"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: "inline-block", marginTop: 14 }}
+            >
+              <img
+                alt="SoloStack - Honest software reviews for freelancers who work alone | Product Hunt"
+                width="250"
+                height="54"
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1208896&theme=light"
+                style={{ display: "block" }}
+              />
+            </a>
+            <a
+              href="https://youtube.com/@solostack-k"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-youtube-link"
+            >
+              ▶ Watch on YouTube
+            </a>
+          </div>
+          <div className="footer-nav">
+            <div className="footer-col">
+              <h4>Categories</h4>
+              {categories.map((c) => (
+                <Link href={`/category/${c.slug}`} key={c.slug}>
+                  {c.name}
+                </Link>
+              ))}
+            </div>
+            <div className="footer-col">
+              <h4>Popular reviews</h4>
+              {articles.slice(0, 5).map((a) => (
+                <Link href={`/reviews/${a.slug}`} key={a.slug} title={a.title}>
+                  {shortTitle(a.title)}
+                </Link>
+              ))}
+              <Link href="/#reviews">
+                View all {articles.length} reviews →
+              </Link>
+            </div>
+            <div className="footer-col">
+              <h4>Site</h4>
+              <Link href="/about">About SoloStack</Link>
+              <Link href="/author">About the Author</Link>
+              <Link href="/methodology">Methodology</Link>
+              <Link href="/price-tracker">Price Change Tracker</Link>
+              <Link href="/ai-cost-report">AI Toolkit Cost Report</Link>
+              <Link href="/contact">Contact</Link>
+              <Link href="/privacy">Privacy policy</Link>
+              <Link href="/terms">Terms of Service</Link>
+              <Link href="/sitemap">Sitemap</Link>
+            </div>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <span>© {new Date().getFullYear()} SoloStack</span>
+          <span>Built for people who work alone.</span>
+        </div>
+        <p className="disclosure" style={{ marginTop: 18 }}>
+          Disclosure: SoloStack may earn a commission when you sign up for
+          some tools linked on this site, at no extra cost to you. This
+          doesn't affect our comparisons — pricing and feature claims are
+          verified independently and we call out trade-offs even for tools
+          we link to. See our{" "}
+          <Link href="/methodology" style={{ textDecoration: "underline" }}>
+            Methodology page
+          </Link>{" "}
+          for details on how we review products.
+        </p>
+      </div>
+    </footer>
+  );
+}
