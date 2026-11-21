@@ -7181,9 +7181,88 @@ The clause above only helps if the conversation at the moment a request arrives 
 Before work starts, I read the draft clause and ask whether it answers, in writing: what counts as a revision (an adjustment to what was originally agreed), how many are included, and what happens beyond that (a new estimate, approved before work begins). If any answer is missing, that is the gap a difficult request will find later.
 `,
   },
-];
+  {
+    slug: "best-ai-tools-freelancers",
+    category: "AI Stack",
+    title: "Best AI Tools for Freelancers in 2026: The Short Stack That Actually Earns Its Subscription",
+    seoTitle: "Best AI Tools for Freelancers (2026): ChatGPT vs Claude vs Cursor, and What to Skip",
+    dek: "AI subscriptions are easy to start and easier to forget. After trialling most of this category, my paid AI stack is two tools at about $40/month total — everything else either stayed free or got cancelled. Here is how the stack breaks down, and the rule that keeps it short.",
+    seoDescription: "ChatGPT, Claude, Cursor and Grammarly compared for freelancers — real 2026 pricing, what each is actually used for, and which AI subscriptions to skip.",
+    verdict: "ChatGPT Plus as the everyday default, Claude's free plan for long-document review, Cursor only if you ship code — and trial everything else against real work before paying",
+    toolsCompared: 7,
+    readTime: "9 min read",
+    date: "2026-11-21",
+    faq: [
+      { q: "How much should a freelancer spend on AI tools per month?", a: "For most solo freelancers, $20-40/month covers the tools that genuinely save time: one main assistant (ChatGPT Plus or Claude Pro) and, for developers, an AI coding tool. Every additional subscription should have to name the paid hour it replaces. If you cannot point to the task it speeds up, the free tier is enough." },
+      { q: "Is ChatGPT Plus worth it for freelancers?", a: "If you draft client emails, proposals or documentation most days, yes — it is the subscription most likely to earn its $20 back in the first week. If your writing is mostly short messages, the free plan handles that fine and Plus becomes a nice-to-have rather than a work tool." },
+      { q: "ChatGPT or Claude for freelance writing?", a: "They overlap more than their marketing suggests. In my own work ChatGPT is the daily driver for drafting and client communication, and Claude's free plan is what I open for rereading long documents and contracts, where its longer context helps. Paying for both is hard to justify unless writing is your core billable output — see the detailed comparison in Claude vs ChatGPT for freelance writers." },
+      { q: "Do I need separate AI tools for images, video and voice?", a: "Usually not at the start. Image generators are genuinely useful for exploring visual directions, and presentation tools like Gamma produce a fast first draft, but video and voice tools still struggle to produce client-ready output without heavy rework. Trial them on a real project; if the output needs more fixing than making it yourself would have taken, that is your answer." },
+      { q: "How do I stop AI subscriptions from piling up?", a: "Use the rule I apply to all freelance software: start free, pay only when a specific missing feature costs you time, and when you start a trial, put its end date in your calendar the same day with a decision deadline. Most subscription creep is not bad tools — it is trials nobody made a decision about." }
+    ],
+    body: `
+AI tools are the easiest category of freelance software to overspend on, because every one of them demos well. A chat assistant writes your emails, an image tool mocks up concepts in seconds, a presentation tool builds a deck from one sentence — and six months later you are paying for five subscriptions, opening one of them daily, and getting billed for the rest out of habit. The fix is not finding the single best AI tool. It is deciding which jobs AI actually does in your week, and paying only for those.
 
-// Articles shown in lists (home, topics, search, feed). Pages marked
+This guide is built around the stack I run myself as a solo developer and consultant: two paid subscriptions at roughly $40/month combined, one free plan I use weekly, and a longer list of tools I trialled and deliberately did not keep. If a tool is described as trialled rather than used, that is because it is — the verdicts below separate the two.
+
+## Quick comparison
+
+| | ChatGPT Plus | Claude | Cursor | Grammarly |
+|---|---|---|---|---|
+| Best for | Everyday drafting and client communication | Reviewing long documents and contracts | AI-assisted coding | English proofreading for non-native writers |
+| Price | $20/month | Free plan; Pro $20/month | Pro $20/month | Free plan; Premium about $12/month billed annually |
+| Free tier | Yes, limited | Yes — generous enough for weekly use | Trial | Yes |
+| My actual use | Paid, daily | Free plan, weekly | Paid, on development projects | Trialled, not kept on paid |
+
+## ChatGPT — the everyday default
+
+If a freelancer pays for exactly one AI tool, this is the one with the broadest payoff, because the work it speeds up is the work every freelancer does regardless of trade: client emails, proposal drafts, meeting summaries, documentation, first passes at anything written. The Plus tier at $20/month removes the usage friction of the free plan, which matters more than any single feature — a tool you hesitate to open because of limits does not save time.
+
+The honest caveat, learned from daily use: the output is a draft, not a deliverable. Tone needs adjusting, facts need checking, and anything client-facing needs your judgment on top. Budget the editing time and it is still a clear net win; skip the editing and it quietly becomes a quality risk.
+
+## Claude — the long-document reader
+
+Claude's strength in my workflow is reading, not writing. Long contracts, client briefs, documentation and specifications go here for rereading and summarising, where the longer context window makes a practical difference. The notable point for budget purposes: the free plan has been enough for that weekly use, which is why it is the one tool in this stack I have never needed to pay for. Writers who draft long-form content all day may reach the opposite conclusion — the head-to-head is covered in [Claude vs ChatGPT for freelance writers](/reviews/claude-vs-chatgpt-freelance-writers).
+
+## Cursor — only if you ship code
+
+For freelancers who write code, an AI coding tool is the easiest subscription to justify after the chat assistant, because the time saved is measurable in finished features. Cursor Pro runs about $20/month and is what I use on development projects. My non-negotiable rule, which I would recommend to anyone: generated code gets reviewed and actually run before it ships, every time. The tool is fast; verification is still your job. The deeper comparison is in [Claude Code vs Cursor vs GitHub Copilot](/reviews/claude-code-vs-cursor-vs-github-copilot-freelance-developers).
+
+## Grammarly — a checker, not a writer
+
+For freelancers writing English as a second language, Grammarly's trial showed real value in one specific area: articles, prepositions and word order — exactly the errors a non-native writer cannot hear in their own text. Where it fell short is style. Accept every suggestion and your proposals come out stiff and generic, so the correct way to use it is as a checker whose advice you overrule regularly. That trial verdict is why it did not become a paid subscription for me; if client-facing English is your main output, your calculation may differ. More detail in [PerfectIt vs ProWritingAid vs Grammarly](/reviews/perfectit-vs-prowritingaid-vs-grammarly-business-freelance-editors).
+
+## The specialist tools: images, slides, video, voice
+
+Beyond the core stack sits a ring of specialist tools, and this is where subscription creep lives. My trial notes, briefly:
+
+**AI image generators** are the strongest of the group. Getting several composition directions in minutes, at the stage where you are only exploring, replaces what used to be a long search through stock sites. The limit is detail: hands, text and small elements still come out wrong often enough that anything accuracy-critical needs fixing or a real screenshot instead. Verdict: useful, best on free or occasional use. See [best AI image tools for freelance designers](/reviews/best-ai-image-generation-tools-freelance-designers).
+
+**Gamma** makes presentation first drafts genuinely fast — structure and layout appear from an outline. It is also, in my trial, too generic to send to a client as-is; the value is the head start, after which the client's actual problem, numbers and plan have to be written in by hand. Verdict: good drafting tool, not a deliverable machine. See [best AI presentation tools](/reviews/best-ai-presentation-tools-freelance-consultants).
+
+**Runway and AI video tools** were the clearest trial failure. Getting the intended movement and structure to come out stable was difficult enough that for explaining anything to a client, a plain screen recording was faster and more accurate. Verdict: trialled, not continued. See [best AI video tools](/reviews/best-ai-video-generation-tools-freelance-creators).
+
+**ElevenLabs and AI voice tools** are technically impressive and, for my kind of work — operation walkthroughs and screen recordings — simply had no recurring job to do. Verdict: no use case, no subscription, however good the demo. See [best AI voice tools](/reviews/best-ai-voice-cloning-dubbing-tools-freelancers).
+
+## Common mistakes
+
+**Subscribing to the whole ring at once.** Each specialist tool solves a problem you may have twice a year. Trial them one at a time, against a real project, and let most of them go.
+
+**Sending AI output to clients unchecked.** Every tool in this guide produces drafts. The freelancers who get into trouble are not the ones using AI — they are the ones skipping the review step to save the very time the tool was supposed to create.
+
+**Letting trials decide for you.** A trial that auto-renews is a decision made by your calendar invite, or by nobody. When I start a trial now, its end date goes into my calendar the same day, with the decision made before the charge, not after. The full checklist is in [my software buying checklist](/reviews/freelance-software-buying-checklist).
+
+**Paying twice for the same job.** ChatGPT, Claude and their rivals overlap heavily. Two paid assistants is almost never twice as good; it is the same hour saved, billed twice.
+
+## How I actually run my AI stack
+
+My paid stack is ChatGPT Plus at about $20/month as the daily driver — drafting, client communication, first passes at documents — and Cursor Pro at about $20/month for development work, where generated code is always reviewed and tested before it goes anywhere near a client project. Claude stays on the free plan and gets opened when a long document needs rereading. That is the whole list: roughly $40/month.
+
+Everything else in this category is either on a free tier or was dropped after its trial. Image generation earned occasional use for exploring directions. Gamma was useful for first drafts. Video and voice tools were trialled and not continued, because my work is screen recordings and written explanation, and the tools could not beat that. Grammarly was genuinely helpful for English checking and still did not make the cut, because the AI assistants already cover most of what I needed from it.
+
+The rule underneath is the same one I use for every tool category on this site: start free, pay when a specific gap starts costing real time, trial against real work rather than demos, and write the decision date in the calendar when the trial starts. AI tools change faster than any other category I cover, which is exactly why the stack should stay short — it is much easier to re-decide two subscriptions every few months than to audit seven.
+`,
+  },
+];
 // noindex stay reachable by URL but are not offered as search results
 // or listed until they have been built out.
 export const listedArticles = articles.filter((a) => !a.noindex);
